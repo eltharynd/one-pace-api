@@ -1,4 +1,4 @@
-name: Build, Run, and Commit Metadata
+name: Update Metadata
 
 on:
   # Allows manual triggering from the GitHub Actions tab
