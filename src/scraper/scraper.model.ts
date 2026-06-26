@@ -1,6 +1,6 @@
 export type ScrapedGoogleDocument = {
 	title: string
-	lastUpdate: string
+	lastModified: string
 
 	sheets: ScrapedSheet[]
 }

@@ -3,6 +3,8 @@ import 'reflect-metadata'
 import { Logger } from 'ez-ts-logger'
 
 import { Express } from './api/express.js'
+import { MetadataController } from './metadata/metadata.controller.js'
+import { RSSController } from './rss/rss.controller.js'
 import { Scraper } from './scraper/scraper.controller.js'
 import { Context } from './util/context.js'
 
@@ -28,7 +30,7 @@ const startApp = async () => {
 		Logger.info(`##################################`)
 		Logger.info(`####                          ####`)
 		Logger.info(
-			`####     OnePacerr ${process.env.npm_package_version}${String('####').padStart(15 - process.env.npm_package_version.length, ' ')}`,
+			`####     OnePacerr ${process.env.npm_package_version || 'NO_VERS'}${String('####').padStart(15 - (process.env.npm_package_version || 'NO_VERS').length, ' ')}`,
 		)
 		Logger.info(`####                          ####`)
 		Logger.info(`##################################`)
@@ -39,6 +41,14 @@ const startApp = async () => {
 		Logger.info('INITIALIZING SCRAPING SERVICE...')
 		Context.scraper = new Scraper()
 		await Context.scraper.init()
+
+		Logger.info('INITIALIZING RSS SERVICE...')
+		Context.rss = new RSSController()
+		await Context.rss.init()
+
+		Logger.info('INITIALIZING METADATA...')
+		Context.metadata = new MetadataController()
+		await Context.metadata.init()
 
 		Logger.info('INITIALIZING EXPRESS SERVER...')
 		Context.express = new Express()

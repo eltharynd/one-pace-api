@@ -1,5 +1,248 @@
+import { Logger } from 'ez-ts-logger'
+import { readFileSync, writeFileSync } from 'node:fs'
+import { Context } from '../util/context.js'
+import {
+	ArcMetadata,
+	EpisodeFilesMetadata,
+	EpisodeMetadata,
+	Metadata,
+	RecursivePartial,
+	reorderMetadata,
+} from './metadata.model.js'
+
+const OUTPUT_ROOT = './output'
+const METADATA_OUTPUT = `${OUTPUT_ROOT}/metadata.json`
+
 export class MetadataController {
+	metadata: Metadata
+
 	async init(): Promise<void> {
-		console.log('init')
+		try {
+			this.metadata = JSON.parse(readFileSync(METADATA_OUTPUT).toString())
+			Logger.debug(`Loaded metadata from cache`)
+
+			const lastRSSUpdate: Date = await Context.rss.getLastUdate()
+			const lastScraperUpdate: Date = await Context.scraper.getLastUdate()
+			const lastUpdate: Date = new Date(this.metadata.lastUpdate)
+			if (lastRSSUpdate > lastUpdate || lastScraperUpdate > lastUpdate) {
+				Logger.info(`New updates detected!!!!!!!`)
+				await this.process()
+			} else {
+				Logger.info('existing metadata imported')
+			}
+		} catch (e) {
+			Logger.error('Badly formed metadata.json')
+			await this.process()
+		}
+	}
+
+	async process(): Promise<void> {
+		let guide = Context.scraper.getEpisodeGuide()
+		let descriptions = Context.scraper.getEpisodeDescriptions()
+
+		let buffer: RecursivePartial<Metadata> = {
+			arcs: [],
+		}
+
+		for (let sheet of guide.sheets) {
+			if (sheet.index == 0) {
+				Logger.debug('Processing Arc Overview')
+
+				let halfSeasons = 0
+
+				for (let row of sheet.rows) {
+					if (String(row[1]) == 'Totals' || String(row[1]) == 'Arcs') continue
+					if (!row[1]) break
+
+					let _arc = Number.parseFloat(String(row[0])) + halfSeasons
+					if (_arc % 1 != 0) {
+						_arc = Math.floor(_arc) + 1
+						halfSeasons++
+					}
+
+					let arc: RecursivePartial<ArcMetadata> = {
+						arc: _arc,
+						title: String(row[1]).replace(/\ *\(.*\).*$/, ''),
+
+						status: /\(WIP\)/i.test(String(row[0]))
+							? 'wip'
+							: /\(TBR\)/i.test(String(row[0]))
+								? 'tbr'
+								: 'complete',
+						mangaChapters: String(row[2]),
+						mangaChaptersCount: Number(row[3]),
+						animeEpisodes: String(row[4]),
+						animeEpisodesCount: Number(row[5]),
+
+						fillerEpisodes: String(row[6]),
+						paceEpisodesCount: Number(row[7]),
+
+						animeMinutes: Number(row[8]),
+						paceMinutes: Number(row[9]),
+						savedMinutes: Number(row[10]),
+						savedPercentage: Number.parseFloat(String(row[11])),
+
+						audioLanguages: String(row[12]).replaceAll(' ', '').split(','),
+						subLanguages: String(row[13]).replaceAll(' ', '').split(','),
+						subLanguagesPixeldrain: String(row[14])
+							.replaceAll(' ', '')
+							.split(','),
+						resolution: String(row[15]),
+
+						episodes: [],
+					}
+					buffer.arcs.push(arc)
+				}
+			} else {
+				Logger.debug(`Processing ${sheet.index}. ${sheet.title}`)
+
+				let arc = buffer.arcs.find(a => a.arc == sheet.index)
+
+				for (let [index, row] of sheet.rows.entries()) {
+					if (
+						String(row[1]).includes('One Pace Episode') ||
+						String(row[1]).includes('Forward')
+					)
+						continue
+					if (!row[1]) break
+
+					if (/G8/.test(String(row[1]))) {
+						arc.episodes.find(e => e.episode == 25).files.alternate = {
+							CRC32: String(row[6]),
+							duration:
+								Number.parseInt(String(row[5]).split(':')[0]) * 60 +
+								Number.parseInt(String(row[5]).split(':')[1]),
+							...(await Context.rss.getTorrentInfo(
+								`${arc.title} 25 Alternate Cut (G-8)`,
+							)),
+						}
+						continue
+					}
+
+					let match = String(row[1]).match(/^\w+[\w\ ]+\ ([0-9]{1,3})/i)
+					let episodeNumber =
+						match?.length > 0 ? Number.parseInt(match[1]) : index
+
+					let files: RecursivePartial<EpisodeFilesMetadata> = {
+						standard: {
+							CRC32: String(row[6]),
+							duration:
+								Number.parseInt(String(row[5]).split(':')[0]) * 60 +
+								Number.parseInt(String(row[5]).split(':')[1]),
+							...(await Context.rss.getTorrentInfo(
+								`${arc.title} ${String(episodeNumber).padStart(2, '0')}`,
+							)),
+						},
+					}
+
+					if (row[7]) {
+						if (/^[A-Z0-9]{8}$/.test(String(row[7]))) {
+							files.extended = {
+								CRC32: String(row[7]),
+								duration:
+									Number.parseInt(String(row[8]).split(':')[0]) * 60 +
+									Number.parseInt(String(row[8]).split(':')[1]),
+								...(await Context.rss.getTorrentInfo(
+									`${arc.title} ${String(episodeNumber).padStart(2, '0')} Extended Cut`,
+								)),
+							}
+						} else {
+							let match = String(row[7]).match(/([A-Z0-9]{8})/)
+							if (match?.length > 0) {
+								Logger.warn('CORRECTION')
+								files.standard.CRC32_inFileName = match[1]
+							} else Logger.warn('CORRECTION FAILED')
+						}
+					}
+
+					let episode: RecursivePartial<EpisodeMetadata> = {
+						arc: arc.arc,
+						episode: episodeNumber,
+
+						released: new Date(String(row[4])).toISOString(),
+						files: files,
+					}
+
+					if (arc.arc == 17 && episode.episode == 0) {
+						Logger.debug(`Manual correction for ${arc.arc}-${episode.episode}`)
+						episode.title = 'The Wealthy Pirate Gang'
+						episode.description =
+							'While Donquixote Doflamingo punishes Bellamy for being defeated by Luffy, the Straw Hat Pirates continues their journey on the Octopus Balloon.'
+					}
+
+					arc.episodes.push(episode)
+				}
+			}
+		}
+
+		const arcsSheet = descriptions.sheets.find(s => /arcs/i.test(s.title))
+		for (let [index, row] of arcsSheet.rows.entries()) {
+			if (/saga_title/i.test(String(row[0])) || !row[0] || !row[1]) continue
+
+			let arc: RecursivePartial<ArcMetadata> = buffer.arcs.find(
+				a => a.arc == Number.parseInt(String(row[1])),
+			)
+			if (!arc) {
+				if (/Specials/i.test(String(row[2]))) {
+					arc = {
+						arc: 0,
+
+						saga: String(row[0]),
+						title: String(row[0]),
+						description: String(row[2]),
+
+						status: 'complete',
+
+						episodes: [],
+					}
+					buffer.arcs.push(arc)
+				} else continue
+			}
+
+			Logger.debug(`Processing ${row[2]} Arc Descriptions`)
+			arc.saga = String(row[0])
+			arc.title = String(row[2])
+			arc.description = String(row[3])
+		}
+
+		const episodesSheet = descriptions.sheets.find(s =>
+			/episodes/i.test(s.title),
+		)
+		for (let [index, row] of episodesSheet.rows.entries()) {
+			if (/arc_title/i.test(String(row[0])) || !row[0]) continue
+
+			Logger.debug(
+				`Processing '${String(row[0])} - ${String(row[1])}' Episode Descriptions`,
+			)
+
+			let arc: RecursivePartial<ArcMetadata> = buffer.arcs.find(
+				a => a.title == String(row[0]),
+			)
+			if (arc) {
+				let episode = arc.episodes.find(
+					e => e.episode == Number.parseInt(String(row[1])),
+				)
+				if (episode) {
+					if (!row[2]) {
+						Logger.debug(
+							`Episode '${String(row[0])} - ${String(row[1])}' description is still empty`,
+						)
+						continue
+					}
+					episode.title = String(row[2])
+					episode.description = String(row[3])
+				} else
+					Logger.debug(
+						`Episode '${String(row[0])} - ${String(row[1])}' from descriptions not found in guide`,
+					)
+			} else
+				Logger.warn(
+					`Arc '${String(row[0])}' from descriptions not found in guide`,
+				)
+		}
+
+		const reordered: Metadata = reorderMetadata(buffer)
+
+		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
 	}
 }

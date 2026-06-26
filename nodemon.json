@@ -1,0 +1,7 @@
+{
+  "enableSourceMaps": true,
+  "ignore": [
+    "cache/*",
+    "output/*"
+  ]
+}

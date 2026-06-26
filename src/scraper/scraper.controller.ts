@@ -1,3 +1,4 @@
+import { drive as _drive } from '@googleapis/drive'
 import { sheets as _sheets, sheets_v4 } from '@googleapis/sheets'
 import { Logger } from 'ez-ts-logger'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -16,6 +17,10 @@ type RawSpreadsheetData = {
 export class Scraper {
 	private readonly sheets = _sheets({
 		version: 'v4',
+		auth: environment.GOOGLE_API_KEY,
+	})
+	private readonly drive = _drive({
+		version: 'v3',
 		auth: environment.GOOGLE_API_KEY,
 	})
 
@@ -42,22 +47,24 @@ export class Scraper {
 		)
 	}
 
-	private async parseEpisodeGuide(): Promise<ScrapedGoogleDocument> {
-		if (environment.GOOGLE_DEVELOPER_MODE && existsSync(CACHE_EPISODE_GUIDE)) {
-			Logger.debug('Loading spreadsheet from cache')
-			return JSON.parse(readFileSync(CACHE_EPISODE_GUIDE, 'utf-8'))
-		} else {
-			Logger.debug('Fetching spreadsheet from google')
-			const { document, valueRanges } = await this.getRawData()
-			const data = {
-				title: document.properties?.title ?? '',
-				lastUpdate: new Date().toISOString(),
-				sheets: this.buildSheets(document, valueRanges),
-			}
-			mkdirSync(CACHE_ROOT, { recursive: true })
-			writeFileSync(CACHE_EPISODE_GUIDE, JSON.stringify(data, null, 2))
-			return data
-		}
+	public async getLastUdate(): Promise<Date> {
+		if (!this.scrapedEpisodeGuide || !this.scrapedEpisodeDescriptions)
+			await this.init()
+
+		if (
+			this.scrapedEpisodeGuide.lastModified >
+			this.scrapedEpisodeDescriptions.lastModified
+		)
+			return new Date(this.scrapedEpisodeGuide.lastModified)
+		else return new Date(this.scrapedEpisodeDescriptions.lastModified)
+	}
+
+	getEpisodeGuide(): ScrapedGoogleDocument {
+		return structuredClone(this.scrapedEpisodeGuide)
+	}
+
+	getEpisodeDescriptions(): ScrapedGoogleDocument {
+		return structuredClone(this.scrapedEpisodeDescriptions)
 	}
 
 	private async scrapeGoogleDocument(
@@ -66,19 +73,33 @@ export class Scraper {
 	): Promise<ScrapedGoogleDocument> {
 		if (environment.GOOGLE_DEVELOPER_MODE && existsSync(path)) {
 			Logger.debug('Loading spreadsheet from cache')
-			return JSON.parse(readFileSync(path, 'utf-8'))
+			try {
+				return JSON.parse(readFileSync(path, 'utf-8'))
+			} catch (e) {
+				Logger.warn(`Couldn't parse cached file. Re-scraping`)
+				await this.scrapeGoogleDocument(spreadsheetId, path)
+			}
 		} else {
 			Logger.debug('Fetching spreadsheet from google')
 			const { document, valueRanges } = await this.getRawData(spreadsheetId)
+
 			const data = {
 				title: document.properties?.title ?? '',
-				lastUpdate: new Date().toISOString(),
+				lastModified: await this.getSheetModifiedTime(spreadsheetId),
 				sheets: this.buildSheets(document, valueRanges),
 			}
 			mkdirSync(CACHE_ROOT, { recursive: true })
 			writeFileSync(path, JSON.stringify(data, null, 2))
 			return data
 		}
+	}
+
+	private async getSheetModifiedTime(spreadsheetId: string): Promise<any> {
+		const { data } = await this.drive.files.get({
+			fileId: spreadsheetId,
+			fields: 'modifiedTime',
+		})
+		return data.modifiedTime
 	}
 
 	private buildSheets(
