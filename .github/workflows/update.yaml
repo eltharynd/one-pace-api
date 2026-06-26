@@ -69,4 +69,5 @@ jobs:
         with:
           commit_message: "chore: automated update [skip ci]"
           file_pattern: "cache/*.json output/*.json"
+          skip_dirty_check: true
           add_options: "-f"
