@@ -36,7 +36,7 @@ jobs:
         run: npm run start:single
         env:
           RUN_MODE: "single"
-          LOG_LEVEL: "info"
+          LOG_LEVEL: "debug"
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_SHEET_EPISODE_GUIDE: ${{ secrets.GOOGLE_SHEET_EPISODE_GUIDE }}
           GOOGLE_SHEET_EPISODE_DESCRIPTION: ${{ secrets.GOOGLE_SHEET_EPISODE_DESCRIPTION }}
