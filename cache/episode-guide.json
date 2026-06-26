@@ -1,6 +1,6 @@
 {
   "title": "One Pace Episode Guide",
-  "lastModified": "2026-06-23T05:21:45.755Z",
+  "lastModified": "2026-06-26T18:58:19.938Z",
   "sheets": [
     {
       "title": "Arc Overview",
@@ -59,7 +59,7 @@
           0.2455555555555556,
           "JA, EN, DE, ES",
           "EN, AR, CS, DE, ES, FR, IT, PL, PT-BR, RU, TR",
-          "EN",
+          "EN, AR, DE",
           "1080p",
           "Pace"
         ],
@@ -78,7 +78,7 @@
           0.2041446208112875,
           "JA, EN, DE",
           "EN, AR, DE, ES, FR, IT, PL, RU, TR",
-          "EN",
+          "EN, AR, DE",
           "1080p",
           "Pace"
         ],
@@ -97,7 +97,7 @@
           0.11825396825396822,
           "JA, EN, DE",
           "EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU, TR",
-          "EN, ES",
+          "EN, AR, DE, ES",
           "1080p",
           "Pace"
         ],
@@ -116,7 +116,7 @@
           0.299074074074074,
           "JA,EN",
           "EN, AR, DE, ES(2-8), FR(1-2), IT, PL, RU, TR",
-          "EN, AR(5)",
+          "EN, AR, DE",
           "1080p",
           "Pace"
         ],
@@ -135,7 +135,7 @@
           0.21111111111111117,
           "JA, EN, DE, ES (1-5) \n",
           "EN, AR(1-7), DE, ES(1-5,8-9), FR, HE(6-9), IT, PL(8), RU(1-9), TR",
-          "EN, ES(6-7, 10)",
+          "EN, AR(1-7), DE, ES(6-7, 10)",
           "1080p",
           "Pace"
         ],
@@ -154,7 +154,7 @@
           0.509920634920635,
           "JA,EN",
           "EN, AR, DE, ES, FR, HE, IT, RU, TR",
-          "EN",
+          "EN, AR, DE",
           "1080p",
           "Pace"
         ],
@@ -192,7 +192,7 @@
           0.4150793650793651,
           "JA,EN",
           "EN, AR, DE, FR, HE(1), IT, TR",
-          "EN, ES, RU",
+          "EN, AR, DE, ES, RU",
           "1080p",
           "Pace"
         ],
@@ -230,7 +230,7 @@
           0.6875,
           "JA,EN",
           "EN, FR",
-          "EN, AR,ES,IT",
+          "EN, AR, ES, IT",
           "1080p",
           "Pace"
         ],
@@ -249,7 +249,7 @@
           0.2943562610229278,
           "JA,EN",
           "EN, AR, DE, ES, FR, IT, RU(1-4), TR(1-4)",
-          "EN, RU(05)",
+          "EN, AR, DE, RU(05)",
           "1080p",
           "Pace"
         ],
@@ -325,7 +325,7 @@
           0.21383477633477657,
           "JA,EN",
           "EN, AR(24-25), ES(1-4,6-7,10-21), FR, ES(5), DE(17-)",
-          "EN, ES(5,8-9), DE(1-16)",
+          "EN, AR(1-2), DE, ES(5,8-9), DE(1-16)",
           "1080p",
           "Pace"
         ],
@@ -344,7 +344,7 @@
           0.47392290249433117,
           "JA,EN",
           "EN",
-          "EN",
+          "EN, AR(00), DE(00)",
           "720p",
           "Pace"
         ],
@@ -382,7 +382,7 @@
           0.37714285714285706,
           "JA,EN (1-10, 23-25)",
           "EN, AR(1-4, 7-8, 10), DE(1-10), ES, FR, HE(4)",
-          "EN, AR(5-6,9,11-18), ES(2-25), FR(11-25)",
+          "EN, AR(1-18), DE(1-10), ES(2-25), FR(11-25)",
           "720p,1080p",
           "Pace"
         ],
@@ -686,7 +686,7 @@
           0.4040608288770055,
           "JA,EN (1-4, 31-)",
           "EN, AR, DE(44-), ES(1-4, 31-40), FR",
-          "EN, AR(5-48),ES(1-44),FR",
+          "EN, AR(1-48,60), DE(1-4,44-60), ES(1-44), FR",
           "1080p",
           "Pace Episodes 1-60 then Original Episodes 1025 - 1085"
         ],
@@ -705,7 +705,7 @@
           0.2576785714285714,
           "JA, EN",
           "EN, AR(7-), DE(3-), FR",
-          "EN, DE(1,2)",
+          "EN, AR(7-21), DE(1-21)",
           "1080p",
           "Pace Episodes 1-21 then Original Episodes 1129-"
         ],
