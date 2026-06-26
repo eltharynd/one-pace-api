@@ -134,7 +134,7 @@ export function reorderMetadata(
 	metadata: RecursivePartial<Metadata>,
 ): Metadata {
 	const buffer: RecursivePartial<Metadata> = {
-		title: 'One Piece',
+		title: 'One Pace',
 		description:
 			'As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the "One Piece", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.',
 
