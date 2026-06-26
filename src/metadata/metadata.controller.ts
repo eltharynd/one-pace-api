@@ -131,7 +131,7 @@ export class MetadataController {
 
 					let files: RecursivePartial<EpisodeFilesMetadata> = {
 						standard: {
-							CRC32: String(row[6]),
+							CRC32: String(row[6]) == '702231E9' ? '704F68EA' : String(row[6]),
 							duration:
 								Number.parseInt(String(row[5]).split(':')[0]) * 60 +
 								Number.parseInt(String(row[5]).split(':')[1]),
@@ -144,7 +144,8 @@ export class MetadataController {
 					if (row[7]) {
 						if (/^[A-Z0-9]{8}$/.test(String(row[7]))) {
 							files.extended = {
-								CRC32: String(row[7]),
+								CRC32:
+									String(row[7]) == '702231E9' ? '704F68EA' : String(row[7]),
 								duration:
 									Number.parseInt(String(row[8]).split(':')[0]) * 60 +
 									Number.parseInt(String(row[8]).split(':')[1]),
