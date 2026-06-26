@@ -68,5 +68,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: automated update [skip ci]"
-          file_pattern: "{output,cache}/**"
-          add_options: "--force"
+          file_pattern: "cache/*.json output/*.json"
+          add_options: "-f"
