@@ -12,7 +12,7 @@
     "Shōnen Jump"
   ],
   "customRating": "TV-14",
-  "lastUpdate": "2026-06-26T18:59:55.863Z",
+  "lastUpdate": "2026-06-26T19:40:24.191Z",
   "arcs": [
     {
       "arc": 1,
@@ -166,7 +166,14 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
-        "DE"
+        "DE",
+        "ES",
+        "FR",
+        "IT",
+        "PL",
+        "PT-BR",
+        "RU",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -255,7 +262,13 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
-        "DE"
+        "DE",
+        "ES",
+        "FR",
+        "IT",
+        "PL",
+        "RU",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -411,7 +424,13 @@
         "EN",
         "AR",
         "DE",
-        "ES"
+        "ES",
+        "FR",
+        "IT",
+        "PL",
+        "PT-BR",
+        "RU",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -466,7 +485,13 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
-        "DE"
+        "DE",
+        "ES",
+        "FR",
+        "IT",
+        "PL",
+        "RU",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -631,8 +656,12 @@
         "EN",
         "AR(1-7)",
         "DE",
-        "ES(6-7",
-        "10)"
+        "ES",
+        "FR",
+        "IT",
+        "PL(08)",
+        "RU(1-9)",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -834,7 +863,12 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
-        "DE"
+        "DE",
+        "ES",
+        "FR",
+        "IT",
+        "RU",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -881,6 +915,7 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
+        "ES",
         "FR"
       ],
       "resolution": "480p",
@@ -969,7 +1004,10 @@
         "AR",
         "DE",
         "ES",
-        "RU"
+        "FR",
+        "IT",
+        "RU(1)",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -1100,6 +1138,7 @@
         "EN",
         "AR",
         "ES",
+        "FR",
         "IT"
       ],
       "resolution": "1080p",
@@ -1156,7 +1195,11 @@
         "EN",
         "AR",
         "DE",
-        "RU(05)"
+        "ES(1-4)",
+        "FR",
+        "IT",
+        "RU(1-5)",
+        "TR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -1265,7 +1308,8 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
-        "ES(07)",
+        "ES",
+        "FR",
         "IT"
       ],
       "resolution": "1080p",
@@ -1420,7 +1464,8 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
-        "FR(05-06)",
+        "ES",
+        "FR",
         "IT",
         "RU",
         "TR"
@@ -1773,7 +1818,8 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
-        "FR(2)"
+        "ES",
+        "FR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -1933,9 +1979,9 @@
         "EN",
         "AR(1-2)",
         "DE",
-        "ES(5",
-        "8-9)",
-        "DE(1-16)"
+        "ES",
+        "DE(1-16)",
+        "FR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -2493,8 +2539,8 @@
         "EN",
         "AR",
         "ES(1-5)",
-        "FR(1-9)",
-        "IT(1-5)"
+        "FR",
+        "IT(1-10)"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -2835,8 +2881,8 @@
         "EN",
         "AR(1-18)",
         "DE(1-10)",
-        "ES(2-25)",
-        "FR(11-25)"
+        "ES",
+        "FR"
       ],
       "resolution": "720p,1080p",
       "episodes": [
@@ -4245,7 +4291,8 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
-        "AR"
+        "AR",
+        "FR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -4750,6 +4797,7 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
+        "FR",
         ""
       ],
       "resolution": "1080p",
@@ -6618,6 +6666,7 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
+        "ES",
         "FR"
       ],
       "resolution": "720p",
@@ -7274,7 +7323,8 @@
         "FR"
       ],
       "subLanguagesPixeldrain": [
-        "EN"
+        "EN",
+        "ES"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -7364,7 +7414,9 @@
         "DE(1-4",
         "44-60)",
         "ES(1-44)",
-        "FR"
+        "FR",
+        "TR(4",
+        "59-60)"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -8325,7 +8377,8 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR(7-21)",
-        "DE(1-21)"
+        "DE",
+        "FR"
       ],
       "resolution": "1080p",
       "episodes": [
