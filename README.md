@@ -2,8 +2,6 @@
 
 Built for [OnePacerr](https://github.com/eltharynd/OnePacerr).
 
-From an idea by [LadyIsatis](https://github.com/ladyisatis/one-pace-metadata): Thanks for everything 🙏 but it was time for an update.
-
 ## 🚀 Getting Started
 
 Just use the Github Raw url to get the whole data for now
