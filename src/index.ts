@@ -1,9 +1,9 @@
 import 'reflect-metadata'
+import environment from './environment.js'
 
 import { Logger } from 'ez-ts-logger'
 
 import { Express } from './api/express.js'
-import environment from './environment.js'
 import { MetadataController } from './metadata/metadata.controller.js'
 import { RSSController } from './rss/rss.controller.js'
 import { Scraper } from './scraper/scraper.controller.js'
