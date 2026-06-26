@@ -1,0 +1,35 @@
+{
+  "name": "one-pace-api",
+  "version": "0.0.1",
+  "description": "One Pace Metadata generator and public API",
+  "license": "MIT",
+  "author": "eltharynd",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.1",
+    "@types/node-json-logger": "^0.0.3",
+    "@vitest/coverage-v8": "^4.1.9",
+    "nodemon": "^3.1.14",
+    "typescript": "^6.x.x",
+    "vitest": "^4.1.9"
+  },
+  "dependencies": {
+    "axios": "^1.18.1",
+    "body-parser": "^2.3.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.4",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ez-ts-logger": "^1.0.10",
+    "reflect-metadata": "^0.2.2",
+    "routing-controllers": "^0.11.3",
+    "rss-parser": "^3.13.0",
+    "xml-js": "^1.6.11"
+  }
+}
