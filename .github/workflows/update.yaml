@@ -12,26 +12,29 @@ permissions:
   contents: write
 
 jobs:
-  run-app:
+  update-task:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
           node-version: "24"
-          cache: "npm"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install Dependencies
         run: npm i
 
-      - name: Build Application
+      - name: Build
         run: npm run build
 
-      - name: Run Application
+      - name: Run Update Task
         run: npm run start:single
 
       - name: Commit and Push Changes
