@@ -62,7 +62,9 @@ const startApp = async () => {
 		}
 	} catch (e) {
 		Logger.error('APPLICATION COULD NOT BE STARTED...')
-		Logger.error(e)
+		if (environment.SINGLE_MODE) {
+			Logger.errorAndThrow(e)
+		} else Logger.error(e)
 		return gracefulClose()
 	}
 
