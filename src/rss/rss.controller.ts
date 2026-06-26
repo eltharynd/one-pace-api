@@ -18,23 +18,46 @@ export class RSSController {
 	private feed: Parser.Output<any>
 
 	public async init() {
-		if (environment.GOOGLE_DEVELOPER_MODE && existsSync(CACHE_RSS_FEED)) {
-			try {
-				this.feed = JSON.parse(readFileSync(CACHE_RSS_FEED).toString())
-				Logger.info('existing rss.json imported')
-			} catch (e) {
-				Logger.error('Badly formed rss.json')
+		if (existsSync(CACHE_RSS_FEED)) {
+			if (environment.GOOGLE_DEVELOPER_MODE) {
+				try {
+					Logger.debug('Loading RSS from cache')
+					this.feed = JSON.parse(readFileSync(CACHE_RSS_FEED).toString())
+					Logger.info('Loaded RSS from cache')
+				} catch (e) {
+					Logger.warn(`Couldn't parse cached file. Re-scraping`)
+				}
+			} else {
+				try {
+					Logger.debug('Loading RSS from cache')
+					const local = JSON.parse(readFileSync(CACHE_RSS_FEED).toString())
+					const lastLocalUpdate = new Date(local.lastBuildDate)
+
+					const remote = await this.fetch()
+					//@ts-ignore
+					const lastRemoteUpdate = new Date(remote.lastBuildDate)
+
+					if (lastRemoteUpdate > lastLocalUpdate) {
+						Logger.info(`New RSS updates, updating Local`)
+					} else {
+						Logger.info('Loaded RSS from cache')
+					}
+				} catch (e) {
+					Logger.warn(`Couldn't parse cached file. Re-scraping`)
+					this.feed = await this.fetch()
+				}
 			}
 		} else {
-			await this.fetch()
+			this.feed = await this.fetch()
 		}
 	}
 
 	private async fetch() {
 		Logger.debug(`Fetching OnePace RSS Feed`)
 		try {
-			this.feed = await this.parser.parseURL(RSS_FEED_URL)
-			writeFileSync(CACHE_RSS_FEED, JSON.stringify(this.feed))
+			const feed = await this.parser.parseURL(RSS_FEED_URL)
+			writeFileSync(CACHE_RSS_FEED, JSON.stringify(feed, null, 2))
+			return feed
 		} catch (e) {
 			Logger.error(`Error while fetching RSS feed...`)
 			throw e
@@ -42,7 +65,9 @@ export class RSSController {
 	}
 
 	public async getLastUdate(): Promise<Date> {
-		if (!this.feed) await this.fetch()
+		if (!this.feed) {
+			this.feed = await this.fetch()
+		}
 		//@ts-ignore
 		return new Date(this.feed.lastBuildDate)
 	}
@@ -52,7 +77,9 @@ export class RSSController {
 		hash: string
 		partOfBundle?: boolean
 	}> {
-		if (!this.feed) await this.fetch()
+		if (!this.feed) {
+			this.feed = await this.fetch()
+		}
 
 		let rssTitle = title.replace(
 			'The Adventures of the Straw Hats',

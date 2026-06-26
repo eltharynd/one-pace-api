@@ -1,5 +1,5 @@
 import { Logger } from 'ez-ts-logger'
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { Context } from '../util/context.js'
 import {
 	ArcMetadata,
@@ -17,22 +17,28 @@ export class MetadataController {
 	metadata: Metadata
 
 	async init(): Promise<void> {
-		try {
-			this.metadata = JSON.parse(readFileSync(METADATA_OUTPUT).toString())
-			Logger.debug(`Loaded metadata from cache`)
+		if (existsSync(METADATA_OUTPUT)) {
+			try {
+				Logger.debug(`Checking metadata from cache`)
+				this.metadata = JSON.parse(readFileSync(METADATA_OUTPUT).toString())
 
-			const lastRSSUpdate: Date = await Context.rss.getLastUdate()
-			const lastScraperUpdate: Date = await Context.scraper.getLastUdate()
-			const lastUpdate: Date = new Date(this.metadata.lastUpdate)
-			if (lastRSSUpdate > lastUpdate || lastScraperUpdate > lastUpdate) {
-				Logger.info(`New updates detected!!!!!!!`)
+				const lastRSSUpdate: Date = await Context.rss.getLastUdate()
+				const lastScraperUpdate: Date = await Context.scraper.getLastUdate()
+				const lastUpdate: Date = new Date(this.metadata.lastUpdate)
+				if (lastRSSUpdate > lastUpdate || lastScraperUpdate > lastUpdate) {
+					Logger.info(`Remote updates, renewing cached metadata...`)
+					await this.process()
+				} else {
+					Logger.info('Loaded Metadata from cache')
+				}
+			} catch (e) {
+				Logger.warn('Badly formed cached metadata, reprocessing')
 				await this.process()
-			} else {
-				Logger.info('existing metadata imported')
 			}
-		} catch (e) {
-			Logger.error('Badly formed metadata.json')
+		} else {
+			Logger.debug(`Processing Metadata from remote sources`)
 			await this.process()
+			Logger.info(`Processed Metadata from remote sources`)
 		}
 	}
 

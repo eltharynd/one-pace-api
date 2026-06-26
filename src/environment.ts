@@ -3,6 +3,8 @@ import { Logger } from 'ez-ts-logger'
 dotenv.config({ path: './.env' })
 
 export default {
+	SINGLE_MODE: /single/i.test(process.env.RUN_MODE || 'false'),
+
 	LOG_LEVEL: process.env.LOG_LEVEL || 'info',
 	DEBUGGING:
 		/debug/i.test(process.env.LOG_LEVEL || 'false') ||

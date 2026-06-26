@@ -3,6 +3,7 @@ import 'reflect-metadata'
 import { Logger } from 'ez-ts-logger'
 
 import { Express } from './api/express.js'
+import environment from './environment.js'
 import { MetadataController } from './metadata/metadata.controller.js'
 import { RSSController } from './rss/rss.controller.js'
 import { Scraper } from './scraper/scraper.controller.js'
@@ -50,11 +51,15 @@ const startApp = async () => {
 		Context.metadata = new MetadataController()
 		await Context.metadata.init()
 
-		Logger.info('INITIALIZING EXPRESS SERVER...')
-		Context.express = new Express()
-		await Context.express.start()
+		if (!environment.SINGLE_MODE) {
+			Logger.info('INITIALIZING EXPRESS SERVER...')
+			Context.express = new Express()
+			await Context.express.start()
 
-		Logger.info('APPLICATION STARTED SUCCESSFULLY...')
+			Logger.info('APPLICATION STARTED SUCCESSFULLY...')
+		} else {
+			Logger.info('APPLICATION EXECUTED SUCCESSFULLY...')
+		}
 	} catch (e) {
 		Logger.error('APPLICATION COULD NOT BE STARTED...')
 		Logger.error(e)

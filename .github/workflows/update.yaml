@@ -1,0 +1,44 @@
+name: Build, Run, and Commit Metadata
+
+on:
+  # Allows manual triggering from the GitHub Actions tab
+  workflow_dispatch:
+  # Runs on a schedule (uncomment if you want it on a timer)
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+# Grant the workflow write permissions to push changes back to the repo
+permissions:
+  contents: write
+
+jobs:
+  run-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: "npm"
+
+      - name: Install Dependencies
+        run: npm i
+
+      - name: Build Application
+        run: npm run build
+
+      - name: Run Application
+        run: npm run start:single
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: automated metadata update [skip ci]"
+          file_pattern: "output/metadata.json"
+
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com

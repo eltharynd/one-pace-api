@@ -71,13 +71,35 @@ export class Scraper {
 		spreadsheetId: string,
 		path: string,
 	): Promise<ScrapedGoogleDocument> {
-		if (environment.GOOGLE_DEVELOPER_MODE && existsSync(path)) {
-			Logger.debug('Loading spreadsheet from cache')
-			try {
-				return JSON.parse(readFileSync(path, 'utf-8'))
-			} catch (e) {
-				Logger.warn(`Couldn't parse cached file. Re-scraping`)
-				await this.scrapeGoogleDocument(spreadsheetId, path)
+		if (existsSync(path)) {
+			if (environment.GOOGLE_DEVELOPER_MODE) {
+				try {
+					Logger.debug('Loading spreadsheet from cache')
+					const local = JSON.parse(readFileSync(path, 'utf-8'))
+					Logger.info('Loaded spreadsheet from cache')
+				} catch (e) {
+					Logger.warn(`Couldn't parse cached file. Re-scraping`)
+					return await this.scrapeGoogleDocument(spreadsheetId, path)
+				}
+			} else {
+				try {
+					Logger.debug('Loading spreadsheet from cache')
+					const local = JSON.parse(readFileSync(path, 'utf-8'))
+					const lastLocalUpdate = new Date(local.lastModified)
+					const lastRemoteUpdate = new Date(
+						await this.getSheetModifiedTime(spreadsheetId),
+					)
+					if (lastRemoteUpdate > lastLocalUpdate) {
+						Logger.info(`New Remote updates, updating Local`)
+						return await this.scrapeGoogleDocument(spreadsheetId, path)
+					} else {
+						Logger.info('Loaded spreadsheet from cache')
+						return local
+					}
+				} catch (e) {
+					Logger.warn(`Couldn't parse cached file. Re-scraping`)
+					return await this.scrapeGoogleDocument(spreadsheetId, path)
+				}
 			}
 		} else {
 			Logger.debug('Fetching spreadsheet from google')
@@ -94,7 +116,7 @@ export class Scraper {
 		}
 	}
 
-	private async getSheetModifiedTime(spreadsheetId: string): Promise<any> {
+	private async getSheetModifiedTime(spreadsheetId: string): Promise<string> {
 		const { data } = await this.drive.files.get({
 			fileId: spreadsheetId,
 			fields: 'modifiedTime',

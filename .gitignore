@@ -1,8 +1,9 @@
 .DS_Store
 .env
-cache/
 coverage/
 dist/
 node_modules/
 package-lock.json
+
 output/*
+cache/*

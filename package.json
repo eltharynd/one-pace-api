@@ -10,6 +10,7 @@
     "build": "tsc",
     "start": "node --enable-source-maps dist/index.js",
     "dev": "nodemon dist/index.js",
+    "start:single": "cross-env RUN_MODE=single node --enable-source-maps dist/index.js",
     "test": "vitest run",
     "test:dev": "vitest",
     "test:coverage": "vitest run --coverage"
@@ -19,6 +20,7 @@
     "@types/node": "^26.0.1",
     "@types/node-json-logger": "^0.0.3",
     "@vitest/coverage-v8": "^4.1.9",
+    "cross-env": "^10.1.0",
     "nodemon": "^3.1.14",
     "typescript": "^6.x.x",
     "vitest": "^4.1.9"
