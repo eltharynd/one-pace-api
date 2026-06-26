@@ -1,6 +1,6 @@
 {
   "title": "One Pace Episode Guide",
-  "lastModified": "2026-06-26T19:37:01.051Z",
+  "lastModified": "2026-06-26T20:21:13.985Z",
   "sheets": [
     {
       "title": "Arc Overview",
@@ -59,7 +59,7 @@
           0.2455555555555556,
           "JA, EN, DE, ES",
           "EN, AR, CS, DE, ES, FR, IT, PL, PT-BR, RU, TR",
-          "EN, AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
+          "EN, AR, CS, DE, ES, FR, IT, PL, PT-BR, RU, TR",
           "1080p",
           "Pace"
         ],
@@ -97,7 +97,7 @@
           0.11825396825396822,
           "JA, EN, DE",
           "EN, AR, DE, FI, FR, HE, IT, PL, PT-BR, RU, TR",
-          "EN, AR, DE, ES, FR, IT, PL, PT-BR, RU, TR",
+          "EN, AR, DE, ES, FI, FR, HE, IT, PL, PT-BR, RU, TR",
           "1080p",
           "Pace"
         ],
@@ -116,7 +116,7 @@
           0.299074074074074,
           "JA,EN",
           "EN, AR, DE, ES(2-8), FR(1-2), IT, PL, RU, TR",
-          "EN, AR, DE, ES, FR, IT, PL, RU, TR",
+          "EN, AR, DE, ES, FR, HE(6-9), IT, PL, RU, TR",
           "1080p",
           "Pace"
         ],
@@ -154,7 +154,7 @@
           0.509920634920635,
           "JA,EN",
           "EN, AR, DE, ES, FR, HE, IT, RU, TR",
-          "EN, AR, DE, ES, FR, IT, RU, TR",
+          "EN, AR, DE, ES, FR, HE, IT, RU, TR",
           "1080p",
           "Pace"
         ],
@@ -192,7 +192,7 @@
           0.4150793650793651,
           "JA,EN",
           "EN, AR, DE, FR, HE(1), IT, TR",
-          "EN, AR, DE, ES, FR, IT, RU(1), TR",
+          "EN, AR, DE, ES, FR, HE(1), IT, RU(1), TR",
           "1080p",
           "Pace"
         ],
@@ -382,7 +382,7 @@
           0.37714285714285706,
           "JA,EN (1-10, 23-25)",
           "EN, AR(1-4, 7-8, 10), DE(1-10), ES, FR, HE(4)",
-          "EN, AR(1-18), DE(1-10), ES, FR",
+          "EN, AR(1-18), DE(1-10), ES, FR, HE(4)",
           "720p,1080p",
           "Pace"
         ],
@@ -686,9 +686,9 @@
           0.4040608288770055,
           "JA,EN (1-4, 31-)",
           "EN, AR, DE(44-), ES(1-4, 31-40), FR",
-          "EN, AR(1-48,60), DE(1-4,44-60), ES(1-44), FR, TR(4,59-60)",
+          "EN, AR(1-48,60), DE(1-4,44-60), ES(1-44), FR, HE(4, 57), TR(4,59-60)",
           "1080p",
-          "Pace Episodes 1-60 then Original Episodes 1025 - 1085"
+          "Pace Episodes 1-60 then Original Episodes 1028 - 1085"
         ],
         [
           33,
