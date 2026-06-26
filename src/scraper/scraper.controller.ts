@@ -2,10 +2,11 @@ import { sheets as _sheets, sheets_v4 } from '@googleapis/sheets'
 import { Logger } from 'ez-ts-logger'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import environment from '../environment.js'
-import { ScrapedEpisodeGuide, ScrapedSheet } from './scraper.model.js'
+import { ScrapedGoogleDocument, ScrapedSheet } from './scraper.model.js'
 
 const CACHE_ROOT = './cache'
 const CACHE_EPISODE_GUIDE = `${CACHE_ROOT}/episode-guide.json`
+const CACHE_EPISODE_DESCRIPTIONS = `${CACHE_ROOT}/episode-description.json`
 
 type RawSpreadsheetData = {
 	document: sheets_v4.Schema$Spreadsheet
@@ -18,17 +19,30 @@ export class Scraper {
 		auth: environment.GOOGLE_API_KEY,
 	})
 
-	private scrapedEpisodeGuide: ScrapedEpisodeGuide
+	private scrapedEpisodeGuide: ScrapedGoogleDocument
+	private scrapedEpisodeDescriptions: ScrapedGoogleDocument
 
 	async init(): Promise<void> {
 		Logger.debug('Scraping episode guide')
-		this.scrapedEpisodeGuide = await this.parseEpisodeGuide()
-		Logger.debug(
+		this.scrapedEpisodeGuide = await this.scrapeGoogleDocument(
+			environment.GOOGLE_SHEET_EPISODE_GUIDE,
+			CACHE_EPISODE_GUIDE,
+		)
+		Logger.info(
 			`Parsed ${this.scrapedEpisodeGuide.sheets.length} sheets from "${this.scrapedEpisodeGuide.title}"`,
+		)
+
+		Logger.debug('Scraping episode descriptions')
+		this.scrapedEpisodeDescriptions = await this.scrapeGoogleDocument(
+			environment.GOOGLE_SHEET_EPISODE_DESCRIPTION,
+			CACHE_EPISODE_DESCRIPTIONS,
+		)
+		Logger.info(
+			`Parsed ${this.scrapedEpisodeDescriptions.sheets.length} sheets from "${this.scrapedEpisodeDescriptions.title}"`,
 		)
 	}
 
-	private async parseEpisodeGuide(): Promise<ScrapedEpisodeGuide> {
+	private async parseEpisodeGuide(): Promise<ScrapedGoogleDocument> {
 		if (environment.GOOGLE_DEVELOPER_MODE && existsSync(CACHE_EPISODE_GUIDE)) {
 			Logger.debug('Loading spreadsheet from cache')
 			return JSON.parse(readFileSync(CACHE_EPISODE_GUIDE, 'utf-8'))
@@ -42,6 +56,27 @@ export class Scraper {
 			}
 			mkdirSync(CACHE_ROOT, { recursive: true })
 			writeFileSync(CACHE_EPISODE_GUIDE, JSON.stringify(data, null, 2))
+			return data
+		}
+	}
+
+	private async scrapeGoogleDocument(
+		spreadsheetId: string,
+		path: string,
+	): Promise<ScrapedGoogleDocument> {
+		if (environment.GOOGLE_DEVELOPER_MODE && existsSync(path)) {
+			Logger.debug('Loading spreadsheet from cache')
+			return JSON.parse(readFileSync(path, 'utf-8'))
+		} else {
+			Logger.debug('Fetching spreadsheet from google')
+			const { document, valueRanges } = await this.getRawData(spreadsheetId)
+			const data = {
+				title: document.properties?.title ?? '',
+				lastUpdate: new Date().toISOString(),
+				sheets: this.buildSheets(document, valueRanges),
+			}
+			mkdirSync(CACHE_ROOT, { recursive: true })
+			writeFileSync(path, JSON.stringify(data, null, 2))
 			return data
 		}
 	}
@@ -66,10 +101,10 @@ export class Scraper {
 		return sheets
 	}
 
-	private async getRawData(): Promise<RawSpreadsheetData> {
+	private async getRawData(spreadsheetId: string): Promise<RawSpreadsheetData> {
 		const document = (
 			await this.sheets.spreadsheets.get({
-				spreadsheetId: environment.GOOGLE_SHEET_EPISODE_GUIDE,
+				spreadsheetId: spreadsheetId,
 				fields: 'properties.title,sheets.properties',
 			})
 		).data
@@ -80,7 +115,7 @@ export class Scraper {
 
 		Logger.debug(`Fetching values for ${sheetTitles.length} sheets`)
 		const { data } = await this.sheets.spreadsheets.values.batchGet({
-			spreadsheetId: environment.GOOGLE_SHEET_EPISODE_GUIDE,
+			spreadsheetId: spreadsheetId,
 			ranges: sheetTitles.map(quoteSheetTitle),
 			valueRenderOption: 'UNFORMATTED_VALUE',
 			dateTimeRenderOption: 'FORMATTED_STRING',
@@ -89,12 +124,6 @@ export class Scraper {
 		const raw: RawSpreadsheetData = {
 			document,
 			valueRanges: data.valueRanges ?? [],
-		}
-
-		if (environment.GOOGLE_DEVELOPER_MODE) {
-			mkdirSync(CACHE_ROOT, { recursive: true })
-			writeFileSync(CACHE_EPISODE_GUIDE, JSON.stringify(raw))
-			Logger.debug('cached spreadsheet to disk')
 		}
 
 		return raw

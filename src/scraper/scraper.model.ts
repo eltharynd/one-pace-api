@@ -1,4 +1,4 @@
-export type ScrapedEpisodeGuide = {
+export type ScrapedGoogleDocument = {
 	title: string
 	lastUpdate: string
 
