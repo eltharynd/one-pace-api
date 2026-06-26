@@ -1,13 +1,10 @@
 name: Update Metadata
 
 on:
-  # Allows manual triggering from the GitHub Actions tab
   workflow_dispatch:
-  # Runs on a schedule (uncomment if you want it on a timer)
-  # schedule:
-  #   - cron: '0 0 * * *'
+  schedule:
+    - cron: "*/5 * * * *"
 
-# Grant the workflow write permissions to push changes back to the repo
 permissions:
   contents: write
 
