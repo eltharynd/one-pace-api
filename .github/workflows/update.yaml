@@ -32,6 +32,7 @@ jobs:
         run: npm run build
 
       - name: Run Update Task
+        id: task_run
         run: npm run start:single
         env:
           RUN_MODE: "single"
@@ -39,6 +40,10 @@ jobs:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_SHEET_EPISODE_GUIDE: ${{ secrets.GOOGLE_SHEET_EPISODE_GUIDE }}
           GOOGLE_SHEET_EPISODE_DESCRIPTION: ${{ secrets.GOOGLE_SHEET_EPISODE_DESCRIPTION }}
+
+      - name: Changes detected
+        if: steps.task_run.outputs.changes_detected == 'true'
+        run: echo "We committed something!"
 
       - name: Upload Output and Cache
         uses: actions/upload-artifact@v4
@@ -62,9 +67,14 @@ jobs:
           name: update-task-artifacts
 
       - name: Commit and Push Changes
+        id: auto_commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: automated update [skip ci]"
           file_pattern: "cache/*.json output/*.json"
           skip_dirty_check: true
           add_options: "-f"
+
+      - name: Changes detected
+        if: steps.auto_commit.outputs.changes_detected == 'true'
+        run: echo "We committed something!"
