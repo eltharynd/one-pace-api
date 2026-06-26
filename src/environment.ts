@@ -14,6 +14,12 @@ export default {
 	DOMAIN: process.env.DOMAIN || 'localhost',
 	API_BASE: process.env.API_BASE || '/api/v1/',
 	PORT: Number.parseInt(process.env.PORT || '3000'),
+
+	GOOGLE_DEVELOPER_MODE: /true/i.test(process.env.GOOGLE_DEVELOPER_MODE),
+	GOOGLE_API_KEY: process.env.GOOGLE_API_KEY || '',
+	GOOGLE_SHEET_EPISODE_GUIDE: process.env.GOOGLE_SHEET_EPISODE_GUIDE || '',
+	GOOGLE_SHEET_EPISODE_DESCRIPTION:
+		process.env.GOOGLE_SHEET_EPISODE_DESCRIPTION || '',
 }
 
 Logger.reloadEnvConfigs()

@@ -3,6 +3,7 @@ import 'reflect-metadata'
 import { Logger } from 'ez-ts-logger'
 
 import { Express } from './api/express.js'
+import { Scraper } from './scraper/scraper.controller.js'
 import { Context } from './util/context.js'
 
 const startApp = async () => {
@@ -34,6 +35,10 @@ const startApp = async () => {
 		Logger.info(`##################################`)
 		Logger.info('')
 		Logger.info('STARTING APPLICATION...')
+
+		Logger.info('INITIALIZING SCRAPING SERVICE...')
+		Context.scraper = new Scraper()
+		await Context.scraper.init()
 
 		Logger.info('INITIALIZING EXPRESS SERVER...')
 		Context.express = new Express()
