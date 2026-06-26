@@ -39,6 +39,7 @@ export class RSSController {
 
 					if (lastRemoteUpdate > lastLocalUpdate) {
 						Logger.info(`New RSS updates, updating Local`)
+						this.feed = await this.fetch()
 					} else {
 						Logger.info('Loaded RSS from cache')
 					}

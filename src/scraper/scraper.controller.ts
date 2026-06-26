@@ -1,7 +1,13 @@
 import { drive as _drive } from '@googleapis/drive'
 import { sheets as _sheets, sheets_v4 } from '@googleapis/sheets'
 import { Logger } from 'ez-ts-logger'
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import {
+	existsSync,
+	mkdirSync,
+	readFileSync,
+	unlinkSync,
+	writeFileSync,
+} from 'node:fs'
 import environment from '../environment.js'
 import { ScrapedGoogleDocument, ScrapedSheet } from './scraper.model.js'
 
@@ -91,6 +97,7 @@ export class Scraper {
 					)
 					if (lastRemoteUpdate > lastLocalUpdate) {
 						Logger.info(`New Remote updates, updating Local`)
+						unlinkSync(path)
 						return await this.scrapeGoogleDocument(spreadsheetId, path)
 					} else {
 						Logger.info('Loaded spreadsheet from cache')
