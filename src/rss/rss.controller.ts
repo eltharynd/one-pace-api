@@ -49,6 +49,7 @@ export class RSSController {
 			}
 		} else {
 			this.feed = await this.fetch()
+			Logger.info('Fetched RSS from remote')
 		}
 	}
 

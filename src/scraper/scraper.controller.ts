@@ -112,6 +112,7 @@ export class Scraper {
 			}
 			mkdirSync(CACHE_ROOT, { recursive: true })
 			writeFileSync(path, JSON.stringify(data, null, 2))
+			Logger.info('Fetched spreadsheet from google')
 			return data
 		}
 	}
