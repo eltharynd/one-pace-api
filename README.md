@@ -4,6 +4,8 @@ Built for [OnePacerr](https://github.com/eltharynd/OnePacerr).
 
 Open for everyone.
 
+Not affiliated with One Pace's team.
+
 ## 🚀 Getting Started
 
 Query the full set at
