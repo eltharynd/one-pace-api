@@ -2,6 +2,8 @@
 
 Built for [OnePacerr](https://github.com/eltharynd/OnePacerr).
 
+Open for everyone.
+
 ## 🚀 Getting Started
 
 Query the full set at
@@ -56,7 +58,4 @@ and, in my mind most importantly:
 
 ## 💗 Support (One Pace, not me!)
 
-Please **do not** donate to me for this tool.
-
-Instead, please show your support for the team
-doing the heavy lifting by backing **[One Pace](https://onepace.net)**.
+If you want to support the project (costs are very low tbh, just a cheap cloud host and the domain) you can use the sponsor button directly on github, but I'd rather you find a way to support **[One Pace](https://onepace.net)**'s team directly instead.
