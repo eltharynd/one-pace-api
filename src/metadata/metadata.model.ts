@@ -1,3 +1,15 @@
+import { Type } from 'class-transformer'
+import {
+	IsArray,
+	IsBoolean,
+	IsDateString,
+	IsNumber,
+	IsObject,
+	IsOptional,
+	IsString,
+	ValidateNested,
+} from 'class-validator'
+
 export type Metadata = {
 	lastUpdate: string
 
@@ -7,6 +19,27 @@ export type Metadata = {
 	genre: string[]
 	customRating: string
 
+	arcs: ArcMetadata[]
+}
+export class MetadataResponse implements Metadata {
+	@IsDateString()
+	lastUpdate: string
+
+	@IsString()
+	title: string
+	@IsString()
+	description: string
+
+	@IsArray()
+	@IsString({ each: true })
+	genre: string[]
+	@IsString()
+	customRating: string
+
+	@IsArray()
+	@IsObject()
+	@ValidateNested({ each: true })
+	@Type(() => ArcMetadataResponse)
 	arcs: ArcMetadata[]
 }
 
@@ -39,6 +72,63 @@ export type ArcMetadata = {
 
 	resolution: string
 
+	episodes: EpisodeMetadata[]
+}
+export class ArcMetadataResponse implements ArcMetadata {
+	@IsNumber()
+	arc: number
+
+	@IsString()
+	saga: string
+	@IsString()
+	title: string
+	@IsString()
+	description: string
+
+	@IsString()
+	status: 'complete' | 'tbr' | 'wip'
+
+	@IsString()
+	mangaChapters: string
+	@IsNumber()
+	mangaChaptersCount: number
+
+	@IsString()
+	animeEpisodes: string
+	@IsNumber()
+	animeEpisodesCount: number
+
+	@IsString()
+	fillerEpisodes: string
+	@IsNumber()
+	paceEpisodesCount: number
+
+	@IsNumber()
+	animeMinutes: number
+	@IsNumber()
+	paceMinutes: number
+	@IsNumber()
+	savedMinutes: number
+	@IsNumber()
+	savedPercentage: number
+
+	@IsArray()
+	@IsString({ each: true })
+	audioLanguages: string[]
+	@IsArray()
+	@IsString({ each: true })
+	subLanguages: string[]
+	@IsArray()
+	@IsString({ each: true })
+	subLanguagesPixeldrain: string[]
+
+	@IsString()
+	resolution: string
+
+	@IsArray()
+	@IsObject()
+	@ValidateNested({ each: true })
+	@Type(() => EpisodeMetadataResponse)
 	episodes: EpisodeMetadata[]
 }
 export const ARC_METADATA_KEY_ORDER = [
@@ -82,6 +172,39 @@ export type EpisodeMetadata = {
 
 	files: EpisodeFilesMetadata
 }
+export class EpisodeMetadataResponse implements EpisodeMetadata {
+	@IsNumber()
+	arc: number
+	@IsNumber()
+	episode: number
+
+	@IsString()
+	title: string
+	@IsString()
+	description: string
+
+	@IsArray()
+	@IsString({ each: true })
+	audioLanguages: string[]
+	@IsArray()
+	@IsString({ each: true })
+	subLanguages: string[]
+	@IsArray()
+	@IsString({ each: true })
+	subLanguagesPixeldrain: string[]
+
+	@IsString()
+	mangaChapters: string
+	@IsString()
+	animeEpisodes: string
+
+	@IsString()
+	released: string
+
+	@IsObject()
+	@Type(() => EpisodeFilesMetadataResponse)
+	files: EpisodeFilesMetadata
+}
 export const EPISODE_METADATA_KEY_ORDER = [
 	'arc',
 	'episode',
@@ -101,7 +224,26 @@ export type EpisodeFilesMetadata = {
 	extended?: FileMetadata
 	alternate?: FileMetadata
 
-	archived?: FileMetadata[] //missing
+	archived?: FileMetadata[]
+}
+export class EpisodeFilesMetadataResponse {
+	@IsObject()
+	@Type(() => FileMetadataResponse)
+	standard: FileMetadata
+	@IsObject()
+	@IsOptional()
+	@Type(() => FileMetadataResponse)
+	extended?: FileMetadata
+	@IsObject()
+	@IsOptional()
+	@Type(() => FileMetadataResponse)
+	alternate?: FileMetadata
+
+	@IsOptional()
+	@IsArray()
+	@ValidateNested({ each: true })
+	@Type(() => FileMetadataResponse)
+	archived?: FileMetadata[]
 }
 export const EPISODE_FILES_METADATA_KEY_ORDER = [
 	'standard',
@@ -114,12 +256,31 @@ export type FileMetadata = {
 	CRC32: string
 	CRC32_inFileName?: string
 
-	hash: string //missing
-	magnetURI: string //missing
+	hash: string
+	magnetURI: string
 
 	duration: number
 
-	partOfBundle?: boolean //missing
+	partOfBundle?: boolean
+}
+export class FileMetadataResponse {
+	@IsString()
+	CRC32: string
+	@IsString()
+	@IsOptional()
+	CRC32_inFileName?: string
+
+	@IsString()
+	hash: string
+	@IsString()
+	magnetURI: string
+
+	@IsNumber()
+	duration: number
+
+	@IsBoolean()
+	@IsOptional()
+	partOfBundle?: boolean
 }
 export const FILE_METADATA_KEY_ORDER = [
 	'CRC32',
@@ -134,6 +295,8 @@ export function reorderMetadata(
 	metadata: RecursivePartial<Metadata>,
 ): Metadata {
 	const buffer: RecursivePartial<Metadata> = {
+		lastUpdate: metadata.lastUpdate || new Date().toISOString(),
+
 		title: 'One Pace',
 		description:
 			'As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the "One Piece", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.',
@@ -149,7 +312,6 @@ export function reorderMetadata(
 			'Shōnen Jump',
 		],
 		customRating: 'TV-14',
-		lastUpdate: metadata.lastUpdate || new Date().toISOString(),
 	}
 
 	if (metadata.arcs?.length > 0) {

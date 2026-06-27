@@ -4,7 +4,17 @@ Built for [OnePacerr](https://github.com/eltharynd/OnePacerr).
 
 ## 🚀 Getting Started
 
-Just use the Github Raw url to get the whole data for now
+Query the full set at
+
+```console
+(GET) https://onepacerr.com/api/v1/metadata
+```
+
+Or read the API docs for an updated list of endpoints:
+
+[`https://onepacerr.com/api/v1/docs`](https://onepacerr.com/api/v1/docs)
+
+Or just use the Github Raw url to get the whole data if that works for you
 
 ```console
 https://raw.githubusercontent.com/eltharynd/one-pace-api/refs/heads/main/output/metadata.json
@@ -12,7 +22,7 @@ https://raw.githubusercontent.com/eltharynd/one-pace-api/refs/heads/main/output/
 
 ## 🪄 how it works
 
-Scrapes a couple sources periodically to get the latest information on new releases and metadata:
+Scrapes a couple sources every 15 minutes to get the latest information on new releases and metadata:
 
 - One Pace's RSS Feed
 - One Pace's Episode Guide [Google Sheet](https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA)

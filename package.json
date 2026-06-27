@@ -33,14 +33,17 @@
     "capitalize": "^2.0.4",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.4",
+    "class-validator-jsonschema": "^5.1.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "ez-ts-logger": "^1.0.11",
     "reflect-metadata": "^0.2.2",
     "routing-controllers": "^0.11.3",
+    "routing-controllers-openapi": "^5.0.1",
     "rss-parser": "^3.13.0",
     "simple-git": "^3.36.0",
+    "swagger-ui-express": "^5.0.1",
     "xml-js": "^1.6.11"
   }
 }
