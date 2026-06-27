@@ -85,28 +85,36 @@ export class MetadataController {
 					])
 				} else Logger.debug(`Repo already cloned`)
 
+				Logger.debug(`Initializing simple git`)
 				const git = simpleGit(REPO_DIR)
 
+				Logger.debug(`Adding git configs`)
 				await git.addConfig('user.name', 'github-actions[bot]')
 				await git.addConfig(
 					'user.email',
 					'41898282+github-actions[bot]@users.noreply.github.com',
 				)
 
+				Logger.debug(`Pulling main branch`)
 				await git.pull('origin', BRANCH)
 
 				mkdirSync(path.dirname(REPO_METADATA_PATH), { recursive: true })
 				copyFileSync(METADATA_OUTPUT, REPO_METADATA_PATH)
 
+				Logger.debug(`git add -f ${REPO_METADATA_PATH}`)
 				await git.add(['-f', REPO_METADATA_PATH])
+
+				Logger.debug(`git status --ignored`)
 				const status = await git.status(['--ignored'])
 				if (status.staged.length === 0) {
 					Logger.warn('No changes to commit')
 					return
 				}
 
+				Logger.debug(`Committing`)
 				await git.commit(`Chore: Automated updates`, METADATA_OUTPUT)
-				await git.push('origin', 'main')
+				Logger.debug(`Pushing`)
+				await git.push('origin', BRANCH)
 
 				Logger.info(`Committed changes to repo`)
 			} catch (e) {
