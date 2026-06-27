@@ -2,8 +2,10 @@ import express from 'express'
 import { Logger } from 'ez-ts-logger'
 import { Server, createServer } from 'node:http'
 import { createExpressServer } from 'routing-controllers'
+import { Server as SocketIOServer } from 'socket.io'
 import swaggerUIExpress from 'swagger-ui-express'
 import environment from '../environment.js'
+import { Context } from '../util/context.js'
 import { HealthController } from './health/health.controller.js'
 import { DefaultInterceptor } from './interceptors/default.interceptor.js'
 import { ArcController } from './metadata/arc/arc.controller.js'
@@ -15,10 +17,12 @@ import { LoggerMiddleware } from './middlewares/logger.middleware.js'
 import { SWAGGER_SPECS } from './swagger.js'
 
 export class Express {
-	origins = [`https://onepacerr.com`, `https://www.onepacerr.com`]
+	private origins = [`https://onepacerr.com`, `https://www.onepacerr.com`]
 
-	app: express.Express
-	server: Server
+	private app: express.Express
+	private server: Server
+
+	io: SocketIOServer
 
 	constructor() {
 		this.app = createExpressServer({
@@ -59,6 +63,31 @@ export class Express {
 			// }),
 		)
 		this.server = createServer(this.app)
+		this.io = new SocketIOServer(this.server)
+
+		this.io.on('connection', socket => {
+			Logger.debug(`Socket ${socket.id} connected`)
+			Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
+
+			socket.on('subscribe_to_updates', () => {
+				Logger.debug(`Socket ${socket.id} joined 'updates'`)
+				socket.join('updates')
+			})
+
+			socket.on('unsubscribe_to_updates', () => {
+				Logger.debug(`Socket ${socket.id} left 'updates'`)
+				socket.leave('updates')
+			})
+
+			socket.on('disconnect', () => {
+				Logger.debug(`Socket ${socket.id} disconnected`)
+				Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
+			})
+		})
+
+		setInterval(() => {
+			this.io.to('updates').emit('updates', Context.metadata.getAll())
+		}, 5000)
 	}
 
 	async start(portOverride?: number): Promise<Server> {

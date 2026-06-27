@@ -1,10 +1,13 @@
-# One Pace metadata generator and public API
+# One Pace Metadata API
 
-Built for [OnePacerr](https://github.com/eltharynd/OnePacerr).
+![API Status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fonepacerr.com%2Fapi%2Fv1%2Fhealthz&query=%24.name&label=API%20Status)
+![Currently connected](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fonepacerr.com%2Fapi%2Fv1%2Fhealthz%2Fclients&query=%24.clients&label=Active%20sockets)
 
-Open for everyone.
+This service periodically scrapes various sources for information and metadata about [One Pace](https://onepace.net) releases, and makes them available to the public via Rest API and WebSocket for updates notifications.
 
-Not affiliated with One Pace's team.
+Built for [OnePacerr](https://github.com/eltharynd/OnePacerr), Open for everyone.
+
+*I'm not affiliated with One Pace's team.
 
 ## 🚀 Getting Started
 
@@ -24,7 +27,42 @@ Or just use the Github Raw url to get the whole data if that works for you
 https://raw.githubusercontent.com/eltharynd/one-pace-api/refs/heads/main/output/metadata.json
 ```
 
-## 🪄 how it works
+## 📡 Live Updates
+
+You can connect via **WebSocket** to get live updates whenever something changes.
+
+This can be either a new episode is released or metadata is updated.
+
+The easiest way is by installing `socket.io-client`:
+
+```console
+npm i -s socket.io-client
+```
+
+which you can use the following way:
+
+```typescript
+import { io } from 'socket.io-client'
+
+const socket = io('https://onepacerr.com')
+
+socket.on('connect', () => {
+  console.log(`Connected with id: '${socket.id}'`)
+  socket.emit('subscribe_to_updates')
+})
+
+socket.on('disconnect', () => {
+  console.log(`Disconnected from server`)
+})
+
+socket.on('updates', data => {
+  console.log('Update Received', data)
+})
+```
+
+Alternatively you can use any other WebSocket Library or even do things manually.
+
+## 🪄 Under the hood
 
 Scrapes a couple sources every 15 minutes to get the latest information on new releases and metadata:
 
@@ -32,25 +70,15 @@ Scrapes a couple sources every 15 minutes to get the latest information on new r
 - One Pace's Episode Guide [Google Sheet](https://docs.google.com/spreadsheets/d/1HQRMJgu_zArp-sLnvFMDzOyjdsht87eFLECxMK858lA)
 - One Pace's Episode Descriptions [Google Sheet](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/)
 
-In order to generate a single complete JSON with all the metadata you could desire:
+In order to generate a single complete JSON with all the metadata you could desire.
 
-- `https://raw.githubusercontent.com/eltharynd/one-pace-api/refs/heads/main/output/metadata.json`
+An copy of that JSON is kept up to date on this very repo:
 
-In the near future I will deploy a public Rest API. In short, this means the following will be available to everyone:
+- [https://raw.githubusercontent.com/eltharynd/one-pace-api/refs/heads/main/output/metadata.json](https://raw.githubusercontent.com/eltharynd/one-pace-api/refs/heads/main/output/metadata.json)
 
-- Query the API for the whole dataset
-- Query the API to search for something specific (eg find episode by CRC32, find magnetURIs by arc/episode numbers)
+This is then used by a public Rest API to serve data.
 
-and, in my mind most importantly:
-
-### 📥 Connect via WebSocket to get notified in real time about
-
-- New episode releases (and re-releases or alternate cuts)
-- Metadata updates (eg added title for an episode that previously missed it, changed a description due to a typo)
-
-## 📅 Roadmap
-
-- [ ] I plan to deploy a public Rest API to query for specific things.
+You can find the full list of endpoints in the [Swagger API Docs](https://onepacerr.com/api/v1/docs).
 
 ## 🤝 Credits & Acknowledgements
 
