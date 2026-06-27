@@ -101,8 +101,8 @@ export class MetadataController {
 				mkdirSync(path.dirname(REPO_METADATA_PATH), { recursive: true })
 				copyFileSync(METADATA_OUTPUT, REPO_METADATA_PATH)
 
-				Logger.debug(`git add -f ${REPO_METADATA_PATH}`)
-				await git.add(['-f', REPO_METADATA_PATH])
+				Logger.debug(`git add -f ${METADATA_OUTPUT}`)
+				await git.add(['-f', METADATA_OUTPUT])
 
 				Logger.debug(`git status --ignored`)
 				const status = await git.status(['--ignored'])
