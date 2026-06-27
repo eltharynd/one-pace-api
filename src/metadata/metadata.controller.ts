@@ -76,13 +76,14 @@ export class MetadataController {
 				const remoteUrl = `https://x-access-token:${environment.GIT_TOKEN}@github.com/eltharynd/one-pace-api.git`
 
 				if (!exists) {
+					Logger.debug(`Cloning repo`)
 					mkdirSync(REPO_DIR, { recursive: true })
 					await simpleGit().clone(remoteUrl, REPO_DIR, [
 						'--branch',
 						BRANCH,
 						'--single-branch',
 					])
-				}
+				} else Logger.debug(`Repo already cloned`)
 
 				const git = simpleGit(REPO_DIR)
 
@@ -322,7 +323,9 @@ export class MetadataController {
 
 		const reordered: Metadata = reorderMetadata(buffer)
 
+		Logger.debug(`Writing metadata to file`)
 		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
+		Logger.debug(`Metadata written to file`)
 		await this.commitChanges()
 	}
 }
