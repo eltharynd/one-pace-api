@@ -6,6 +6,9 @@ import swaggerUIExpress from 'swagger-ui-express'
 import environment from '../environment.js'
 import { HealthController } from './health/health.controller.js'
 import { DefaultInterceptor } from './interceptors/default.interceptor.js'
+import { ArcController } from './metadata/arc/arc.controller.js'
+import { EpisodeController } from './metadata/episode/episode.controller.js'
+import { FilesController } from './metadata/files/files.controller.js'
 import { MetadataController } from './metadata/metadata.controller.js'
 import { HttpErrorHandler } from './middlewares/error.middleware.js'
 import { LoggerMiddleware } from './middlewares/logger.middleware.js'
@@ -27,7 +30,14 @@ export class Express {
 			routePrefix: environment.API_BASE.replace(/\/$/, ''),
 			defaultErrorHandler: false,
 			middlewares: [LoggerMiddleware, HttpErrorHandler],
-			controllers: [HealthController, MetadataController],
+			controllers: [
+				HealthController,
+
+				MetadataController,
+				ArcController,
+				EpisodeController,
+				FilesController,
+			],
 			interceptors: [DefaultInterceptor],
 			validation: { whitelist: true },
 			classToPlainTransformOptions: {

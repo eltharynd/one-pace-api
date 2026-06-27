@@ -92,6 +92,7 @@ export class ArcMetadata implements ArcMetadataType {
 
 	@IsArray()
 	@IsObject()
+	@IsOptional()
 	@ValidateNested({ each: true })
 	@Type(() => EpisodeMetadata)
 	episodes: EpisodeMetadataType[]
@@ -126,6 +127,7 @@ export class EpisodeMetadata implements EpisodeMetadataType {
 	@IsString()
 	released: string
 
+	@IsOptional()
 	@ValidateNested()
 	@Type(() => EpisodeFilesMetadata)
 	files: EpisodeFilesMetadataType

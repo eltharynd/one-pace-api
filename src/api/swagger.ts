@@ -9,9 +9,17 @@ import {
 import { routingControllersToSpec } from 'routing-controllers-openapi'
 
 import { MetadataController } from '../metadata/metadata.controller.js'
+import { ArcController } from './metadata/arc/arc.controller.js'
+import { EpisodeController } from './metadata/episode/episode.controller.js'
+import { FilesController } from './metadata/files/files.controller.js'
 
 const routingControllersOptions: RoutingControllersOptions = {
-	controllers: [MetadataController],
+	controllers: [
+		MetadataController,
+		ArcController,
+		EpisodeController,
+		FilesController,
+	],
 	routePrefix: environment.API_BASE.replace(/\/$/, ''),
 }
 const schemas = validationMetadatasToSchemas({

@@ -51,11 +51,11 @@ export class MetadataController {
 			}
 		} else {
 			Logger.debug(
-				`Processing Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced}' : ''}`,
+				`Processing Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced]' : ''}`,
 			)
 			this.metadata = await this.process()
 			Logger.info(
-				`Processed Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced}' : ''}`,
+				`Processed Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced]' : ''}`,
 			)
 		}
 	}
@@ -237,8 +237,10 @@ export class MetadataController {
 						} else {
 							let match = String(row[7]).match(/([A-Z0-9]{8})/)
 							if (match?.length > 0) {
-								Logger.warn('CORRECTION')
 								files.standard.CRC32_inFileName = match[1]
+								Logger.debug(
+									`Corrected S${String(arc.arc).padStart(2, '0')}E${String(episodeNumber).padStart(2, '0')}`,
+								)
 							} else Logger.warn('CORRECTION FAILED')
 						}
 					}
@@ -267,8 +269,12 @@ export class MetadataController {
 		for (let [index, row] of arcsSheet.rows.entries()) {
 			if (/saga_title/i.test(String(row[0])) || !row[0] || !row[1]) continue
 
+			let descriptionsArc = Number.parseInt(String(row[1]))
+			if (descriptionsArc == 11) descriptionsArc = 10
+			else if (descriptionsArc == 10) descriptionsArc = 11
+
 			let arc: RecursivePartial<ArcMetadata> = buffer.arcs.find(
-				a => a.arc == Number.parseInt(String(row[1])),
+				a => a.arc == descriptionsArc,
 			)
 			if (!arc) {
 				if (/Specials/i.test(String(row[2]))) {
@@ -304,25 +310,59 @@ export class MetadataController {
 			)
 
 			let arc: RecursivePartial<ArcMetadata> = buffer.arcs.find(
-				a => a.title == String(row[0]),
+				a =>
+					a.title == String(row[0]).replace('One Piece Fan Letter', 'Specials'),
 			)
+
 			if (arc) {
 				let episode = arc.episodes.find(
-					e => e.episode == Number.parseInt(String(row[1])),
+					e =>
+						e.episode ==
+						(String(row[0]) == 'One Piece Fan Letter'
+							? 0
+							: Number.parseInt(String(row[1]))),
 				)
+
 				if (episode) {
 					if (!row[2]) {
 						Logger.debug(
+							`Episode '${String(row[0])} - ${String(row[1])}' title is still empty`,
+						)
+						episode.title = `${String(row[0])} - ${String(row[1])}`
+					} else episode.title = String(row[2])
+
+					if (!row[3]) {
+						Logger.debug(
 							`Episode '${String(row[0])} - ${String(row[1])}' description is still empty`,
 						)
-						continue
+					} else episode.description = String(row[3])
+				} else {
+					if (arc.arc == 0 && row[1]) {
+						const episode: RecursivePartial<EpisodeMetadata> = {
+							arc: 0,
+							episode:
+								String(row[0]) == 'One Piece Fan Letter' ? 0 : Number(row[1]),
+						}
+
+						if (row[2]) episode.title = String(row[2])
+						if (row[3]) episode.description = String(row[3])
+
+						arc.episodes.push(episode)
+					} else if (row[1] && row[2] && row[3]) {
+						Logger.debug(
+							`Episode '${String(row[0])} - ${String(row[1])}' from descriptions not found in guide but has descriptions. Adding...`,
+						)
+						arc.episodes.push({
+							episode: Number(row[1]),
+							title: String(row[2]),
+							description: String(row[3]),
+						})
+					} else {
+						Logger.warn(
+							`Episode '${String(row[0])} - ${String(row[1])}' from descriptions not found in guide`,
+						)
 					}
-					episode.title = String(row[2])
-					episode.description = String(row[3])
-				} else
-					Logger.debug(
-						`Episode '${String(row[0])} - ${String(row[1])}' from descriptions not found in guide`,
-					)
+				}
 			} else
 				Logger.warn(
 					`Arc '${String(row[0])}' from descriptions not found in guide`,
@@ -331,10 +371,137 @@ export class MetadataController {
 
 		const reordered: Metadata = reorderMetadata(buffer)
 
+		Logger.debug(`Applying manual corrections`)
+		this.manualCorrections(reordered)
+		Logger.debug(`Applied manual corrections`)
+
+		reordered.arcs = reordered.arcs.sort((a, b) => a.arc - b.arc)
+		reordered.arcs.forEach(a => {
+			a.episodes = a.episodes.sort((a, b) => a.episode - b.episode)
+		})
+
 		Logger.debug(`Writing metadata to file`)
 		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
 		Logger.debug(`Metadata written to file`)
+
 		this.commitChanges()
+
 		return reordered
+	}
+
+	private manualCorrections(metadata: Metadata) {
+		const manual: RecursivePartial<Metadata> = {
+			arcs: [
+				{
+					arc: 0,
+					episodes: [
+						{
+							episode: 0,
+							files: {
+								standard: {
+									CRC32: '9974A092',
+									hash: '89913d954cec1c03a50667b81bc2b9508c4f2214',
+									magnetURI:
+										'magnet:?xt=urn:btih:89913d954cec1c03a50667b81bc2b9508c4f2214&dn=%5BOne%20Pace%5D%20One%20Piece%20Fan%20Letter%20%5B1080p%5D%5B9974A092%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									//duration: 1,
+								},
+							},
+						},
+						{
+							episode: 2,
+							files: {
+								standard: {
+									CRC32: '415455AE',
+									hash: 'db52460eabf9592e3188f2f239b1c9c4603a7c59',
+									magnetURI:
+										'magnet:?xt=urn:btih:db52460eabf9592e3188f2f239b1c9c4603a7c59&dn=%5BOne%20Pace%5D%20Straw%20Hat%20Theatre%20%5B720p%5D%5B415455AE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									//duration: 1,
+								},
+							},
+						},
+						{
+							episode: 4,
+							files: {
+								standard: {
+									CRC32: '05BE81E6',
+									hash: '2cbbeef2c6c5597ef09c8659ee8d541e6d2be371',
+									magnetURI:
+										'magnet:?xt=urn:btih:2cbbeef2c6c5597ef09c8659ee8d541e6d2be371&dn=%5BOne%20Pace%5D%5BCover%20236-262%5D%20Wapol%27s%20Omnivorous%20Hurrah%20%5B720p%5D%5B05BE81E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									//duration: 1,
+								},
+							},
+						},
+						{
+							episode: 7,
+							files: {
+								standard: {
+									CRC32: 'EFF6059A',
+									hash: '06b1f1e89dc70b3bd217cd656605ebd3ac5c983a',
+									magnetURI:
+										'magnet:?xt=urn:btih:06b1f1e89dc70b3bd217cd656605ebd3ac5c983a&dn=%5BOne%20Pace%5D%5B42%2C22%5D%20Gaimon%20%5B480p%5D%5BEFF6059A%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									//duration: 1,
+								},
+							},
+						},
+						{
+							episode: 9,
+							files: {
+								standard: {
+									CRC32: '2F71D53E',
+									hash: 'e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2',
+									magnetURI:
+										'magnet:?xt=urn:btih:e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2&dn=%5BOne%20Pace%5D%5B199-201%5D%20Arabasta%2016%20-%20April%20Fools%20%5B1080p%5D%5B2F71D53E%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									//duration: 1,
+								},
+							},
+						},
+						{
+							episode: 10,
+							files: {
+								standard: {
+									CRC32: 'B4925314',
+									hash: '77ba0dd87a00cf4216648bb79b7206e8549686c0',
+									magnetURI:
+										'magnet:?xt=urn:btih:77ba0dd87a00cf4216648bb79b7206e8549686c0&dn=%5BOne%20Pace%5D%20Warship%20Island%2001%20%28April%20Fools%202025%29%20%5B1080p%5D%5BB4925314%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									//duration: 1,
+								},
+							},
+						},
+					],
+				},
+			],
+		}
+
+		for (let arc_manual of manual.arcs) {
+			const arc_in = metadata.arcs.find(a => a.arc == arc_manual.arc)
+			if (!arc_in) continue
+
+			for (let key of Object.keys(arc_in)) {
+				if (key !== 'episodes' && key != 'arc') {
+					arc_in[key] == arc_manual[key]
+				}
+
+				for (let ep_manual of arc_manual.episodes) {
+					const ep_in = arc_in.episodes.find(
+						e => e.episode == ep_manual.episode,
+					)
+					if (!ep_in) continue
+					for (let key of Object.keys(ep_manual)) {
+						if (key !== 'files' && key != 'episode') {
+							ep_in[key] == ep_manual[key]
+						}
+
+						if (ep_manual.files)
+							for (let file_manual of Object.keys(ep_manual.files)) {
+								if (!ep_in.files) {
+									//@ts-ignore
+									ep_in.files = {}
+								}
+								ep_in.files[file_manual] = ep_manual.files[file_manual]
+							}
+					}
+				}
+			}
+		}
 	}
 }

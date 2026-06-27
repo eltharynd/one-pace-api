@@ -17,7 +17,7 @@ export class LoggerMiddleware implements ExpressMiddlewareInterface {
 		res.on('finish', () => {
 			let deltaT = Date.now() - startT
 
-			let text = `[${res.statusCode}] ${req.method} {internal}${
+			let text = `[${res.statusCode}] ${req.method} {${req.hostname || 'unknown_host'}}${
 				req.url
 			} (from: ${req.header('X-Real-IP') || 'unknown'}, resolved in ${(
 				deltaT / 1000
