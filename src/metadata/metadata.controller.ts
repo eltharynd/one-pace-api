@@ -4,9 +4,9 @@ import {
 	existsSync,
 	mkdirSync,
 	readFileSync,
-	statSync,
 	writeFileSync,
 } from 'node:fs'
+import { stat } from 'node:fs/promises'
 import path from 'node:path'
 import { simpleGit } from 'simple-git'
 import environment from '../environment.js'
@@ -69,7 +69,10 @@ export class MetadataController {
 			try {
 				Logger.debug(`Committing changes to repo`)
 
-				const exists = statSync(path.join(REPO_DIR, '.git'))
+				const exists = await stat(path.join(REPO_DIR, '.git'))
+					.then(() => true)
+					.catch(() => false)
+
 				const remoteUrl = `https://x-access-token:${environment.GIT_TOKEN}@github.com/eltharynd/one-pace-api.git`
 
 				if (!exists) {
