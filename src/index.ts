@@ -31,7 +31,7 @@ const startApp = async () => {
 		Logger.info(`##################################`)
 		Logger.info(`####                          ####`)
 		Logger.info(
-			`####     OnePacerr ${process.env.npm_package_version || 'NO_VERS'}${String('####').padStart(15 - (process.env.npm_package_version || 'NO_VERS').length, ' ')}`,
+			`####    One Pace API ${process.env.npm_package_version || 'NO_VERS'}${String('####').padStart(13 - (process.env.npm_package_version || 'NO_VERS').length, ' ')}`,
 		)
 		Logger.info(`####                          ####`)
 		Logger.info(`##################################`)
@@ -59,6 +59,7 @@ const startApp = async () => {
 			Logger.info('APPLICATION STARTED SUCCESSFULLY...')
 		} else {
 			Logger.info('APPLICATION EXECUTED SUCCESSFULLY...')
+			return
 		}
 	} catch (e) {
 		Logger.error('APPLICATION COULD NOT BE STARTED...')
@@ -69,6 +70,19 @@ const startApp = async () => {
 	}
 
 	try {
+		setInterval(async () => {
+			try {
+				Logger.info(`Refreshing Google Sheets`)
+				await Context.scraper.init()
+				Logger.info(`Refreshing RSS feed`)
+				await Context.rss.init()
+				Logger.info(`Refreshing Metadata`)
+				await Context.metadata.init()
+			} catch (e) {
+				Logger.error(`Error trying to refresh data`)
+				Logger.error(e)
+			}
+		}, environment.SCRAPE_INTERVAL)
 	} catch (e) {
 		Logger.error('APPLICATION CRASHED UNEXPECTEDLY...')
 		Logger.error(e)

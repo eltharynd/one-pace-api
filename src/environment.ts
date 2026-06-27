@@ -30,6 +30,9 @@ export default {
 	GOOGLE_SHEET_EPISODE_DESCRIPTION:
 		process.env.GOOGLE_SHEET_EPISODE_DESCRIPTION ||
 		'1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM',
+
+	SCRAPE_INTERVAL:
+		Number.parseInt(process.env.SCRAPE_INTERVAL || '15') * 60 * 1000,
 }
 
 Logger.reloadEnvConfigs()
