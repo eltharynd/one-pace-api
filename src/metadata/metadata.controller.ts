@@ -23,7 +23,7 @@ import {
 const OUTPUT_ROOT = './output'
 const METADATA_OUTPUT = `${OUTPUT_ROOT}/metadata.json`
 
-const REPO_DIR = '/tmp/git-repo'
+const REPO_DIR = './tmp/git-repo'
 const BRANCH = 'main'
 const REPO_RELATIVE_METADATA_PATH = `${REPO_DIR}${OUTPUT_ROOT.replace('./', '')}/metadata.json`
 
