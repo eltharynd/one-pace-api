@@ -42,7 +42,11 @@ export class MetadataController {
 		}
 	}
 
-	async process(): Promise<void> {
+	getAll(): Metadata {
+		return structuredClone(this.metadata)
+	}
+
+	private async process(): Promise<void> {
 		let guide = Context.scraper.getEpisodeGuide()
 		let descriptions = Context.scraper.getEpisodeDescriptions()
 

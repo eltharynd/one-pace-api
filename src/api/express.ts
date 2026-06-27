@@ -3,6 +3,7 @@ import { Logger } from 'ez-ts-logger'
 import { Server, createServer } from 'node:http'
 import { createExpressServer } from 'routing-controllers'
 import environment from '../environment.js'
+import { MetadataController } from '../metadata/metadata.controller.js'
 import { HealthController } from './health/health.controller.js'
 import { DefaultInterceptor } from './interceptors/default.interceptor.js'
 import { HttpErrorHandler } from './middlewares/error.middleware.js'
@@ -24,7 +25,7 @@ export class Express {
 			routePrefix: environment.API_BASE.replace(/\/$/, ''),
 			defaultErrorHandler: false,
 			middlewares: [LoggerMiddleware, HttpErrorHandler],
-			controllers: [HealthController],
+			controllers: [HealthController, MetadataController],
 			interceptors: [DefaultInterceptor],
 			validation: { whitelist: true },
 			classToPlainTransformOptions: {
