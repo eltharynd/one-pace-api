@@ -12,6 +12,7 @@ import { MetadataController } from '../metadata/metadata.controller.js'
 import { ArcController } from './metadata/arc/arc.controller.js'
 import { EpisodeController } from './metadata/episode/episode.controller.js'
 import { FilesController } from './metadata/files/files.controller.js'
+import { SearchController } from './metadata/search/search.controllers.js'
 
 const routingControllersOptions: RoutingControllersOptions = {
 	controllers: [
@@ -19,6 +20,8 @@ const routingControllersOptions: RoutingControllersOptions = {
 		ArcController,
 		EpisodeController,
 		FilesController,
+
+		SearchController,
 	],
 	routePrefix: environment.API_BASE.replace(/\/$/, ''),
 }

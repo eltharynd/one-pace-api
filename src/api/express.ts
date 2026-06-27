@@ -12,8 +12,10 @@ import { ArcController } from './metadata/arc/arc.controller.js'
 import { EpisodeController } from './metadata/episode/episode.controller.js'
 import { FilesController } from './metadata/files/files.controller.js'
 import { MetadataController } from './metadata/metadata.controller.js'
+import { SearchController } from './metadata/search/search.controllers.js'
 import { HttpErrorHandler } from './middlewares/error.middleware.js'
 import { LoggerMiddleware } from './middlewares/logger.middleware.js'
+import { NoCacheMiddleware } from './middlewares/nocache.middleware.js'
 import { SWAGGER_SPECS } from './swagger.js'
 
 export class Express {
@@ -33,7 +35,7 @@ export class Express {
 			},
 			routePrefix: environment.API_BASE.replace(/\/$/, ''),
 			defaultErrorHandler: false,
-			middlewares: [LoggerMiddleware, HttpErrorHandler],
+			middlewares: [NoCacheMiddleware, LoggerMiddleware, HttpErrorHandler],
 			controllers: [
 				HealthController,
 
@@ -41,6 +43,8 @@ export class Express {
 				ArcController,
 				EpisodeController,
 				FilesController,
+
+				SearchController,
 			],
 			interceptors: [DefaultInterceptor],
 			validation: { whitelist: true },
@@ -62,6 +66,7 @@ export class Express {
 			// 		readFileSync(path.join(process.cwd(), 'docs/custom.css')).toString(),
 			// }),
 		)
+
 		this.server = createServer(this.app)
 		this.io = new SocketIOServer(this.server)
 
