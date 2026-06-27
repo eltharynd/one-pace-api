@@ -1,6 +1,6 @@
 {
   "title": "One Pace Episode Guide",
-  "lastModified": "2026-06-26T20:21:13.985Z",
+  "lastModified": "2026-06-27T02:08:59.962Z",
   "sheets": [
     {
       "title": "Arc Overview",
@@ -248,8 +248,8 @@
           "55",
           0.2943562610229278,
           "JA,EN",
-          "EN, AR, DE, ES, FR, IT, RU(1-4), TR(1-4)",
-          "EN, AR, DE, ES(1-4), FR, IT, RU(1-5), TR",
+          "EN, AR, DE, ES(1-4), FR, IT, RU, TR",
+          "EN, AR, DE, ES(1-4), FR, IT, RU, TR",
           "1080p",
           "Pace"
         ],
@@ -286,7 +286,7 @@
           "284",
           0.3382936507936507,
           "JA,EN",
-          "EN, ES, FR(1-4,7-21)",
+          "EN, ES(1-5,7-21), FR(1-4,7-21)",
           "EN, ES, FR, IT, RU, TR",
           "1080p",
           "Pace"
@@ -324,7 +324,7 @@
           "197",
           0.21383477633477657,
           "JA,EN",
-          "EN, AR(24-25), ES(1-4,6-7,10-21), FR, ES(5), DE(17-)",
+          "EN, AR(24-25), ES(1-4,6-7,10-21), FR, ES(5), DE(17-25)",
           "EN, AR(1-2), DE, ES, DE(1-16), FR",
           "1080p",
           "Pace"
@@ -401,7 +401,7 @@
           0.4356589147286821,
           "JA",
           "EN",
-          "EN, ",
+          "EN",
           "720p",
           "Pace"
         ],
@@ -704,7 +704,7 @@
           "216",
           0.2576785714285714,
           "JA, EN",
-          "EN, AR(7-), DE(3-), FR",
+          "EN, AR(7-21), DE(3-21), FR",
           "EN, AR(7-21), DE, FR",
           "1080p",
           "Pace Episodes 1-21 then Original Episodes 1129-"

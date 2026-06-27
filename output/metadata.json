@@ -12,7 +12,7 @@
     "Shōnen Jump"
   ],
   "customRating": "TV-14",
-  "lastUpdate": "2026-06-26T20:21:44.228Z",
+  "lastUpdate": "2026-06-27T02:14:45.367Z",
   "arcs": [
     {
       "arc": 1,
@@ -1191,11 +1191,11 @@
         "EN",
         "AR",
         "DE",
-        "ES",
+        "ES(1-4)",
         "FR",
         "IT",
-        "RU(1-4)",
-        "TR(1-4)"
+        "RU",
+        "TR"
       ],
       "subLanguagesPixeldrain": [
         "EN",
@@ -1204,7 +1204,7 @@
         "ES(1-4)",
         "FR",
         "IT",
-        "RU(1-5)",
+        "RU",
         "TR"
       ],
       "resolution": "1080p",
@@ -1464,7 +1464,8 @@
       ],
       "subLanguages": [
         "EN",
-        "ES",
+        "ES(1-5",
+        "7-21)",
         "FR(1-4",
         "7-21)"
       ],
@@ -1979,7 +1980,7 @@
         "10-21)",
         "FR",
         "ES(5)",
-        "DE(17-)"
+        "DE(17-25)"
       ],
       "subLanguagesPixeldrain": [
         "EN",
@@ -3293,8 +3294,7 @@
         "EN"
       ],
       "subLanguagesPixeldrain": [
-        "EN",
-        ""
+        "EN"
       ],
       "resolution": "720p",
       "episodes": [
@@ -8379,8 +8379,8 @@
       ],
       "subLanguages": [
         "EN",
-        "AR(7-)",
-        "DE(3-)",
+        "AR(7-21)",
+        "DE(3-21)",
         "FR"
       ],
       "subLanguagesPixeldrain": [
