@@ -1,5 +1,7 @@
 import { Logger } from 'ez-ts-logger'
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { simpleGit } from 'simple-git'
+import environment from '../environment.js'
 import { Context } from '../util/context.js'
 import {
 	ArcMetadata,
@@ -17,7 +19,7 @@ export class MetadataController {
 	metadata: Metadata
 
 	async init(): Promise<void> {
-		if (existsSync(METADATA_OUTPUT)) {
+		if (existsSync(METADATA_OUTPUT) && !environment.FORCE_REGENERATION) {
 			try {
 				Logger.debug(`Checking metadata from cache`)
 				this.metadata = JSON.parse(readFileSync(METADATA_OUTPUT).toString())
@@ -36,14 +38,53 @@ export class MetadataController {
 				await this.process()
 			}
 		} else {
-			Logger.debug(`Processing Metadata from remote sources`)
+			Logger.debug(
+				`Processing Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced}' : ''}`,
+			)
 			await this.process()
-			Logger.info(`Processed Metadata from remote sources`)
+			Logger.info(
+				`Processed Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced}' : ''}`,
+			)
 		}
 	}
 
 	getAll(): Metadata {
 		return structuredClone(this.metadata)
+	}
+
+	private async commitChanges() {
+		if (environment.GIT_AUTO_COMMIT) {
+			try {
+				Logger.debug(`Committing changes to repo`)
+				const git = simpleGit()
+
+				await git.addConfig('user.name', 'github-actions[bot]')
+				await git.addConfig(
+					'user.email',
+					'41898282+github-actions[bot]@users.noreply.github.com',
+				)
+
+				const remoteUrl = `https://x-access-token:${environment.GIT_TOKEN}@github.com/eltharynd/one-pace-api.git`
+				await git.remote(['set-url', 'origin', remoteUrl])
+
+				await git.fetch('origin', 'main')
+				await git.checkout('main')
+
+				await git.add(METADATA_OUTPUT)
+				const status = await git.status()
+				if (status.staged.length === 0) {
+					Logger.warn('No changes to commit')
+					return
+				}
+
+				await git.commit(`Chore: Automated updates`, METADATA_OUTPUT)
+				await git.push('origin', 'main')
+
+				Logger.info(`Committed changes to repo`)
+			} catch (e) {
+				Logger.errorAndThrow(e)
+			}
+		}
 	}
 
 	private async process(): Promise<void> {
@@ -255,5 +296,6 @@ export class MetadataController {
 		const reordered: Metadata = reorderMetadata(buffer)
 
 		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
+		await this.commitChanges()
 	}
 }

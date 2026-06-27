@@ -17,6 +17,11 @@ export default {
 	API_BASE: process.env.API_BASE || '/api/v1/',
 	PORT: Number.parseInt(process.env.PORT || '3000'),
 
+	FORCE_REGENERATION: /true/i.test(process.env.FORCE_REGENERATION),
+
+	GIT_TOKEN: process.env.GIT_TOKEN || '',
+	GIT_AUTO_COMMIT: /true/i.test(process.env.GIT_AUTO_COMMIT),
+
 	GOOGLE_DEVELOPER_MODE: /true/i.test(process.env.GOOGLE_DEVELOPER_MODE),
 	GOOGLE_API_KEY: process.env.GOOGLE_API_KEY || '',
 	GOOGLE_SHEET_EPISODE_GUIDE:
