@@ -105,6 +105,7 @@ export class Scraper {
 					}
 				} catch (e) {
 					Logger.warn(`Couldn't parse cached file. Re-scraping`)
+					unlinkSync(path)
 					return await this.scrapeGoogleDocument(spreadsheetId, path)
 				}
 			}

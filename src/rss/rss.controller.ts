@@ -1,5 +1,5 @@
 import { Logger } from 'ez-ts-logger'
-import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import Parser from 'rss-parser'
 import environment from '../environment.js'
 import { Feed, Item } from './rss.model.js'
@@ -45,6 +45,7 @@ export class RSSController {
 					}
 				} catch (e) {
 					Logger.warn(`Couldn't parse cached file. Re-scraping`)
+					unlinkSync(CACHE_RSS_FEED)
 					this.feed = await this.fetch()
 				}
 			}
