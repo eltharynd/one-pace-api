@@ -41,19 +41,19 @@ export class MetadataController {
 				const lastUpdate: Date = new Date(this.metadata.lastUpdate)
 				if (lastRSSUpdate > lastUpdate || lastScraperUpdate > lastUpdate) {
 					Logger.info(`Remote updates, renewing cached metadata...`)
-					await this.process()
+					this.metadata = await this.process()
 				} else {
 					Logger.info('Loaded Metadata from cache')
 				}
 			} catch (e) {
 				Logger.warn('Badly formed cached metadata, reprocessing')
-				await this.process()
+				this.metadata = await this.process()
 			}
 		} else {
 			Logger.debug(
 				`Processing Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced}' : ''}`,
 			)
-			await this.process()
+			this.metadata = await this.process()
 			Logger.info(
 				`Processed Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced}' : ''}`,
 			)
@@ -123,7 +123,7 @@ export class MetadataController {
 		}
 	}
 
-	private async process(): Promise<void> {
+	private async process(): Promise<Metadata> {
 		let guide = Context.scraper.getEpisodeGuide()
 		let descriptions = Context.scraper.getEpisodeDescriptions()
 
@@ -334,6 +334,7 @@ export class MetadataController {
 		Logger.debug(`Writing metadata to file`)
 		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
 		Logger.debug(`Metadata written to file`)
-		await this.commitChanges()
+		this.commitChanges()
+		return reordered
 	}
 }
