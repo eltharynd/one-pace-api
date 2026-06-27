@@ -24,8 +24,8 @@ const OUTPUT_ROOT = './output'
 const METADATA_OUTPUT = `${OUTPUT_ROOT}/metadata.json`
 
 const REPO_DIR = './tmp/git-repo'
+const REPO_METADATA_PATH = `${REPO_DIR}${OUTPUT_ROOT.replace('./', '/')}/metadata.json`
 const BRANCH = 'main'
-const REPO_RELATIVE_METADATA_PATH = `${REPO_DIR}${OUTPUT_ROOT.replace('./', '')}/metadata.json`
 
 export class MetadataController {
 	metadata: Metadata
@@ -94,12 +94,11 @@ export class MetadataController {
 
 				await git.pull('origin', BRANCH)
 
-				const destPath = path.join(REPO_DIR, REPO_RELATIVE_METADATA_PATH)
-				mkdirSync(path.dirname(destPath), { recursive: true })
-				copyFileSync(METADATA_OUTPUT, destPath)
+				mkdirSync(path.dirname(REPO_METADATA_PATH), { recursive: true })
+				copyFileSync(METADATA_OUTPUT, REPO_METADATA_PATH)
 
-				await git.add(METADATA_OUTPUT)
-				const status = await git.status()
+				await git.add(['f', REPO_METADATA_PATH])
+				const status = await git.status(['--ignored'])
 				if (status.staged.length === 0) {
 					Logger.warn('No changes to commit')
 					return
