@@ -97,7 +97,7 @@ export class MetadataController {
 				mkdirSync(path.dirname(REPO_METADATA_PATH), { recursive: true })
 				copyFileSync(METADATA_OUTPUT, REPO_METADATA_PATH)
 
-				await git.add(['f', REPO_METADATA_PATH])
+				await git.add(['-f', REPO_METADATA_PATH])
 				const status = await git.status(['--ignored'])
 				if (status.staged.length === 0) {
 					Logger.warn('No changes to commit')
