@@ -201,7 +201,7 @@ export class EpisodeMetadataResponse implements EpisodeMetadata {
 	@IsString()
 	released: string
 
-	@IsObject()
+	@ValidateNested()
 	@Type(() => EpisodeFilesMetadataResponse)
 	files: EpisodeFilesMetadata
 }
@@ -227,15 +227,17 @@ export type EpisodeFilesMetadata = {
 	archived?: FileMetadata[]
 }
 export class EpisodeFilesMetadataResponse {
-	@IsObject()
+	@ValidateNested()
 	@Type(() => FileMetadataResponse)
 	standard: FileMetadata
-	@IsObject()
+
 	@IsOptional()
+	@ValidateNested()
 	@Type(() => FileMetadataResponse)
 	extended?: FileMetadata
-	@IsObject()
+
 	@IsOptional()
+	@ValidateNested()
 	@Type(() => FileMetadataResponse)
 	alternate?: FileMetadata
 

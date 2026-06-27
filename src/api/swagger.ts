@@ -18,24 +18,42 @@ const schemas = validationMetadatasToSchemas({
 	classTransformerMetadataStorage: defaultMetadataStorage,
 	refPointerPrefix: '#/components/schemas/',
 })
+
 const storage = getMetadataArgsStorage()
-export const SWAGGER_SPECS = routingControllersToSpec(
+
+const includedNames = new Set(
+	(routingControllersOptions.controllers as Function[]).map(c => c.name),
+)
+
+const specStorage = Object.assign(
+	Object.create(Object.getPrototypeOf(storage)),
 	storage,
+	{
+		controllers: storage.controllers.filter(c =>
+			includedNames.has(c.target.name),
+		),
+		actions: storage.actions.filter(a => includedNames.has(a.target.name)),
+	},
+)
+
+export const SWAGGER_SPECS = routingControllersToSpec(
+	specStorage,
 	routingControllersOptions,
 	{
 		components: {
 			schemas,
-			securitySchemes: {
-				basicAuth: {
-					scheme: 'basic',
-					type: 'http',
-				},
-			},
+			// securitySchemes: {
+			// 	basicAuth: {
+			// 		scheme: 'basic',
+			// 		type: 'http',
+			// 	},
+			// },
 		},
 		info: {
-			description: 'Generated with `routing-controllers-openapi`',
-			title: 'A sample API',
-			version: '1.0.0',
+			description:
+				'A Public API for One Pace episodes Metadata.\n built for <a href="https://github.com/eltharynd/OnePacerr">OnePacerr</a>, available to everyone!',
+			title: 'One Pace Metadata API',
+			version: process.env.npm_package_version,
 		},
 	},
 )
