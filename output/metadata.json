@@ -12,7 +12,7 @@
     "Shōnen Jump"
   ],
   "customRating": "TV-14",
-  "lastUpdate": "2026-06-27T02:14:45.367Z",
+  "lastUpdate": "2026-06-27T03:42:23.259Z",
   "arcs": [
     {
       "arc": 1,
@@ -1984,10 +1984,9 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
-        "AR(1-2)",
+        "AR(24-25)",
         "DE",
         "ES",
-        "DE(1-16)",
         "FR"
       ],
       "resolution": "1080p",
@@ -2540,7 +2539,7 @@
       ],
       "subLanguages": [
         "EN",
-        "FR"
+        "FR(10-20)"
       ],
       "subLanguagesPixeldrain": [
         "EN",
@@ -2880,8 +2879,8 @@
         "7-8",
         "10)",
         "DE(1-10)",
-        "ES",
-        "FR",
+        "ES(1)",
+        "FR(1-10)",
         "HE(4)"
       ],
       "subLanguagesPixeldrain": [
@@ -4299,6 +4298,7 @@
       "subLanguagesPixeldrain": [
         "EN",
         "AR",
+        "ES",
         "FR"
       ],
       "resolution": "1080p",
@@ -4345,6 +4345,7 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
+        "ES",
         "FR"
       ],
       "resolution": "720p",
@@ -4804,8 +4805,8 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
-        "FR",
-        ""
+        "ES",
+        "FR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -7331,7 +7332,8 @@
       ],
       "subLanguagesPixeldrain": [
         "EN",
-        "ES"
+        "ES",
+        "FR"
       ],
       "resolution": "1080p",
       "episodes": [
@@ -7408,11 +7410,23 @@
       ],
       "subLanguages": [
         "EN",
-        "AR",
-        "DE(44-)",
+        "AR(1-4",
+        "23-24",
+        "60)",
+        "DE(1-4",
+        "44-60)",
         "ES(1-4",
-        "31-40)",
-        "FR"
+        "23-24",
+        "31-34",
+        "36",
+        "38-40)",
+        "FR(1-3",
+        "23-24",
+        "27-60)",
+        "HE(4",
+        "57)",
+        "TR(4",
+        "59-60)"
       ],
       "subLanguagesPixeldrain": [
         "EN",
