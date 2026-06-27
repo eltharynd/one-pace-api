@@ -1,5 +1,13 @@
 import { Logger } from 'ez-ts-logger'
-import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import {
+	copyFileSync,
+	existsSync,
+	mkdirSync,
+	readFileSync,
+	statSync,
+	writeFileSync,
+} from 'node:fs'
+import path from 'node:path'
 import { simpleGit } from 'simple-git'
 import environment from '../environment.js'
 import { Context } from '../util/context.js'
@@ -14,6 +22,10 @@ import {
 
 const OUTPUT_ROOT = './output'
 const METADATA_OUTPUT = `${OUTPUT_ROOT}/metadata.json`
+
+const REPO_DIR = '/tmp/git-repo'
+const BRANCH = 'main'
+const REPO_RELATIVE_METADATA_PATH = `${REPO_DIR}${OUTPUT_ROOT.replace('./', '')}/metadata.json`
 
 export class MetadataController {
 	metadata: Metadata
@@ -56,7 +68,20 @@ export class MetadataController {
 		if (environment.GIT_AUTO_COMMIT) {
 			try {
 				Logger.debug(`Committing changes to repo`)
-				const git = simpleGit()
+
+				const exists = statSync(path.join(REPO_DIR, '.git'))
+				const remoteUrl = `https://x-access-token:${environment.GIT_TOKEN}@github.com/eltharynd/one-pace-api.git`
+
+				if (!exists) {
+					mkdirSync(REPO_DIR, { recursive: true })
+					await simpleGit().clone(remoteUrl, REPO_DIR, [
+						'--branch',
+						BRANCH,
+						'--single-branch',
+					])
+				}
+
+				const git = simpleGit(REPO_DIR)
 
 				await git.addConfig('user.name', 'github-actions[bot]')
 				await git.addConfig(
@@ -64,11 +89,11 @@ export class MetadataController {
 					'41898282+github-actions[bot]@users.noreply.github.com',
 				)
 
-				const remoteUrl = `https://x-access-token:${environment.GIT_TOKEN}@github.com/eltharynd/one-pace-api.git`
-				await git.remote(['set-url', 'origin', remoteUrl])
+				await git.pull('origin', BRANCH)
 
-				await git.fetch('origin', 'main')
-				await git.checkout('main')
+				const destPath = path.join(REPO_DIR, REPO_RELATIVE_METADATA_PATH)
+				mkdirSync(path.dirname(destPath), { recursive: true })
+				copyFileSync(METADATA_OUTPUT, destPath)
 
 				await git.add(METADATA_OUTPUT)
 				const status = await git.status()
