@@ -5,7 +5,6 @@ import { createExpressServer } from 'routing-controllers'
 import { Server as SocketIOServer } from 'socket.io'
 import swaggerUIExpress from 'swagger-ui-express'
 import environment from '../environment.js'
-import { Context } from '../util/context.js'
 import { HealthController } from './health/health.controller.js'
 import { DefaultInterceptor } from './interceptors/default.interceptor.js'
 import { ArcController } from './metadata/arc/arc.controller.js'
@@ -89,10 +88,6 @@ export class Express {
 				Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
 			})
 		})
-
-		setInterval(() => {
-			this.io.to('updates').emit('updates', Context.metadata.getAll())
-		}, 5000)
 	}
 
 	async start(portOverride?: number): Promise<Server> {

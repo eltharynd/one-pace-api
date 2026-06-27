@@ -42,12 +42,20 @@ export class MetadataController {
 				if (lastRSSUpdate > lastUpdate || lastScraperUpdate > lastUpdate) {
 					Logger.info(`Remote updates, renewing cached metadata...`)
 					this.metadata = await this.process()
+					Logger.debug(`Notifying sockets`)
+					Context.express.io
+						.to('updates')
+						.emit('updates', Context.metadata.getAll())
 				} else {
 					Logger.info('Loaded Metadata from cache')
 				}
 			} catch (e) {
 				Logger.warn('Badly formed cached metadata, reprocessing')
 				this.metadata = await this.process()
+				Logger.debug(`Notifying sockets`)
+				Context.express.io
+					.to('updates')
+					.emit('updates', Context.metadata.getAll())
 			}
 		} else {
 			Logger.debug(
@@ -57,6 +65,10 @@ export class MetadataController {
 			Logger.info(
 				`Processed Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced]' : ''}`,
 			)
+			Logger.debug(`Notifying sockets`)
+			Context.express.io
+				.to('updates')
+				.emit('updates', Context.metadata.getAll())
 		}
 	}
 
