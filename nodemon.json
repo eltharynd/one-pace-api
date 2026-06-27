@@ -2,6 +2,7 @@
   "enableSourceMaps": true,
   "ignore": [
     "cache/*",
+    "lib/*",
     "output/*"
   ]
 }

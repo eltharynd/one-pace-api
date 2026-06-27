@@ -1,0 +1,49 @@
+{
+  "name": "one-pace-api",
+  "version": "1.0.0",
+  "description": "One Pace Metadata generator and public API Wrapper",
+  "license": "MIT",
+  "author": "eltharynd",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --enable-source-maps dist/index.js",
+    "dev": "nodemon dist/index.js",
+    "start:single": "cross-env RUN_MODE=single node --enable-source-maps dist/index.js",
+    "test": "vitest run",
+    "test:dev": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.1",
+    "@types/node-json-logger": "^0.0.3",
+    "@vitest/coverage-v8": "^4.1.9",
+    "cross-env": "^10.1.0",
+    "nodemon": "^3.1.14",
+    "typescript": "^6.x.x",
+    "vitest": "^4.1.9"
+  },
+  "dependencies": {
+    "@googleapis/drive": "^20.2.0",
+    "@googleapis/sheets": "^13.0.2",
+    "axios": "^1.18.1",
+    "body-parser": "^2.3.0",
+    "capitalize": "^2.0.4",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.4",
+    "class-validator-jsonschema": "^5.1.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "ez-ts-logger": "^1.0.11",
+    "reflect-metadata": "^0.2.2",
+    "routing-controllers": "^0.11.3",
+    "routing-controllers-openapi": "^5.0.1",
+    "rss-parser": "^3.13.0",
+    "simple-git": "^3.36.0",
+    "swagger-ui-express": "^5.0.1",
+    "xml-js": "^1.6.11"
+  }
+}
