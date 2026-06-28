@@ -16,11 +16,26 @@ export class ArcController {
 	@ResponseSchema(ArcMetadata, {
 		isArray: true,
 	})
-	getEveryArc() {
+	getEveryArc(
+		@QueryParam('episodes') episodes: boolean,
+		@QueryParam('files') files: boolean,
+		@QueryParam('released-only') releasedOnly: boolean,
+	) {
 		const metadata = Context.metadata.getAll()
 		if (!metadata)
 			throw new InternalServerError(`Metadata not available internally`)
 
+		for (let _arc of metadata.arcs) {
+			if (!episodes) delete _arc.episodes
+			else if (releasedOnly)
+				_arc.episodes = _arc.episodes.filter(e => !!e.released)
+			else if (!files)
+				_arc.episodes = _arc.episodes.map(e => {
+					const buffer = e
+					delete e.files
+					return buffer
+				})
+		}
 		return metadata.arcs
 	}
 
@@ -39,7 +54,7 @@ export class ArcController {
 		const _arc = metadata.arcs.find(a => a.arc == arc)
 		if (_arc) {
 			if (!episodes) delete _arc.episodes
-			else if (!releasedOnly)
+			else if (releasedOnly)
 				_arc.episodes = _arc.episodes.filter(e => !!e.released)
 			else if (!files)
 				_arc.episodes = _arc.episodes.map(e => {

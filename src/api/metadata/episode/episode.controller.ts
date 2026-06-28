@@ -25,7 +25,7 @@ export class EpisodeController {
 			throw new InternalServerError(`Metadata not available internally`)
 
 		let _episodes: EpisodeMetadata[] = metadata.arcs.flatMap(a => a.episodes)
-		if (!releasedOnly) _episodes = _episodes.filter(e => !!e.released)
+		if (releasedOnly) _episodes = _episodes.filter(e => !!e.released)
 		if (!files)
 			_episodes = _episodes.map(e => {
 				const buffer = e
@@ -53,7 +53,7 @@ export class EpisodeController {
 
 		let _episodes = _arcs.episodes
 		if (_episodes) {
-			if (!releasedOnly) _episodes = _episodes.filter(e => !!e.released)
+			if (releasedOnly) _episodes = _episodes.filter(e => !!e.released)
 			if (!files)
 				_episodes.map(e => {
 					const buffer = e

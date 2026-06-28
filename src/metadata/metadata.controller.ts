@@ -66,9 +66,10 @@ export class MetadataController {
 				`Processed Metadata from remote sources${environment.FORCE_REGENERATION ? ' [Forced]' : ''}`,
 			)
 			Logger.debug(`Notifying sockets`)
-			Context.express.io
-				.to('updates')
-				.emit('updates', Context.metadata.getAll())
+			if (Context.express?.io)
+				Context.express.io
+					.to('updates')
+					.emit('updates', Context.metadata.getAll())
 		}
 	}
 
