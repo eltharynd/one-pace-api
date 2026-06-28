@@ -1,4 +1,6 @@
-# One Pace Metadata API
+# ![OnePacerr](docs/logo.png)
+
+## One Pace Metadata API
 
 ![API Status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fonepacerr.com%2Fapi%2Fv1%2Fhealthz&query=%24.name&label=API%20Status)
 ![Currently connected](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fonepacerr.com%2Fapi%2Fv1%2Fhealthz%2Fclients&query=%24.clients&label=Active%20sockets)
