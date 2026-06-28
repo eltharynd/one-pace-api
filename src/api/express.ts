@@ -78,7 +78,7 @@ export class Express {
 				socket.join('updates')
 			})
 
-			socket.on('unsubscribe_to_updates', () => {
+			socket.on('unsubscribe_from_updates', () => {
 				Logger.debug(`Socket ${socket.id} left 'updates'`)
 				socket.leave('updates')
 			})
