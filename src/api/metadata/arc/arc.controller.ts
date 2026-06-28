@@ -20,6 +20,7 @@ export class ArcController {
 		@QueryParam('episodes') episodes: boolean,
 		@QueryParam('files') files: boolean,
 		@QueryParam('complete-only') completeOnly: boolean,
+		@QueryParam('incomplete-only') incompleteOnly: boolean,
 		@QueryParam('to-be-redone-only') toBeRedoneOnly: boolean,
 		@QueryParam('released-only') releasedOnly: boolean,
 	) {
@@ -29,6 +30,8 @@ export class ArcController {
 
 		if (completeOnly) {
 			metadata.arcs = metadata.arcs.filter(a => a.status != 'wip')
+		} else if (incompleteOnly) {
+			metadata.arcs = metadata.arcs.filter(a => a.status == 'wip')
 		} else if (toBeRedoneOnly)
 			metadata.arcs = metadata.arcs.filter(a => a.status == 'tbr')
 
