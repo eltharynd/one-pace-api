@@ -4,30 +4,39 @@ import {
 	Get,
 	InternalServerError,
 	JsonController,
-	Param,
+	Params,
 	QueryParams,
 } from 'routing-controllers'
 import { OpenAPI, ResponseSchema } from 'routing-controllers-openapi'
 import { Context } from '../../../util/context.js'
 import { NotFoundErrorResponse } from '../../interceptors/default.interceptor.js'
-import { EpisodeMetadata, EpisodeQuery } from '../metadata.model.js'
+import {
+	EpisodeMetadata,
+	EpisodeQuery,
+	SanitizedParams,
+} from '../metadata.model.js'
 
 @JsonController(`/search`)
 export class SearchController {
 	@Get(`/crc32/:crc32`)
 	@ResponseSchema(EpisodeMetadata)
-	findAnEpisodeByCRC32(@Param('crc32') crc32: string) {
+	findAnEpisodeByCRC32(@Params() sanitizedParams: SanitizedParams) {
 		const metadata = Context.metadata.getAll()
 		if (!metadata)
 			throw new InternalServerError(`Metadata not available internally`)
 
+		const { crc32 } = sanitizedParams
+
+		console.log(crc32)
 		let _found = metadata.arcs.find(a => {
 			const _found = a.episodes.find(
 				e =>
-					e.files?.standard?.CRC32 == crc32 ||
-					e.files?.extended?.CRC32 == crc32 ||
-					e.files?.alternate?.CRC32 == crc32 ||
-					!!e.files?.archived?.find(a => a.CRC32 == crc32),
+					e.files?.standard?.CRC32?.toUpperCase() == crc32.toUpperCase() ||
+					e.files?.extended?.CRC32?.toUpperCase() == crc32.toUpperCase() ||
+					e.files?.alternate?.CRC32?.toUpperCase() == crc32.toUpperCase() ||
+					!!e.files?.archived?.find(
+						a => a.CRC32?.toUpperCase() == crc32.toUpperCase(),
+					),
 			)
 			if (_found) {
 				a.episodes = [_found]
@@ -41,7 +50,7 @@ export class SearchController {
 				`No episode found that matches provided CRC32`,
 			)
 
-		_found.episodes[0]
+		return _found.episodes[0]
 	}
 
 	@Get(`/episode`)

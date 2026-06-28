@@ -12,7 +12,7 @@ import { MetadataController } from '../metadata/metadata.controller.js'
 import { ArcController } from './metadata/arc/arc.controller.js'
 import { EpisodeController } from './metadata/episode/episode.controller.js'
 import { FilesController } from './metadata/files/files.controller.js'
-import { SearchController } from './metadata/search/search.controllers.js'
+import { SearchController } from './metadata/search/search.controller.js'
 
 const routingControllersOptions: RoutingControllersOptions = {
 	controllers: [

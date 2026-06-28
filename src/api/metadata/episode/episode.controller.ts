@@ -3,12 +3,13 @@ import {
 	Get,
 	InternalServerError,
 	Param,
+	Params,
 	QueryParam,
 } from 'routing-controllers'
 import { ResponseSchema } from 'routing-controllers-openapi'
 import { Context } from '../../../util/context.js'
 import { NotFoundErrorResponse } from '../../interceptors/default.interceptor.js'
-import { EpisodeMetadata } from '../metadata.model.js'
+import { EpisodeMetadata, SanitizedParams } from '../metadata.model.js'
 
 @Controller(`/metadata`)
 export class EpisodeController {
@@ -40,7 +41,7 @@ export class EpisodeController {
 		isArray: true,
 	})
 	getAllEpisodesOfAnArc(
-		@Param('arc') arc: number,
+		@Params() sanitizedParams: SanitizedParams,
 		@QueryParam('files') files: boolean,
 		@QueryParam('released-only') releasedOnly: boolean,
 	) {
@@ -48,6 +49,7 @@ export class EpisodeController {
 		if (!metadata)
 			throw new InternalServerError(`Metadata not available internally`)
 
+		const { arc } = sanitizedParams
 		const _arcs = metadata.arcs.find(a => a.arc == arc)
 		if (!_arcs) throw new NotFoundErrorResponse(`No arc with specified number`)
 

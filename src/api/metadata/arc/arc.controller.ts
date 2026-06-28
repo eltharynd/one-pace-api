@@ -2,13 +2,13 @@ import {
 	Controller,
 	Get,
 	InternalServerError,
-	Param,
+	Params,
 	QueryParam,
 } from 'routing-controllers'
 import { ResponseSchema } from 'routing-controllers-openapi'
 import { Context } from '../../../util/context.js'
 import { NotFoundErrorResponse } from '../../interceptors/default.interceptor.js'
-import { ArcMetadata } from '../metadata.model.js'
+import { ArcMetadata, SanitizedParams } from '../metadata.model.js'
 
 @Controller(`/metadata/arcs`)
 export class ArcController {
@@ -42,7 +42,7 @@ export class ArcController {
 	@Get(`/:arc`)
 	@ResponseSchema(ArcMetadata)
 	getASpecificArc(
-		@Param('arc') arc: number,
+		@Params() sanitizedParams: SanitizedParams,
 		@QueryParam('episodes') episodes: boolean,
 		@QueryParam('files') files: boolean,
 		@QueryParam('released-only') releasedOnly: boolean,
@@ -50,6 +50,8 @@ export class ArcController {
 		const metadata = Context.metadata.getAll()
 		if (!metadata)
 			throw new InternalServerError(`Metadata not available internally`)
+
+		const { arc } = sanitizedParams
 
 		const _arc = metadata.arcs.find(a => a.arc == arc)
 		if (_arc) {

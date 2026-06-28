@@ -7,6 +7,7 @@ import {
 	IsObject,
 	IsOptional,
 	IsString,
+	Length,
 	registerDecorator,
 	ValidateNested,
 	ValidationOptions,
@@ -217,6 +218,24 @@ export class FileMetadata implements FileMetadataType {
 	@IsBoolean()
 	@IsOptional()
 	partOfBundle?: boolean
+}
+
+export class SanitizedParams {
+	@IsSafeFromInjection()
+	@IsNumber()
+	@IsOptional()
+	arc?: number
+
+	@IsSafeFromInjection()
+	@IsNumber()
+	@IsOptional()
+	episode?: number
+
+	@IsSafeFromInjection()
+	@IsString()
+	@Length(8, 8)
+	@IsOptional()
+	crc32?: string
 }
 
 export class EpisodeQuery {
