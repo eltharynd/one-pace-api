@@ -19,11 +19,18 @@ export class ArcController {
 	getEveryArc(
 		@QueryParam('episodes') episodes: boolean,
 		@QueryParam('files') files: boolean,
+		@QueryParam('complete-only') completeOnly: boolean,
+		@QueryParam('to-be-redone-only') toBeRedoneOnly: boolean,
 		@QueryParam('released-only') releasedOnly: boolean,
 	) {
 		const metadata = Context.metadata.getAll()
 		if (!metadata)
 			throw new InternalServerError(`Metadata not available internally`)
+
+		if (completeOnly) {
+			metadata.arcs = metadata.arcs.filter(a => a.status != 'wip')
+		} else if (toBeRedoneOnly)
+			metadata.arcs = metadata.arcs.filter(a => a.status == 'tbr')
 
 		for (let _arc of metadata.arcs) {
 			if (!episodes) delete _arc.episodes

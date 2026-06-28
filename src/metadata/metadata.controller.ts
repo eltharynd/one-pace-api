@@ -164,9 +164,9 @@ export class MetadataController {
 						arc: _arc,
 						title: String(row[1]).replace(/\ *\(.*\).*$/, ''),
 
-						status: /\(WIP\)/i.test(String(row[0]))
+						status: /\(WIP\)/i.test(String(row[1]))
 							? 'wip'
-							: /\(TBR\)/i.test(String(row[0]))
+							: /\(TBR\)/i.test(String(row[1]))
 								? 'tbr'
 								: 'complete',
 						mangaChapters: String(row[2]),

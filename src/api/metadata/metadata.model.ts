@@ -3,6 +3,7 @@ import {
 	IsArray,
 	IsBoolean,
 	IsDateString,
+	IsIn,
 	IsNumber,
 	IsObject,
 	IsOptional,
@@ -96,6 +97,7 @@ export class ArcMetadata implements ArcMetadataType {
 	description: string
 
 	@IsString()
+	@IsIn(['complete', 'tbr', 'wip'])
 	status: 'complete' | 'tbr' | 'wip'
 
 	@IsString()
