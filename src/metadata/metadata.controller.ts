@@ -416,7 +416,7 @@ export class MetadataController {
 									hash: '89913d954cec1c03a50667b81bc2b9508c4f2214',
 									magnetURI:
 										'magnet:?xt=urn:btih:89913d954cec1c03a50667b81bc2b9508c4f2214&dn=%5BOne%20Pace%5D%20One%20Piece%20Fan%20Letter%20%5B1080p%5D%5B9974A092%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									//duration: 1,
+									duration: 24 * 60,
 								},
 							},
 						},
@@ -428,7 +428,7 @@ export class MetadataController {
 									hash: 'db52460eabf9592e3188f2f239b1c9c4603a7c59',
 									magnetURI:
 										'magnet:?xt=urn:btih:db52460eabf9592e3188f2f239b1c9c4603a7c59&dn=%5BOne%20Pace%5D%20Straw%20Hat%20Theatre%20%5B720p%5D%5B415455AE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									//duration: 1,
+									duration: 17 * 60,
 								},
 							},
 						},
@@ -440,7 +440,7 @@ export class MetadataController {
 									hash: '2cbbeef2c6c5597ef09c8659ee8d541e6d2be371',
 									magnetURI:
 										'magnet:?xt=urn:btih:2cbbeef2c6c5597ef09c8659ee8d541e6d2be371&dn=%5BOne%20Pace%5D%5BCover%20236-262%5D%20Wapol%27s%20Omnivorous%20Hurrah%20%5B720p%5D%5B05BE81E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									//duration: 1,
+									duration: 2 * 60,
 								},
 							},
 						},
@@ -452,7 +452,7 @@ export class MetadataController {
 									hash: '06b1f1e89dc70b3bd217cd656605ebd3ac5c983a',
 									magnetURI:
 										'magnet:?xt=urn:btih:06b1f1e89dc70b3bd217cd656605ebd3ac5c983a&dn=%5BOne%20Pace%5D%5B42%2C22%5D%20Gaimon%20%5B480p%5D%5BEFF6059A%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									//duration: 1,
+									duration: 20 * 60,
 								},
 							},
 						},
@@ -464,7 +464,7 @@ export class MetadataController {
 									hash: 'e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2',
 									magnetURI:
 										'magnet:?xt=urn:btih:e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2&dn=%5BOne%20Pace%5D%5B199-201%5D%20Arabasta%2016%20-%20April%20Fools%20%5B1080p%5D%5B2F71D53E%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									//duration: 1,
+									duration: 18 * 60,
 								},
 							},
 						},
@@ -476,7 +476,7 @@ export class MetadataController {
 									hash: '77ba0dd87a00cf4216648bb79b7206e8549686c0',
 									magnetURI:
 										'magnet:?xt=urn:btih:77ba0dd87a00cf4216648bb79b7206e8549686c0&dn=%5BOne%20Pace%5D%20Warship%20Island%2001%20%28April%20Fools%202025%29%20%5B1080p%5D%5BB4925314%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									//duration: 1,
+									duration: 24 * 60,
 								},
 							},
 						},

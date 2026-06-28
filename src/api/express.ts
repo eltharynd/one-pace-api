@@ -46,7 +46,7 @@ export class Express {
 				SearchController,
 			],
 			interceptors: [DefaultInterceptor],
-			validation: { whitelist: true },
+			validation: { whitelist: true, forbidNonWhitelisted: true },
 			classToPlainTransformOptions: {
 				enableCircularCheck: true,
 			},

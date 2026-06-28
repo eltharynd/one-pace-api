@@ -7,8 +7,12 @@ import {
 	IsObject,
 	IsOptional,
 	IsString,
+	registerDecorator,
 	ValidateNested,
+	ValidationOptions,
 } from 'class-validator'
+import perfectExpressSanitizer from 'perfect-express-sanitizer'
+import { BadRequestError } from 'routing-controllers'
 import {
 	ArcMetadata as ArcMetadataType,
 	EpisodeFilesMetadata as EpisodeFilesMetadataType,
@@ -16,6 +20,46 @@ import {
 	FileMetadata as FileMetadataType,
 	Metadata as MetadataType,
 } from '../../metadata/metadata.model.js'
+
+export function IsSafeFromInjection(validationOptions?: ValidationOptions) {
+	return function (object: Object, propertyName: string) {
+		registerDecorator({
+			name: 'isSafeFromInjection',
+			target: object.constructor,
+			propertyName,
+			options: {
+				message: `$property contains characters or patterns that aren't allowed`,
+				...validationOptions,
+			},
+			validator: {
+				async validate(value: any) {
+					if (typeof value !== 'string') return true
+
+					const xss = perfectExpressSanitizer.sanitize.detectXss(value, 4)
+					if (xss)
+						throw new BadRequestError(
+							`Query contains possible xss injection attempt`,
+						)
+					const sql = perfectExpressSanitizer.sanitize.detectSqlInj(value, 4)
+					if (sql)
+						throw new BadRequestError(
+							`Query contains possible sql injection attempt`,
+						)
+					const noSql = perfectExpressSanitizer.sanitize.detectNoSqlInj(
+						value,
+						4,
+					)
+					if (noSql)
+						throw new BadRequestError(
+							`Query contains possible noSql injection attempt`,
+						)
+
+					return !(xss || sql || noSql)
+				},
+			},
+		})
+	}
+}
 
 export class Metadata implements MetadataType {
 	@IsDateString()
@@ -173,4 +217,22 @@ export class FileMetadata implements FileMetadataType {
 	@IsBoolean()
 	@IsOptional()
 	partOfBundle?: boolean
+}
+
+export class EpisodeQuery {
+	@IsSafeFromInjection()
+	@IsString()
+	query: string
+
+	@IsOptional()
+	@IsNumber()
+	arc?: number
+
+	@IsOptional()
+	@IsBoolean()
+	title?: boolean
+
+	@IsOptional()
+	@IsBoolean()
+	description?: boolean
 }

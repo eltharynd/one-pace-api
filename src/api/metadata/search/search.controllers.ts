@@ -1,15 +1,18 @@
+import { isNumber } from 'class-validator'
 import {
-	Controller,
+	BadRequestError,
 	Get,
 	InternalServerError,
+	JsonController,
 	Param,
+	QueryParams,
 } from 'routing-controllers'
-import { ResponseSchema } from 'routing-controllers-openapi'
+import { OpenAPI, ResponseSchema } from 'routing-controllers-openapi'
 import { Context } from '../../../util/context.js'
 import { NotFoundErrorResponse } from '../../interceptors/default.interceptor.js'
-import { EpisodeMetadata } from '../metadata.model.js'
+import { EpisodeMetadata, EpisodeQuery } from '../metadata.model.js'
 
-@Controller(`/search`)
+@JsonController(`/search`)
 export class SearchController {
 	@Get(`/crc32/:crc32`)
 	@ResponseSchema(EpisodeMetadata)
@@ -40,4 +43,75 @@ export class SearchController {
 
 		_found.episodes[0]
 	}
+
+	@Get(`/episode`)
+	@OpenAPI({
+		parameters: [
+			{
+				in: 'query',
+				name: 'search query',
+				description: `If wrapped in quotes (eg: "Straw Hats") searches for an exact match, if not searches for any of the words (eg: Straw Hats => either "Straw" or "Hats"). Case in-sensitive.`, // Add description here
+				required: true,
+				schema: { type: 'string' },
+			},
+		],
+	})
+	@ResponseSchema(EpisodeMetadata, { isArray: true })
+	findAnEpisodeByQuery(@QueryParams() episodeQuery: EpisodeQuery) {
+		const metadata = Context.metadata.getAll()
+		if (!metadata)
+			throw new InternalServerError(`Metadata not available internally`)
+
+		const { query, arc, title, description } = episodeQuery
+		if (!(query?.length >= 3)) {
+			throw new BadRequestError(`Query must be at least 3 chars long`)
+		} else if (!(query?.length > 0)) {
+			throw new BadRequestError(`Empty query`)
+		}
+
+		let _episodes: EpisodeMetadata[] = metadata.arcs
+			.filter(a => !isNumber(arc) || arc == a.arc)
+			.flatMap(a => a.episodes)
+
+		if (/^['"`‘’“”‹›«»].*['"`‘’“”‹›«»]$/.test(query)) {
+			const RE = new RegExp(normalize(query), 'i')
+			let _found = _episodes.filter(
+				e =>
+					(!title &&
+						!description &&
+						(RE.test(normalize(e.title)) ||
+							RE.test(normalize(e.description)))) ||
+					(title && RE.test(normalize(e.title))) ||
+					(description && RE.test(normalize(e.description))),
+			)
+
+			return _found
+		} else {
+			const keywords = normalize(query).split(' ')
+			const REs = keywords.map(k => new RegExp(k, 'i'))
+
+			let _found = _episodes.filter(e => {
+				return (
+					(!title &&
+						!description &&
+						(REs.find(re => re.test(normalize(e.title))) ||
+							REs.find(re => re.test(normalize(e.description))))) ||
+					(title && REs.find(re => re.test(normalize(e.title)))) ||
+					(description && REs.find(re => re.test(normalize(e.description))))
+				)
+			})
+
+			return _found
+		}
+	}
+}
+
+const normalize = (query: string) => {
+	if (query && typeof query === 'string')
+		return query
+			.replaceAll(/['"`‘’“”‹›«»]/g, '')
+			.replaceAll(/[,:;\.\-_]/g, ' ')
+			.replaceAll(/\s{1,}/g, ' ')
+			.trim()
+	else return query
 }
