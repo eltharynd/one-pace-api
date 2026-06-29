@@ -143,4 +143,8 @@ export class RSSController {
 			} else throw new Error('MagnetURI not found...')
 		}
 	}
+
+	public getItems(): Item[] {
+		return structuredClone(this.feed.items)
+	}
 }

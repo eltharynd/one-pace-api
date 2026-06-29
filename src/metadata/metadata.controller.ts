@@ -381,6 +381,14 @@ export class MetadataController {
 				)
 		}
 
+		// const rssFeed = Context.rss.getItems()
+		// for (let item of rssFeed) {
+		// 	console.log(item.title)
+		// 	console.log(item.categories)
+
+		// 	const arcMatch = item.title.match(/^/i)
+		// }
+
 		const reordered: Metadata = reorderMetadata(buffer)
 
 		Logger.debug(`Applying manual corrections`)
