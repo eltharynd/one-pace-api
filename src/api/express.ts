@@ -106,7 +106,9 @@ export class Express {
 			})
 		})
 
-		this.eventEmitter.emit('listening')
+		setTimeout(() => {
+			this.eventEmitter.emit('listening')
+		}, 10000)
 	}
 
 	async waitForActive() {

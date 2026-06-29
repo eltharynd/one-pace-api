@@ -72,12 +72,8 @@ export class MetadataController {
 
 	private async notifyUpdates() {
 		await Context.express.waitForActive()
-		setTimeout(() => {
-			Logger.debug(`Notifying sockets`)
-			Context.express.io
-				.to('updates')
-				.emit('updates', Context.metadata.getAll())
-		}, 10000)
+		Logger.info(`Notifying sockets of updates`)
+		Context.express.io.to('updates').emit('updates', Context.metadata.getAll())
 	}
 
 	private async commitChanges() {
