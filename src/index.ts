@@ -39,6 +39,8 @@ const startApp = async () => {
 		Logger.info('')
 		Logger.info('STARTING APPLICATION...')
 
+		Context.express = new Express()
+
 		Logger.info('INITIALIZING SCRAPING SERVICE...')
 		Context.scraper = new Scraper()
 		await Context.scraper.init()
@@ -53,7 +55,6 @@ const startApp = async () => {
 
 		if (!environment.SINGLE_MODE) {
 			Logger.info('INITIALIZING EXPRESS SERVER...')
-			Context.express = new Express()
 			await Context.express.start()
 
 			Logger.info('APPLICATION STARTED SUCCESSFULLY...')

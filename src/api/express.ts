@@ -1,5 +1,6 @@
 import express from 'express'
 import { Logger } from 'ez-ts-logger'
+import EventEmitter from 'node:events'
 import { Server, createServer } from 'node:http'
 import { createExpressServer } from 'routing-controllers'
 import { Server as SocketIOServer } from 'socket.io'
@@ -24,6 +25,9 @@ export class Express {
 	private server: Server
 
 	io: SocketIOServer
+
+	private listening: boolean = false
+	private eventEmitter: EventEmitter = new EventEmitter()
 
 	constructor() {
 		this.app = createExpressServer({
@@ -90,14 +94,39 @@ export class Express {
 		})
 	}
 
-	async start(portOverride?: number): Promise<Server> {
-		return new Promise<Server>((resolve, reject) => {
+	async start(portOverride?: number) {
+		await new Promise<Server>((resolve, reject) => {
 			this.server.listen(portOverride || environment.PORT)
 			this.server.on('error', error => {
 				Logger.error(error)
 				reject(error)
 			})
-			this.server.on('listening', () => resolve(this.server))
+			this.server.on('listening', () => {
+				resolve(this.server)
+			})
+		})
+
+		this.eventEmitter.emit('listening')
+	}
+
+	async waitForActive() {
+		Logger.debug(`Waiting for express to be listening...`)
+
+		return await new Promise<void>(resolve => {
+			if (this.listening) return
+			const listener = () => {
+				this.eventEmitter.removeListener('listening', listener)
+				Logger.debug(`Express sending listening event...`)
+				resolve()
+			}
+			this.eventEmitter.addListener('listening', listener)
+			const handler = setInterval(() => {
+				if (this.listening) {
+					Logger.debug(`Express sending listening event...`)
+					clearInterval(handler)
+					resolve()
+				}
+			}, 2000)
 		})
 	}
 }
