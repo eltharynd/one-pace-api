@@ -115,7 +115,7 @@ export class Express {
 		Logger.debug(`Waiting for express to be listening...`)
 
 		return await new Promise<void>(resolve => {
-			if (this.listening) return
+			if (this.listening) return resolve()
 			const listener = () => {
 				this.eventEmitter.removeListener('listening', listener)
 				Logger.debug(`Express sending listening event...`)
