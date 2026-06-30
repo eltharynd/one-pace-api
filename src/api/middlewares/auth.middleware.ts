@@ -17,10 +17,8 @@ export class AdminGuard implements ExpressMiddlewareInterface {
 		const adminApiKey = req.header('Authorization')
 
 		if (!adminApiKey) {
-			return next(
-				new UnauthorizedErrorResponse(
-					`This resource is reserved for System Administrators`,
-				),
+			throw new UnauthorizedErrorResponse(
+				`This resource is reserved for System Administrators`,
 			)
 		}
 
@@ -29,10 +27,8 @@ export class AdminGuard implements ExpressMiddlewareInterface {
 		}
 
 		if (adminApiKey != environment.ADMIN_API_KEY) {
-			return next(
-				new ForbiddenErrorResponse(
-					`This resource is reserved for System Administrators`,
-				),
+			throw new ForbiddenErrorResponse(
+				`This resource is reserved for System Administrators`,
 			)
 		}
 
