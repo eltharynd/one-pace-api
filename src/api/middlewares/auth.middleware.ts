@@ -15,7 +15,6 @@ import {
 export class AdminGuard implements ExpressMiddlewareInterface {
 	async use(@Req() req: Request, @Res() res: Response, next: NextFunction) {
 		const adminApiKey = req.header('Authorization')
-		console.log(adminApiKey)
 
 		if (!adminApiKey) {
 			return next(
