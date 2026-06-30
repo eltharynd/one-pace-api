@@ -111,6 +111,7 @@ export class Express {
 
 		setTimeout(() => {
 			this.eventEmitter.emit('listening')
+			this.listening = true
 		}, 10000)
 	}
 
