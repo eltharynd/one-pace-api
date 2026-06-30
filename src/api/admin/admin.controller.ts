@@ -23,7 +23,7 @@ export class AdminController {
 			this.lastForcedUpdate.getTime() + FORCE_UPDATES_DELAY
 		) {
 			return new BadRequestError(
-				`Not enogh time passed from thast forced update, wait another ${(
+				`Not enough time passed from thast forced update, wait another ${(
 					(this.lastForcedUpdate.getTime() +
 						FORCE_UPDATES_DELAY -
 						currently.getTime()) /
