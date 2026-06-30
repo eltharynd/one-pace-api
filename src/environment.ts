@@ -19,6 +19,8 @@ export default {
 
 	FORCE_REGENERATION: /true/i.test(process.env.FORCE_REGENERATION),
 
+	ADMIN_API_KEY: process.env.ADMIN_API_KEY || '',
+
 	GIT_TOKEN: process.env.GIT_TOKEN || '',
 	GIT_AUTO_COMMIT: /true/i.test(process.env.GIT_AUTO_COMMIT),
 

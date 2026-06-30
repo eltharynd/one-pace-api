@@ -34,8 +34,12 @@ export class MetadataController {
 	metadata: Metadata
 	preProcessedMagnets: PreprocessedMagnet[]
 
-	async init(): Promise<void> {
-		if (existsSync(METADATA_OUTPUT) && !environment.FORCE_REGENERATION) {
+	async init(force?: boolean): Promise<void> {
+		if (
+			existsSync(METADATA_OUTPUT) &&
+			!environment.FORCE_REGENERATION &&
+			!force
+		) {
 			try {
 				Logger.debug(`Checking metadata from cache`)
 				this.metadata = JSON.parse(readFileSync(METADATA_OUTPUT).toString())

@@ -6,6 +6,7 @@ import { createExpressServer } from 'routing-controllers'
 import { Server as SocketIOServer } from 'socket.io'
 import swaggerUIExpress from 'swagger-ui-express'
 import environment from '../environment.js'
+import { AdminController } from './admin/admin.controller.js'
 import { HealthController } from './health/health.controller.js'
 import { DefaultInterceptor } from './interceptors/default.interceptor.js'
 import { ArcController } from './metadata/arc/arc.controller.js'
@@ -41,6 +42,8 @@ export class Express {
 			middlewares: [NoCacheMiddleware, LoggerMiddleware, HttpErrorHandler],
 			controllers: [
 				HealthController,
+
+				AdminController,
 
 				MetadataController,
 				ArcController,
