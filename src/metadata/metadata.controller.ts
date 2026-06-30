@@ -161,11 +161,11 @@ export class MetadataController {
 
 		buffer = await this.processRSSFeed(buffer)
 
-		const reordered: Metadata = reorderMetadata(buffer)
-
 		Logger.debug(`Applying manual corrections`)
-		this.manualCorrections(reordered)
+		this.manualCorrections(buffer)
 		Logger.debug(`Applied manual corrections`)
+
+		const reordered: Metadata = reorderMetadata(buffer)
 
 		reordered.arcs = reordered.arcs.sort((a, b) => a.arc - b.arc)
 		reordered.arcs.forEach(a => {
@@ -810,7 +810,8 @@ export class MetadataController {
 
 			for (let key of Object.keys(arc_in)) {
 				if (key !== 'episodes' && key != 'arc') {
-					arc_in[key] == arc_manual[key]
+					console.log()
+					if (arc_manual[key]) arc_in[key] = arc_manual[key]
 				}
 
 				for (let ep_manual of arc_manual.episodes) {
@@ -820,16 +821,17 @@ export class MetadataController {
 					if (!ep_in) continue
 					for (let key of Object.keys(ep_manual)) {
 						if (key !== 'files' && key != 'episode') {
-							ep_in[key] == ep_manual[key]
+							if (ep_manual[key]) ep_in[key] = ep_manual[key]
 						}
 
 						if (ep_manual.files)
 							for (let file_manual of Object.keys(ep_manual.files)) {
-								if (!ep_in.files) {
+								if (!ep_in.files && ep_manual.files) {
 									//@ts-ignore
 									ep_in.files = {}
 								}
-								ep_in.files[file_manual] = ep_manual.files[file_manual]
+								if (ep_manual.files[file_manual])
+									ep_in.files[file_manual] = ep_manual.files[file_manual]
 							}
 					}
 				}
