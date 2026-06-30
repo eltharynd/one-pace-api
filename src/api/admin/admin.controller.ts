@@ -23,13 +23,13 @@ export class AdminController {
 			this.lastForcedUpdate.getTime() + FORCE_UPDATES_DELAY
 		) {
 			return new BadRequestError(
-				`Not enogh time passed from thast forced update, wait another ${
+				`Not enogh time passed from thast forced update, wait another ${(
 					(this.lastForcedUpdate.getTime() +
 						FORCE_UPDATES_DELAY -
 						currently.getTime()) /
 					1000 /
 					60
-				} minutes...`,
+				).toFixed(1)} minutes...`,
 			)
 		} else {
 			Context.metadata.init(true)
