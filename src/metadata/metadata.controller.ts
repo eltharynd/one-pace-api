@@ -10,12 +10,15 @@ import { stat } from 'node:fs/promises'
 import path from 'node:path'
 import { simpleGit } from 'simple-git'
 import environment from '../environment.js'
+import { ScrapedSheet } from '../scraper/scraper.model.js'
 import { Context } from '../util/context.js'
 import {
 	ArcMetadata,
 	EpisodeFilesMetadata,
 	EpisodeMetadata,
+	FileMetadata,
 	Metadata,
+	PreprocessedMagnet,
 	RecursivePartial,
 	reorderMetadata,
 } from './metadata.model.js'
@@ -29,6 +32,7 @@ const BRANCH = 'main'
 
 export class MetadataController {
 	metadata: Metadata
+	preProcessedMagnets: PreprocessedMagnet[]
 
 	async init(): Promise<void> {
 		if (existsSync(METADATA_OUTPUT) && !environment.FORCE_REGENERATION) {
@@ -136,12 +140,47 @@ export class MetadataController {
 	}
 
 	private async process(): Promise<Metadata> {
-		let guide = Context.scraper.getEpisodeGuide()
 		let descriptions = Context.scraper.getEpisodeDescriptions()
 
 		let buffer: RecursivePartial<Metadata> = {
 			arcs: [],
 		}
+		buffer = await this.processEpisodeGuide(buffer)
+
+		const arcsSheet = descriptions.sheets.find(s => /arcs/i.test(s.title))
+		buffer = await this.processEpisodeDescritionsArcs(buffer, arcsSheet)
+
+		const episodesSheet = descriptions.sheets.find(s =>
+			/episodes/i.test(s.title),
+		)
+		buffer = await this.processEpisodeDescritionsEpisodes(buffer, episodesSheet)
+
+		buffer = await this.processRSSFeed(buffer)
+
+		const reordered: Metadata = reorderMetadata(buffer)
+
+		Logger.debug(`Applying manual corrections`)
+		this.manualCorrections(reordered)
+		Logger.debug(`Applied manual corrections`)
+
+		reordered.arcs = reordered.arcs.sort((a, b) => a.arc - b.arc)
+		reordered.arcs.forEach(a => {
+			a.episodes = a.episodes.sort((a, b) => a.episode - b.episode)
+		})
+
+		Logger.debug(`Writing metadata to file`)
+		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
+		Logger.debug(`Metadata written to file`)
+
+		this.commitChanges()
+
+		return reordered
+	}
+
+	private async processEpisodeGuide(
+		buffer: RecursivePartial<Metadata>,
+	): Promise<RecursivePartial<Metadata>> {
+		let guide = Context.scraper.getEpisodeGuide()
 
 		for (let sheet of guide.sheets) {
 			if (sheet.index == 0) {
@@ -161,7 +200,10 @@ export class MetadataController {
 
 					let arc: RecursivePartial<ArcMetadata> = {
 						arc: _arc,
-						title: String(row[1]).replace(/\ *\(.*\).*$/, ''),
+						title: String(row[1])
+							.replace(/\ *\(.*\).*$/, '')
+							.replace('Whiskey', 'Whisky')
+							.replace('Arabasta', 'Alabasta'),
 
 						status: /\(WIP\)/i.test(String(row[1]))
 							? 'wip'
@@ -214,6 +256,7 @@ export class MetadataController {
 							...(await Context.rss.getTorrentInfo(
 								`${arc.title} 25 Alternate Cut (G-8)`,
 							)),
+							variant: 'alternate',
 						}
 						continue
 					}
@@ -231,6 +274,7 @@ export class MetadataController {
 							...(await Context.rss.getTorrentInfo(
 								`${arc.title} ${String(episodeNumber).padStart(2, '0')}`,
 							)),
+							variant: 'standard',
 						},
 					}
 
@@ -245,6 +289,7 @@ export class MetadataController {
 								...(await Context.rss.getTorrentInfo(
 									`${arc.title} ${String(episodeNumber).padStart(2, '0')} Extended Cut`,
 								)),
+								variant: 'extended',
 							}
 						} else {
 							let match = String(row[7]).match(/([A-Z0-9]{8})/)
@@ -261,7 +306,10 @@ export class MetadataController {
 						arc: arc.arc,
 						episode: episodeNumber,
 
+						mangaChapters: String(row[2]).replace('Ch. ', ''),
+						animeEpisodes: String(row[3]).replace(/Ep\.\s/, ''),
 						released: new Date(String(row[4])).toISOString(),
+
 						files: files,
 					}
 
@@ -277,7 +325,13 @@ export class MetadataController {
 			}
 		}
 
-		const arcsSheet = descriptions.sheets.find(s => /arcs/i.test(s.title))
+		return structuredClone(buffer)
+	}
+
+	private async processEpisodeDescritionsArcs(
+		buffer: RecursivePartial<Metadata>,
+		arcsSheet: ScrapedSheet,
+	): Promise<RecursivePartial<Metadata>> {
 		for (let [index, row] of arcsSheet.rows.entries()) {
 			if (/saga_title/i.test(String(row[0])) || !row[0] || !row[1]) continue
 
@@ -294,8 +348,12 @@ export class MetadataController {
 						arc: 0,
 
 						saga: String(row[0]),
-						title: String(row[0]),
-						description: String(row[2]),
+						title: String(row[0])
+							.replace('Whiskey', 'Whisky')
+							.replace('Arabasta', 'Alabasta'),
+						description: String(row[2])
+							.replace('Whiskey', 'Whisky')
+							.replace('Arabasta', 'Alabasta'),
 
 						status: 'complete',
 
@@ -308,12 +366,20 @@ export class MetadataController {
 			Logger.debug(`Processing ${row[2]} Arc Descriptions`)
 			arc.saga = String(row[0])
 			arc.title = String(row[2])
+				.replace('Whiskey', 'Whisky')
+				.replace('Arabasta', 'Alabasta')
 			arc.description = String(row[3])
+				.replace('Whiskey', 'Whisky')
+				.replace('Arabasta', 'Alabasta')
 		}
 
-		const episodesSheet = descriptions.sheets.find(s =>
-			/episodes/i.test(s.title),
-		)
+		return structuredClone(buffer)
+	}
+
+	private async processEpisodeDescritionsEpisodes(
+		buffer: RecursivePartial<Metadata>,
+		episodesSheet: ScrapedSheet,
+	): Promise<RecursivePartial<Metadata>> {
 		for (let [index, row] of episodesSheet.rows.entries()) {
 			if (/arc_title/i.test(String(row[0])) || !row[0]) continue
 
@@ -323,7 +389,10 @@ export class MetadataController {
 
 			let arc: RecursivePartial<ArcMetadata> = buffer.arcs.find(
 				a =>
-					a.title == String(row[0]).replace('One Piece Fan Letter', 'Specials'),
+					a.title ==
+					String(row[0])
+						.replace('One Piece Fan Letter', 'Specials')
+						.replace(`Arabasta`, `Alabasta`),
 			)
 
 			if (arc) {
@@ -335,39 +404,91 @@ export class MetadataController {
 							: Number.parseInt(String(row[1]))),
 				)
 
-				if (episode) {
+				if (episode && arc.arc != 0) {
 					if (!row[2]) {
 						Logger.debug(
 							`Episode '${String(row[0])} - ${String(row[1])}' title is still empty`,
 						)
-						episode.title = `${String(row[0])} - ${String(row[1])}`
-					} else episode.title = String(row[2])
+						episode.title = `${String(row[0])} - ${String(row[1])}`.replace(
+							'Whiskey',
+							'Whisky',
+						)
+					} else
+						episode.title = String(row[2])
+							.replace('Whiskey', 'Whisky')
+							.replace('Arabasta', 'Alabasta')
 
 					if (!row[3]) {
 						Logger.debug(
 							`Episode '${String(row[0])} - ${String(row[1])}' description is still empty`,
 						)
-					} else episode.description = String(row[3])
+					} else
+						episode.description = String(row[3])
+							.replace('Whiskey', 'Whisky')
+							.replace('Arabasta', 'Alabasta')
 				} else {
 					if (arc.arc == 0 && row[1]) {
-						const episode: RecursivePartial<EpisodeMetadata> = {
+						const sheetNumber: number = Number(row[1])
+						const correctedNumber: number =
+							String(row[0]) == 'One Piece Fan Letter'
+								? 1
+								: String(row[0]) == 'Specials'
+									? sheetNumber == 1
+										? 3
+										: sheetNumber == 2
+											? 4
+											: sheetNumber == 3
+												? 5
+												: sheetNumber == 4
+													? 2
+													: sheetNumber == 5
+														? 6
+														: sheetNumber == 6
+															? -1
+															: sheetNumber == 7
+																? 7
+																: sheetNumber == 8
+																	? 8
+																	: sheetNumber == 9
+																		? 9
+																		: sheetNumber == 10
+																			? 10
+																			: -1
+									: sheetNumber
+
+						if (correctedNumber <= 0) {
+							Logger.warn(
+								`Could not match '${String(row[0])}' '${Number(row[1])}' '${String(row[3])}' from Episode Descriptions to any episode...`,
+							)
+							continue
+						}
+						let _episode: RecursivePartial<EpisodeMetadata> = {
 							arc: 0,
-							episode:
-								String(row[0]) == 'One Piece Fan Letter' ? 0 : Number(row[1]),
+							episode: correctedNumber,
 						}
 
-						if (row[2]) episode.title = String(row[2])
-						if (row[3]) episode.description = String(row[3])
+						if (row[2])
+							_episode.title = String(row[2])
+								.replace('Whiskey', 'Whisky')
+								.replace('Arabasta', 'Alabasta')
+						if (row[3])
+							_episode.description = String(row[3])
+								.replace('Whiskey', 'Whisky')
+								.replace('Arabasta', 'Alabasta')
 
-						arc.episodes.push(episode)
+						arc.episodes.push(_episode)
 					} else if (row[1] && row[2] && row[3]) {
 						Logger.debug(
 							`Episode '${String(row[0])} - ${String(row[1])}' from descriptions not found in guide but has descriptions. Adding...`,
 						)
 						arc.episodes.push({
 							episode: Number(row[1]),
-							title: String(row[2]),
-							description: String(row[3]),
+							title: String(row[2])
+								.replace('Whiskey', 'Whisky')
+								.replace('Arabasta', 'Alabasta'),
+							description: String(row[3])
+								.replace('Whiskey', 'Whisky')
+								.replace('Arabasta', 'Alabasta'),
 						})
 					} else {
 						Logger.warn(
@@ -380,112 +501,299 @@ export class MetadataController {
 					`Arc '${String(row[0])}' from descriptions not found in guide`,
 				)
 		}
-
-		// const rssFeed = Context.rss.getItems()
-		// for (let item of rssFeed) {
-		// 	console.log(item.title)
-		// 	console.log(item.categories)
-
-		// 	const arcMatch = item.title.match(/^/i)
-		// }
-
-		const reordered: Metadata = reorderMetadata(buffer)
-
-		Logger.debug(`Applying manual corrections`)
-		this.manualCorrections(reordered)
-		Logger.debug(`Applied manual corrections`)
-
-		reordered.arcs = reordered.arcs.sort((a, b) => a.arc - b.arc)
-		reordered.arcs.forEach(a => {
-			a.episodes = a.episodes.sort((a, b) => a.episode - b.episode)
-		})
-
-		Logger.debug(`Writing metadata to file`)
-		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
-		Logger.debug(`Metadata written to file`)
-
-		this.commitChanges()
-
-		return reordered
+		return structuredClone(buffer)
 	}
 
-	private manualCorrections(metadata: Metadata) {
+	private async processRSSFeed(
+		buffer: RecursivePartial<Metadata>,
+	): Promise<RecursivePartial<Metadata>> {
+		const rssFeed = Context.rss.getItems()
+
+		for (let item of rssFeed) {
+			const match = item.title.match(/^([a-z][a-z\-\.\'\s]+[a-z])(\s\d+)*/i)
+
+			const infoHash = item['torrent:infoHash']
+			const magnetURI = item['torrent:magnetURI']
+
+			let arcTitle, episodeNumber
+			let outdated: boolean = !!item.categories.find(c => c._ === 'outdated')
+
+			if (match[1] == 'One Piece Fan Letter') {
+				arcTitle = 'Specials'
+				episodeNumber = 1
+				if (!match[2]) {
+					outdated = true
+				}
+			} else if (match[1] == 'Warship Island') {
+				arcTitle = 'Specials'
+				episodeNumber = 10
+			} else if (
+				match[1] ==
+				'If You Could Go Anywhere... The Adventures of the Straw Hats'
+			) {
+				arcTitle =
+					'If You Could Go Anywhere... The Adventures of the Straw Hats'
+				episodeNumber = 1
+			} else if (match[1] == 'The Trials of Koby-Meppo') {
+				arcTitle = 'The Trials of Koby-Meppo'
+				episodeNumber = 1
+			} else if (match[1] == 'Gaimon') {
+				arcTitle = 'Gaimon'
+				episodeNumber = 1
+			} else {
+				arcTitle = match[1]
+					.replace('Wano Act', 'Wano')
+					.replace('Whiskey', 'Whisky')
+					.replace('Arabasta', 'Alabasta')
+				episodeNumber = match[2] ? Number.parseInt(match[2]) : null
+			}
+
+			const variant: 'standard' | 'extended' | 'alternate' = <
+				'standard' | 'extended' | 'alternate'
+			>item.categories
+				.find(c => c._.startsWith('variant'))
+				._.replace('variant/', '')
+				.replace('regular', 'standard')
+
+			const torrent = this.getPreProcessedMagnet(magnetURI)
+
+			const partOfBundle = torrent?.files?.length > 1 ? true : false
+
+			if (!partOfBundle) {
+				const targetArc = buffer.arcs.find(a => a.title == arcTitle)
+				if (!targetArc) {
+					Logger.warn(`Could not match '${arcTitle}'`)
+					continue
+				}
+
+				const targetEpisode = targetArc.episodes.find(e => {
+					return e.episode == episodeNumber
+				})
+				if (!targetEpisode) {
+					Logger.warn(`Could not match '${arcTitle}' episode ${episodeNumber}`)
+					continue
+				}
+
+				const _file: RecursivePartial<FileMetadata> = {}
+
+				if (torrent) {
+					const crc32Match = torrent.name.match(/\[([A-Z0-9]{8})\]/)
+					if (!crc32Match) {
+						if (torrent.files.length == 1 && torrent.files[0].crc32) {
+							_file.CRC32 = torrent.files[0].crc32
+						} else {
+							Logger.warn(`Couldn't find CRC32 in torrent '${torrent.name}'`)
+						}
+					} else {
+						_file.CRC32 = crc32Match[1]
+					}
+				} else {
+					Logger.warn('No torrent, unknown')
+				}
+
+				_file.hash = infoHash
+				_file.magnetURI = magnetURI
+				_file.variant = variant
+				if (partOfBundle) _file.partOfBundle = partOfBundle
+				if (outdated) _file.outdated = outdated
+
+				if (!targetEpisode.files) targetEpisode.files = {}
+
+				if (outdated || (targetEpisode.files && targetEpisode.files[variant])) {
+					if (!targetEpisode.files.archived) targetEpisode.files.archived = []
+					targetEpisode.files.archived.push(_file)
+				} else {
+					targetEpisode.files[variant] = _file
+				}
+
+				continue
+			}
+
+			for (const [i, file] of torrent.files.entries()) {
+				const regex = new RegExp(`^.*(${arcTitle})(\s\d+)*`, 'i')
+				const _match = file.name
+					.replace('Whiskey', 'Whisky')
+					.replace('Arabasta', 'Alabasta')
+					.match(regex)
+
+				let _arcTitle
+				let _episodeNumber
+
+				if (!_match || !_match[1] || !_match[2]) {
+					_arcTitle = arcTitle
+					_episodeNumber = i + 1
+				} else {
+					_arcTitle = _match[1]
+						.replace('Wano Act', 'Wano')
+						.replace('Whiskey', 'Whisky')
+						.replace('Arabasta', 'Alabasta')
+					_episodeNumber = _match[2] ? Number.parseInt(_match[2]) : null
+				}
+
+				if (arcTitle != _arcTitle) {
+					Logger.warn(
+						`Item Title does not match File name: '${arcTitle}' != '${_arcTitle}'`,
+					)
+				}
+
+				const targetArc = buffer.arcs.find(a => a.title == _arcTitle)
+				if (!targetArc) {
+					Logger.warn(`Could not match '${_arcTitle}'`)
+					continue
+				}
+
+				const targetEpisode = targetArc.episodes.find(e => {
+					return e.episode == _episodeNumber
+				})
+				if (!targetEpisode) {
+					Logger.warn(
+						`Could not match '${_arcTitle}' episode ${_episodeNumber}`,
+					)
+					continue
+				}
+
+				if (outdated) {
+					if (!targetEpisode.files) targetEpisode.files = {}
+					if (!targetEpisode.files.archived) targetEpisode.files.archived = []
+
+					const _file: RecursivePartial<FileMetadata> = {}
+
+					//Punk Hazard 13 correction
+					file.name = file.name.replace('316829437', '964FB36B')
+
+					const crc32Match = file.name.match(/\[([A-Z0-9]{8})\]/)
+					if (!crc32Match) {
+						if (file.crc32) {
+							_file.CRC32 = file.crc32
+						} else {
+							Logger.error(`Couldn't find CRC32 in file '${file.name}'`)
+							continue
+						}
+					}
+					_file.CRC32 = crc32Match[1]
+					//Punk Hazard 13 correction
+					if (crc32Match[1] == '964FB36B') _file.CRC32_inFileName = '316829437'
+					_file.hash = infoHash
+					_file.magnetURI = magnetURI
+					_file.variant = variant
+					if (torrent.files.length > 1) _file.partOfBundle = true
+					if (outdated) _file.outdated = true
+
+					targetEpisode.files.archived.push(_file)
+				} else {
+					if (
+						targetEpisode.files &&
+						targetEpisode.files[variant] &&
+						targetEpisode.files[variant].magnetURI
+							.replace(/.*btih\:/i, '')
+							.replace(/\&.*/, '') != infoHash
+					) {
+						if (
+							!targetEpisode.files[variant].partOfBundle &&
+							torrent.files.length > 1
+						) {
+							Logger.debug(
+								`Ignoring bundle for '${_arcTitle}' episode ${_episodeNumber}`,
+							)
+						} else
+							Logger.error(
+								`Tryng to overwrite '${_arcTitle}' episode ${_episodeNumber}`,
+							)
+					} else {
+						if (!targetEpisode.files) targetEpisode.files = {}
+						if (!targetEpisode.files[variant]) targetEpisode.files[variant] = {}
+
+						//Punk Hazard 13 correction
+						file.name = file.name.replace('316829437', '964FB36B')
+
+						const crc32Match = file.name.match(/\[([A-Z0-9]{8})\]/)
+						if (!crc32Match) {
+							if (file.crc32) {
+								targetEpisode.files[variant].CRC32 = file.crc32
+							} else {
+								Logger.error(`Couldn't find CRC32 in file '${file.name}'`)
+								continue
+							}
+						} else targetEpisode.files[variant].CRC32
+
+						//Punk Hazard 13 correction
+						if (crc32Match[1] == '964FB36B')
+							targetEpisode.files[variant].CRC32_inFileName = '316829437'
+						targetEpisode.files[variant].hash = infoHash
+						targetEpisode.files[variant].magnetURI = magnetURI
+						targetEpisode.files[variant].variant = variant
+						if (torrent.files.length > 1)
+							targetEpisode.files[variant].partOfBundle = true
+					}
+				}
+			}
+		}
+
+		return structuredClone(buffer)
+	}
+
+	private manualCorrections<T extends AllowedMetadata = Metadata>(metadata: T) {
 		const manual: RecursivePartial<Metadata> = {
 			arcs: [
 				{
 					arc: 0,
 					episodes: [
 						{
-							episode: 0,
-							files: {
-								standard: {
-									CRC32: '9974A092',
-									hash: '89913d954cec1c03a50667b81bc2b9508c4f2214',
-									magnetURI:
-										'magnet:?xt=urn:btih:89913d954cec1c03a50667b81bc2b9508c4f2214&dn=%5BOne%20Pace%5D%20One%20Piece%20Fan%20Letter%20%5B1080p%5D%5B9974A092%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									duration: 24 * 60,
-								},
-							},
+							episode: 2,
+							description:
+								'Having been propelled onto an unknown island by Luffy, Wapol experiences life as a homeless man for the first time. Eventually, he uses his Baku Baku powers to create unique toys by fusing different objects together and begins to work his way back up the social ladder by selling these toys to children. In the end, he opens his own shop and marries "Miss Universe" Kinderella.',
 						},
 						{
-							episode: 2,
-							files: {
-								standard: {
-									CRC32: '415455AE',
-									hash: 'db52460eabf9592e3188f2f239b1c9c4603a7c59',
-									magnetURI:
-										'magnet:?xt=urn:btih:db52460eabf9592e3188f2f239b1c9c4603a7c59&dn=%5BOne%20Pace%5D%20Straw%20Hat%20Theatre%20%5B720p%5D%5B415455AE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									duration: 17 * 60,
-								},
-							},
+							episode: 3,
+							description:
+								'Three years before the beginning of the Golden Age of Piracy, word arrives at Marineford that Shiki and the Roger Pirates have made contact at Edd War in the New World. Monkey D. Garp, hearing the news, heads off with Sengoku to meet them.',
 						},
 						{
 							episode: 4,
+							description:
+								'A series of shorts featuring the Straw Hats parodying various genres, such as fairy tales and science-fiction.',
+						},
+						{
+							episode: 5,
+							description: `This is a story of Luffy in an alternate reality. While sailing on the sea by himself, a strange bird crashes into his small boat. He looks up to find a giant ship where a girl named Anne has been captured. It seems like the bird belongs to her.`,
 							files: {
 								standard: {
-									CRC32: '05BE81E6',
-									hash: '2cbbeef2c6c5597ef09c8659ee8d541e6d2be371',
+									CRC32: '5E77445F',
+									hash: '9a825f40a0a36882a51e221fff3e5b54d342f7f4',
 									magnetURI:
-										'magnet:?xt=urn:btih:2cbbeef2c6c5597ef09c8659ee8d541e6d2be371&dn=%5BOne%20Pace%5D%5BCover%20236-262%5D%20Wapol%27s%20Omnivorous%20Hurrah%20%5B720p%5D%5B05BE81E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									duration: 2 * 60,
+										'magnet:?xt=urn:btih:9a825f40a0a36882a51e221fff3e5b54d342f7f4&dn=%5BOne%20Pace%5D%5BRomance%20Dawn%20v2%5D%20Romance%20Dawn%20v2%20%5B1080p%5D%5B5E77445F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
+									variant: 'standard',
+								},
+							},
+						},
+						{
+							episode: 6,
+							description: `Luffy's team -- plus a stowaway -- sets out from Zou on their way to win back Sanji. Meanwhile, the leading families and leaders of the world make their way to the Holy Land, Mary Geoise, for a pivotal round table conference.`,
+							files: {
+								standard: {
+									CRC32: 'EDB72EE5',
+									//hash: '', //MISSING
+									//magnetURI: '', //MISSING
+									variant: 'standard',
 								},
 							},
 						},
 						{
 							episode: 7,
+							description: `The Straw Hats venture to the fabled "Treasure Island" to discover riches, adventure, and... strange creatures. Oh, and everything is in Klingon for some reason.`,
 							files: {
 								standard: {
 									CRC32: 'EFF6059A',
 									hash: '06b1f1e89dc70b3bd217cd656605ebd3ac5c983a',
 									magnetURI:
 										'magnet:?xt=urn:btih:06b1f1e89dc70b3bd217cd656605ebd3ac5c983a&dn=%5BOne%20Pace%5D%5B42%2C22%5D%20Gaimon%20%5B480p%5D%5BEFF6059A%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									duration: 20 * 60,
-								},
-							},
-						},
-						{
-							episode: 9,
-							files: {
-								standard: {
-									CRC32: '2F71D53E',
-									hash: 'e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2',
-									magnetURI:
-										'magnet:?xt=urn:btih:e513256e0e4f24fc950dd5c1aec9a38c9e5a75d2&dn=%5BOne%20Pace%5D%5B199-201%5D%20Arabasta%2016%20-%20April%20Fools%20%5B1080p%5D%5B2F71D53E%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									duration: 18 * 60,
+									variant: 'standard',
 								},
 							},
 						},
 						{
 							episode: 10,
-							files: {
-								standard: {
-									CRC32: 'B4925314',
-									hash: '77ba0dd87a00cf4216648bb79b7206e8549686c0',
-									magnetURI:
-										'magnet:?xt=urn:btih:77ba0dd87a00cf4216648bb79b7206e8549686c0&dn=%5BOne%20Pace%5D%20Warship%20Island%2001%20%28April%20Fools%202025%29%20%5B1080p%5D%5BB4925314%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce',
-									duration: 24 * 60,
-								},
-							},
+							description: `The discovery of a small girl adrift in an abandoned life boat interrupts Luffy and crew's voyage to the Grand Line.`,
 						},
 					],
 				},
@@ -524,4 +832,23 @@ export class MetadataController {
 			}
 		}
 	}
+
+	private getPreProcessedMagnet(magnetUri: string): PreprocessedMagnet {
+		try {
+			if (!this.preProcessedMagnets)
+				this.preProcessedMagnets = JSON.parse(
+					readFileSync(PRE_PROCESSED_PATH).toString(),
+				)
+
+			return this.preProcessedMagnets.find(p => p.magnetURI == magnetUri)
+		} catch (e) {
+			Logger.error(`Could not load pre-processed magnetURIs`)
+			Logger.error(e)
+		}
+	}
 }
+
+const PRE_PROCESSED_ROOT = './pre-processed'
+const PRE_PROCESSED_PATH = `${PRE_PROCESSED_ROOT}/magnetURIs.json`
+
+type AllowedMetadata = Metadata | RecursivePartial<Metadata>

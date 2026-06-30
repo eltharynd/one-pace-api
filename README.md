@@ -87,6 +87,7 @@ You can find the full list of endpoints in the [Swagger API Docs](https://onepac
 
 - **[One Pace](https://onepace.net/en):** The incredible team behind the unofficial fan edits.
 - **@verywittyname** from One Pace's [Discord](https://discord.gg/onepace), for maintaining the Episode Dscriptions [Google Sheet](https://docs.google.com/spreadsheets/d/1M0Aa2p5x7NioaH9-u8FyHq6rH3t5s6Sccs8GoC6pHAM/).
+- **@yogobarry** from One Pace's [Discord](https://discord.gg/onepace), for providing the correct Specials episodes order through the official Jellyfin metadata archive.
 - From an idea by [LadyIsatis](https://github.com/ladyisatis/one-pace-metadata): Thanks for everything 🙏 but it was time for an update.
 
 ## 💗 Support (One Pace, not me!)

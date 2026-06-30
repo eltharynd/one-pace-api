@@ -76,6 +76,8 @@ export class Metadata implements MetadataType {
 	@IsString({ each: true })
 	genre: string[]
 	@IsString()
+	mpaa: string
+	@IsString()
 	customRating: string
 
 	@IsArray()
@@ -155,16 +157,6 @@ export class EpisodeMetadata implements EpisodeMetadataType {
 	title: string
 	@IsString()
 	description: string
-
-	@IsArray()
-	@IsString({ each: true })
-	audioLanguages: string[]
-	@IsArray()
-	@IsString({ each: true })
-	subLanguages: string[]
-	@IsArray()
-	@IsString({ each: true })
-	subLanguagesPixeldrain: string[]
 
 	@IsString()
 	mangaChapters: string

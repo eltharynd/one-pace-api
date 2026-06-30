@@ -5,6 +5,7 @@ export type Metadata = {
 	description: string
 
 	genre: string[]
+	mpaa: string
 	customRating: string
 
 	arcs: ArcMetadata[]
@@ -57,9 +58,6 @@ export const ARC_METADATA_KEY_ORDER = [
 	'paceMinutes',
 	'savedMinutes',
 	'savedPercentage',
-	'audioLanguages',
-	'subLanguages',
-	'subLanguagesPixeldrain',
 	'resolution',
 	'episodes',
 ] as const satisfies readonly (keyof ArcMetadata)[]
@@ -70,10 +68,6 @@ export type EpisodeMetadata = {
 
 	title: string
 	description: string
-
-	audioLanguages: string[]
-	subLanguages: string[]
-	subLanguagesPixeldrain: string[]
 
 	mangaChapters: string
 	animeEpisodes: string
@@ -87,9 +81,6 @@ export const EPISODE_METADATA_KEY_ORDER = [
 	'episode',
 	'title',
 	'description',
-	'audioLanguages',
-	'subLanguages',
-	'subLanguagesPixeldrain',
 	'mangaChapters',
 	'animeEpisodes',
 	'released',
@@ -117,9 +108,11 @@ export type FileMetadata = {
 	hash: string
 	magnetURI: string
 
-	duration: number
+	duration?: number
 
+	variant?: 'standard' | 'extended' | 'alternate'
 	partOfBundle?: boolean
+	outdated?: boolean
 }
 export const FILE_METADATA_KEY_ORDER = [
 	'CRC32',
@@ -127,7 +120,9 @@ export const FILE_METADATA_KEY_ORDER = [
 	'hash',
 	'magnetURI',
 	'duration',
+	'variant',
 	'partOfBundle',
+	'outdated',
 ] as const satisfies readonly (keyof FileMetadata)[]
 
 export function reorderMetadata(
@@ -150,6 +145,7 @@ export function reorderMetadata(
 			'Modern Odyssey',
 			'Shōnen Jump',
 		],
+		mpaa: 'TV-14',
 		customRating: 'TV-14',
 	}
 
@@ -210,10 +206,9 @@ export function reorderMetadata(
 							const archived_in = files_in.archived
 							const archived_out = []
 							for (let a_in of archived_in) {
-								const archived_in = files_in.alternate
 								let a_out: RecursivePartial<FileMetadata> = {}
 								for (const file_key of FILE_METADATA_KEY_ORDER) {
-									assignKey(a_out, archived_in, file_key)
+									assignKey(a_out, a_in, file_key)
 								}
 								archived_out.push(a_out)
 							}
@@ -245,4 +240,10 @@ export type RecursivePartial<T> = {
 		: T[P] extends object | undefined
 			? RecursivePartial<T[P]>
 			: T[P]
+}
+
+export type PreprocessedMagnet = {
+	magnetURI: string
+	name: string
+	files: { name: string; path: string; crc32?: string }[]
 }
