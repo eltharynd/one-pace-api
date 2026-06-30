@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-06-30T03:11:17.977Z",
+  "lastUpdate": "2026-06-30T10:30:17.778Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -49,6 +49,7 @@
           "arc": 0,
           "episode": 2,
           "title": "Wapol's Omnivorous Hurrah",
+          "description": "Having been propelled onto an unknown island by Luffy, Wapol experiences life as a homeless man for the first time. Eventually, he uses his Baku Baku powers to create unique toys by fusing different objects together and begins to work his way back up the social ladder by selling these toys to children. In the end, he opens his own shop and marries \"Miss Universe\" Kinderella.",
           "files": {
             "standard": {
               "CRC32": "415455AE",
@@ -62,6 +63,7 @@
           "arc": 0,
           "episode": 3,
           "title": "Strong World",
+          "description": "Three years before the beginning of the Golden Age of Piracy, word arrives at Marineford that Shiki and the Roger Pirates have made contact at Edd War in the New World. Monkey D. Garp, hearing the news, heads off with Sengoku to meet them.",
           "files": {
             "standard": {
               "CRC32": "5E77445F",
@@ -75,6 +77,7 @@
           "arc": 0,
           "episode": 4,
           "title": "Straw Hat Theatre",
+          "description": "A series of shorts featuring the Straw Hats parodying various genres, such as fairy tales and science-fiction.",
           "files": {
             "standard": {
               "CRC32": "05BE81E6",
@@ -88,6 +91,7 @@
           "arc": 0,
           "episode": 5,
           "title": "Romance Dawn, Version 2",
+          "description": "This is a story of Luffy in an alternate reality. While sailing on the sea by himself, a strange bird crashes into his small boat. He looks up to find a giant ship where a girl named Anne has been captured. It seems like the bird belongs to her.",
           "files": {
             "standard": {
               "CRC32": "5E77445F",
@@ -101,6 +105,7 @@
           "arc": 0,
           "episode": 6,
           "title": "Whole Cake Island 01 (April Fools 2017)",
+          "description": "Luffy's team -- plus a stowaway -- sets out from Zou on their way to win back Sanji. Meanwhile, the leading families and leaders of the world make their way to the Holy Land, Mary Geoise, for a pivotal round table conference.",
           "files": {
             "standard": {
               "CRC32": "EDB72EE5",
@@ -154,6 +159,7 @@
           "arc": 0,
           "episode": 10,
           "title": "Warship Island 01 (April Fools 2025)",
+          "description": "The discovery of a small girl adrift in an abandoned life boat interrupts Luffy and crew's voyage to the Grand Line.",
           "files": {
             "standard": {
               "CRC32": "B4925314",
