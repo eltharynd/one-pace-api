@@ -11,7 +11,7 @@ import { AdminGuard } from '../middlewares/auth.middleware.js'
 const FORCE_UPDATES_DELAY = 300_000
 @Controller(`/admin`)
 export class AdminController {
-	lastForcedUpdate: Date = new Date()
+	lastForcedUpdate: Date
 
 	@Get(`/update/force`)
 	@UseBefore(AdminGuard)
@@ -19,8 +19,9 @@ export class AdminController {
 		const currently = new Date()
 
 		if (
+			this.lastForcedUpdate &&
 			currently.getTime() <
-			this.lastForcedUpdate.getTime() + FORCE_UPDATES_DELAY
+				this.lastForcedUpdate.getTime() + FORCE_UPDATES_DELAY
 		) {
 			return new BadRequestError(
 				`Not enough time passed from thast forced update, wait another ${(
@@ -32,6 +33,7 @@ export class AdminController {
 				).toFixed(1)} minutes...`,
 			)
 		} else {
+			this.lastForcedUpdate = currently
 			Context.metadata.init(true)
 			return new OkResponse()
 		}
