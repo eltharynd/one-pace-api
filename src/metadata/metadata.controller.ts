@@ -614,7 +614,7 @@ export class MetadataController {
 			}
 
 			for (const [i, file] of torrent.files.entries()) {
-				const regex = new RegExp(`^.*(${arcTitle})(\s\d+)*`, 'i')
+				const regex = new RegExp(`^.*(${arcTitle})(\\s\\d+)*`, 'i')
 				const _match = file.name
 					.replace('Whiskey', 'Whisky')
 					.replace('Arabasta', 'Alabasta')
