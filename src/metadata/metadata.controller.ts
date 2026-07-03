@@ -810,7 +810,6 @@ export class MetadataController {
 
 			for (let key of Object.keys(arc_in)) {
 				if (key !== 'episodes' && key != 'arc') {
-					console.log()
 					if (arc_manual[key]) arc_in[key] = arc_manual[key]
 				}
 
