@@ -541,6 +541,38 @@ export class MetadataController {
 			} else if (match[1] == 'The Trials of Koby-Meppo') {
 				arcTitle = 'The Trials of Koby-Meppo'
 				episodeNumber = 1
+			} else if (
+				match[1] == 'Specials' &&
+				match[2] &&
+				Number.parseInt(match[2]) == 2
+			) {
+				arcTitle = 'Specials'
+				episodeNumber = 4
+			} else if (match[1] == 'Specials' && match[2]) {
+				arcTitle = 'Specials'
+				switch (Number.parseInt(match[2])) {
+					case 2:
+						episodeNumber = 4
+						break
+					case 1:
+						episodeNumber = 3
+						break
+					case 9:
+						episodeNumber = 9
+						break
+					case 8:
+						episodeNumber = 8
+						break
+					case 4:
+						episodeNumber = 2
+						break
+					case 3:
+						episodeNumber = 5
+						break
+					default:
+						console.error('WHAT')
+						episodeNumber = -1
+				}
 			} else if (match[1] == 'Gaimon') {
 				arcTitle = 'Gaimon'
 				episodeNumber = 1
@@ -751,6 +783,16 @@ export class MetadataController {
 							episode: 3,
 							description:
 								'Three years before the beginning of the Golden Age of Piracy, word arrives at Marineford that Shiki and the Roger Pirates have made contact at Edd War in the New World. Monkey D. Garp, hearing the news, heads off with Sengoku to meet them.',
+							files: {
+								standard: {
+									CRC32: '76B2C869',
+									hash: 'a3b449356e0e57fac111b7382d55d0a1fa5ddafb',
+									magnetURI:
+										'magnet:?xt=urn:btih:a3b449356e0e57fac111b7382d55d0a1fa5ddafb&dn=%5BOne+Pace%5D+Specials&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce',
+									variant: 'standard',
+									partOfBundle: true,
+								},
+							},
 						},
 						{
 							episode: 4,
@@ -776,9 +818,11 @@ export class MetadataController {
 							files: {
 								standard: {
 									CRC32: 'EDB72EE5',
-									//hash: '', //MISSING
-									//magnetURI: '', //MISSING
+									hash: 'a3b449356e0e57fac111b7382d55d0a1fa5ddafb',
+									magnetURI:
+										'magnet:?xt=urn:btih:a3b449356e0e57fac111b7382d55d0a1fa5ddafb&dn=%5BOne+Pace%5D+Specials&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce',
 									variant: 'standard',
+									partOfBundle: true,
 								},
 							},
 						},

@@ -10,6 +10,28 @@
     ]
   },
   {
+    "magnetURI": "magnet:?xt=urn:btih:f310ad44380a16a0fef792b5738affccbb0fc65c&dn=%5BOne+Pace%5D%5B290-291%5D+Skypiea+20+%5B1080p%5D%5B481A9A9D%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
+    "name": "[One Pace][290-291] Skypiea 20 [1080p][481A9A9D].mkv",
+    "files": [
+      {
+        "name": "[One Pace][290-291] Skypiea 20 [1080p][481A9A9D].mkv",
+        "path": "[One Pace][290-291] Skypiea 20 [1080p][481A9A9D].mkv",
+        "crc32": "481A9A9D"
+      }
+    ]
+  },
+  {
+    "magnetURI": "magnet:?xt=urn:btih:5a7292f7b9455dbb511a944862f7394f7982b5e9&dn=%5BOne+Pace%5D%5B1011-1012%5D+Wano+61+%5B1080p%5D%5B1EF3F26C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
+    "name": "[One Pace][1011-1012] Wano 61 [1080p][1EF3F26C].mkv",
+    "files": [
+      {
+        "name": "[One Pace][1011-1012] Wano 61 [1080p][1EF3F26C].mkv",
+        "path": "[One Pace][1011-1012] Wano 61 [1080p][1EF3F26C].mkv",
+        "crc32": "1EF3F26C"
+      }
+    ]
+  },
+  {
     "magnetURI": "magnet:?xt=urn:btih:fdea4af7099a55caeed8ca00605da7f166182744",
     "name": "[One Pace][119-122] Little Garden 03 [1080p][AAB3E410].mkv",
     "files": [
@@ -904,19 +926,23 @@
     "files": [
       {
         "name": "[One Pace] Straw Hat Theatre [720p][415455AE].mkv",
-        "path": "[One Pace] Specials\\[One Pace] Straw Hat Theatre [720p][415455AE].mkv"
+        "path": "[One Pace] Specials\\[One Pace] Straw Hat Theatre [720p][415455AE].mkv",
+        "crc32": "415455AE"
       },
       {
         "name": "[One Pace][0] Strong World [480p][76B2C869].mkv",
-        "path": "[One Pace] Specials\\[One Pace][0] Strong World [480p][76B2C869].mkv"
+        "path": "[One Pace] Specials\\[One Pace][0] Strong World [480p][76B2C869].mkv",
+        "crc32": "76B2C869"
       },
       {
         "name": "[One Pace][236-262 Covers] Wapol's Omnivorous Hurrah [720p][05BE81E6].mkv",
-        "path": "[One Pace] Specials\\[One Pace][236-262 Covers] Wapol's Omnivorous Hurrah [720p][05BE81E6].mkv"
+        "path": "[One Pace] Specials\\[One Pace][236-262 Covers] Wapol's Omnivorous Hurrah [720p][05BE81E6].mkv",
+        "crc32": "05BE81E6"
       },
       {
         "name": "[One Pace][823-824] Whole Cake Island 01 [720p][EDB72EE5].mp4",
-        "path": "[One Pace] Specials\\[One Pace][823-824] Whole Cake Island 01 [720p][EDB72EE5].mp4"
+        "path": "[One Pace] Specials\\[One Pace][823-824] Whole Cake Island 01 [720p][EDB72EE5].mp4",
+        "crc32": "EDB72EE5"
       }
     ]
   },
