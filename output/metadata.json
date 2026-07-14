@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-14T03:52:04.335Z",
+  "lastUpdate": "2026-07-14T11:44:18.957Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -52,9 +52,9 @@
           "description": "Having been propelled onto an unknown island by Luffy, Wapol experiences life as a homeless man for the first time. Eventually, he uses his Baku Baku powers to create unique toys by fusing different objects together and begins to work his way back up the social ladder by selling these toys to children. In the end, he opens his own shop and marries \"Miss Universe\" Kinderella.",
           "files": {
             "standard": {
-              "CRC32": "415455AE",
-              "hash": "ddbca2961dab0ad1e2a1d362ca7e03f7db3c7484",
-              "magnetURI": "magnet:?xt=urn:btih:ddbca2961dab0ad1e2a1d362ca7e03f7db3c7484&dn=%5BOne+Pace%5D+Straw+Hat+Theatre+%5B720p%5D%5B415455AE%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
+              "CRC32": "05BE81E6",
+              "hash": "91c2900b69470850a055b0bb0ff11e00e7ed6bfe",
+              "magnetURI": "magnet:?xt=urn:btih:91c2900b69470850a055b0bb0ff11e00e7ed6bfe&dn=%5BOne+Pace%5D%5B236-262%5D+Specials+06+%5B720p%5D%5B05BE81E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
               "variant": "standard"
             }
           }
@@ -66,10 +66,11 @@
           "description": "Three years before the beginning of the Golden Age of Piracy, word arrives at Marineford that Shiki and the Roger Pirates have made contact at Edd War in the New World. Monkey D. Garp, hearing the news, heads off with Sengoku to meet them.",
           "files": {
             "standard": {
-              "CRC32": "5E77445F",
-              "hash": "9a825f40a0a36882a51e221fff3e5b54d342f7f4",
-              "magnetURI": "magnet:?xt=urn:btih:9a825f40a0a36882a51e221fff3e5b54d342f7f4&dn=%5BOne+Pace%5D%5BRomance+Dawn+v2%5D+Romance+Dawn+v2+%5B1080p%5D%5B5E77445F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
-              "variant": "standard"
+              "CRC32": "76B2C869",
+              "hash": "a3b449356e0e57fac111b7382d55d0a1fa5ddafb",
+              "magnetURI": "magnet:?xt=urn:btih:a3b449356e0e57fac111b7382d55d0a1fa5ddafb&dn=%5BOne+Pace%5D+Specials&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "variant": "standard",
+              "partOfBundle": true
             }
           }
         },
@@ -80,9 +81,9 @@
           "description": "A series of shorts featuring the Straw Hats parodying various genres, such as fairy tales and science-fiction.",
           "files": {
             "standard": {
-              "CRC32": "05BE81E6",
-              "hash": "91c2900b69470850a055b0bb0ff11e00e7ed6bfe",
-              "magnetURI": "magnet:?xt=urn:btih:91c2900b69470850a055b0bb0ff11e00e7ed6bfe&dn=%5BOne+Pace%5D%5B236-262%5D+Specials+06+%5B720p%5D%5B05BE81E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "CRC32": "415455AE",
+              "hash": "ddbca2961dab0ad1e2a1d362ca7e03f7db3c7484",
+              "magnetURI": "magnet:?xt=urn:btih:ddbca2961dab0ad1e2a1d362ca7e03f7db3c7484&dn=%5BOne+Pace%5D+Straw+Hat+Theatre+%5B720p%5D%5B415455AE%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "variant": "standard"
             }
           }
@@ -109,7 +110,10 @@
           "files": {
             "standard": {
               "CRC32": "EDB72EE5",
-              "variant": "standard"
+              "hash": "a3b449356e0e57fac111b7382d55d0a1fa5ddafb",
+              "magnetURI": "magnet:?xt=urn:btih:a3b449356e0e57fac111b7382d55d0a1fa5ddafb&dn=%5BOne+Pace%5D+Specials&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "variant": "standard",
+              "partOfBundle": true
             }
           }
         },
@@ -3599,6 +3603,7 @@
             },
             "archived": [
               {
+                "CRC32": "481A9A9D",
                 "hash": "f310ad44380a16a0fef792b5738affccbb0fc65c",
                 "magnetURI": "magnet:?xt=urn:btih:f310ad44380a16a0fef792b5738affccbb0fc65c&dn=%5BOne+Pace%5D%5B290-291%5D+Skypiea+20+%5B1080p%5D%5B481A9A9D%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
                 "variant": "standard"
@@ -11535,6 +11540,7 @@
             },
             "archived": [
               {
+                "CRC32": "1EF3F26C",
                 "hash": "5a7292f7b9455dbb511a944862f7394f7982b5e9",
                 "magnetURI": "magnet:?xt=urn:btih:5a7292f7b9455dbb511a944862f7394f7982b5e9&dn=%5BOne+Pace%5D%5B1011-1012%5D+Wano+61+%5B1080p%5D%5B1EF3F26C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
                 "variant": "standard"
