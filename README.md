@@ -51,7 +51,7 @@ const socket = io('https://onepacerr.com')
 socket.on('connect', () => {
   console.log(`Connected with id: '${socket.id}'`)
   socket.emit('subscribe_to_updates')
-  //socket.emit('unsubscribe-from-updates')
+  //socket.emit('unsubscribe_from_updates')
 })
 
 socket.on('disconnect', () => {
