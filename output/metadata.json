@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-07-21T20:26:05.783Z",
+  "lastUpdate": "2026-07-27T09:00:12.648Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -1790,11 +1790,6 @@
               "partOfBundle": true
             }
           }
-        },
-        {
-          "episode": 3,
-          "title": "The Course",
-          "description": "With Vivi aboard the Going Merry, the Straw Hats are now targets of Crocodile, one of the Seven Warlords of the Sea and leader of Baroque Works. En route to their next destination, Miss All-Sunday pays the pirates a visit to give a few words of advice."
         }
       ]
     },
@@ -2054,22 +2049,28 @@
           "title": "Tin Plate Wapol",
           "description": "En route to Alabasta, Nami falls ill. Without a doctor aboard the Going Merry, the Straw Hats must decide whether to stay the course or find more immediate help. As their ship crosses into a frigid area, a figure is seen standing on the water's surface.",
           "mangaChapters": "129-132",
-          "animeEpisodes": "78-79",
-          "released": "2022-09-26T00:00:00.000Z",
+          "animeEpisodes": "78-80",
+          "released": "2026-07-20T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "FD2B4F32",
-              "hash": "00d22c441e261ae3005e32736f2154b1156f5c48",
-              "magnetURI": "magnet:?xt=urn:btih:00d22c441e261ae3005e32736f2154b1156f5c48&dn=%5BOne+Pace%5D%5B129-132%5D+Drum+Island+01+%5B1080p%5D%5BFD2B4F32%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
+              "CRC32": "056965E8",
+              "hash": "fd45bfdd4f9b0559c4fd2f209a0da0198c71ec0b",
+              "magnetURI": "magnet:?xt=urn:btih:fd45bfdd4f9b0559c4fd2f209a0da0198c71ec0b&dn=%5BOne+Pace%5D%5B129-132%5D+Drum+Island+01+%5B1080p%5D%5B056965E8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
               "duration": 1777,
               "variant": "standard"
             },
             "archived": [
               {
+                "hash": "fd45bfdd4f9b0559c4fd2f209a0da0198c71ec0b",
+                "magnetURI": "magnet:?xt=urn:btih:fd45bfdd4f9b0559c4fd2f209a0da0198c71ec0b&dn=%5BOne+Pace%5D%5B129-132%5D+Drum+Island+01+%5B1080p%5D%5B056965E8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
+                "variant": "standard"
+              },
+              {
                 "CRC32": "FD2B4F32",
                 "hash": "00d22c441e261ae3005e32736f2154b1156f5c48",
                 "magnetURI": "magnet:?xt=urn:btih:00d22c441e261ae3005e32736f2154b1156f5c48&dn=%5BOne+Pace%5D%5B129-132%5D+Drum+Island+01+%5B1080p%5D%5BFD2B4F32%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-                "variant": "standard"
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
