@@ -258,7 +258,7 @@ export class MetadataController {
 								Number.parseInt(String(row[5]).split(':')[0]) * 60 +
 								Number.parseInt(String(row[5]).split(':')[1]),
 							...(await Context.rss.getTorrentInfo(
-								`${arc.title} 25 Alternate Cut (G-8)`,
+								`${arc.title} 25 Alternate (G-8)`,
 							)),
 							variant: 'alternate',
 						}
@@ -291,7 +291,7 @@ export class MetadataController {
 									Number.parseInt(String(row[8]).split(':')[0]) * 60 +
 									Number.parseInt(String(row[8]).split(':')[1]),
 								...(await Context.rss.getTorrentInfo(
-									`${arc.title} ${String(episodeNumber).padStart(2, '0')} Extended Cut`,
+									`${arc.title} ${String(episodeNumber).padStart(2, '0')} Extended`,
 								)),
 								variant: 'extended',
 							}
@@ -431,6 +431,10 @@ export class MetadataController {
 							.replace('Whiskey', 'Whisky')
 							.replace('Arabasta', 'Alabasta')
 				} else {
+					if (arc.arc == 10 && Number(row[1]) == 3) {
+						Logger.debug(`Skipping Whisky Peak 03 from episode guide`)
+						continue
+					}
 					if (arc.arc == 0 && row[1]) {
 						const sheetNumber: number = Number(row[1])
 						const correctedNumber: number =
@@ -590,6 +594,7 @@ export class MetadataController {
 				.find(c => c._.startsWith('variant'))
 				._.replace('variant/', '')
 				.replace('regular', 'standard')
+				.replace('alternate_g8', 'alternate')
 
 			const torrent = this.getPreProcessedMagnet(magnetURI)
 
