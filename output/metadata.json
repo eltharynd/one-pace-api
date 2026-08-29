@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-29T00:45:16.274Z",
+  "lastUpdate": "2026-08-29T16:30:15.745Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -5327,8 +5327,8 @@
         {
           "arc": 20,
           "episode": 1,
-          "title": "The Strongest Family Lineage?! The Vice-Admiral and The Revolutionary!",
-          "description": "Two days later in Water Seven, Franky hears that the item for he purchased with the Straw Hats' stolen money has arrived. While the pirates recover from the events at Enies Lobby, a Marine vice admiral arrives to pay Luffy an unexpected visit.",
+          "title": "Fist of Love",
+          "description": "Two days later in Water Seven, Franky hears that the item he purchased with the Straw Hats' stolen money has arrived. While the pirates recover from the events at Enies Lobby, a Marine vice admiral arrives to pay Luffy an unexpected visit.",
           "mangaChapters": "431-432",
           "animeEpisodes": "313-314",
           "released": "2013-06-09T00:00:00.000Z",
@@ -7276,7 +7276,7 @@
         {
           "arc": 29,
           "episode": 1,
-          "title": "Into the Depths! The Kraken and the Caribou Pirates",
+          "title": "To the Deep Sea",
           "description": "Encased in a protective bubble, the Sunny departs for Fishman Island far under the sea. As the Straw Hats marvel at the sights, Franky tells the crew about their greatest ally in their time apart. But suddenly, a mysterious shadow closes in on the ship.",
           "mangaChapters": "603-604",
           "animeEpisodes": "523-524",
@@ -11771,7 +11771,8 @@
         {
           "arc": 35,
           "episode": 61,
-          "title": "Wano - 61",
+          "title": "The Sweet Bean Code",
+          "description": "The sound of lightning rumbles as Big Mom prepares to test out her newest Homie. Meanwhile, down on the second floor, Usopp, Nami, Tama and Komachiyo continue trying (and failing) to get a very angry Page One off their tail.",
           "mangaChapters": "1011-1012",
           "animeEpisodes": "1028,1031-1032",
           "released": "2026-07-12T00:00:00.000Z",
