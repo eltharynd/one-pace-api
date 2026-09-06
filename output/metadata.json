@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-04T00:45:15.446Z",
+  "lastUpdate": "2026-09-06T04:00:16.923Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -5319,10 +5319,10 @@
       "fillerEpisodes": "317 - 318",
       "paceEpisodesCount": 5,
       "animeMinutes": 236,
-      "paceMinutes": 133,
-      "savedMinutes": 103,
-      "savedPercentage": 0.4356589147286821,
-      "resolution": "720p",
+      "paceMinutes": 134,
+      "savedMinutes": 102,
+      "savedPercentage": 0.43213530655391125,
+      "resolution": "720p,1080p",
       "episodes": [
         {
           "arc": 20,
@@ -5331,13 +5331,13 @@
           "description": "Two days later in Water Seven, Franky hears that the item he purchased with the Straw Hats' stolen money has arrived. While the pirates recover from the events at Enies Lobby, a Marine vice admiral arrives to pay Luffy an unexpected visit.",
           "mangaChapters": "431-432",
           "animeEpisodes": "313-314",
-          "released": "2013-06-09T00:00:00.000Z",
+          "released": "2026-09-03T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "216595EE",
+              "CRC32": "C408DA06",
               "hash": "1b3292823bd17a3b571cbddac5d89e632dafab9f",
               "magnetURI": "magnet:?xt=urn:btih:1b3292823bd17a3b571cbddac5d89e632dafab9f&dn=%5BOne+Pace%5D%5B431-432%5D+Post-Enies+Lobby+01+%5B1080p%5D%5BC408DA06%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
-              "duration": 1618,
+              "duration": 1668,
               "variant": "standard"
             },
             "archived": [
@@ -7274,10 +7274,10 @@
       "fillerEpisodes": "542",
       "paceEpisodesCount": 24,
       "animeMinutes": 1096,
-      "paceMinutes": 710,
-      "savedMinutes": 386,
-      "savedPercentage": 0.3524547803617571,
-      "resolution": "720p",
+      "paceMinutes": 715,
+      "savedMinutes": 381,
+      "savedPercentage": 0.3478644170846634,
+      "resolution": "720p,1080p",
       "episodes": [
         {
           "arc": 29,
@@ -7286,13 +7286,13 @@
           "description": "Encased in a protective bubble, the Sunny departs for Fishman Island far under the sea. As the Straw Hats marvel at the sights, Franky tells the crew about their greatest ally in their time apart. But suddenly, a mysterious shadow closes in on the ship.",
           "mangaChapters": "603-604",
           "animeEpisodes": "523-524",
-          "released": "2013-03-27T00:00:00.000Z",
+          "released": "2026-09-03T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "FBA08093",
+              "CRC32": "F69C4922",
               "hash": "dbe642c56daa3c5e065bc26c11598584c6e6becf",
               "magnetURI": "magnet:?xt=urn:btih:dbe642c56daa3c5e065bc26c11598584c6e6becf&dn=%5BOne+Pace%5D%5B603-604%5D+Fishman+Island+01+%5B1080p%5D%5BF69C4922%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
-              "duration": 1563,
+              "duration": 1865,
               "variant": "standard"
             },
             "archived": [
