@@ -724,7 +724,6 @@ export class MetadataController {
 							continue
 						}
 					}
-
 					_file.CRC32 = crc32Match[1]
 					//Punk Hazard 13 correction
 					if (crc32Match[1] == '964FB36B') _file.CRC32_inFileName = '316829437'
