@@ -19,6 +19,7 @@ export class AdminController {
 		const currently = new Date()
 
 		if (
+			false &&
 			this.lastForcedUpdate &&
 			currently.getTime() <
 				this.lastForcedUpdate.getTime() + FORCE_UPDATES_DELAY

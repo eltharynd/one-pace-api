@@ -247,3 +247,15 @@ export type PreprocessedMagnet = {
 	name: string
 	files: { name: string; path: string; crc32?: string }[]
 }
+
+export type PreProcessedOnigashima = {
+	filename: string
+	title: string
+	startingChapter: number
+	endingChapter?: number
+	magnetURI: string
+	hash: string
+	CRC32: string
+	duration: number
+	released: string
+}

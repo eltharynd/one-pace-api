@@ -19,6 +19,7 @@ import {
 	FileMetadata,
 	Metadata,
 	PreprocessedMagnet,
+	PreProcessedOnigashima,
 	RecursivePartial,
 	reorderMetadata,
 } from './metadata.model.js'
@@ -33,6 +34,7 @@ const BRANCH = 'main'
 export class MetadataController {
 	metadata: Metadata
 	preProcessedMagnets: PreprocessedMagnet[]
+	preProcessedOnigashima: PreProcessedOnigashima[]
 
 	async init(force?: boolean): Promise<void> {
 		if (
@@ -171,6 +173,10 @@ export class MetadataController {
 		reordered.arcs.forEach(a => {
 			a.episodes = a.episodes.sort((a, b) => a.episode - b.episode)
 		})
+
+		Logger.debug(`Applying onigashima paced`)
+		buffer = this.getOnigashimaPaced(reordered)
+		Logger.debug(`Applied onigashima paced`)
 
 		Logger.debug(`Writing metadata to file`)
 		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
@@ -916,7 +922,7 @@ export class MetadataController {
 		try {
 			if (!this.preProcessedMagnets)
 				this.preProcessedMagnets = JSON.parse(
-					readFileSync(PRE_PROCESSED_PATH).toString(),
+					readFileSync(PRE_PROCESSED_MAGNET).toString(),
 				)
 
 			return this.preProcessedMagnets.find(p => p.magnetURI == magnetUri)
@@ -925,9 +931,78 @@ export class MetadataController {
 			Logger.error(e)
 		}
 	}
+
+	private getOnigashimaPaced(
+		buffer: RecursivePartial<Metadata>,
+	): RecursivePartial<Metadata> {
+		let wano: RecursivePartial<ArcMetadata> = buffer.arcs.find(
+			a => a.title == 'Wano',
+		)
+		if (wano) {
+			if (!this.preProcessedOnigashima)
+				this.preProcessedOnigashima = JSON.parse(
+					readFileSync(PRE_PROCESSED_ONIGASHIMA).toString(),
+				)
+
+			let lastPaceChapter = 0
+			for (let episode of wano.episodes) {
+				if (
+					!episode.files.standard &&
+					!episode.files.extended &&
+					!episode.files.alternate
+				) {
+					Logger.warn(
+						`Wano ${episode.episode} exists in metadata but has no episode`,
+					)
+				}
+
+				const last = Number.parseInt(
+					episode.mangaChapters.replace(/^.*-\s*/, ''),
+				)
+				if (last > lastPaceChapter) lastPaceChapter = last
+			}
+
+			let oniEpisodes = 0
+			for (let oni of this.preProcessedOnigashima
+				.filter(o => (o.endingChapter || o.startingChapter) > lastPaceChapter)
+				.sort((a, b) => a.startingChapter - b.startingChapter)) {
+				let _newEpisode: RecursivePartial<EpisodeMetadata> = {
+					arc: wano.arc,
+					episode: wano.episodes.length + ++oniEpisodes,
+
+					title: `[ONI] ${oni.title}`,
+					description: 'Onigashima Paced Placeholder',
+
+					released: oni.released,
+
+					mangaChapters: `${oni.startingChapter}${oni.endingChapter ? `-${oni.endingChapter}` : ''}`,
+
+					files: {
+						standard: {
+							CRC32: oni.CRC32,
+
+							hash: oni.hash,
+							magnetURI: oni.magnetURI,
+
+							duration: oni.duration,
+
+							variant: 'standard',
+							partOfBundle: true,
+						},
+					},
+				}
+				wano.episodes.push(_newEpisode)
+			}
+		} else {
+			Logger.warn(`Wano not found, cannot process onigashima`)
+		}
+
+		return structuredClone(buffer)
+	}
 }
 
 const PRE_PROCESSED_ROOT = './pre-processed'
-const PRE_PROCESSED_PATH = `${PRE_PROCESSED_ROOT}/magnetURIs.json`
+const PRE_PROCESSED_MAGNET = `${PRE_PROCESSED_ROOT}/magnetURIs.json`
+const PRE_PROCESSED_ONIGASHIMA = `${PRE_PROCESSED_ROOT}/onigashima.json`
 
 type AllowedMetadata = Metadata | RecursivePartial<Metadata>
