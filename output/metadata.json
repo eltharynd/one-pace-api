@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-07T14:33:30.756Z",
+  "lastUpdate": "2026-09-07T15:57:41.113Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -10472,6 +10472,474 @@
               "magnetURI": "magnet:?xt=urn:btih:5a7292f7b9455dbb511a944862f7394f7982b5e9&dn=%5BOne+Pace%5D%5B1011-1012%5D+Wano+61+%5B1080p%5D%5B1EF3F26C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
               "duration": 1512,
               "variant": "standard"
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 62,
+          "title": "[ONI] Anarchy in the BM",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2023-06-27T00:00:00.000Z",
+          "mangaChapters": "1012-1013",
+          "files": {
+            "standard": {
+              "CRC32": "E0CE0231",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1819,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 64,
+          "title": "[ONI] A Lifelong Ham Actor",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2023-08-28T00:00:00.000Z",
+          "mangaChapters": "1014-1015",
+          "files": {
+            "standard": {
+              "CRC32": "D5D374A2",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 2109,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 66,
+          "title": "[ONI] This is Otama!!",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-01-20T00:00:00.000Z",
+          "mangaChapters": "1015-1017",
+          "files": {
+            "standard": {
+              "CRC32": "E6DBAAB1",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1440,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 68,
+          "title": "[ONI] Jinbe vs Who's Who",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-01-22T00:00:00.000Z",
+          "mangaChapters": "1017-1018",
+          "files": {
+            "standard": {
+              "CRC32": "6D266651",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1310,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 70,
+          "title": "[ONI] Triceracopter",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-01-25T00:00:00.000Z",
+          "mangaChapters": "1019-1021",
+          "files": {
+            "standard": {
+              "CRC32": "32E5D652",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1769,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 72,
+          "title": "[ONI] The Stars Take the Stage",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-01-27T00:00:00.000Z",
+          "mangaChapters": "1021-1022",
+          "files": {
+            "standard": {
+              "CRC32": "9BAE9D28",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1669,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 74,
+          "title": "[ONI] So-and-So",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-14T00:00:00.000Z",
+          "mangaChapters": "1023-1024",
+          "files": {
+            "standard": {
+              "CRC32": "010F1AC2",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1942,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 76,
+          "title": "[ONI] Twin Dragons",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-16T00:00:00.000Z",
+          "mangaChapters": "1025-1026",
+          "files": {
+            "standard": {
+              "CRC32": "E7148EFA",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 2163,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 78,
+          "title": "[ONI] Brachiosnakeus",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-18T00:00:00.000Z",
+          "mangaChapters": "1027-1028",
+          "files": {
+            "standard": {
+              "CRC32": "49206062",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1582,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 80,
+          "title": "[ONI] The Tower",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-19T00:00:00.000Z",
+          "mangaChapters": "1029-1030",
+          "files": {
+            "standard": {
+              "CRC32": "E5446C32",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1741,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 82,
+          "title": "[ONI] Soldier of Science",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-22T00:00:00.000Z",
+          "mangaChapters": "1030-1031",
+          "files": {
+            "standard": {
+              "CRC32": "6AA85428",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1724,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 84,
+          "title": "[ONI] Oden's Beloved Blade",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-24T00:00:00.000Z",
+          "mangaChapters": "1032-1033",
+          "files": {
+            "standard": {
+              "CRC32": "F9458FAE",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 2034,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 86,
+          "title": "[ONI] Wings of the Pirate King",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-02-26T00:00:00.000Z",
+          "mangaChapters": "1034-1036",
+          "files": {
+            "standard": {
+              "CRC32": "18FB2E67",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1674,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 88,
+          "title": "[ONI] Drunken Dragon Bagua",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-03-06T00:00:00.000Z",
+          "mangaChapters": "1036-1037",
+          "files": {
+            "standard": {
+              "CRC32": "3494C823",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1618,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 90,
+          "title": "[ONI] The Main Attraction",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-03-08T00:00:00.000Z",
+          "mangaChapters": "1038-1040",
+          "files": {
+            "standard": {
+              "CRC32": "05A61F63",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 2319,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 92,
+          "title": "[ONI] Komurasaki",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-03-12T00:00:00.000Z",
+          "mangaChapters": "1041",
+          "files": {
+            "standard": {
+              "CRC32": "64C23F51",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1162,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 94,
+          "title": "[ONI] Let Us Face Death Together!",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-03-20T00:00:00.000Z",
+          "mangaChapters": "1042-1043",
+          "files": {
+            "standard": {
+              "CRC32": "5D6C2163",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1490,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 96,
+          "title": "[ONI] Warrior of Liberation",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-03-26T00:00:00.000Z",
+          "mangaChapters": "1044-1046",
+          "files": {
+            "standard": {
+              "CRC32": "CCFC35A4",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1686,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 98,
+          "title": "[ONI] The Skies Above the Capital",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-03-29T00:00:00.000Z",
+          "mangaChapters": "1046-1047",
+          "files": {
+            "standard": {
+              "CRC32": "6D376DB4",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1734,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 100,
+          "title": "[ONI] The World You Wish For",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-03T00:00:00.000Z",
+          "mangaChapters": "1048-1049",
+          "files": {
+            "standard": {
+              "CRC32": "D4272DAE",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1825,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 102,
+          "title": "[ONI] Kozuki Momonosuke",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-05T00:00:00.000Z",
+          "mangaChapters": "1050-1051",
+          "files": {
+            "standard": {
+              "CRC32": "D91523EF",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 2071,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 104,
+          "title": "[ONI] New Morning",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-15T00:00:00.000Z",
+          "mangaChapters": "1052",
+          "files": {
+            "standard": {
+              "CRC32": "739707FC",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1141,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 106,
+          "title": "[ONI] New Emperors",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-12T00:00:00.000Z",
+          "mangaChapters": "1053-1054",
+          "files": {
+            "standard": {
+              "CRC32": "08E87674",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1963,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 108,
+          "title": "[ONI] New Era",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-23T00:00:00.000Z",
+          "mangaChapters": "1055-1056",
+          "files": {
+            "standard": {
+              "CRC32": "EE2A0C6F",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1964,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 110,
+          "title": "[ONI] Farewell",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-23T00:00:00.000Z",
+          "mangaChapters": "1056",
+          "files": {
+            "standard": {
+              "CRC32": "1598F509",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1184,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 35,
+          "episode": 112,
+          "title": "[ONI] Final Curtain",
+          "description": "Onigashima Paced Placeholder",
+          "released": "2024-04-24T00:00:00.000Z",
+          "mangaChapters": "1057",
+          "files": {
+            "standard": {
+              "CRC32": "162AD541",
+              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
+              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+              "duration": 1273,
+              "variant": "standard",
+              "partOfBundle": true
             }
           }
         }
