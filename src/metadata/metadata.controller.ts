@@ -629,7 +629,7 @@ export class MetadataController {
 						_file.CRC32 = crc32Match[1]
 					}
 				} else {
-					Logger.warn('No torrent, unknown')
+					Logger.debug('No torrent, unknown')
 				}
 
 				_file.hash = infoHash
@@ -640,13 +640,26 @@ export class MetadataController {
 
 				if (!targetEpisode.files) targetEpisode.files = {}
 
-				if (outdated || (targetEpisode.files && targetEpisode.files[variant])) {
-					if (!targetEpisode.files.archived) targetEpisode.files.archived = []
-					targetEpisode.files.archived.push(_file)
+				if (outdated || targetEpisode.files?.[variant]) {
+					if (
+						targetEpisode.files?.[variant].CRC32 == _file.CRC32 ||
+						targetEpisode.files?.[variant].hash == _file.hash ||
+						targetEpisode.files?.[variant].magnetURI == _file.magnetURI
+					) {
+						Logger.warn(
+							`Merging RSS file with existing one for '${targetArc.title}' episode ${targetEpisode.episode}`,
+						)
+						targetEpisode.files[variant] = {
+							...targetEpisode.files?.[variant],
+							..._file,
+						}
+					} else {
+						if (!targetEpisode.files.archived) targetEpisode.files.archived = []
+						targetEpisode.files.archived.push(_file)
+					}
 				} else {
 					targetEpisode.files[variant] = _file
 				}
-
 				continue
 			}
 
@@ -734,8 +747,20 @@ export class MetadataController {
 							torrent.files.length > 1
 						) {
 							Logger.debug(
-								`Ignoring bundle for '${_arcTitle}' episode ${_episodeNumber}`,
+								`Bundle '${_arcTitle}' episode ${_episodeNumber} is not outdated, but a newer single file exists...`,
 							)
+							const _file: RecursivePartial<FileMetadata> = {}
+							const crc32Match = file.name.match(/\[([A-Z0-9]{8})\]/)
+							_file.CRC32 = crc32Match[1]
+							_file.hash = infoHash
+							_file.magnetURI = magnetURI
+							_file.variant = variant
+							if (torrent.files.length > 1) _file.partOfBundle = true
+							if (outdated) _file.outdated = true
+
+							if (!targetEpisode.files.archived)
+								targetEpisode.files.archived = []
+							targetEpisode.files.archived.push(_file)
 						} else
 							Logger.error(
 								`Tryng to overwrite '${_arcTitle}' episode ${_episodeNumber}`,
