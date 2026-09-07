@@ -962,13 +962,12 @@ export class MetadataController {
 				if (last > lastPaceChapter) lastPaceChapter = last
 			}
 
-			let oniEpisodes = 0
 			for (let oni of this.preProcessedOnigashima
 				.filter(o => (o.endingChapter || o.startingChapter) > lastPaceChapter)
 				.sort((a, b) => a.startingChapter - b.startingChapter)) {
 				let _newEpisode: RecursivePartial<EpisodeMetadata> = {
 					arc: wano.arc,
-					episode: wano.episodes.length + ++oniEpisodes,
+					episode: wano.episodes.length + 1,
 
 					title: `[ONI] ${oni.title}`,
 					description: 'Onigashima Paced Placeholder',
