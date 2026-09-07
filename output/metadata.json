@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-07T18:13:09.419Z",
+  "lastUpdate": "2026-09-07T21:10:14.708Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -2042,9 +2042,9 @@
       "fillerEpisodes": "",
       "paceEpisodesCount": 8,
       "animeMinutes": 294,
-      "paceMinutes": 231,
-      "savedMinutes": 62,
-      "savedPercentage": 0.2134353741496598,
+      "paceMinutes": 230,
+      "savedMinutes": 63,
+      "savedPercentage": 0.2143424036281178,
       "resolution": "1080p",
       "episodes": [
         {
@@ -2216,16 +2216,24 @@
           "description": "Chopper counters the combined Chessmarimo with an item that expands his zoan fruit abilities. Wapol slips away into his old castle, but Luffy runs after him to force a final showdown.",
           "mangaChapters": "149-152",
           "animeEpisodes": "88-90",
-          "released": "2023-06-18T00:00:00.000Z",
+          "released": "2026-09-07T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "B1D913B9",
-              "hash": "22b7b193c5354584a48966995c3966fdb2c1d338",
-              "magnetURI": "magnet:?xt=urn:btih:22b7b193c5354584a48966995c3966fdb2c1d338&dn=%5BOne+Pace%5D%5B149-152%5D+Drum+Island+07+%5B1080p%5D%5BB1D913B9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
-              "duration": 2011,
-              "variant": "standard",
-              "outdated": true
-            }
+              "CRC32": "D549B6DF",
+              "hash": "646d5e5f2dc2adf95076b85816f6d6364b7217cf",
+              "magnetURI": "magnet:?xt=urn:btih:646d5e5f2dc2adf95076b85816f6d6364b7217cf&dn=%5BOne+Pace%5D%5B149-152%5D+Drum+Island+07+%5B1080p%5D%5BD549B6DF%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
+              "duration": 1995,
+              "variant": "standard"
+            },
+            "archived": [
+              {
+                "CRC32": "B1D913B9",
+                "hash": "22b7b193c5354584a48966995c3966fdb2c1d338",
+                "magnetURI": "magnet:?xt=urn:btih:22b7b193c5354584a48966995c3966fdb2c1d338&dn=%5BOne+Pace%5D%5B149-152%5D+Drum+Island+07+%5B1080p%5D%5BB1D913B9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
