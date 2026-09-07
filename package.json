@@ -6,6 +6,9 @@
   "author": "eltharynd",
   "type": "module",
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=24.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node --enable-source-maps dist/index.js",
