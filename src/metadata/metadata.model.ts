@@ -248,7 +248,7 @@ export type PreprocessedMagnet = {
 	files: { name: string; path: string; crc32?: string }[]
 }
 
-export type PreProcessedOnigashima = {
+export type PreProcessedAlternate = {
 	filename: string
 	title: string
 	startingChapter: number

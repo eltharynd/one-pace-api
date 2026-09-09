@@ -18,8 +18,8 @@ import {
 	EpisodeMetadata,
 	FileMetadata,
 	Metadata,
+	PreProcessedAlternate as PreProcessedAlternateCut,
 	PreprocessedMagnet,
-	PreProcessedOnigashima,
 	RecursivePartial,
 	reorderMetadata,
 } from './metadata.model.js'
@@ -34,7 +34,8 @@ const BRANCH = 'main'
 export class MetadataController {
 	metadata: Metadata
 	preProcessedMagnets: PreprocessedMagnet[]
-	preProcessedOnigashima: PreProcessedOnigashima[]
+	preProcessedOnigashima: PreProcessedAlternateCut[]
+	preProcessedShaved: PreProcessedAlternateCut[]
 
 	async init(force?: boolean): Promise<void> {
 		if (
@@ -177,6 +178,10 @@ export class MetadataController {
 		Logger.debug(`Applying onigashima paced`)
 		buffer = this.getOnigashimaPaced(reordered)
 		Logger.debug(`Applied onigashima paced`)
+
+		Logger.debug(`Applying shaved egghead`)
+		buffer = this.getShavedEgghead(reordered)
+		Logger.debug(`Applied shaved egghead`)
 
 		Logger.debug(`Writing metadata to file`)
 		writeFileSync(METADATA_OUTPUT, JSON.stringify(reordered, null, 2))
@@ -944,16 +949,22 @@ export class MetadataController {
 					readFileSync(PRE_PROCESSED_ONIGASHIMA).toString(),
 				)
 
+			let releasedEpisodes = wano.episodes.filter(
+				e => e.files?.extended || e.files?.standard || e.files?.alternate,
+			)
+			wano.episodes = releasedEpisodes
+
 			let lastPaceChapter = 0
 			for (let episode of wano.episodes) {
 				if (
-					!episode.files.standard &&
-					!episode.files.extended &&
-					!episode.files.alternate
+					!episode.files?.standard &&
+					!episode.files?.extended &&
+					!episode.files?.alternate
 				) {
-					Logger.warn(
+					Logger.debug(
 						`Wano ${episode.episode} exists in metadata but has no episode`,
 					)
+					continue
 				}
 
 				const last = Number.parseInt(
@@ -998,10 +1009,84 @@ export class MetadataController {
 
 		return structuredClone(buffer)
 	}
+
+	private getShavedEgghead(
+		buffer: RecursivePartial<Metadata>,
+	): RecursivePartial<Metadata> {
+		let egghead: RecursivePartial<ArcMetadata> = buffer.arcs.find(
+			a => a.title == 'Egghead',
+		)
+		if (egghead) {
+			if (!this.preProcessedShaved)
+				this.preProcessedShaved = JSON.parse(
+					readFileSync(PRE_PROCESSED_SHAVED).toString(),
+				)
+
+			let releasedEpisodes = egghead.episodes.filter(
+				e => e.files?.extended || e.files?.standard || e.files?.alternate,
+			)
+			egghead.episodes = releasedEpisodes
+
+			let lastPaceChapter = 0
+			for (let episode of egghead.episodes) {
+				if (
+					!episode.files?.standard &&
+					!episode.files?.extended &&
+					!episode.files?.alternate
+				) {
+					Logger.debug(
+						`Egghead ${episode.episode} exists in metadata but has no episode`,
+					)
+					continue
+				}
+
+				const last = Number.parseInt(
+					episode.mangaChapters.replace(/^.*-\s*/, ''),
+				)
+				if (last > lastPaceChapter) lastPaceChapter = last
+			}
+
+			for (let shaved of this.preProcessedShaved
+				.filter(o => (o.endingChapter || o.startingChapter) > lastPaceChapter)
+				.sort((a, b) => a.startingChapter - b.startingChapter)) {
+				let _newEpisode: RecursivePartial<EpisodeMetadata> = {
+					arc: egghead.arc,
+					episode: egghead.episodes.length + 1,
+
+					title: `[SHAVED] ${shaved.title}`,
+					description: 'Shaved Egghead Placeholder',
+
+					released: shaved.released,
+
+					mangaChapters: `${shaved.startingChapter}${shaved.endingChapter ? `-${shaved.endingChapter}` : ''}`,
+
+					files: {
+						standard: {
+							CRC32: shaved.CRC32,
+
+							hash: shaved.hash,
+							magnetURI: shaved.magnetURI,
+
+							duration: shaved.duration,
+
+							variant: 'standard',
+							partOfBundle: true,
+						},
+					},
+				}
+				egghead.episodes.push(_newEpisode)
+			}
+		} else {
+			Logger.warn(`Egghead not found, cannot process shaved egghead`)
+		}
+
+		return structuredClone(buffer)
+	}
 }
 
 const PRE_PROCESSED_ROOT = './pre-processed'
 const PRE_PROCESSED_MAGNET = `${PRE_PROCESSED_ROOT}/magnetURIs.json`
 const PRE_PROCESSED_ONIGASHIMA = `${PRE_PROCESSED_ROOT}/onigashima.json`
+const PRE_PROCESSED_SHAVED = `${PRE_PROCESSED_ROOT}/shaved.json`
 
 type AllowedMetadata = Metadata | RecursivePartial<Metadata>
