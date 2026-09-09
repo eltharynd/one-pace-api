@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-09T01:10:16.767Z",
+  "lastUpdate": "2026-09-09T10:03:10.538Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -11605,14 +11605,382 @@
           }
         },
         {
+          "arc": 36,
           "episode": 22,
-          "title": "Kuma Bear",
-          "description": "Born with the rare blood of the Buccaneer people, young Kuma was fated to lead a life of persecution at the hands of the Celestial Dragons, but his father instilled hope within him through the legend of Nika and the Drums of Liberation."
+          "title": "[SHAVED] Kuma Cut 02",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1095-1095",
+          "files": {
+            "standard": {
+              "CRC32": "11B42B33",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1159,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
         },
         {
+          "arc": 36,
           "episode": 23,
-          "title": "Ginny",
-          "description": "Kuma lived with Ginny in his old village until the injustices of the world pushed them to join Iva and Dragon as revolutionaries. However, when tragedy befell Ginny, Kuma found a new purpose in life in the newborn she left behind."
+          "title": "[SHAVED] Kuma Cut 03",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1096-1096",
+          "files": {
+            "standard": {
+              "CRC32": "5C006EF6",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1156,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 24,
+          "title": "[SHAVED] Kuma Cut 04",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1097-1097",
+          "files": {
+            "standard": {
+              "CRC32": "5E22DB54",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1190,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 25,
+          "title": "[SHAVED] Kuma Cut 05",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1098-1098",
+          "files": {
+            "standard": {
+              "CRC32": "01E146AF",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1185,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 26,
+          "title": "[SHAVED] Kuma Cut 06",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1099-1099",
+          "files": {
+            "standard": {
+              "CRC32": "7BDF8391",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1190,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 27,
+          "title": "[SHAVED] Kuma Cut 07",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1100-1100",
+          "files": {
+            "standard": {
+              "CRC32": "144EBBB3",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1190,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 28,
+          "title": "[SHAVED] Kuma Cut 08",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1101-1101",
+          "files": {
+            "standard": {
+              "CRC32": "883A8B57",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1186,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 29,
+          "title": "[SHAVED] Kuma Cut 09",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-04-07T00:00:00.000Z",
+          "mangaChapters": "1102-1102",
+          "files": {
+            "standard": {
+              "CRC32": "606687FB",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1200,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 30,
+          "title": "[SHAVED] Kuma Cut 10",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-06-17T00:00:00.000Z",
+          "mangaChapters": "1103-1104",
+          "files": {
+            "standard": {
+              "CRC32": "255C9ABA",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1561,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 31,
+          "title": "[SHAVED] Shaved Egghead 11",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-12-29T00:00:00.000Z",
+          "mangaChapters": "1105-1106",
+          "files": {
+            "standard": {
+              "CRC32": "0A2F96B0",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1224,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 32,
+          "title": "[SHAVED] Shaved Egghead 12",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-09-15T00:00:00.000Z",
+          "mangaChapters": "1107-1108",
+          "files": {
+            "standard": {
+              "CRC32": "24D98F90",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1348,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 33,
+          "title": "[SHAVED] Shaved Egghead 13",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-10-17T00:00:00.000Z",
+          "mangaChapters": "1109-1109",
+          "files": {
+            "standard": {
+              "CRC32": "85CF1A4E",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 658,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 34,
+          "title": "[SHAVED] Shaved Egghead 14",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-10-26T00:00:00.000Z",
+          "mangaChapters": "1110-1110",
+          "files": {
+            "standard": {
+              "CRC32": "00CE32AC",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 706,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 35,
+          "title": "[SHAVED] Shaved Egghead 15",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-12-13T00:00:00.000Z",
+          "mangaChapters": "1111-1112",
+          "files": {
+            "standard": {
+              "CRC32": "88EC9FC1",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1628,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 36,
+          "title": "[SHAVED] Shaved Egghead 16",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-12-16T00:00:00.000Z",
+          "mangaChapters": "1113-1113",
+          "files": {
+            "standard": {
+              "CRC32": "7AEE37C5",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 784,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 37,
+          "title": "[SHAVED] Shaved Egghead 17",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2025-12-27T00:00:00.000Z",
+          "mangaChapters": "1114-1115",
+          "files": {
+            "standard": {
+              "CRC32": "5287B356",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 993,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 38,
+          "title": "[SHAVED] Shaved Egghead 18",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-01-10T00:00:00.000Z",
+          "mangaChapters": "1115-1116",
+          "files": {
+            "standard": {
+              "CRC32": "AA79B2E0",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1026,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 39,
+          "title": "[SHAVED] Shaved Egghead 19",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-02-03T00:00:00.000Z",
+          "mangaChapters": "1117-1119",
+          "files": {
+            "standard": {
+              "CRC32": "42523AE6",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1920,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 40,
+          "title": "[SHAVED] Shaved Egghead 20",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-02-11T00:00:00.000Z",
+          "mangaChapters": "1120-1121",
+          "files": {
+            "standard": {
+              "CRC32": "466F1D5F",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1357,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 41,
+          "title": "[SHAVED] Shaved Egghead 21",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-02-17T00:00:00.000Z",
+          "mangaChapters": "1122-1124",
+          "files": {
+            "standard": {
+              "CRC32": "DCFF3DBD",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1912,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
+        },
+        {
+          "arc": 36,
+          "episode": 42,
+          "title": "[SHAVED] Shaved Egghead 22",
+          "description": "Shaved Egghead Placeholder",
+          "released": "2026-02-19T00:00:00.000Z",
+          "mangaChapters": "1124-1126",
+          "files": {
+            "standard": {
+              "CRC32": "0CF71231",
+              "hash": "ac1940dabd4657ea19046762349a5b361d439533",
+              "magnetURI": "magnet:?xt=urn:btih:ac1940dabd4657ea19046762349a5b361d439533&dn=%5BShaved%20Egghead%20%2B%20Kuma%20Cut%5D%20One%20Piece%20-%20S22E42-E70%20(Egghead)%20%5B1080p%20WEB%20x264%5D%20%7BTags%3AL1%3BV7%3BC2%3BA%3Dja%2Cen%3BF%3Den%2Ceses%3B%7D&tr=https%3A%2F%2Ftracker.nekobt.to%2Fapi%2Ftracker%2Fpublic%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fwepzone.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fuabits.today%3A6990%2Fannounce&tr=udp%3A%2F%2Ftracker.wildkat.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tryhackx.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.t-1.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.qu.ax%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentorrent.top%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.flatuslifir.is%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.corpscorp.online%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bluefrog.pw%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.auctor.tv%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.anirena.com%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.anirena.com%3A80%2Fannounce",
+              "duration": 1145,
+              "variant": "standard",
+              "partOfBundle": true
+            }
+          }
         }
       ]
     }
