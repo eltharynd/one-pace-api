@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-09T10:03:10.538Z",
+  "lastUpdate": "2026-09-12T16:33:00.722Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -2250,7 +2250,8 @@
               "hash": "a464ed705df4d6e5c82182720fcb680aff526df9",
               "magnetURI": "magnet:?xt=urn:btih:a464ed705df4d6e5c82182720fcb680aff526df9&dn=%5BOne+Pace%5D%5B153-155%2C+142%5D+Drum+Island+08+%5B1080p%5D%5B9794072D%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
               "duration": 1790,
-              "variant": "standard"
+              "variant": "standard",
+              "outdated": true
             }
           }
         }
@@ -2974,7 +2975,15 @@
               "magnetURI": "magnet:?xt=urn:btih:914c0da7db2f30c80988adea7e67af78e1502587&dn=%5BOne+Pace%5D%5B247-249%5D+Skypiea+06+%5B1080p%5D%5BBF59EB14%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
               "duration": 2061,
               "variant": "standard"
-            }
+            },
+            "archived": [
+              {
+                "hash": "0a72a05308af8748b72b9854e5f7d1dd58e86f01",
+                "magnetURI": "magnet:?xt=urn:btih:0a72a05308af8748b72b9854e5f7d1dd58e86f01",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3010,7 +3019,15 @@
               "magnetURI": "magnet:?xt=urn:btih:63a53a466547469c6c854c498301c9308ab76c6a&dn=%5BOne+Pace%5D%5B252-254%5D+Skypiea+08+%5B1080p%5D%5B236CCF51%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
               "duration": 2215,
               "variant": "standard"
-            }
+            },
+            "archived": [
+              {
+                "hash": "82aa3f16b072095cbbe423795d0a19471b7e9486",
+                "magnetURI": "magnet:?xt=urn:btih:82aa3f16b072095cbbe423795d0a19471b7e9486",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3046,7 +3063,15 @@
               "magnetURI": "magnet:?xt=urn:btih:aca4c747981ae6f366fe82d1fa6dceb7f619e49e&dn=%5BOne+Pace%5D%5B258-260%5D+Skypiea+10+%5B1080p%5D%5B602704E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
               "duration": 1137,
               "variant": "standard"
-            }
+            },
+            "archived": [
+              {
+                "hash": "68f3c17f1e97622d939f76ef5ff6039f7d770f73",
+                "magnetURI": "magnet:?xt=urn:btih:68f3c17f1e97622d939f76ef5ff6039f7d770f73",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -6130,7 +6155,21 @@
               "magnetURI": "magnet:?xt=urn:btih:378ac16275940673ebac803955fcde9c8718d661&dn=%5BOne+Pace%5D%5B581-582%5D+Post-War+01+%5B1080p%5D%5BE7B15590%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
               "duration": 1807,
               "variant": "standard"
-            }
+            },
+            "archived": [
+              {
+                "hash": "1ff5bd4e1828341dbe302cd01ade88c8c6299717",
+                "magnetURI": "magnet:?xt=urn:btih:1ff5bd4e1828341dbe302cd01ade88c8c6299717&dn=%5BOne+Pace%5D%5B581-582%5D+Post-War+01+%5B1080p%5D%5B5DC550F9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "hash": "fc44ff5f1749f53d6d3cf582dee2289d1a42e6f9",
+                "magnetURI": "magnet:?xt=urn:btih:fc44ff5f1749f53d6d3cf582dee2289d1a42e6f9",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -6148,7 +6187,21 @@
               "magnetURI": "magnet:?xt=urn:btih:535cb2a580f3051871405411a4484d45db62ee54&dn=%5BOne+Pace%5D%5B583-584%5D+Post-War+02+%5B1080p%5D%5B1A183CBE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
               "duration": 2403,
               "variant": "standard"
-            }
+            },
+            "archived": [
+              {
+                "hash": "0a02b1f9fd66105ab8e4ec22d7cdd01040a65738",
+                "magnetURI": "magnet:?xt=urn:btih:0a02b1f9fd66105ab8e4ec22d7cdd01040a65738&dn=%5BOne+Pace%5D%5B583-584%5D+Post-War+02+%5B1080p%5D%5B3B71AC99%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "hash": "738ec802c7b26972f0f4642c96552d1ecb66a47d",
+                "magnetURI": "magnet:?xt=urn:btih:738ec802c7b26972f0f4642c96552d1ecb66a47d",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -6166,7 +6219,15 @@
               "magnetURI": "magnet:?xt=urn:btih:b15d098996eff6129be674891ae4cb14645c780f&dn=%5BOne+Pace%5D%5B585-586%5D+Post-War+03+%5B1080p%5D%5B9DEAD0F3%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
               "duration": 2548,
               "variant": "standard"
-            }
+            },
+            "archived": [
+              {
+                "hash": "2d9c8b60c2e96ac4e40694f804c7f2bf3464b95b",
+                "magnetURI": "magnet:?xt=urn:btih:2d9c8b60c2e96ac4e40694f804c7f2bf3464b95b&dn=%5BOne+Pace%5D%5B585-586%5D+Post-War+03+%5B1080p%5D%5B8ABAF3B1%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9265,6 +9326,12 @@
               "partOfBundle": true
             },
             "archived": [
+              {
+                "hash": "01bdb4e6c4e0854865d84ec129374be69bb3e3c0",
+                "magnetURI": "magnet:?xt=urn:btih:01bdb4e6c4e0854865d84ec129374be69bb3e3c0&dn=%5BOne+Pace%5D%5B903-908%5D+Reverie+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              },
               {
                 "CRC32": "F1430B21",
                 "hash": "c5860b5066c7ed8bfe51abde23f76ef3f78a6ec7",
