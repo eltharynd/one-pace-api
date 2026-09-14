@@ -11,7 +11,7 @@ const RSS_FEED_URL = `https://onepace.net/en/releases/rss.xml`
 export class RSSController {
 	private readonly parser: Parser<Feed, Item> = new Parser({
 		customFields: {
-			item: ['torrent:magnetURI', 'torrent:infoHash'],
+			item: ['torrent:fileName', 'torrent:magnetURI', 'torrent:infoHash'],
 		},
 	})
 
@@ -75,7 +75,10 @@ export class RSSController {
 		return new Date(this.feed.lastBuildDate)
 	}
 
-	public async getTorrentInfo(title: string): Promise<{
+	public async getTorrentInfo(
+		title: string,
+		CRC32?: string,
+	): Promise<{
 		magnetURI: string
 		hash: string
 		partOfBundle?: boolean
@@ -109,15 +112,26 @@ export class RSSController {
 			}
 		}
 
-		let activeItems = this.feed.items.filter(i => {
-			for (let cat of i.categories)
-				if (cat._ === 'outdated') {
-					return false
-				}
-			return true
-		})
+		let activeItems = this.feed.items
 
-		let item = activeItems.find(i => i.title === rssTitle)
+		let item
+		if (CRC32)
+			item = activeItems.find(
+				i =>
+					i['torrent:fileName']?.includes(CRC32) ||
+					i['torrent:magnetURI']?.includes(CRC32),
+			)
+		if (!item) {
+			activeItems = this.feed.items.filter(i => {
+				for (let cat of i.categories)
+					if (cat._ === 'outdated') {
+						return false
+					}
+				return true
+			})
+			item = activeItems.find(i => i.title === rssTitle)
+		}
+
 		if (item && item['torrent:magnetURI']) {
 			Logger.debug(`Found magnetURI for '${rssTitle}'...`)
 			return {

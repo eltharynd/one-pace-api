@@ -161,7 +161,6 @@ export class MetadataController {
 			/episodes/i.test(s.title),
 		)
 		buffer = await this.processEpisodeDescritionsEpisodes(buffer, episodesSheet)
-
 		buffer = await this.processRSSFeed(buffer)
 
 		Logger.debug(`Applying manual corrections`)
@@ -280,14 +279,17 @@ export class MetadataController {
 					let episodeNumber =
 						match?.length > 0 ? Number.parseInt(match[1]) : index
 
+					const CRC32 =
+						String(row[6]) == '702231E9' ? '704F68EA' : String(row[6])
 					let files: RecursivePartial<EpisodeFilesMetadata> = {
 						standard: {
-							CRC32: String(row[6]) == '702231E9' ? '704F68EA' : String(row[6]),
+							CRC32: CRC32,
 							duration:
 								Number.parseInt(String(row[5]).split(':')[0]) * 60 +
 								Number.parseInt(String(row[5]).split(':')[1]),
 							...(await Context.rss.getTorrentInfo(
 								`${arc.title} ${String(episodeNumber).padStart(2, '0')}`,
+								CRC32,
 							)),
 							variant: 'standard',
 						},
@@ -510,13 +512,13 @@ export class MetadataController {
 								.replace('Arabasta', 'Alabasta'),
 						})
 					} else {
-						Logger.warn(
+						Logger.debug(
 							`Episode '${String(row[0])} - ${String(row[1])}' from descriptions not found in guide`,
 						)
 					}
 				}
 			} else
-				Logger.warn(
+				Logger.debug(
 					`Arc '${String(row[0])}' from descriptions not found in guide`,
 				)
 		}
@@ -639,6 +641,15 @@ export class MetadataController {
 					} else {
 						_file.CRC32 = crc32Match[1]
 					}
+				} else if (item['torrent:fileName']) {
+					const crc32Match = item['torrent:fileName'].match(/\[([A-Z0-9]{8})\]/)
+					if (crc32Match?.[1]) {
+						_file.CRC32 = crc32Match[1]
+					} else {
+						Logger.warn(
+							`'${arcTitle}' episode ${episodeNumber}, CRC32 could not be find in either episode guide nor RSS`,
+						)
+					}
 				} else {
 					Logger.debug('No torrent, unknown')
 				}
@@ -647,17 +658,35 @@ export class MetadataController {
 				_file.magnetURI = magnetURI
 				_file.variant = variant
 				if (partOfBundle) _file.partOfBundle = partOfBundle
+
+				if (
+					_file.CRC32 == '0C2DBF75' ||
+					_file.CRC32 == '0EB7F7E9' ||
+					_file.CRC32 == '15D77CB3' ||
+					_file.CRC32 == '56E89B6A' ||
+					_file.CRC32 == '12026418'
+				)
+					outdated = true
 				if (outdated) _file.outdated = outdated
 
 				if (!targetEpisode.files) targetEpisode.files = {}
 
-				if (outdated || targetEpisode.files?.[variant]) {
+				if (outdated) {
+					if (!targetEpisode.files.archived) targetEpisode.files.archived = []
+
+					let exist = targetEpisode.files.archived.find(
+						e => e.CRC32 == _file.CRC32,
+					)
+					if (exist) {
+						for (let key of Object.keys(_file)) exist[key] = _file[key]
+					} else targetEpisode.files.archived.push(_file)
+				} else if (targetEpisode.files?.[variant]) {
 					if (
 						targetEpisode.files?.[variant].CRC32 == _file.CRC32 ||
 						targetEpisode.files?.[variant].hash == _file.hash ||
 						targetEpisode.files?.[variant].magnetURI == _file.magnetURI
 					) {
-						Logger.warn(
+						Logger.debug(
 							`Merging RSS file with existing one for '${targetArc.title}' episode ${targetEpisode.episode}`,
 						)
 						targetEpisode.files[variant] = {
@@ -666,7 +695,11 @@ export class MetadataController {
 						}
 					} else {
 						if (!targetEpisode.files.archived) targetEpisode.files.archived = []
-						targetEpisode.files.archived.push(_file)
+						targetEpisode.files.archived.push({
+							...targetEpisode.files?.[variant],
+							outdated: true,
+						})
+						targetEpisode.files[variant] = _file
 					}
 				} else {
 					targetEpisode.files[variant] = _file

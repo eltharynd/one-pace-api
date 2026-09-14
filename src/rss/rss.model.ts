@@ -1,4 +1,5 @@
 export interface Item {
+	'torrent:fileName'?: string
 	'torrent:magnetURI'?: string
 	'torrent:infoHash'?: string
 	categories?: Array<{
