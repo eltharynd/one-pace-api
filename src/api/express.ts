@@ -162,7 +162,7 @@ export class Express {
 
 					socket.on('disconnect', async () => {
 						Logger.debug(`Socket ${socket.id} disconnected`)
-						Logger.info(
+						Logger.debug(
 							`Client disconnected, total clients: ${(await this.io.fetchSockets()).length}`,
 						)
 					})
