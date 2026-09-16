@@ -79,8 +79,38 @@ export class Express {
 		this.server = createServer(this.app)
 		const pubClient = createClient({
 			url: environment.REDIS_URL,
+			socket: {
+				reconnectStrategy: retries => {
+					const delay = Math.min(retries * 100, 5000)
+					Logger.warn(
+						`Redis reconnect attempt ${retries}, retrying in ${delay}ms`,
+					)
+					return delay
+				},
+			},
 		})
 		const subClient = pubClient.duplicate()
+
+		pubClient.on('error', err =>
+			Logger.error(`Redis pubClient error: ${err.message}`),
+		)
+		subClient.on('error', err =>
+			Logger.error(`Redis subClient error: ${err.message}`),
+		)
+
+		pubClient.on('reconnecting', () =>
+			Logger.warn('Redis pubClient reconnecting...'),
+		)
+		pubClient.on('ready', () =>
+			Logger.info('Redis pubClient reconnected and ready'),
+		)
+
+		subClient.on('reconnecting', () =>
+			Logger.warn('Redis subClient reconnecting...'),
+		)
+		subClient.on('ready', () =>
+			Logger.info('Redis subClient reconnected and ready'),
+		)
 
 		Promise.all([pubClient.connect(), subClient.connect()])
 			.then(() => {
@@ -97,7 +127,9 @@ export class Express {
 
 				this.io.on('connection', async socket => {
 					Logger.debug(`Socket ${socket.id} connected`)
-					Logger.info(`Clients connected: ${await this.io.fetchSockets()}`)
+					Logger.info(
+						`Clients connected: ${(await this.io.fetchSockets()).length}`,
+					)
 
 					socket.on('subscribe_to_updates', () => {
 						Logger.debug(`Socket ${socket.id} joined 'updates'`)
@@ -111,7 +143,9 @@ export class Express {
 
 					socket.on('disconnect', async () => {
 						Logger.debug(`Socket ${socket.id} disconnected`)
-						Logger.info(`Clients connected: ${await this.io.fetchSockets()}`)
+						Logger.info(
+							`Clients connected: ${(await this.io.fetchSockets()).length}`,
+						)
 					})
 				})
 			})
