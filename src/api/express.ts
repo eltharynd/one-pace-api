@@ -135,6 +135,7 @@ export class Express {
 			.finally(() => {
 				this.io = new SocketIOServer(this.server, {
 					adapter: createAdapter(this.pubClient, this.subClient),
+					transports: ['websocket', 'polling'],
 				})
 
 				this.io.on('connection', async socket => {
