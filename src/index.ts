@@ -41,17 +41,23 @@ const startApp = async () => {
 
 		Context.express = new Express()
 
-		Logger.info('INITIALIZING SCRAPING SERVICE...')
-		Context.scraper = new Scraper()
-		await Context.scraper.init()
+		if (environment.DISABLE_PROCESSING) {
+			Logger.info(
+				`Instance configured to be a slave, skipping metadata initialization...`,
+			)
+		} else {
+			Logger.info('INITIALIZING SCRAPING SERVICE...')
+			Context.scraper = new Scraper()
+			await Context.scraper.init()
 
-		Logger.info('INITIALIZING RSS SERVICE...')
-		Context.rss = new RSSController()
-		await Context.rss.init()
+			Logger.info('INITIALIZING RSS SERVICE...')
+			Context.rss = new RSSController()
+			await Context.rss.init()
 
-		Logger.info('INITIALIZING METADATA...')
-		Context.metadata = new MetadataController()
-		await Context.metadata.init()
+			Logger.info('INITIALIZING METADATA...')
+			Context.metadata = new MetadataController()
+			await Context.metadata.init()
+		}
 
 		if (!environment.SINGLE_MODE) {
 			Logger.info('INITIALIZING EXPRESS SERVER...')
