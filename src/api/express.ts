@@ -169,6 +169,13 @@ export class Express {
 					Context.rss.feed = data.rss
 					Context.metadata.metadata = data.metadata
 				})
+
+				this.io.on('forced_update', () => {
+					if (Context.express.isLeader) {
+						Logger.info(`Received forced update`)
+						Context.metadata.init(true)
+					}
+				})
 			})
 	}
 

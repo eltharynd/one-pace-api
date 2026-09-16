@@ -35,7 +35,12 @@ export class AdminController {
 			)
 		} else {
 			this.lastForcedUpdate = currently
-			Context.metadata.init(true)
+
+			if (Context.express.isLeader) {
+				Context.metadata.init(true)
+			} else {
+				Context.express.io.serverSideEmit('forced_update')
+			}
 			return new OkResponse()
 		}
 	}
