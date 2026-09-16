@@ -1,9 +1,4 @@
-import {
-	BadRequestError,
-	Controller,
-	Get,
-	UseBefore,
-} from 'routing-controllers'
+import { Controller, Get, UseBefore } from 'routing-controllers'
 import { Context } from '../../util/context.js'
 import { OkResponse } from '../interceptors/default.interceptor.js'
 import { AdminGuard } from '../middlewares/auth.middleware.js'
@@ -11,37 +6,14 @@ import { AdminGuard } from '../middlewares/auth.middleware.js'
 const FORCE_UPDATES_DELAY = 300_000
 @Controller(`/admin`)
 export class AdminController {
-	lastForcedUpdate: Date
-
 	@Get(`/update/force`)
 	@UseBefore(AdminGuard)
 	healthz() {
-		const currently = new Date()
-
-		if (
-			false &&
-			this.lastForcedUpdate &&
-			currently.getTime() <
-				this.lastForcedUpdate.getTime() + FORCE_UPDATES_DELAY
-		) {
-			return new BadRequestError(
-				`Not enough time passed from thast forced update, wait another ${(
-					(this.lastForcedUpdate.getTime() +
-						FORCE_UPDATES_DELAY -
-						currently.getTime()) /
-					1000 /
-					60
-				).toFixed(1)} minutes...`,
-			)
+		if (Context.express.isLeader) {
+			Context.metadata.init(true)
 		} else {
-			this.lastForcedUpdate = currently
-
-			if (Context.express.isLeader) {
-				Context.metadata.init(true)
-			} else {
-				Context.express.io.serverSideEmit('forced_update')
-			}
-			return new OkResponse()
+			Context.express.io.serverSideEmit('forced_update')
 		}
+		return new OkResponse()
 	}
 }

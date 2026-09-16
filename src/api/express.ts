@@ -177,7 +177,7 @@ export class Express {
 					}
 				})
 
-				setInterval(this.tryBecomeLeader, LEADER_TTL_MS / 2)
+				setInterval(() => this.tryBecomeLeader(), LEADER_TTL_MS / 2)
 				this.tryBecomeLeader()
 			})
 	}
