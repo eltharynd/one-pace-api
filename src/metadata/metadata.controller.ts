@@ -57,6 +57,7 @@ export class MetadataController {
 					this.notifyUpdates()
 				} else {
 					Logger.info('Loaded Metadata from cache')
+					this.notifyUpdates(true)
 				}
 			} catch (e) {
 				Logger.warn('Badly formed cached metadata, reprocessing')
@@ -81,7 +82,7 @@ export class MetadataController {
 		return structuredClone(this.metadata)
 	}
 
-	private async notifyUpdates() {
+	private async notifyUpdates(slavesOnly?: boolean) {
 		await Context.express.waitForActive()
 
 		if (Context.express.isLeader) {
@@ -98,6 +99,8 @@ export class MetadataController {
 				}, 5000)
 			})
 		}
+
+		if (slavesOnly) return
 
 		Logger.info(`Notifying sockets of updates`)
 		Context.express.io.to('updates').emit('updates', Context.metadata.getAll())
