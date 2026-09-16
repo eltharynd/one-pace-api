@@ -95,9 +95,9 @@ export class Express {
 					adapter: createAdapter(pubClient, subClient),
 				})
 
-				this.io.on('connection', socket => {
+				this.io.on('connection', async socket => {
 					Logger.debug(`Socket ${socket.id} connected`)
-					Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
+					Logger.info(`Clients connected: ${await this.io.fetchSockets()}`)
 
 					socket.on('subscribe_to_updates', () => {
 						Logger.debug(`Socket ${socket.id} joined 'updates'`)
@@ -109,9 +109,9 @@ export class Express {
 						socket.leave('updates')
 					})
 
-					socket.on('disconnect', () => {
+					socket.on('disconnect', async () => {
 						Logger.debug(`Socket ${socket.id} disconnected`)
-						Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
+						Logger.info(`Clients connected: ${await this.io.fetchSockets()}`)
 					})
 				})
 			})

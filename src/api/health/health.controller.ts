@@ -10,7 +10,7 @@ export class HealthController {
 	}
 
 	@Get(`/clients`)
-	clients() {
-		return { clients: Context.express.io.engine.clientsCount }
+	async clients() {
+		return { clients: await Context.express.io.fetchSockets() }
 	}
 }
