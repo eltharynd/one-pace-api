@@ -160,16 +160,16 @@ export class Express {
 						)
 					})
 				})
-			})
 
-		this.io.on('leader_elected', data => {
-			Logger.info(`Received updates from leader`)
-			Context.scraper.scrapedEpisodeGuide = data.scraper.scrapedEpisodeGuide
-			Context.scraper.scrapedEpisodeDescriptions =
-				data.scraper.scrapedEpisodeDescriptions
-			Context.rss.feed = data.rss
-			Context.metadata.metadata = data.metadata
-		})
+				this.io.on('leader_elected', data => {
+					Logger.info(`Received updates from leader`)
+					Context.scraper.scrapedEpisodeGuide = data.scraper.scrapedEpisodeGuide
+					Context.scraper.scrapedEpisodeDescriptions =
+						data.scraper.scrapedEpisodeDescriptions
+					Context.rss.feed = data.rss
+					Context.metadata.metadata = data.metadata
+				})
+			})
 	}
 
 	async start(portOverride?: number) {
