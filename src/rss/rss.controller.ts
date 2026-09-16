@@ -15,7 +15,7 @@ export class RSSController {
 		},
 	})
 
-	private feed: Parser.Output<any>
+	feed: Parser.Output<any>
 
 	public async init() {
 		if (existsSync(CACHE_RSS_FEED)) {
@@ -73,6 +73,10 @@ export class RSSController {
 		}
 		//@ts-ignore
 		return new Date(this.feed.lastBuildDate)
+	}
+
+	getAll(): Parser.Output<any> {
+		return this.feed
 	}
 
 	public async getTorrentInfo(

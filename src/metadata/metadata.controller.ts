@@ -83,6 +83,22 @@ export class MetadataController {
 
 	private async notifyUpdates() {
 		await Context.express.waitForActive()
+
+		if (Context.express.isLeader) {
+			Logger.info(`Sending updates to slaves`)
+			Context.express.io.serverSideEmit('leader_elected', {
+				scraper: await Context.scraper.getAll(),
+				rss: await Context.rss.getAll(),
+				metadata: await Context.metadata.getAll(),
+			})
+
+			await new Promise<void>(resolve => {
+				setTimeout(() => {
+					resolve()
+				}, 5000)
+			})
+		}
+
 		Logger.info(`Notifying sockets of updates`)
 		Context.express.io.to('updates').emit('updates', Context.metadata.getAll())
 	}

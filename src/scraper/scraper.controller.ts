@@ -30,8 +30,8 @@ export class Scraper {
 		auth: environment.GOOGLE_API_KEY,
 	})
 
-	private scrapedEpisodeGuide: ScrapedGoogleDocument
-	private scrapedEpisodeDescriptions: ScrapedGoogleDocument
+	scrapedEpisodeGuide: ScrapedGoogleDocument
+	scrapedEpisodeDescriptions: ScrapedGoogleDocument
 
 	async init(): Promise<void> {
 		Logger.debug('Scraping episode guide')
@@ -63,6 +63,18 @@ export class Scraper {
 		)
 			return new Date(this.scrapedEpisodeGuide.lastModified)
 		else return new Date(this.scrapedEpisodeDescriptions.lastModified)
+	}
+
+	getAll(): {
+		scrapedEpisodeGuide: ScrapedGoogleDocument
+		scrapedEpisodeDescriptions: ScrapedGoogleDocument
+	} {
+		return {
+			scrapedEpisodeGuide: structuredClone(this.scrapedEpisodeGuide),
+			scrapedEpisodeDescriptions: structuredClone(
+				this.scrapedEpisodeDescriptions,
+			),
+		}
 	}
 
 	getEpisodeGuide(): ScrapedGoogleDocument {

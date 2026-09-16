@@ -1,7 +1,7 @@
 import express from 'express'
 import { Logger } from 'ez-ts-logger'
 import EventEmitter from 'node:events'
-import { Server, createServer } from 'node:http'
+import { createServer, Server } from 'node:http'
 import { createClient } from 'redis'
 import { createExpressServer } from 'routing-controllers'
 import { Server as SocketIOServer } from 'socket.io'
@@ -9,18 +9,25 @@ import swaggerUIExpress from 'swagger-ui-express'
 
 import { createAdapter } from '@socket.io/redis-adapter'
 import environment from '../environment.js'
+import { MetadataController } from '../metadata/metadata.controller.js'
+import { RSSController } from '../rss/rss.controller.js'
+import { Scraper } from '../scraper/scraper.controller.js'
+import { Context } from '../util/context.js'
 import { AdminController } from './admin/admin.controller.js'
 import { HealthController } from './health/health.controller.js'
 import { DefaultInterceptor } from './interceptors/default.interceptor.js'
 import { ArcController } from './metadata/arc/arc.controller.js'
 import { EpisodeController } from './metadata/episode/episode.controller.js'
 import { FilesController } from './metadata/files/files.controller.js'
-import { MetadataController } from './metadata/metadata.controller.js'
+import { MetadataController as RESTMetadataController } from './metadata/metadata.controller.js'
 import { SearchController } from './metadata/search/search.controller.js'
 import { HttpErrorHandler } from './middlewares/error.middleware.js'
 import { LoggerMiddleware } from './middlewares/logger.middleware.js'
 import { NoCacheMiddleware } from './middlewares/nocache.middleware.js'
 import { SWAGGER_SPECS } from './swagger.js'
+
+const LEADER_KEY = 'app:leader'
+const LEADER_TTL_MS = 10000
 
 export class Express {
 	private origins = [`https://onepacerr.com`, `https://www.onepacerr.com`]
@@ -29,6 +36,11 @@ export class Express {
 	private server: Server
 
 	io: SocketIOServer
+
+	private pubClient
+	private subClient
+	isLeader: boolean = false
+	private leaderInterval
 
 	private listening: boolean = false
 	private eventEmitter: EventEmitter = new EventEmitter()
@@ -48,7 +60,7 @@ export class Express {
 
 				AdminController,
 
-				MetadataController,
+				RESTMetadataController,
 				ArcController,
 				EpisodeController,
 				FilesController,
@@ -77,7 +89,7 @@ export class Express {
 		)
 
 		this.server = createServer(this.app)
-		const pubClient = createClient({
+		this.pubClient = createClient({
 			url: environment.REDIS_URL,
 			socket: {
 				reconnectStrategy: retries => {
@@ -89,30 +101,30 @@ export class Express {
 				},
 			},
 		})
-		const subClient = pubClient.duplicate()
+		this.subClient = this.pubClient.duplicate()
 
-		pubClient.on('error', err =>
+		this.pubClient.on('error', err =>
 			Logger.error(`Redis pubClient error: ${err.message}`),
 		)
-		subClient.on('error', err =>
+		this.subClient.on('error', err =>
 			Logger.error(`Redis subClient error: ${err.message}`),
 		)
 
-		pubClient.on('reconnecting', () =>
+		this.pubClient.on('reconnecting', () =>
 			Logger.warn('Redis pubClient reconnecting...'),
 		)
-		pubClient.on('ready', () =>
+		this.pubClient.on('ready', () =>
 			Logger.info('Redis pubClient reconnected and ready'),
 		)
 
-		subClient.on('reconnecting', () =>
+		this.subClient.on('reconnecting', () =>
 			Logger.warn('Redis subClient reconnecting...'),
 		)
-		subClient.on('ready', () =>
+		this.subClient.on('ready', () =>
 			Logger.info('Redis subClient reconnected and ready'),
 		)
 
-		Promise.all([pubClient.connect(), subClient.connect()])
+		Promise.all([this.pubClient.connect(), this.subClient.connect()])
 			.then(() => {
 				Logger.info(`Successfully connected to redis`)
 			})
@@ -122,7 +134,7 @@ export class Express {
 			})
 			.finally(() => {
 				this.io = new SocketIOServer(this.server, {
-					adapter: createAdapter(pubClient, subClient),
+					adapter: createAdapter(this.pubClient, this.subClient),
 				})
 
 				this.io.on('connection', async socket => {
@@ -149,6 +161,15 @@ export class Express {
 					})
 				})
 			})
+
+		this.io.on('leader_elected', data => {
+			Logger.info(`Received updates from leader`)
+			Context.scraper.scrapedEpisodeGuide = data.scraper.scrapedEpisodeGuide
+			Context.scraper.scrapedEpisodeDescriptions =
+				data.scraper.scrapedEpisodeDescriptions
+			Context.rss.feed = data.rss
+			Context.metadata.metadata = data.metadata
+		})
 	}
 
 	async start(portOverride?: number) {
@@ -188,5 +209,86 @@ export class Express {
 				}
 			}, 2000)
 		})
+	}
+
+	private async startProcessing() {
+		Logger.info('INITIALIZING SCRAPING SERVICE...')
+		if (!Context.scraper) Context.scraper = new Scraper()
+		await Context.scraper.init()
+
+		Logger.info('INITIALIZING RSS SERVICE...')
+		if (!Context.rss) Context.rss = new RSSController()
+		await Context.rss.init()
+
+		Logger.info('INITIALIZING METADATA...')
+		if (!Context.metadata) Context.metadata = new MetadataController()
+		await Context.metadata.init()
+
+		if (this.leaderInterval) {
+			clearInterval(this.leaderInterval)
+			this.leaderInterval = null
+		}
+
+		this.leaderInterval = setInterval(async () => {
+			try {
+				Logger.info(`Refreshing Google Sheets`)
+				await Context.scraper.init()
+				Logger.info(`Refreshing RSS feed`)
+				await Context.rss.init()
+				Logger.info(`Refreshing Metadata`)
+				await Context.metadata.init()
+			} catch (e) {
+				Logger.error(`Error trying to refresh data`)
+				Logger.error(e)
+			}
+		}, environment.SCRAPE_INTERVAL)
+	}
+
+	private async stopProcessing() {
+		Logger.info('STOPPING SCRAPING SERVICE...')
+		if (Context.scraper) {
+			Context.scraper = null
+		}
+
+		Logger.info('STOPPING RSS SERVICE...')
+		if (Context.rss) {
+			Context.rss = null
+		}
+
+		Logger.info('STOPPING METADATA...')
+		if (Context.metadata) {
+			Context.metadata = null
+		}
+
+		if (this.leaderInterval) {
+			clearInterval(this.leaderInterval)
+			this.leaderInterval = null
+		}
+	}
+
+	private async tryBecomeLeader() {
+		const instanceId = process.env.RAILWAY_REPLICA_ID || process.pid.toString()
+
+		// SET key value NX PX ttl — only succeeds if no one currently holds it
+		const acquired = await this.pubClient.set(LEADER_KEY, instanceId, {
+			NX: true,
+			PX: LEADER_TTL_MS,
+		})
+
+		if (acquired) {
+			this.isLeader = true
+			Logger.info(`This instance (${instanceId}) is now the leader`)
+			await this.startProcessing()
+		} else if (this.isLeader) {
+			// We think we're leader — renew our lease if we still hold the key
+			const current = await this.pubClient.get(LEADER_KEY)
+			if (current === instanceId) {
+				await this.pubClient.pExpire(LEADER_KEY, LEADER_TTL_MS)
+			} else {
+				this.isLeader = false
+				Logger.warn('Lost leadership')
+				await this.stopProcessing()
+			}
+		}
 	}
 }
