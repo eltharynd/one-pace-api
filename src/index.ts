@@ -4,6 +4,9 @@ import environment from './environment.js'
 import { Logger } from 'ez-ts-logger'
 
 import { Express } from './api/express.js'
+import { MetadataController } from './metadata/metadata.controller.js'
+import { RSSController } from './rss/rss.controller.js'
+import { Scraper } from './scraper/scraper.controller.js'
 import { Context } from './util/context.js'
 
 const startApp = async () => {
@@ -37,6 +40,9 @@ const startApp = async () => {
 		Logger.info('STARTING APPLICATION...')
 
 		Context.express = new Express()
+		if (!Context.scraper) Context.scraper = new Scraper()
+		if (!Context.rss) Context.rss = new RSSController()
+		if (!Context.metadata) Context.metadata = new MetadataController()
 
 		if (!environment.SINGLE_MODE) {
 			Logger.info('INITIALIZING EXPRESS SERVER...')

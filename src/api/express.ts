@@ -9,9 +9,6 @@ import swaggerUIExpress from 'swagger-ui-express'
 
 import { createAdapter } from '@socket.io/redis-adapter'
 import environment from '../environment.js'
-import { MetadataController } from '../metadata/metadata.controller.js'
-import { RSSController } from '../rss/rss.controller.js'
-import { Scraper } from '../scraper/scraper.controller.js'
 import { Context } from '../util/context.js'
 import { AdminController } from './admin/admin.controller.js'
 import { HealthController } from './health/health.controller.js'
@@ -224,15 +221,13 @@ export class Express {
 
 	private async startProcessing() {
 		Logger.info('INITIALIZING SCRAPING SERVICE...')
-		if (!Context.scraper) Context.scraper = new Scraper()
+
 		await Context.scraper.init()
 
 		Logger.info('INITIALIZING RSS SERVICE...')
-		if (!Context.rss) Context.rss = new RSSController()
 		await Context.rss.init()
 
 		Logger.info('INITIALIZING METADATA...')
-		if (!Context.metadata) Context.metadata = new MetadataController()
 		await Context.metadata.init()
 
 		if (this.leaderInterval) {
@@ -256,21 +251,7 @@ export class Express {
 	}
 
 	private async stopProcessing() {
-		Logger.info('STOPPING SCRAPING SERVICE...')
-		if (Context.scraper) {
-			Context.scraper = null
-		}
-
-		Logger.info('STOPPING RSS SERVICE...')
-		if (Context.rss) {
-			Context.rss = null
-		}
-
-		Logger.info('STOPPING METADATA...')
-		if (Context.metadata) {
-			Context.metadata = null
-		}
-
+		Logger.info('STOPPING PROCESSING...')
 		if (this.leaderInterval) {
 			clearInterval(this.leaderInterval)
 			this.leaderInterval = null
