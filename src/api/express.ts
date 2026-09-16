@@ -140,7 +140,7 @@ export class Express {
 				this.io.on('connection', async socket => {
 					Logger.debug(`Socket ${socket.id} connected`)
 					Logger.info(
-						`Clients connected: ${(await this.io.fetchSockets()).length}`,
+						`Client connected, total clients: ${(await this.io.fetchSockets()).length}`,
 					)
 
 					socket.on('subscribe_to_updates', () => {
@@ -156,7 +156,7 @@ export class Express {
 					socket.on('disconnect', async () => {
 						Logger.debug(`Socket ${socket.id} disconnected`)
 						Logger.info(
-							`Clients connected: ${(await this.io.fetchSockets()).length}`,
+							`Client disconnected, total clients: ${(await this.io.fetchSockets()).length}`,
 						)
 					})
 				})
