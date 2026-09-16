@@ -145,11 +145,11 @@ export class Express {
 						Logger.debug(`Socket ${socket.id} joined 'updates'`)
 						if (data?.version) {
 							Logger.info(
-								`Client (v${data.version}) connected, total clients: ${(await this.io.fetchSockets()).length}`,
+								`Client ${socket.id} (v${data.version}) connected, total clients: ${(await this.io.fetchSockets()).length}`,
 							)
 						} else {
 							Logger.info(
-								`Client (older) connected, total clients: ${(await this.io.fetchSockets()).length}`,
+								`Client ${socket.id} (older) connected, total clients: ${(await this.io.fetchSockets()).length}`,
 							)
 						}
 						socket.join('updates')
