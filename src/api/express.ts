@@ -137,12 +137,21 @@ export class Express {
 
 				this.io.on('connection', async socket => {
 					Logger.debug(`Socket ${socket.id} connected`)
-					Logger.info(
+					Logger.debug(
 						`Client connected, total clients: ${(await this.io.fetchSockets()).length}`,
 					)
 
-					socket.on('subscribe_to_updates', () => {
+					socket.on('subscribe_to_updates', async data => {
 						Logger.debug(`Socket ${socket.id} joined 'updates'`)
+						if (data?.version) {
+							Logger.info(
+								`Client (v${data.version}) connected, total clients: ${(await this.io.fetchSockets()).length}`,
+							)
+						} else {
+							Logger.info(
+								`Client (older) connected, total clients: ${(await this.io.fetchSockets()).length}`,
+							)
+						}
 						socket.join('updates')
 					})
 
