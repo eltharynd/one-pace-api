@@ -2,9 +2,12 @@ import express from 'express'
 import { Logger } from 'ez-ts-logger'
 import EventEmitter from 'node:events'
 import { Server, createServer } from 'node:http'
+import { createClient } from 'redis'
 import { createExpressServer } from 'routing-controllers'
 import { Server as SocketIOServer } from 'socket.io'
 import swaggerUIExpress from 'swagger-ui-express'
+
+import { createAdapter } from '@socket.io/redis-adapter'
 import environment from '../environment.js'
 import { AdminController } from './admin/admin.controller.js'
 import { HealthController } from './health/health.controller.js'
@@ -74,27 +77,44 @@ export class Express {
 		)
 
 		this.server = createServer(this.app)
-		this.io = new SocketIOServer(this.server)
-
-		this.io.on('connection', socket => {
-			Logger.debug(`Socket ${socket.id} connected`)
-			Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
-
-			socket.on('subscribe_to_updates', () => {
-				Logger.debug(`Socket ${socket.id} joined 'updates'`)
-				socket.join('updates')
-			})
-
-			socket.on('unsubscribe_from_updates', () => {
-				Logger.debug(`Socket ${socket.id} left 'updates'`)
-				socket.leave('updates')
-			})
-
-			socket.on('disconnect', () => {
-				Logger.debug(`Socket ${socket.id} disconnected`)
-				Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
-			})
+		const pubClient = createClient({
+			url: environment.REDIS_URL,
 		})
+		const subClient = pubClient.duplicate()
+
+		Promise.all([pubClient.connect(), subClient.connect()])
+			.then(() => {
+				Logger.info(`Successfully connected to redis`)
+			})
+			.catch(error => {
+				Logger.error(`Could not connect to redis...`)
+				Logger.error(error)
+			})
+			.finally(() => {
+				this.io = new SocketIOServer(this.server, {
+					adapter: createAdapter(pubClient, subClient),
+				})
+
+				this.io.on('connection', socket => {
+					Logger.debug(`Socket ${socket.id} connected`)
+					Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
+
+					socket.on('subscribe_to_updates', () => {
+						Logger.debug(`Socket ${socket.id} joined 'updates'`)
+						socket.join('updates')
+					})
+
+					socket.on('unsubscribe_from_updates', () => {
+						Logger.debug(`Socket ${socket.id} left 'updates'`)
+						socket.leave('updates')
+					})
+
+					socket.on('disconnect', () => {
+						Logger.debug(`Socket ${socket.id} disconnected`)
+						Logger.info(`Clients connected: ${this.io.engine.clientsCount}`)
+					})
+				})
+			})
 	}
 
 	async start(portOverride?: number) {

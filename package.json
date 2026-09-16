@@ -31,6 +31,7 @@
   "dependencies": {
     "@googleapis/drive": "^20.2.0",
     "@googleapis/sheets": "^13.0.2",
+    "@socket.io/redis-adapter": "^8.3.0",
     "axios": "^1.18.1",
     "body-parser": "^2.3.0",
     "capitalize": "^2.0.4",
@@ -43,6 +44,7 @@
     "ez-ts-logger": "^1.0.11",
     "nocache": "^4.0.0",
     "perfect-express-sanitizer": "^2.0.2",
+    "redis": "^6.2.1",
     "reflect-metadata": "^0.2.2",
     "routing-controllers": "^0.11.3",
     "routing-controllers-openapi": "^5.0.1",
