@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-17T05:47:57.858Z",
+  "lastUpdate": "2026-09-20T19:04:39.951Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -252,8 +252,9 @@
                 "outdated": true
               },
               {
-                "hash": "802aae915d77b8bc621f142a94a8b0d06477e50a",
-                "magnetURI": "magnet:?xt=urn:btih:802aae915d77b8bc621f142a94a8b0d06477e50a&dn=%5BOne+Pace%5D%5B1-7%5D+Romance+Dawn+%5B480p-1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
+                "CRC32": "9FE150E1",
+                "hash": "10f11fdf5289716d7814eaed23375803897f90f5",
+                "magnetURI": "magnet:?xt=urn:btih:10f11fdf5289716d7814eaed23375803897f90f5&dn=%5BOne+Pace%5D+Paced+One+Piece+-+Romance+Dawn+%5B720p%5D%5B9FE150E1%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -292,6 +293,13 @@
                 "variant": "standard",
                 "partOfBundle": true,
                 "outdated": true
+              },
+              {
+                "CRC32": "0CB32BF6",
+                "hash": "f5d5229f2ba960b829df92d7723f9143d0dd7dab",
+                "magnetURI": "magnet:?xt=urn:btih:f5d5229f2ba960b829df92d7723f9143d0dd7dab&dn=%5BOne+Pace%5D+Paced+One+Piece+-+Alvida+%5B480p%5D%5B0CB32BF6%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -327,6 +335,12 @@
                 "magnetURI": "magnet:?xt=urn:btih:d42d71270da00dd578e34fb28517a5fffe4d2cfb&dn=%5BOne+Pace%5D%5B1-7%5D+Romance+Dawn+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
                 "variant": "standard",
                 "partOfBundle": true,
+                "outdated": true
+              },
+              {
+                "hash": "f0be9c55c8fe1e7990cee1a7db60f2b23e970755",
+                "magnetURI": "magnet:?xt=urn:btih:f0be9c55c8fe1e7990cee1a7db60f2b23e970755&dn=%5BOne+Pace%5D+Paced+One+Piece+-+Captain+Morgan&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
                 "outdated": true
               }
             ]
@@ -419,6 +433,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:d54ad844dcb2fcfd63bb3ef401f5004102aa39f0&dn=%5BOne+Pace%5D%5B8-21%5D+Orange+Town+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
                 "variant": "standard",
                 "partOfBundle": true,
+                "outdated": true
+              },
+              {
+                "CRC32": "A2F5F372",
+                "hash": "c523263a0a6a502f645ad466f0101ffee619ce24",
+                "magnetURI": "magnet:?xt=urn:btih:c523263a0a6a502f645ad466f0101ffee619ce24&dn=%5BOne+Pace%5D%5B8-11%5D+Orange+Town+01+%5B480p%5D%5BA2F5F372%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
                 "outdated": true
               }
             ]
@@ -549,11 +570,10 @@
                 "outdated": true
               },
               {
-                "CRC32": "B19F374A",
-                "hash": "6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb",
-                "magnetURI": "magnet:?xt=urn:btih:6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "CRC32": "AF592982",
+                "hash": "57691a6c803d7cec1a67d66a3f808ca3942324cc",
+                "magnetURI": "magnet:?xt=urn:btih:57691a6c803d7cec1a67d66a3f808ca3942324cc&dn=%5BOne+Pace%5D%5B23-25%5D+Syrup+Village+01+%5B480p%5D%5BAF592982%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce",
                 "variant": "standard",
-                "partOfBundle": true,
                 "outdated": true
               }
             ]
@@ -592,17 +612,14 @@
                 "outdated": true
               },
               {
-                "hash": "8363770ec123cdccef45ac98098b866635e0b43d",
-                "magnetURI": "magnet:?xt=urn:btih:8363770ec123cdccef45ac98098b866635e0b43d",
                 "variant": "standard",
                 "outdated": true
               },
               {
-                "CRC32": "7EE6C65F",
-                "hash": "6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb",
-                "magnetURI": "magnet:?xt=urn:btih:6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "CRC32": "B487B92A",
+                "hash": "664ede56db4edc59a3ef06cbca3d02e27536b0c4",
+                "magnetURI": "magnet:?xt=urn:btih:664ede56db4edc59a3ef06cbca3d02e27536b0c4&dn=%5BOne+Pace%5D%5B26-27%5D+Syrup+Village+02+%5B480p%5D%5BB487B92A%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce",
                 "variant": "standard",
-                "partOfBundle": true,
                 "outdated": true
               }
             ]
@@ -641,11 +658,10 @@
                 "outdated": true
               },
               {
-                "CRC32": "C2C0A86A",
-                "hash": "6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb",
-                "magnetURI": "magnet:?xt=urn:btih:6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "CRC32": "BB8FBDB3",
+                "hash": "c8c8cdddb7d1a9e0dca2d87f469aef4b4c3c2f0e",
+                "magnetURI": "magnet:?xt=urn:btih:c8c8cdddb7d1a9e0dca2d87f469aef4b4c3c2f0e&dn=%5BOne+Pace%5D%5B28-30%5D+Syrup+Village+03+%5B480p%5D%5BBB8FBDB3%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
                 "variant": "standard",
-                "partOfBundle": true,
                 "outdated": true
               }
             ]
@@ -684,11 +700,10 @@
                 "outdated": true
               },
               {
-                "CRC32": "FD399699",
-                "hash": "6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb",
-                "magnetURI": "magnet:?xt=urn:btih:6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "CRC32": "42C0A59A",
+                "hash": "0e00a655dd4f57168bdb8bea113cf980417717a0",
+                "magnetURI": "magnet:?xt=urn:btih:0e00a655dd4f57168bdb8bea113cf980417717a0&dn=%5BOne+Pace%5D%5B31-34%5D+Syrup+Village+04+%5B480p%5D%5B42C0A59A%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce",
                 "variant": "standard",
-                "partOfBundle": true,
                 "outdated": true
               }
             ]
@@ -727,11 +742,10 @@
                 "outdated": true
               },
               {
-                "CRC32": "5498C538",
-                "hash": "6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb",
-                "magnetURI": "magnet:?xt=urn:btih:6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "CRC32": "863271C2",
+                "hash": "ee88406f4836a153462d71fc70c01dca8cefb1ad",
+                "magnetURI": "magnet:?xt=urn:btih:ee88406f4836a153462d71fc70c01dca8cefb1ad&dn=%5BOne+Pace%5D+Chapter+035-039+%5B480p%5D%5B863271C2%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
                 "variant": "standard",
-                "partOfBundle": true,
                 "outdated": true
               }
             ]
@@ -767,14 +781,6 @@
                 "hash": "dcec5a7b2f15cc18e8870a7fb216cdd698bf5592",
                 "magnetURI": "magnet:?xt=urn:btih:dcec5a7b2f15cc18e8870a7fb216cdd698bf5592&dn=%5BOne+Pace%5D%5B38-39%5D+Syrup+Village+06+%5B1080p%5D%5BF9DE972C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
                 "variant": "standard",
-                "outdated": true
-              },
-              {
-                "CRC32": "D1742A98",
-                "hash": "6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb",
-                "magnetURI": "magnet:?xt=urn:btih:6c29dedaa9bef46c73a04ebe2c8c9761b92cb9eb&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
-                "variant": "standard",
-                "partOfBundle": true,
                 "outdated": true
               }
             ]
@@ -816,6 +822,13 @@
                 "CRC32": "84608F51",
                 "hash": "a4c1a64bad7e44d913d9562fe7f4b3cbad2be990",
                 "magnetURI": "magnet:?xt=urn:btih:a4c1a64bad7e44d913d9562fe7f4b3cbad2be990&dn=%5BOne+Pace%5D%5B40-41%5D+Syrup+Village+07+%5B1080p%5D%5B84608F51%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "6AC6D4DD",
+                "hash": "fe7e2846d6cba05280c27dfb3bd29cdd878ee22b",
+                "magnetURI": "magnet:?xt=urn:btih:fe7e2846d6cba05280c27dfb3bd29cdd878ee22b&dn=%5BOne+Pace%5D+Chapter+040-041+%5B480p%5D%5B6AC6D4DD%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
                 "variant": "standard",
                 "outdated": true
               }
@@ -1185,12 +1198,6 @@
                 "partOfBundle": true
               },
               {
-                "hash": "134d5ce9d3c8429b516e5e81cb11bda8fe9a290c",
-                "magnetURI": "magnet:?xt=urn:btih:134d5ce9d3c8429b516e5e81cb11bda8fe9a290c&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D%5BDual-Audio%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
-                "variant": "standard",
-                "outdated": true
-              },
-              {
                 "CRC32": "5FC4CFF7",
                 "hash": "3e7271dc4761ed878807b59df167ec1dfb6e360e",
                 "magnetURI": "magnet:?xt=urn:btih:3e7271dc4761ed878807b59df167ec1dfb6e360e&dn=%5BOne+Pace%5D%5B69-71%5D+Arlong+Park+01+%5B480p%5D%5B5FC4CFF7%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
@@ -1408,6 +1415,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:4c688038db6ae51893f505fbb0c12eafacde8f4b&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "7A559716",
+                "hash": "37a05921bb92e651899dc4b167459b602529b6f8",
+                "magnetURI": "magnet:?xt=urn:btih:37a05921bb92e651899dc4b167459b602529b6f8&dn=%5BOne+Pace%5D%5B82-84%5D+Arlong+Park+06+%5B480p%5D%5B7A559716%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -1435,6 +1449,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:4c688038db6ae51893f505fbb0c12eafacde8f4b&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "AE7B08F2",
+                "hash": "fe56ef10556aea4fe63ccc54344cfcce771cde03",
+                "magnetURI": "magnet:?xt=urn:btih:fe56ef10556aea4fe63ccc54344cfcce771cde03&dn=%5BOne+Pace%5D%5B85-87%5D+Arlong+Park+07+%5B480p%5D%5BAE7B08F2%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -1462,6 +1483,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:4c688038db6ae51893f505fbb0c12eafacde8f4b&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "69313728",
+                "hash": "df773b8d2d943b8a323787fdde522ee631b96d79",
+                "magnetURI": "magnet:?xt=urn:btih:df773b8d2d943b8a323787fdde522ee631b96d79&dn=%5BOne+Pace%5D%5B88-90%5D+Arlong+Park+08+%5B480p%5D%5B69313728%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -1489,6 +1517,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:4c688038db6ae51893f505fbb0c12eafacde8f4b&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "EB1B1AA6",
+                "hash": "572eb945a48bb6e2c75620f50578d29eb520d80f",
+                "magnetURI": "magnet:?xt=urn:btih:572eb945a48bb6e2c75620f50578d29eb520d80f&dn=%5BOne+Pace%5D%5B91-94%5D+Arlong+Park+09+%5B480p%5D%5BEB1B1AA6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -1784,7 +1819,16 @@
               "duration": 1858,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "A4FFDB10",
+                "hash": "2a069eb7c7ae420495c974d18f8f5acdf9bdfe3d",
+                "magnetURI": "magnet:?xt=urn:btih:2a069eb7c7ae420495c974d18f8f5acdf9bdfe3d&dn=%5BOne+Pace%5D%5B106-109%5D+Whiskey+Peak+01+%5B480p%5D%5BA4FFDB10%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -1803,7 +1847,16 @@
               "duration": 2417,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "A76460D1",
+                "hash": "157220ecdf20b86df6e826e72ae4c2c40d8a71b8",
+                "magnetURI": "magnet:?xt=urn:btih:157220ecdf20b86df6e826e72ae4c2c40d8a71b8&dn=%5BOne+Pace%5D%5B110-114%5D+Whiskey+Peak+02+%5B480p%5D%5BA76460D1%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         }
       ]
@@ -2253,13 +2306,20 @@
           "released": "2026-09-12T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "F8FCF23F",
-              "hash": "1518c0345ff6e7e8ae4a2f4811e07179982f310d",
-              "magnetURI": "magnet:?xt=urn:btih:1518c0345ff6e7e8ae4a2f4811e07179982f310d&dn=%5BOne+Pace%5D%5B153-155%5D+Drum+Island+08+%5B1080p%5D%5BF8FCF23F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
-              "duration": 1770,
+              "CRC32": "FA5C67B1",
+              "hash": "1854d3a4591289a1648c9775800f296812e4e480",
+              "magnetURI": "magnet:?xt=urn:btih:1854d3a4591289a1648c9775800f296812e4e480&dn=%5BOne+Pace%5D%5B153-155%5D+Drum+Island+08+%5B1080p%5D%5BFA5C67B1%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
               "variant": "standard"
             },
             "archived": [
+              {
+                "CRC32": "F8FCF23F",
+                "hash": "1518c0345ff6e7e8ae4a2f4811e07179982f310d",
+                "magnetURI": "magnet:?xt=urn:btih:1518c0345ff6e7e8ae4a2f4811e07179982f310d&dn=%5BOne+Pace%5D%5B153-155%5D+Drum+Island+08+%5B1080p%5D%5BF8FCF23F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
+                "duration": 1770,
+                "variant": "standard",
+                "outdated": true
+              },
               {
                 "CRC32": "9794072D",
                 "hash": "a464ed705df4d6e5c82182720fcb680aff526df9",
@@ -3451,11 +3511,20 @@
             "standard": {
               "CRC32": "B692FD08",
               "hash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
-              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "duration": 1971,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "6D49D66B",
+                "hash": "42b2b2ea201363989a910146c5b61ba628053686",
+                "magnetURI": "magnet:?xt=urn:btih:42b2b2ea201363989a910146c5b61ba628053686&dn=%5BOne+Pace%5D+Davy+Back+Fight+01+%5B1280x720+x265+AC3+Dual+Audio%5D%5B6D49D66B%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3470,11 +3539,20 @@
             "standard": {
               "CRC32": "57F75027",
               "hash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
-              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "duration": 1476,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "2D25EDD9",
+                "hash": "eb94d171b05d0f395397500262c962dc6c1a8870",
+                "magnetURI": "magnet:?xt=urn:btih:eb94d171b05d0f395397500262c962dc6c1a8870&dn=%5BOne+Pace%5D+Davy+Back+Fight+02+%5B1280x720+x265+AAC+Dual+Audio%5D%5B2D25EDD9%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3489,11 +3567,20 @@
             "standard": {
               "CRC32": "24351CC0",
               "hash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
-              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "duration": 1532,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "3EE8D2D0",
+                "hash": "2f3d7d67ee0bba54beab3c95afc525b10bf193d7",
+                "magnetURI": "magnet:?xt=urn:btih:2f3d7d67ee0bba54beab3c95afc525b10bf193d7&dn=%5BOne+Pace%5D+Davy+Back+Fight+03+%5B1280x720+x265+AAC+Dual+Audio%5D%5B3EE8D2D0%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3508,11 +3595,20 @@
             "standard": {
               "CRC32": "72C0B595",
               "hash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
-              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "duration": 2178,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "E8D7058F",
+                "hash": "5d9d8fad5d02c3b03179b65f4908166b974299d1",
+                "magnetURI": "magnet:?xt=urn:btih:5d9d8fad5d02c3b03179b65f4908166b974299d1&dn=%5BOne+Pace%5D+Davy+Back+Fight+04+%5B720p%5D%5BE8D7058F%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3527,11 +3623,20 @@
             "standard": {
               "CRC32": "BCF2E97B",
               "hash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
-              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "duration": 931,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "4DDAE95E",
+                "hash": "9d885c2ea01ea1d7f2f540d083e5faf266a131a0",
+                "magnetURI": "magnet:?xt=urn:btih:9d885c2ea01ea1d7f2f540d083e5faf266a131a0&dn=%5BOne+Pace%5D%5B317-318%5D+Davy+Back+Fight+05+%5B720p%5D%5B4DDAE95E%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -3546,11 +3651,20 @@
             "standard": {
               "CRC32": "A65C20C2",
               "hash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
-              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
               "duration": 1834,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "EB19DA9C",
+                "hash": "ffcb0679fb3eb04afef3d25c8628549ecabffecd",
+                "magnetURI": "magnet:?xt=urn:btih:ffcb0679fb3eb04afef3d25c8628549ecabffecd&dn=%5BOne+Pace%5D%5B318-321%5D+Davy+Back+Fight+06+%5B720p%5D%5BEB19DA9C%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         }
       ]
@@ -3976,6 +4090,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:86fbff72e60cf50f347b9c30308c64f966e664a5&dn=%5BOne+Pace%5D%5B375-376%5D+Enies+Lobby+01+%5B1080p%5D%5BA6CD3EBB%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
+              },
+              {
+                "CRC32": "B14EAABE",
+                "hash": "3a9516e9f12cbd4e473b9c73a4d838f1435ba71c",
+                "magnetURI": "magnet:?xt=urn:btih:3a9516e9f12cbd4e473b9c73a4d838f1435ba71c&dn=%5BOne+Pace%5D+Chapter+375-376+%5B720p%5D%5BB14EAABE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -4003,6 +4124,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:2ed606e870d5927f3d83acd72bd4aec691196a5d&dn=%5BOne+Pace%5D%5B377-378%5D+Enies+Lobby+02+%5B1080p%5D%5BEBBD7693%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
+              },
+              {
+                "CRC32": "6C9A99AD",
+                "hash": "624a7e2390da1a564b46cd8a1c3d02dcbefc730a",
+                "magnetURI": "magnet:?xt=urn:btih:624a7e2390da1a564b46cd8a1c3d02dcbefc730a&dn=%5BOne+Pace%5D+Chapter+377-378+%5B720p%5D%5B6C9A99AD%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -4028,6 +4156,13 @@
                 "CRC32": "747CF45E",
                 "hash": "e5a18727ff4911ebc7026405e92912f7ca57aa2c",
                 "magnetURI": "magnet:?xt=urn:btih:e5a18727ff4911ebc7026405e92912f7ca57aa2c&dn=%5BOne+Pace%5D%5B379-380%5D+Enies+Lobby+03+%5B1080p%5D%5B747CF45E%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "F2E930C5",
+                "hash": "805a5a08c2a2bfe265ad2157b832d378c60edfe1",
+                "magnetURI": "magnet:?xt=urn:btih:805a5a08c2a2bfe265ad2157b832d378c60edfe1&dn=%5BOne+Pace%5D+Chapter+379-380+%5B720p%5D%5BF2E930C5%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
                 "variant": "standard",
                 "outdated": true
               }
@@ -4528,16 +4663,7 @@
               "magnetURI": "magnet:?xt=urn:btih:1b3292823bd17a3b571cbddac5d89e632dafab9f&dn=%5BOne+Pace%5D%5B431-432%5D+Post-Enies+Lobby+01+%5B1080p%5D%5BC408DA06%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
               "duration": 1668,
               "variant": "standard"
-            },
-            "archived": [
-              {
-                "CRC32": "216595EE",
-                "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
-                "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
-                "variant": "standard",
-                "partOfBundle": true
-              }
-            ]
+            }
           }
         },
         {
@@ -4552,7 +4678,7 @@
             "standard": {
               "CRC32": "344EA844",
               "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
-              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2362,
               "variant": "standard",
               "partOfBundle": true
@@ -4571,7 +4697,7 @@
             "standard": {
               "CRC32": "2C843A0F",
               "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
-              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1774,
               "variant": "standard",
               "partOfBundle": true
@@ -4590,7 +4716,7 @@
             "standard": {
               "CRC32": "659EF70C",
               "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
-              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1618,
               "variant": "standard",
               "partOfBundle": true
@@ -4609,7 +4735,7 @@
             "standard": {
               "CRC32": "CEF78887",
               "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
-              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1386,
               "variant": "standard",
               "partOfBundle": true
@@ -4652,7 +4778,13 @@
               "duration": 1711,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -4671,7 +4803,13 @@
               "duration": 1477,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -4690,7 +4828,13 @@
               "duration": 2063,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -4709,7 +4853,13 @@
               "duration": 1434,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -5434,7 +5584,23 @@
               "duration": 1654,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "C1FA3347",
+                "hash": "2653a75a05489640af617f293363000eb6a7b6c4",
+                "magnetURI": "magnet:?xt=urn:btih:2653a75a05489640af617f293363000eb6a7b6c4&dn=%5BOne+Pace%5D+Chapter+525-526+%5B720p%5D%5BC1FA3347%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "5604520C",
+                "hash": "72898c17ccd33bdecd327e46bbe366f0205cd12d",
+                "magnetURI": "magnet:?xt=urn:btih:72898c17ccd33bdecd327e46bbe366f0205cd12d&dn=%5BOne+Pace%5D%5B525-526%5D+Impel+Down+01+%5B720p%5D%5B5604520C%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -5472,7 +5638,15 @@
               "duration": 2353,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "hash": "3e4cb1160426200f31fd2ff35b47ce9794238123",
+                "magnetURI": "magnet:?xt=urn:btih:3e4cb1160426200f31fd2ff35b47ce9794238123",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -5491,7 +5665,15 @@
               "duration": 1612,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "hash": "1304facb679a379c55162128438a14f01332b42c",
+                "magnetURI": "magnet:?xt=urn:btih:1304facb679a379c55162128438a14f01332b42c",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -5529,7 +5711,15 @@
               "duration": 1933,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "hash": "a36cfe8bbb44c219b112984914352d68ac7ab00c",
+                "magnetURI": "magnet:?xt=urn:btih:a36cfe8bbb44c219b112984914352d68ac7ab00c",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -5694,8 +5884,15 @@
             },
             "archived": [
               {
+                "hash": "3a1a9d9bca76804fb0822cf8d4748c92efd5499f",
+                "magnetURI": "magnet:?xt=urn:btih:3a1a9d9bca76804fb0822cf8d4748c92efd5499f",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "980F3B2B",
                 "hash": "c73a8dd4a3d25e05eb6b6a72379ead1889318bec",
-                "magnetURI": "magnet:?xt=urn:btih:c73a8dd4a3d25e05eb6b6a72379ead1889318bec",
+                "magnetURI": "magnet:?xt=urn:btih:c73a8dd4a3d25e05eb6b6a72379ead1889318bec&dn=%5BOne+Pace%5D%5B549-550%5D+Marineford+01+%5B720p%5D%5B980F3B2B%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5721,8 +5918,9 @@
             },
             "archived": [
               {
+                "CRC32": "2ACA9B38",
                 "hash": "a8239ee0298000a03c790980c193f26cb8047a93",
-                "magnetURI": "magnet:?xt=urn:btih:a8239ee0298000a03c790980c193f26cb8047a93",
+                "magnetURI": "magnet:?xt=urn:btih:a8239ee0298000a03c790980c193f26cb8047a93&dn=%5BOne+Pace%5D%5B551-552%5D+Marineford+02+%5B720p%5D%5B2ACA9B38%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5748,8 +5946,9 @@
             },
             "archived": [
               {
+                "CRC32": "58E70368",
                 "hash": "c39a7a5836cd93f10e6fc9b0b11e400fff88f1c9",
-                "magnetURI": "magnet:?xt=urn:btih:c39a7a5836cd93f10e6fc9b0b11e400fff88f1c9",
+                "magnetURI": "magnet:?xt=urn:btih:c39a7a5836cd93f10e6fc9b0b11e400fff88f1c9&dn=%5BOne+Pace%5D%5B553-554%5D+Marineford+03+%5B720p%5D%5B58E70368%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5775,8 +5974,9 @@
             },
             "archived": [
               {
+                "CRC32": "8AD67F6C",
                 "hash": "27ea4e63229ba3f8a8a8564c1bb78762c1a23fd7",
-                "magnetURI": "magnet:?xt=urn:btih:27ea4e63229ba3f8a8a8564c1bb78762c1a23fd7",
+                "magnetURI": "magnet:?xt=urn:btih:27ea4e63229ba3f8a8a8564c1bb78762c1a23fd7&dn=%5BOne+Pace%5D%5B555-556%5D+Marineford+04+%5B720p%5D%5B8AD67F6C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5802,8 +6002,9 @@
             },
             "archived": [
               {
+                "CRC32": "28871664",
                 "hash": "97ab7ccf2bc26910fa043ae89c39715f59a0a81b",
-                "magnetURI": "magnet:?xt=urn:btih:97ab7ccf2bc26910fa043ae89c39715f59a0a81b",
+                "magnetURI": "magnet:?xt=urn:btih:97ab7ccf2bc26910fa043ae89c39715f59a0a81b&dn=%5BOne+Pace%5D%5B557-558%5D+Marineford+05+%5B720p%5D%5B28871664%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5829,8 +6030,9 @@
             },
             "archived": [
               {
+                "CRC32": "C117F1ED",
                 "hash": "c59eb7fbfbe0ef6cb976857d9558e9cabce8adb2",
-                "magnetURI": "magnet:?xt=urn:btih:c59eb7fbfbe0ef6cb976857d9558e9cabce8adb2",
+                "magnetURI": "magnet:?xt=urn:btih:c59eb7fbfbe0ef6cb976857d9558e9cabce8adb2&dn=%5BOne+Pace%5D%5B559-560%5D+Marineford+06+%5B720p%5D%5BC117F1ED%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5856,8 +6058,9 @@
             },
             "archived": [
               {
+                "CRC32": "F6171492",
                 "hash": "595c53ff19c50fd3da027cdb60019740cabd8261",
-                "magnetURI": "magnet:?xt=urn:btih:595c53ff19c50fd3da027cdb60019740cabd8261",
+                "magnetURI": "magnet:?xt=urn:btih:595c53ff19c50fd3da027cdb60019740cabd8261&dn=%5BOne+Pace%5D%5B561-562%5D+Marineford+07+%5B720p%5D%5BF6171492%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5883,8 +6086,9 @@
             },
             "archived": [
               {
+                "CRC32": "F97AB6B0",
                 "hash": "93fdc598369d36ae725ef4956ac4dcc2ae927e84",
-                "magnetURI": "magnet:?xt=urn:btih:93fdc598369d36ae725ef4956ac4dcc2ae927e84",
+                "magnetURI": "magnet:?xt=urn:btih:93fdc598369d36ae725ef4956ac4dcc2ae927e84&dn=%5BOne+Pace%5D%5B563-564%5D+Marineford+08+%5B720p%5D%5BF97AB6B0%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5910,8 +6114,9 @@
             },
             "archived": [
               {
+                "CRC32": "EA6D52E0",
                 "hash": "16beb7e95924630bfcda0e2ba799fda8a473279a",
-                "magnetURI": "magnet:?xt=urn:btih:16beb7e95924630bfcda0e2ba799fda8a473279a",
+                "magnetURI": "magnet:?xt=urn:btih:16beb7e95924630bfcda0e2ba799fda8a473279a&dn=%5BOne+Pace%5D%5B565-566%5D+Marineford+09+%5B720p%5D%5BEA6D52E0%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5937,8 +6142,9 @@
             },
             "archived": [
               {
+                "CRC32": "B9690B6D",
                 "hash": "52817e86edbe519bef2aa85c9e0a2d3684ce22d2",
-                "magnetURI": "magnet:?xt=urn:btih:52817e86edbe519bef2aa85c9e0a2d3684ce22d2",
+                "magnetURI": "magnet:?xt=urn:btih:52817e86edbe519bef2aa85c9e0a2d3684ce22d2&dn=%5BOne+Pace%5D%5B567%5D+Marineford+10+%5B720p%5D%5BB9690B6D%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5964,8 +6170,9 @@
             },
             "archived": [
               {
+                "CRC32": "12732A0B",
                 "hash": "b75fb8fbac805534be0466fa6c4d2e9ece910d88",
-                "magnetURI": "magnet:?xt=urn:btih:b75fb8fbac805534be0466fa6c4d2e9ece910d88",
+                "magnetURI": "magnet:?xt=urn:btih:b75fb8fbac805534be0466fa6c4d2e9ece910d88&dn=%5BOne+Pace%5D%5B568-569%5D+Marineford+11+%5B720p%5D%5B12732A0B%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -5991,8 +6198,9 @@
             },
             "archived": [
               {
+                "CRC32": "1F316A6F",
                 "hash": "1a6418d4183a3618734fcbb0f5db27db39f3ae7f",
-                "magnetURI": "magnet:?xt=urn:btih:1a6418d4183a3618734fcbb0f5db27db39f3ae7f",
+                "magnetURI": "magnet:?xt=urn:btih:1a6418d4183a3618734fcbb0f5db27db39f3ae7f&dn=%5BOne+Pace%5D%5B570-571%5D+Marineford+12+%5B720p%5D%5B1F316A6F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -6018,8 +6226,9 @@
             },
             "archived": [
               {
+                "CRC32": "BF75A500",
                 "hash": "9e562df52042501d77d786b4f559dfeeaa984ccf",
-                "magnetURI": "magnet:?xt=urn:btih:9e562df52042501d77d786b4f559dfeeaa984ccf",
+                "magnetURI": "magnet:?xt=urn:btih:9e562df52042501d77d786b4f559dfeeaa984ccf&dn=%5BOne+Pace%5D%5B572-573%5D+Marineford+13+%5B720p%5D%5BBF75A500%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
                 "variant": "standard",
                 "outdated": true
               }
@@ -6373,7 +6582,13 @@
               "duration": 2046,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -6449,16 +6664,7 @@
               "magnetURI": "magnet:?xt=urn:btih:dbe642c56daa3c5e065bc26c11598584c6e6becf&dn=%5BOne+Pace%5D%5B603-604%5D+Fishman+Island+01+%5B1080p%5D%5BF69C4922%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
               "duration": 1865,
               "variant": "standard"
-            },
-            "archived": [
-              {
-                "CRC32": "FBA08093",
-                "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-                "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
-                "variant": "standard",
-                "partOfBundle": true
-              }
-            ]
+            }
           }
         },
         {
@@ -6473,7 +6679,7 @@
             "standard": {
               "CRC32": "BD7169C3",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1454,
               "variant": "standard",
               "partOfBundle": true
@@ -6492,7 +6698,7 @@
             "standard": {
               "CRC32": "5636E014",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1445,
               "variant": "standard",
               "partOfBundle": true
@@ -6511,7 +6717,7 @@
             "standard": {
               "CRC32": "9E0A91E9",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1724,
               "variant": "standard",
               "partOfBundle": true
@@ -6530,7 +6736,7 @@
             "standard": {
               "CRC32": "DA5B5D04",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1627,
               "variant": "standard",
               "partOfBundle": true
@@ -6549,7 +6755,7 @@
             "standard": {
               "CRC32": "64FB3990",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1782,
               "variant": "standard",
               "partOfBundle": true
@@ -6568,7 +6774,7 @@
             "standard": {
               "CRC32": "29A10280",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2053,
               "variant": "standard",
               "partOfBundle": true
@@ -6587,7 +6793,7 @@
             "standard": {
               "CRC32": "DBA50B89",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2713,
               "variant": "standard",
               "partOfBundle": true
@@ -6606,7 +6812,7 @@
             "standard": {
               "CRC32": "FCF7F7E4",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2078,
               "variant": "standard",
               "partOfBundle": true
@@ -6625,7 +6831,7 @@
             "standard": {
               "CRC32": "F4BB17EB",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2146,
               "variant": "standard",
               "partOfBundle": true
@@ -6644,7 +6850,7 @@
             "standard": {
               "CRC32": "7926F9B5",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2158,
               "variant": "standard",
               "partOfBundle": true
@@ -6663,7 +6869,7 @@
             "standard": {
               "CRC32": "F134C10A",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2361,
               "variant": "standard",
               "partOfBundle": true
@@ -6682,7 +6888,7 @@
             "standard": {
               "CRC32": "04C7B716",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2098,
               "variant": "standard",
               "partOfBundle": true
@@ -6701,7 +6907,7 @@
             "standard": {
               "CRC32": "35A189E2",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1738,
               "variant": "standard",
               "partOfBundle": true
@@ -6720,7 +6926,7 @@
             "standard": {
               "CRC32": "8014A332",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1819,
               "variant": "standard",
               "partOfBundle": true
@@ -6739,7 +6945,7 @@
             "standard": {
               "CRC32": "DF3A7006",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2165,
               "variant": "standard",
               "partOfBundle": true
@@ -6758,7 +6964,7 @@
             "standard": {
               "CRC32": "EB0BC95C",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1689,
               "variant": "standard",
               "partOfBundle": true
@@ -6777,7 +6983,7 @@
             "standard": {
               "CRC32": "B6BD1A60",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1499,
               "variant": "standard",
               "partOfBundle": true
@@ -6796,7 +7002,7 @@
             "standard": {
               "CRC32": "C19D5680",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2115,
               "variant": "standard",
               "partOfBundle": true
@@ -6815,7 +7021,7 @@
             "standard": {
               "CRC32": "94E2099D",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1823,
               "variant": "standard",
               "partOfBundle": true
@@ -6834,7 +7040,7 @@
             "standard": {
               "CRC32": "85AD9C81",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1748,
               "variant": "standard",
               "partOfBundle": true
@@ -6853,7 +7059,7 @@
             "standard": {
               "CRC32": "7DBBFA18",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 2547,
               "variant": "standard",
               "partOfBundle": true
@@ -6872,7 +7078,7 @@
             "standard": {
               "CRC32": "65BD682D",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1888,
               "variant": "standard",
               "partOfBundle": true
@@ -6891,7 +7097,7 @@
             "standard": {
               "CRC32": "99A61805",
               "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
               "duration": 1969,
               "variant": "standard",
               "partOfBundle": true
@@ -7943,7 +8149,16 @@
               "duration": 1282,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "98100F9C",
+                "hash": "23c19be8e519f3b8c3faa1f5559de520748bc2d8",
+                "magnetURI": "magnet:?xt=urn:btih:23c19be8e519f3b8c3faa1f5559de520748bc2d8&dn=%5BOne+Pace%5D%5B760-761%5D+Dressrosa+31%5B98100F9C%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8305,7 +8520,16 @@
               "duration": 2289,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "AE19A3A0",
+                "hash": "06399b5fdb91307c49c43557d32fad72c15dba26",
+                "magnetURI": "magnet:?xt=urn:btih:06399b5fdb91307c49c43557d32fad72c15dba26&dn=%5BOne+Pace%5D%5B802-803%5D+Zou+01+%5B720p%5D+%5BAE19A3A0%5D.mkv&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8419,7 +8643,15 @@
               "duration": 1846,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "hash": "17a9e0d21aa12d9bea83c13b1a7dafd102bc5f04",
+                "magnetURI": "magnet:?xt=urn:btih:17a9e0d21aa12d9bea83c13b1a7dafd102bc5f04",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8515,7 +8747,23 @@
               "duration": 1863,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "2CA0B607",
+                "hash": "87e62ba4a557daa438ccf10908b6dbe35bb635dc",
+                "magnetURI": "magnet:?xt=urn:btih:87e62ba4a557daa438ccf10908b6dbe35bb635dc&dn=%5BOne+Pace%5D%5B823-824%5D+Whole+Cake+Island+01v2+%5B720p%5D%5B2CA0B607%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "51873DC4",
+                "hash": "e52639097843201a457bba3f72e6e55af94274aa",
+                "magnetURI": "magnet:?xt=urn:btih:e52639097843201a457bba3f72e6e55af94274aa&dn=%5BOne+Pace%5D%5B823-824%5D+Whole+Cake+Island+01+%5B720p%5D%5B51873DC4%5D.mkv&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8534,7 +8782,16 @@
               "duration": 1989,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "837E2CA1",
+                "hash": "cab76032568e9560ad107aae2cce316788b6ec7a",
+                "magnetURI": "magnet:?xt=urn:btih:cab76032568e9560ad107aae2cce316788b6ec7a&dn=%5BOne+Pace%5D+Chapter+825-826+%5B720p%5D%5B837E2CA1%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8553,7 +8810,16 @@
               "duration": 1917,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "B8A08E6D",
+                "hash": "fc8c3a10c777bd9cfce7a5977793f0fc2f1d25d6",
+                "magnetURI": "magnet:?xt=urn:btih:fc8c3a10c777bd9cfce7a5977793f0fc2f1d25d6&dn=%5BOne+Pace%5D+Chapter+827-828+%5B720p%5D%5BB8A08E6D%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8572,7 +8838,16 @@
               "duration": 1877,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "A0EEC801",
+                "hash": "e26be2a1f029f7837e0e46e8dc31c335e809bba2",
+                "magnetURI": "magnet:?xt=urn:btih:e26be2a1f029f7837e0e46e8dc31c335e809bba2&dn=%5BOne+Pace%5D+Chapter+829-830+%5B720p%5D%5BA0EEC801%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8591,7 +8866,16 @@
               "duration": 1934,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "DF6B6FEC",
+                "hash": "f85cad4c0843b093acd3b324ccbd3e9c377836ad",
+                "magnetURI": "magnet:?xt=urn:btih:f85cad4c0843b093acd3b324ccbd3e9c377836ad&dn=%5BOne+Pace%5D+Chapter+831-832+%5B720p%5D%5BDF6B6FEC%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8610,7 +8894,16 @@
               "duration": 1939,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "7FC1F643",
+                "hash": "7b08155dcdd550571adbc5c5e1ce9974d8fd85c3",
+                "magnetURI": "magnet:?xt=urn:btih:7b08155dcdd550571adbc5c5e1ce9974d8fd85c3&dn=%5BOne+Pace%5D+Chapter+833-834+%5B720p%5D%5B7FC1F643%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8629,7 +8922,16 @@
               "duration": 1872,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "37E1B3D1",
+                "hash": "60e9e4b2bace37d2b2a1ad5ee479e7977bde8ec3",
+                "magnetURI": "magnet:?xt=urn:btih:60e9e4b2bace37d2b2a1ad5ee479e7977bde8ec3&dn=%5BOne+Pace%5D+Chapter+835-836+%5B720p%5D%5B37E1B3D1%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8648,7 +8950,16 @@
               "duration": 1579,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "99396F83",
+                "hash": "dafd52c21413911de1ae26cb03e593e6d4873b38",
+                "magnetURI": "magnet:?xt=urn:btih:dafd52c21413911de1ae26cb03e593e6d4873b38&dn=%5BOne+Pace%5D%5B837-838%5D+Whole+Cake+Island+08+%5B720p%5D%5B99396F83%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.istole.it%3A80&tr=udp%3A%2F%2Ftracker.btzoo.eu%3A80%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8667,7 +8978,16 @@
               "duration": 1925,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "0CE63D1F",
+                "hash": "a6af5d628ab85815c24c874b902fcd9d51b04790",
+                "magnetURI": "magnet:?xt=urn:btih:a6af5d628ab85815c24c874b902fcd9d51b04790&dn=%5BOne+Pace%5D%5B839-840%5D+Whole+Cake+Island+09+%5B720p%5D%5B0CE63D1F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8686,7 +9006,16 @@
               "duration": 2145,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "347060ED",
+                "hash": "04b1bd98e7799e5eb99fbabe78e06b0c31c0cd1f",
+                "magnetURI": "magnet:?xt=urn:btih:04b1bd98e7799e5eb99fbabe78e06b0c31c0cd1f&dn=%5BOne+Pace%5D%5B841-842%5D+Whole+Cake+Island+10+%5B720p%5D%5B347060ED%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8705,7 +9034,16 @@
               "duration": 1578,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "4A6DFB78",
+                "hash": "e722f025b8e2fab31920394cb7ca5e14ce377db7",
+                "magnetURI": "magnet:?xt=urn:btih:e722f025b8e2fab31920394cb7ca5e14ce377db7&dn=%5BOne+Pace%5D+Chapter+843-844+%5B720p%5D%5B4A6DFB78%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8724,7 +9062,16 @@
               "duration": 2057,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "86CA1E99",
+                "hash": "f26941195bbf98578c8a4f290670306826163e7b",
+                "magnetURI": "magnet:?xt=urn:btih:f26941195bbf98578c8a4f290670306826163e7b&dn=%5BOne+Pace%5D+Chapter+845-846+%5B720p%5D%5B86CA1E99%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8743,7 +9090,16 @@
               "duration": 1945,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "34772777",
+                "hash": "e77b19a113df1eac6a4713ab5be5d090c6fcd046",
+                "magnetURI": "magnet:?xt=urn:btih:e77b19a113df1eac6a4713ab5be5d090c6fcd046&dn=%5BOne+Pace%5D+Chapter+847-848+%5B720p%5D%5B34772777%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8762,7 +9118,16 @@
               "duration": 2090,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "0AF54CB5",
+                "hash": "a57ee2ff82dde9b2b373cf5a11505fd2dca04946",
+                "magnetURI": "magnet:?xt=urn:btih:a57ee2ff82dde9b2b373cf5a11505fd2dca04946&dn=%5BOne+Pace%5D+Chapter+849-850+%5B720p%5D%5B0AF54CB5%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8781,7 +9146,16 @@
               "duration": 2153,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "AC27E460",
+                "hash": "b5d38c55eabce8d3b28811ff6cf92263a24aac69",
+                "magnetURI": "magnet:?xt=urn:btih:b5d38c55eabce8d3b28811ff6cf92263a24aac69&dn=%5BOne+Pace%5D%5B851-852%5D+Whole+Cake+Island+15+%5B720p%5D%5BAC27E460%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8800,7 +9174,16 @@
               "duration": 1758,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "2CA58267",
+                "hash": "8adf31e86f5e7b0f75f163df3c94fc114082448d",
+                "magnetURI": "magnet:?xt=urn:btih:8adf31e86f5e7b0f75f163df3c94fc114082448d&dn=%5BOne+Pace%5D%5B853-854%5D+Whole+Cake+Island+16+%5B720p%5D%5B2CA58267%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8819,7 +9202,16 @@
               "duration": 2029,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "22B39C36",
+                "hash": "bed71b3d574be98b3e2e2c52671357cb76635d14",
+                "magnetURI": "magnet:?xt=urn:btih:bed71b3d574be98b3e2e2c52671357cb76635d14&dn=%5BOne+Pace%5D%5B855-856%5D+Whole+Cake+Island+17+%5B720p%5D%5B22B39C36%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8838,7 +9230,16 @@
               "duration": 2170,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "A94AF722",
+                "hash": "e9b9ccd7da5ee6a1014343b2c67d11a24e8170ab",
+                "magnetURI": "magnet:?xt=urn:btih:e9b9ccd7da5ee6a1014343b2c67d11a24e8170ab&dn=%5BOne+Pace%5D%5B857-858%5D+Whole+Cake+Island+18+%5B720p%5D%5BA94AF722%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8857,7 +9258,16 @@
               "duration": 2008,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "2F8600E4",
+                "hash": "2434962781b988f966bccbf3ab646d41726f5ae9",
+                "magnetURI": "magnet:?xt=urn:btih:2434962781b988f966bccbf3ab646d41726f5ae9&dn=%5BOne+Pace%5D%5B859-860%5D+Whole+Cake+Island+19+%5B720p%5D%5B2F8600E4%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8876,7 +9286,16 @@
               "duration": 1772,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "FB8F3643",
+                "hash": "af36a04b220d83c4b1f832b85c42d593018033bc",
+                "magnetURI": "magnet:?xt=urn:btih:af36a04b220d83c4b1f832b85c42d593018033bc&dn=%5BOne+Pace%5D%5B861-862%5D+Whole+Cake+Island+20+%5B720p%5D%5BFB8F3643%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8895,7 +9314,16 @@
               "duration": 2135,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "CEC099DE",
+                "hash": "ec0220cca6adc2dbf22be88c6cd7210e42802cc9",
+                "magnetURI": "magnet:?xt=urn:btih:ec0220cca6adc2dbf22be88c6cd7210e42802cc9&dn=%5BOne+Pace%5D%5B863-864%5D+Whole+Cake+Island+21+%5B720p%5D%5BCEC099DE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8914,7 +9342,23 @@
               "duration": 1695,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "C418B37B",
+                "hash": "4d942621081ee5e4429c6c86232fe1432b2399d0",
+                "magnetURI": "magnet:?xt=urn:btih:4d942621081ee5e4429c6c86232fe1432b2399d0&dn=%5BOne+Pace%5D%5B865-866%5D+Whole+Cake+Island+22+%5B720p%5D%5BC418B37B%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "72B13A22",
+                "hash": "a6da3919f9b973f812e0eb13b5b0083d514e8618",
+                "magnetURI": "magnet:?xt=urn:btih:a6da3919f9b973f812e0eb13b5b0083d514e8618&dn=%5BOne+Pace%5D%5B865-866%5D+Whole+Cake+Island+22+%5B720p%5D%5B72B13A22%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8933,7 +9377,16 @@
               "duration": 2038,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "0A99AFB4",
+                "hash": "f19ff4581106108069be8714dba062f21b9f0367",
+                "magnetURI": "magnet:?xt=urn:btih:f19ff4581106108069be8714dba062f21b9f0367&dn=%5BOne+Pace%5D%5B867-868%5D+Whole+Cake+Island+23+%5B720p%5D%5B0A99AFB4%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8952,7 +9405,16 @@
               "duration": 1721,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "4378CF27",
+                "hash": "1407516679eab613b41f3813522a7cdbe4b3c409",
+                "magnetURI": "magnet:?xt=urn:btih:1407516679eab613b41f3813522a7cdbe4b3c409&dn=%5BOne+Pace%5D%5B869-870%5D+Whole+Cake+Island+24+%5B720p%5D%5B4378CF27%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8971,7 +9433,16 @@
               "duration": 2141,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "D9C8EECA",
+                "hash": "cee821ae57001b675ede74b9f9118060f3e644c1",
+                "magnetURI": "magnet:?xt=urn:btih:cee821ae57001b675ede74b9f9118060f3e644c1&dn=%5BOne+Pace%5D%5B870-872%5D+Whole+Cake+Island+25+%5B720p%5D%5BD9C8EECA%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -8990,7 +9461,16 @@
               "duration": 2054,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "3715392E",
+                "hash": "21153836bf9921cb4a0dfc2587a8f2e64898c325",
+                "magnetURI": "magnet:?xt=urn:btih:21153836bf9921cb4a0dfc2587a8f2e64898c325&dn=%5BOne+Pace%5D%5B873-874%5D+Whole+Cake+Island+26+%5B720p%5D%5B3715392E%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9009,7 +9489,13 @@
               "duration": 1991,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9028,7 +9514,13 @@
               "duration": 1935,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9047,7 +9539,13 @@
               "duration": 1821,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9066,7 +9564,13 @@
               "duration": 2005,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9085,7 +9589,13 @@
               "duration": 1868,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9104,7 +9614,13 @@
               "duration": 1931,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9123,7 +9639,13 @@
               "duration": 1856,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9142,7 +9664,13 @@
               "duration": 2266,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9161,7 +9689,16 @@
               "duration": 2179,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "CDEBF3F8",
+                "hash": "09785b8ba4555c90c6958ad385b96d4a164cbc44",
+                "magnetURI": "magnet:?xt=urn:btih:09785b8ba4555c90c6958ad385b96d4a164cbc44&dn=%5BOne+Pace%5D%5B891-893%5D+Whole+Cake+Island+35+%5B720p%5D%5BCDEBF3F8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9180,7 +9717,13 @@
               "duration": 2029,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9199,7 +9742,16 @@
               "duration": 1736,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "CF4FCE05",
+                "hash": "daaaccb75f821884a63aed6c70aa10675512a0e9",
+                "magnetURI": "magnet:?xt=urn:btih:daaaccb75f821884a63aed6c70aa10675512a0e9&dn=%5BOne+Pace%5D%5B896-897%5D+Whole+Cake+Island+37+%5B720p%5D%5BCF4FCE05%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9218,7 +9770,16 @@
               "duration": 2487,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "914E7EA6",
+                "hash": "2872b7fbe1d4d0af802d8778bda82272d0952807",
+                "magnetURI": "magnet:?xt=urn:btih:2872b7fbe1d4d0af802d8778bda82272d0952807&dn=%5BOne+Pace%5D%5B898-900%5D+Whole+Cake+Island+38+%5B720p%5D%5B914E7EA6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9237,7 +9798,16 @@
               "duration": 2070,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "ADF1B361",
+                "hash": "44747ce3b3a105abc6acfd14787cf1fc10cae7f7",
+                "magnetURI": "magnet:?xt=urn:btih:44747ce3b3a105abc6acfd14787cf1fc10cae7f7&dn=%5BOne+Pace%5D%5B901-902%5D+Whole+Cake+Island+39+%5B720p%5D%5BADF1B361%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         }
       ]
@@ -9284,6 +9854,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:c5860b5066c7ed8bfe51abde23f76ef3f78a6ec7&dn=%5BOne+Pace%5D%5B903-908%5D+Reverie+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
                 "variant": "standard",
                 "partOfBundle": true,
+                "outdated": true
+              },
+              {
+                "CRC32": "728FD8D8",
+                "hash": "2d2bd558e4744b494b1280bc1b05c43d8d0ce7a9",
+                "magnetURI": "magnet:?xt=urn:btih:2d2bd558e4744b494b1280bc1b05c43d8d0ce7a9&dn=%5BOne+Pace%5D%5B903-904%5D+Reverie+01+%5B720p%5D%5B728FD8D8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
                 "outdated": true
               }
             ]
@@ -9343,12 +9920,6 @@
               "partOfBundle": true
             },
             "archived": [
-              {
-                "hash": "01bdb4e6c4e0854865d84ec129374be69bb3e3c0",
-                "magnetURI": "magnet:?xt=urn:btih:01bdb4e6c4e0854865d84ec129374be69bb3e3c0&dn=%5BOne+Pace%5D%5B903-908%5D+Reverie+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-                "variant": "standard",
-                "outdated": true
-              },
               {
                 "CRC32": "F1430B21",
                 "hash": "c5860b5066c7ed8bfe51abde23f76ef3f78a6ec7",
@@ -9410,6 +9981,19 @@
                 "magnetURI": "magnet:?xt=urn:btih:d67ed82392c28cb6c40509383ba70bfb4e6aefdf&dn=%5BOne+Pace%5D%5B909-924%5D+Wano+Act+1&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "hash": "0eb08328489f087ca0d1d9a886bd02dbd39f74e0",
+                "magnetURI": "magnet:?xt=urn:btih:0eb08328489f087ca0d1d9a886bd02dbd39f74e0&dn=%5BOne+Pace%5D%5B909-924%5D+Wano+Act+1&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              },
+              {
+                "CRC32": "B155795F",
+                "hash": "344d4b0e6cf67372d4cd0da6a17bdb939445cd6a",
+                "magnetURI": "magnet:?xt=urn:btih:344d4b0e6cf67372d4cd0da6a17bdb939445cd6a&dn=%5BOne+Pace%5D%5B909-910%5D+Wano+01+%5B1080p%5D%5BB155795F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -9444,6 +10028,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:d67ed82392c28cb6c40509383ba70bfb4e6aefdf&dn=%5BOne+Pace%5D%5B909-924%5D+Wano+Act+1&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "C95C9344",
+                "hash": "7fe7d24e9f8197be7a1803837bee526f1734b12b",
+                "magnetURI": "magnet:?xt=urn:btih:7fe7d24e9f8197be7a1803837bee526f1734b12b&dn=%5BOne+Pace%5D%5B909-911%5D+Wano+02+%5B1080p%5D%5BC95C9344%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -9471,6 +10062,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:d67ed82392c28cb6c40509383ba70bfb4e6aefdf&dn=%5BOne+Pace%5D%5B909-924%5D+Wano+Act+1&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "192FD660",
+                "hash": "96d3d4d200719a79d640b4a20e8bff3e1f975664",
+                "magnetURI": "magnet:?xt=urn:btih:96d3d4d200719a79d640b4a20e8bff3e1f975664&dn=%5BOne+Pace%5D%5B911-912%5D+Wano+03+%5B1080p%5D%5B192FD660%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -9498,6 +10096,13 @@
                 "magnetURI": "magnet:?xt=urn:btih:d67ed82392c28cb6c40509383ba70bfb4e6aefdf&dn=%5BOne+Pace%5D%5B909-924%5D+Wano+Act+1&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
                 "variant": "standard",
                 "partOfBundle": true
+              },
+              {
+                "CRC32": "1865E7DF",
+                "hash": "1164c607c26b1f234d266d440b02bf009167b22f",
+                "magnetURI": "magnet:?xt=urn:btih:1164c607c26b1f234d266d440b02bf009167b22f&dn=%5BOne+Pace%5D%5B913%5D+Wano+04+%5B1080p%5D%5B1865E7DF%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
               }
             ]
           }
@@ -9518,7 +10123,16 @@
               "duration": 1979,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "64E446D3",
+                "hash": "9f5b1b399b28b9e861960356010210a5231756e9",
+                "magnetURI": "magnet:?xt=urn:btih:9f5b1b399b28b9e861960356010210a5231756e9&dn=%5BOne+Pace%5D%5B914-915%5D+Wano+05+%5B1080p%5D%5B64E446D3%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9537,7 +10151,16 @@
               "duration": 1548,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "4C39B34C",
+                "hash": "4e3d8ed54a0a89f00096b8d3a29b39d150a3e47b",
+                "magnetURI": "magnet:?xt=urn:btih:4e3d8ed54a0a89f00096b8d3a29b39d150a3e47b&dn=%5BOne+Pace%5D%5B915-916%5D+Wano+06+%5B1080p%5D%5B4C39B34C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9556,7 +10179,16 @@
               "duration": 1879,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "407B42D5",
+                "hash": "da0a221e6e779f6f94b4fbecbebeff4fec0e9995",
+                "magnetURI": "magnet:?xt=urn:btih:da0a221e6e779f6f94b4fbecbebeff4fec0e9995&dn=%5BOne+Pace%5D%5B916-917%5D+Wano+07+%5B1080p%5D%5B407B42D5%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9575,7 +10207,16 @@
               "duration": 2330,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "D3899913",
+                "hash": "889704ccc4a7ec24e630eec54e991f7b1f70260d",
+                "magnetURI": "magnet:?xt=urn:btih:889704ccc4a7ec24e630eec54e991f7b1f70260d&dn=%5BOne+Pace%5D%5B918-919%5D+Wano+08+%5B1080p%5D%5BD3899913%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9594,7 +10235,16 @@
               "duration": 1857,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "A08EC3B9",
+                "hash": "3fb002f4887ed9f915a88f8492eb834e1787de4c",
+                "magnetURI": "magnet:?xt=urn:btih:3fb002f4887ed9f915a88f8492eb834e1787de4c&dn=%5BOne+Pace%5D%5B919-920%5D+Wano+09+%5B1080p%5D%5BA08EC3B9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9613,7 +10263,16 @@
               "duration": 2221,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "919A1140",
+                "hash": "0bf8c06bd9aa5ffc2205a6a5b8c9e3f0aa76b052",
+                "magnetURI": "magnet:?xt=urn:btih:0bf8c06bd9aa5ffc2205a6a5b8c9e3f0aa76b052&dn=%5BOne+Pace%5D%5B921-922%5D+Wano+10+%5B1080p%5D%5B919A1140%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9632,7 +10291,16 @@
               "duration": 1528,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "10FA8741",
+                "hash": "27d90b411fc58f30162fc4bdd2589711bef264ca",
+                "magnetURI": "magnet:?xt=urn:btih:27d90b411fc58f30162fc4bdd2589711bef264ca&dn=%5BOne+Pace%5D%5B922-923%5D+Wano+11+%5B1080p%5D%5B10FA8741%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
@@ -9651,7 +10319,16 @@
               "duration": 1231,
               "variant": "standard",
               "partOfBundle": true
-            }
+            },
+            "archived": [
+              {
+                "CRC32": "4E97A31D",
+                "hash": "86fd8dce73d7c4f9150d1314b672752212ac0687",
+                "magnetURI": "magnet:?xt=urn:btih:86fd8dce73d7c4f9150d1314b672752212ac0687&dn=%5BOne+Pace%5D%5B924%5D+Wano+12+%5B1080p%5D%5B4E97A31D%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
           }
         },
         {
