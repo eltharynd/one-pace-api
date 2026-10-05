@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-04T22:04:59.177Z",
+  "lastUpdate": "2026-10-05T02:34:58.687Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -4627,11 +4627,11 @@
       "animeEpisodes": "313 - 325",
       "animeEpisodesCount": 11,
       "fillerEpisodes": "317 - 318",
-      "paceEpisodesCount": 5,
+      "paceEpisodesCount": 6,
       "animeMinutes": 236,
-      "paceMinutes": 106,
-      "savedMinutes": 129,
-      "savedPercentage": 0.5486962649753347,
+      "paceMinutes": 127,
+      "savedMinutes": 108,
+      "savedPercentage": 0.45961945031712476,
       "resolution": "720p,1080p",
       "episodes": [
         {
@@ -4711,6 +4711,31 @@
           "episode": 4,
           "title": "The Astonishing Thousand Sunny and Usopp's Tearful Apology!",
           "description": "The Straw Hats set sail, but Usopp is conspicuously missing. Zoro soberly reminds Luffy that Usopp's return should not be granted so casually. More immediately, the pirates need to avoid Garp’s barrage of cannon balls!",
+          "mangaChapters": "436-437",
+          "animeEpisodes": "321-322",
+          "released": "2013-06-26T00:00:00.000Z",
+          "files": {
+            "standard": {
+              "CRC32": "2C843A0F",
+              "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
+              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
+              "duration": 1414,
+              "variant": "standard",
+              "partOfBundle": true
+            },
+            "archived": [
+              {
+                "variant": "standard",
+                "outdated": true
+              }
+            ]
+          }
+        },
+        {
+          "arc": 20,
+          "episode": 5,
+          "title": "The Circling Bounties and The Duel on Banaro Island!",
+          "description": "The Straw Hats’ new wanted posters begin circulating around the world, but three days earlier, Blackbeard began plotting their pursuit. However, one obstacle stood in his way; Ace had finally caught up to his estranged crewmate!",
           "mangaChapters": "438-439",
           "animeEpisodes": "323-324",
           "released": "2013-06-26T00:00:00.000Z",
@@ -4733,9 +4758,7 @@
         },
         {
           "arc": 20,
-          "episode": 5,
-          "title": "The Circling Bounties and The Duel on Banaro Island!",
-          "description": "The Straw Hats’ new wanted posters begin circulating around the world, but three days earlier, Blackbeard began plotting their pursuit. However, one obstacle stood in his way; Ace had finally caught up to his estranged crewmate!",
+          "episode": 6,
           "mangaChapters": "440-441",
           "animeEpisodes": "324-325",
           "released": "2013-06-28T00:00:00.000Z",
@@ -4747,13 +4770,7 @@
               "duration": 1386,
               "variant": "standard",
               "partOfBundle": true
-            },
-            "archived": [
-              {
-                "variant": "standard",
-                "outdated": true
-              }
-            ]
+            }
           }
         }
       ]
