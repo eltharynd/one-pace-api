@@ -27,6 +27,7 @@ const startApp = async () => {
 		} catch (error) {
 			Logger.error('COULD NOT GRACEFULLY CLOSE APPLICATION...')
 			Logger.error(error)
+			process.exit(1)
 		}
 	}
 	process.on('SIGINT', async () => {
