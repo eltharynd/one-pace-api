@@ -15,13 +15,6 @@ const startApp = async () => {
 			Logger.info('GRACEFULLY QUITTING APPLICATION...')
 
 			try {
-				Logger.info('TERMINATING EXPRESS')
-				Context.express.stop()
-			} catch (e) {
-				Logger.error(`Could not delete redis count for this instance`)
-				Logger.error(e)
-			}
-			try {
 				Logger.info('DELETING REDIS CLIENT COUNT')
 				Context.express.deleteCount()
 			} catch (e) {
