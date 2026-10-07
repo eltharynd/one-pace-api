@@ -82,16 +82,6 @@ export class Express {
 
 		this.app.set('trust proxy', true)
 
-		if (environment.REDIS_URL)
-			this.app.use(
-				session({
-					store: new RedisStore({ client: this.redis }),
-					secret: environment.SESSION_SECRET,
-					resave: false,
-					saveUninitialized: false,
-				}),
-			)
-
 		this.app.use(
 			`${environment.API_BASE}docs`,
 			swaggerUIExpress.serve,
@@ -166,6 +156,18 @@ export class Express {
 						: null,
 					transports: ['websocket', 'polling'],
 				})
+
+				if (environment.REDIS_URL) {
+					const sessionMiddleware = session({
+						store: new RedisStore({ client: this.redis }),
+						secret: environment.SESSION_SECRET,
+						resave: false,
+						saveUninitialized: false,
+					})
+
+					this.app.use(sessionMiddleware)
+					this.io.engine.use(sessionMiddleware)
+				}
 
 				if (this.countInterval) {
 					clearInterval(this.countInterval)
