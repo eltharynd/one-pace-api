@@ -144,19 +144,13 @@ export class Express {
 					clearInterval(this.countInterval)
 				}
 
-				this.countInterval = setInterval(() => {
-					this.redis
-						.set(
-							`clients:${this.instanceId}`,
-							this.io.engine.clientsCount,
-							'EX',
-							15,
-						)
-						.catch(e => Logger.error(e))
+				this.countInterval = setInterval(async () => {
+					await this.publishCount()
 				}, 5000)
 
 				this.io.on('connection', async socket => {
 					Logger.debug(`Socket ${socket.id} connected`)
+					await this.publishCount()
 					Logger.debug(
 						`Client connected, total clients: ${await Context.express.totalClients()}`,
 					)
@@ -164,10 +158,12 @@ export class Express {
 					socket.on('subscribe_to_updates', async data => {
 						Logger.debug(`Socket ${socket.id} joined 'updates'`)
 						if (data?.version) {
+							await this.publishCount()
 							Logger.info(
 								`Client ${socket.id} (v${data.version}) connected, total clients: ${await Context.express.totalClients()}`,
 							)
 						} else {
+							await this.publishCount()
 							Logger.info(
 								`Client ${socket.id} (older) connected, total clients: ${await Context.express.totalClients()}`,
 							)
@@ -311,15 +307,29 @@ export class Express {
 		}
 	}
 
+	private async publishCount() {
+		if (this.redis.status == 'ready')
+			await this.redis
+				.set(
+					`clients:${this.instanceId}`,
+					this.io.engine.clientsCount,
+					'EX',
+					15,
+				)
+				.catch(e => Logger.error(e))
+	}
+
 	public async totalClients(): Promise<number> {
-		let total = 0
-		const stream = this.redis.scanStream({ match: 'clients:*', count: 100 })
-		for await (const keys of stream) {
-			if (keys.length) {
-				const values = await this.redis.mget(keys)
-				total += values.reduce((sum, v) => sum + Number(v ?? 0), 0)
+		if (this.redis.status == 'ready') {
+			let total = 0
+			const stream = this.redis.scanStream({ match: 'clients:*', count: 100 })
+			for await (const keys of stream) {
+				if (keys.length) {
+					const values = await this.redis.mget(keys)
+					total += values.reduce((sum, v) => sum + Number(v ?? 0), 0)
+				}
 			}
-		}
-		return total
+			return total
+		} else return this.io.engine.clientsCount
 	}
 }
