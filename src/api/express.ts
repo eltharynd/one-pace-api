@@ -1,7 +1,5 @@
 import { createAdapter } from '@socket.io/redis-adapter'
-import { RedisStore } from 'connect-redis'
 import express from 'express'
-import session from 'express-session'
 import { Logger } from 'ez-ts-logger'
 import Redis from 'ioredis'
 import EventEmitter from 'node:events'
@@ -156,19 +154,6 @@ export class Express {
 						: null,
 					transports: ['websocket', 'polling'],
 				})
-
-				if (environment.REDIS_URL) {
-					const sessionMiddleware = session({
-						store: new RedisStore({ client: this.redis }),
-						secret: environment.SESSION_SECRET,
-						resave: false,
-						saveUninitialized: false,
-						cookie: { secure: true },
-					})
-
-					this.app.use(sessionMiddleware)
-					this.io.engine.use(sessionMiddleware)
-				}
 
 				if (this.countInterval) {
 					clearInterval(this.countInterval)
