@@ -36,7 +36,7 @@ export default {
 	SCRAPE_INTERVAL:
 		Number.parseInt(process.env.SCRAPE_INTERVAL || '15') * 60 * 1000,
 
-	REDIS_URL: process.env.REDIS_URL || 'redis://localhost:6379',
+	REDIS_URL: process.env.REDIS_URL || null,
 }
 
 Logger.reloadEnvConfigs()

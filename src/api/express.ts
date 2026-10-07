@@ -44,7 +44,9 @@ export class Express {
 	private eventEmitter: EventEmitter = new EventEmitter()
 
 	private instanceId = process.env.RAILWAY_REPLICA_ID || process.pid.toString()
-	private redis = new Redis(environment.REDIS_URL)
+	private redis = environment.REDIS_URL
+		? new Redis(environment.REDIS_URL)
+		: null
 	private countInterval
 
 	constructor() {
@@ -91,42 +93,52 @@ export class Express {
 		)
 
 		this.server = createServer(this.app)
-		this.pubClient = createClient({
-			url: environment.REDIS_URL,
-			socket: {
-				reconnectStrategy: retries => {
-					const delay = Math.min(retries * 100, 5000)
-					Logger.warn(
-						`Redis reconnect attempt ${retries}, retrying in ${delay}ms`,
-					)
-					return delay
+
+		let promises
+		if (environment.REDIS_URL) {
+			this.pubClient = createClient({
+				url: environment.REDIS_URL,
+				socket: {
+					reconnectStrategy: retries => {
+						const delay = Math.min(retries * 100, 5000)
+						Logger.warn(
+							`Redis reconnect attempt ${retries}, retrying in ${delay}ms`,
+						)
+						return delay
+					},
 				},
-			},
-		})
-		this.subClient = this.pubClient.duplicate()
+			})
+			this.subClient = this.pubClient.duplicate()
 
-		this.pubClient.on('error', err =>
-			Logger.error(`Redis pubClient error: ${err.message}`),
-		)
-		this.subClient.on('error', err =>
-			Logger.error(`Redis subClient error: ${err.message}`),
-		)
+			this.pubClient.on('error', err =>
+				Logger.error(`Redis pubClient error: ${err.message}`),
+			)
+			this.subClient.on('error', err =>
+				Logger.error(`Redis subClient error: ${err.message}`),
+			)
 
-		this.pubClient.on('reconnecting', () =>
-			Logger.warn('Redis pubClient reconnecting...'),
-		)
-		this.pubClient.on('ready', () =>
-			Logger.info('Redis pubClient reconnected and ready'),
-		)
+			this.pubClient.on('reconnecting', () =>
+				Logger.warn('Redis pubClient reconnecting...'),
+			)
+			this.pubClient.on('ready', () =>
+				Logger.info('Redis pubClient reconnected and ready'),
+			)
 
-		this.subClient.on('reconnecting', () =>
-			Logger.warn('Redis subClient reconnecting...'),
-		)
-		this.subClient.on('ready', () =>
-			Logger.info('Redis subClient reconnected and ready'),
-		)
+			this.subClient.on('reconnecting', () =>
+				Logger.warn('Redis subClient reconnecting...'),
+			)
+			this.subClient.on('ready', () =>
+				Logger.info('Redis subClient reconnected and ready'),
+			)
+			promises = [this.pubClient.connect(), this.subClient.connect()]
+		} else
+			promises = [
+				new Promise<void>(resolve => {
+					resolve()
+				}),
+			]
 
-		Promise.all([this.pubClient.connect(), this.subClient.connect()])
+		Promise.all(promises)
 			.then(() => {
 				Logger.info(`Successfully connected to redis`)
 			})
@@ -136,7 +148,9 @@ export class Express {
 			})
 			.finally(() => {
 				this.io = new SocketIOServer(this.server, {
-					adapter: createAdapter(this.pubClient, this.subClient),
+					adapter: environment.REDIS_URL
+						? createAdapter(this.pubClient, this.subClient)
+						: null,
 					transports: ['websocket', 'polling'],
 				})
 
@@ -284,6 +298,14 @@ export class Express {
 	}
 
 	private async tryBecomeLeader() {
+		if (!environment.REDIS_URL) {
+			this.isLeader = true
+			Logger.info(
+				`No redis configured, this instance (${this.instanceId}) is now the leader`,
+			)
+			await this.startProcessing()
+			return
+		}
 		// SET key value NX PX ttl — only succeeds if no one currently holds it
 		const acquired = await this.pubClient.set(LEADER_KEY, this.instanceId, {
 			NX: true,
@@ -308,7 +330,7 @@ export class Express {
 	}
 
 	private async publishCount() {
-		if (this.redis.status == 'ready')
+		if (environment.REDIS_URL && this.redis.status == 'ready')
 			await this.redis
 				.set(
 					`clients:${this.instanceId}`,
@@ -320,14 +342,14 @@ export class Express {
 	}
 
 	public async deleteCount() {
-		if (this.redis.status == 'ready')
+		if (environment.REDIS_URL && this.redis.status == 'ready')
 			await this.redis
 				.del(`clients:${this.instanceId}`)
 				.catch(e => Logger.error(e))
 	}
 
 	public async totalClients(): Promise<number> {
-		if (this.redis.status == 'ready') {
+		if (environment.REDIS_URL && this.redis.status == 'ready') {
 			let total = 0
 			const stream = this.redis.scanStream({ match: 'clients:*', count: 100 })
 			for await (const keys of stream) {

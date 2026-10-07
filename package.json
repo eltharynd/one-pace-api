@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "exec node --enable-source-maps dist/index.js",
+    "start": "node --enable-source-maps dist/index.js",
     "dev": "nodemon --enable-source-maps dist/index.js",
     "start:single": "cross-env RUN_MODE=single node --enable-source-maps dist/index.js",
     "test": "vitest run",
