@@ -44,7 +44,7 @@ export class Express {
 	private eventEmitter: EventEmitter = new EventEmitter()
 
 	private instanceId = process.env.RAILWAY_REPLICA_ID || process.pid.toString()
-	private redis = new Redis()
+	private redis = new Redis(environment.REDIS_URL)
 	private countInterval
 
 	constructor() {
