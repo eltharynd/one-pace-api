@@ -163,6 +163,7 @@ export class Express {
 						secret: environment.SESSION_SECRET,
 						resave: false,
 						saveUninitialized: false,
+						cookie: { secure: true },
 					})
 
 					this.app.use(sessionMiddleware)
