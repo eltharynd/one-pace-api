@@ -16,14 +16,14 @@ const startApp = async () => {
 
 			try {
 				Logger.info('TERMINATING EXPRESS')
-				await Context.express.stop()
+				Context.express.stop()
 			} catch (e) {
 				Logger.error(`Could not delete redis count for this instance`)
 				Logger.error(e)
 			}
 			try {
 				Logger.info('DELETING REDIS CLIENT COUNT')
-				await Context.express.deleteCount()
+				Context.express.deleteCount()
 			} catch (e) {
 				Logger.error(`Could not delete redis count for this instance`)
 				Logger.error(e)
@@ -37,12 +37,8 @@ const startApp = async () => {
 			process.exit(1)
 		}
 	}
-	process.on('SIGINT', async () => {
-		await gracefulClose()
-	})
-	process.on('SIGTERM', async () => {
-		await gracefulClose()
-	})
+	process.on('SIGINT', gracefulClose)
+	process.on('SIGTERM', gracefulClose)
 
 	try {
 		Logger.info(`##################################`)
