@@ -37,7 +37,6 @@ export default {
 		Number.parseInt(process.env.SCRAPE_INTERVAL || '15') * 60 * 1000,
 
 	REDIS_URL: process.env.REDIS_URL || null,
-	SESSION_SECRET: process.env.SESSION_SECRET || 'my-express-sesson-secret',
 }
 
 Logger.reloadEnvConfigs()
