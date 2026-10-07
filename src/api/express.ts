@@ -1,5 +1,7 @@
 import { createAdapter } from '@socket.io/redis-adapter'
+import { RedisStore } from 'connect-redis'
 import express from 'express'
+import session from 'express-session'
 import { Logger } from 'ez-ts-logger'
 import Redis from 'ioredis'
 import EventEmitter from 'node:events'
@@ -79,6 +81,17 @@ export class Express {
 		})
 
 		this.app.set('trust proxy', true)
+
+		if (environment.REDIS_URL)
+			this.app.use(
+				session({
+					store: new RedisStore({ client: this.redis }),
+					secret: environment.SESSION_SECRET,
+					resave: false,
+					saveUninitialized: false,
+				}),
+			)
+
 		this.app.use(
 			`${environment.API_BASE}docs`,
 			swaggerUIExpress.serve,

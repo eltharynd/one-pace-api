@@ -19,7 +19,9 @@
     "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@types/connect-redis": "^0.0.23",
     "@types/express": "^5.0.6",
+    "@types/express-session": "^1.19.0",
     "@types/node": "^26.0.1",
     "@types/node-json-logger": "^0.0.3",
     "@vitest/coverage-v8": "^4.1.9",
@@ -38,9 +40,11 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.4",
     "class-validator-jsonschema": "^5.1.0",
+    "connect-redis": "^10.0.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "express-session": "^1.19.0",
     "ez-ts-logger": "^1.0.11",
     "ioredis": "^6.0.0",
     "nocache": "^4.0.0",
