@@ -29,8 +29,12 @@ const startApp = async () => {
 			Logger.error(error)
 		}
 	}
-	process.on('SIGINT', gracefulClose)
-	process.on('SIGTERM', gracefulClose)
+	process.on('SIGINT', async () => {
+		await gracefulClose()
+	})
+	process.on('SIGTERM', async () => {
+		await gracefulClose()
+	})
 
 	try {
 		Logger.info(`##################################`)
