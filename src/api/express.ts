@@ -237,6 +237,9 @@ export class Express {
 		}, 10000)
 	}
 
+	async stop() {
+		await this.server.close()
+	}
 	async waitForActive() {
 		Logger.debug(`Waiting for express to be listening...`)
 
