@@ -1,5 +1,7 @@
+import { createAdapter } from '@socket.io/redis-adapter'
 import express from 'express'
 import { Logger } from 'ez-ts-logger'
+import Redis from 'ioredis'
 import EventEmitter from 'node:events'
 import { createServer, Server } from 'node:http'
 import { createClient } from 'redis'
@@ -7,7 +9,6 @@ import { createExpressServer } from 'routing-controllers'
 import { Server as SocketIOServer } from 'socket.io'
 import swaggerUIExpress from 'swagger-ui-express'
 
-import { createAdapter } from '@socket.io/redis-adapter'
 import environment from '../environment.js'
 import { Context } from '../util/context.js'
 import { AdminController } from './admin/admin.controller.js'
@@ -41,6 +42,10 @@ export class Express {
 
 	private listening: boolean = false
 	private eventEmitter: EventEmitter = new EventEmitter()
+
+	private instanceId = process.env.RAILWAY_REPLICA_ID || process.pid.toString()
+	private redis = new Redis()
+	private countInterval
 
 	constructor() {
 		this.app = createExpressServer({
@@ -135,21 +140,36 @@ export class Express {
 					transports: ['websocket', 'polling'],
 				})
 
+				if (this.countInterval) {
+					clearInterval(this.countInterval)
+				}
+
+				this.countInterval = setInterval(() => {
+					this.redis
+						.set(
+							`clients:${this.instanceId}`,
+							this.io.engine.clientsCount,
+							'EX',
+							15,
+						)
+						.catch(e => Logger.error(e))
+				}, 5000)
+
 				this.io.on('connection', async socket => {
 					Logger.debug(`Socket ${socket.id} connected`)
 					Logger.debug(
-						`Client connected, total clients: ${(await this.io.fetchSockets()).length}`,
+						`Client connected, total clients: ${await Context.express.totalClients()}`,
 					)
 
 					socket.on('subscribe_to_updates', async data => {
 						Logger.debug(`Socket ${socket.id} joined 'updates'`)
 						if (data?.version) {
 							Logger.info(
-								`Client ${socket.id} (v${data.version}) connected, total clients: ${(await this.io.fetchSockets()).length}`,
+								`Client ${socket.id} (v${data.version}) connected, total clients: ${await Context.express.totalClients()}`,
 							)
 						} else {
 							Logger.info(
-								`Client ${socket.id} (older) connected, total clients: ${(await this.io.fetchSockets()).length}`,
+								`Client ${socket.id} (older) connected, total clients: ${await Context.express.totalClients()}`,
 							)
 						}
 						socket.join('updates')
@@ -163,7 +183,7 @@ export class Express {
 					socket.on('disconnect', async () => {
 						Logger.debug(`Socket ${socket.id} disconnected`)
 						Logger.debug(
-							`Client disconnected, total clients: ${(await this.io.fetchSockets()).length}`,
+							`Client disconnected, total clients: ${await Context.express.totalClients()}`,
 						)
 					})
 				})
@@ -268,22 +288,20 @@ export class Express {
 	}
 
 	private async tryBecomeLeader() {
-		const instanceId = process.env.RAILWAY_REPLICA_ID || process.pid.toString()
-
 		// SET key value NX PX ttl — only succeeds if no one currently holds it
-		const acquired = await this.pubClient.set(LEADER_KEY, instanceId, {
+		const acquired = await this.pubClient.set(LEADER_KEY, this.instanceId, {
 			NX: true,
 			PX: LEADER_TTL_MS,
 		})
 
 		if (acquired) {
 			this.isLeader = true
-			Logger.info(`This instance (${instanceId}) is now the leader`)
+			Logger.info(`This instance (${this.instanceId}) is now the leader`)
 			await this.startProcessing()
 		} else if (this.isLeader) {
 			// We think we're leader — renew our lease if we still hold the key
 			const current = await this.pubClient.get(LEADER_KEY)
-			if (current === instanceId) {
+			if (current === this.instanceId) {
 				await this.pubClient.pExpire(LEADER_KEY, LEADER_TTL_MS)
 			} else {
 				this.isLeader = false
@@ -291,5 +309,17 @@ export class Express {
 				await this.stopProcessing()
 			}
 		}
+	}
+
+	public async totalClients(): Promise<number> {
+		let total = 0
+		const stream = this.redis.scanStream({ match: 'clients:*', count: 100 })
+		for await (const keys of stream) {
+			if (keys.length) {
+				const values = await this.redis.mget(keys)
+				total += values.reduce((sum, v) => sum + Number(v ?? 0), 0)
+			}
+		}
+		return total
 	}
 }
