@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node --enable-source-maps dist/index.js",
+    "start": "exec node --enable-source-maps dist/index.js",
     "dev": "nodemon --enable-source-maps dist/index.js",
     "start:single": "cross-env RUN_MODE=single node --enable-source-maps dist/index.js",
     "test": "vitest run",
@@ -50,7 +50,7 @@
     "routing-controllers": "^0.11.3",
     "routing-controllers-openapi": "^5.0.1",
     "rss-parser": "^3.13.0",
-    "simple-git": "^3.36.0",
+    "simple-git": "^4.0.2",
     "socket.io": "^4.8.3",
     "swagger-ui-express": "^5.0.1",
     "xml-js": "^1.6.11"

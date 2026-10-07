@@ -15,6 +15,12 @@ const startApp = async () => {
 			Logger.info('GRACEFULLY QUITTING APPLICATION...')
 
 			//GRACEFUL QUIT HERE
+			try {
+				await Context.express.deleteCount()
+			} catch (e) {
+				Logger.error(`Could not delete redis count for this instance`)
+				Logger.error(e)
+			}
 
 			Logger.info('GRACEFULLY CLOSED APPLICATION...')
 			process.exit(0)

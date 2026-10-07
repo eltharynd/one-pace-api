@@ -319,6 +319,13 @@ export class Express {
 				.catch(e => Logger.error(e))
 	}
 
+	public async deleteCount() {
+		if (this.redis.status == 'ready')
+			await this.redis
+				.del(`clients:${this.instanceId}`)
+				.catch(e => Logger.error(e))
+	}
+
 	public async totalClients(): Promise<number> {
 		if (this.redis.status == 'ready') {
 			let total = 0
