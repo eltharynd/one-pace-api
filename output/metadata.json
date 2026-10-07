@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-05T19:49:59.707Z",
+  "lastUpdate": "2026-10-07T09:49:59.073Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -4661,8 +4661,8 @@
         {
           "arc": 20,
           "episode": 2,
-          "title": "The Extent of the Grand Line and The 600,000,000 Crew!",
-          "description": "In the New World, not even the Marines' best can keep Red-Haired Shanks from meeting Whitebeard with an especially important request. Meanwhile, at Water Seven, the Franky Family comes to the Straw Hats with some \"bad\" news.",
+          "title": "The Name of That Sea",
+          "description": "In the New World, not even the Marines' best can keep Red-Haired Shanks from meeting Whitebeard with an especially important request.",
           "mangaChapters": "433-434",
           "animeEpisodes": "315-316, 325",
           "released": "2026-10-04T00:00:00.000Z",
@@ -4685,8 +4685,8 @@
         {
           "arc": 20,
           "episode": 3,
-          "title": "Forgive Yourself! Franky Departs!",
-          "description": "The Straw Hats have barely had time to marvel at their new bounties when a new surprise awaits them: the unveiling of their magnificent new ship. The next step is bringing a shipwright into their ranks, and there is only one man for the job.",
+          "title": "You Have My Sympathies",
+          "description": "The Franky Family comes to the Straw Hats with some \"bad\" news.",
           "mangaChapters": "435",
           "animeEpisodes": "316-320",
           "released": "2026-10-04T00:00:00.000Z",
@@ -4709,8 +4709,8 @@
         {
           "arc": 20,
           "episode": 4,
-          "title": "The Astonishing Thousand Sunny and Usopp's Tearful Apology!",
-          "description": "The Straw Hats set sail, but Usopp is conspicuously missing. Zoro soberly reminds Luffy that Usopp's return should not be granted so casually. More immediately, the pirates need to avoid Garp’s barrage of cannon balls!",
+          "title": "Forgive Yourself! Frankly Departs! ",
+          "description": "The Straw Hats have barely had time to marvel at their new bounties when a new surprise awaits them: the unveiling of their magnificent new ship. The next step is bringing a shipwright into their ranks, and there is only one man for the job.",
           "mangaChapters": "436-437",
           "animeEpisodes": "321-322",
           "released": "2013-06-26T00:00:00.000Z",
@@ -4734,8 +4734,8 @@
         {
           "arc": 20,
           "episode": 5,
-          "title": "The Circling Bounties and The Duel on Banaro Island!",
-          "description": "The Straw Hats’ new wanted posters begin circulating around the world, but three days earlier, Blackbeard began plotting their pursuit. However, one obstacle stood in his way; Ace had finally caught up to his estranged crewmate!",
+          "title": "The Astonishing Thousand Sunny and Usopp's Tearful Apology!",
+          "description": "The Straw Hats set sail, but Usopp is conspicuously missing. Zoro soberly reminds Luffy that Usopp's return should not be granted so casually. More immediately, the pirates need to avoid Garp’s barrage of cannon balls!",
           "mangaChapters": "438-439",
           "animeEpisodes": "323-324",
           "released": "2013-06-26T00:00:00.000Z",
@@ -4759,6 +4759,8 @@
         {
           "arc": 20,
           "episode": 6,
+          "title": "The Circling Bounties and The Duel on Banaro Island!",
+          "description": "The Straw Hats’ new wanted posters begin circulating around the world, but three days earlier, Blackbeard began plotting their pursuit. However, one obstacle stood in his way; Ace had finally caught up to his estranged crewmate!",
           "mangaChapters": "440-441",
           "animeEpisodes": "324-325",
           "released": "2013-06-28T00:00:00.000Z",
