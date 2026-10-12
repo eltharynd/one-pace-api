@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-11T23:52:51.678Z",
+  "lastUpdate": "2026-10-12T00:37:47.724Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -6767,9 +6767,9 @@
       "fillerEpisodes": "542",
       "paceEpisodesCount": 24,
       "animeMinutes": 1096,
-      "paceMinutes": 715,
-      "savedMinutes": 381,
-      "savedPercentage": 0.3478644170846634,
+      "paceMinutes": 719,
+      "savedMinutes": 376,
+      "savedPercentage": 0.34366925064599485,
       "resolution": "720p,1080p",
       "episodes": [
         {
@@ -6803,13 +6803,13 @@
           "description": "Luffy, Zoro, and Sanji leave the relative safety of the Sunny to face the Kraken in its own territory. Putting their powerful new skills to work, they survive the encounter but are swept away by a downward current and become lost in the murky depths.",
           "mangaChapters": "605-606",
           "animeEpisodes": "524-526",
-          "released": "2013-03-29T00:00:00.000Z",
+          "released": "2026-10-11T00:00:00.000Z",
           "files": {
             "standard": {
               "CRC32": "9727A1C7",
               "hash": "dff23044c323cf17d83345499dc33ae587362b3c",
               "magnetURI": "magnet:?xt=urn:btih:dff23044c323cf17d83345499dc33ae587362b3c&dn=%5BOne+Pace%5D%5B605-606%5D+Fishman+Island+02+%5B1080p%5D%5B9727A1C7%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
-              "duration": 1454,
+              "duration": 1730,
               "variant": "standard"
             },
             "archived": [
