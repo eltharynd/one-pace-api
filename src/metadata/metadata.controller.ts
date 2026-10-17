@@ -85,7 +85,7 @@ export class MetadataController {
 	private async notifyUpdates(slavesOnly?: boolean) {
 		await Context.express.waitForActive()
 
-		if (Context.express.isLeader) {
+		if (environment.REDIS_URL && Context.express.isLeader) {
 			Logger.info(`Sending updates to slaves`)
 			Context.express.io.serverSideEmit('leader_elected', {
 				scraper: await Context.scraper.getAll(),

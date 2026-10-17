@@ -141,19 +141,24 @@ export class Express {
 
 		Promise.all(promises)
 			.then(() => {
-				Logger.info(`Successfully connected to redis`)
+				if (environment.REDIS_URL)
+					Logger.info(`Successfully connected to redis`)
 			})
 			.catch(error => {
 				Logger.error(`Could not connect to redis...`)
 				Logger.error(error)
 			})
 			.finally(() => {
-				this.io = new SocketIOServer(this.server, {
-					adapter: environment.REDIS_URL
-						? createAdapter(this.pubClient, this.subClient)
-						: null,
-					transports: ['websocket', 'polling'],
-				})
+				if (environment.REDIS_URL) {
+					this.io = new SocketIOServer(this.server, {
+						adapter: createAdapter(this.pubClient, this.subClient),
+						transports: ['websocket', 'polling'],
+					})
+				} else {
+					this.io = new SocketIOServer(this.server, {
+						transports: ['websocket', 'polling'],
+					})
+				}
 
 				if (this.countInterval) {
 					clearInterval(this.countInterval)
@@ -263,12 +268,11 @@ export class Express {
 	}
 
 	private async startProcessing() {
-		Logger.info('INITIALIZING SCRAPING SERVICE...')
-
-		await Context.scraper.init()
-
 		Logger.info('INITIALIZING RSS SERVICE...')
 		await Context.rss.init()
+
+		Logger.info('INITIALIZING SCRAPING SERVICE...')
+		await Context.scraper.init()
 
 		Logger.info('INITIALIZING METADATA...')
 		await Context.metadata.init()
@@ -280,10 +284,10 @@ export class Express {
 
 		this.leaderInterval = setInterval(async () => {
 			try {
-				Logger.info(`Refreshing Google Sheets`)
-				await Context.scraper.init()
 				Logger.info(`Refreshing RSS feed`)
 				await Context.rss.init()
+				Logger.info(`Refreshing Google Sheets`)
+				await Context.scraper.init()
 				Logger.info(`Refreshing Metadata`)
 				await Context.metadata.init()
 			} catch (e) {
@@ -303,11 +307,13 @@ export class Express {
 
 	private async tryBecomeLeader() {
 		if (!environment.REDIS_URL) {
-			this.isLeader = true
-			Logger.info(
-				`No redis configured, this instance (${this.instanceId}) is now the leader`,
-			)
-			await this.startProcessing()
+			if (!this.isLeader) {
+				this.isLeader = true
+				Logger.info(
+					`No redis configured, this instance (${this.instanceId}) is now the leader`,
+				)
+				await this.startProcessing()
+			}
 			return
 		}
 		// SET key value NX PX ttl — only succeeds if no one currently holds it

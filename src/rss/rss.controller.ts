@@ -1,3 +1,4 @@
+import axios from 'axios'
 import { Logger } from 'ez-ts-logger'
 import { existsSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import Parser from 'rss-parser'
@@ -30,14 +31,16 @@ export class RSSController {
 			} else {
 				try {
 					Logger.debug('Loading RSS from cache')
-					const local = JSON.parse(readFileSync(CACHE_RSS_FEED).toString())
-					const lastLocalUpdate = new Date(local.lastBuildDate)
+					if (!this.feed)
+						this.feed = JSON.parse(readFileSync(CACHE_RSS_FEED).toString())
+					//@ts-ignore
+					const lastLocalUpdate = new Date(this.feed.lastBuildDate)
 
 					const remote = await this.fetch()
 					//@ts-ignore
 					const lastRemoteUpdate = new Date(remote.lastBuildDate)
 
-					if (lastRemoteUpdate > lastLocalUpdate) {
+					if (false && lastRemoteUpdate > lastLocalUpdate) {
 						Logger.info(`New RSS updates, updating Local`)
 						this.feed = await this.fetch()
 					} else {
@@ -58,7 +61,10 @@ export class RSSController {
 	private async fetch() {
 		Logger.debug(`Fetching OnePace RSS Feed`)
 		try {
-			const feed = await this.parser.parseURL(RSS_FEED_URL)
+			const response = await axios.get(RSS_FEED_URL, { timeout: 5 * 60_000 })
+			Logger.debug(`Gotten RSS feed, parsing...`)
+
+			const feed = await this.parser.parseString(response.data)
 			writeFileSync(CACHE_RSS_FEED, JSON.stringify(feed, null, 2))
 			return feed
 		} catch (e) {
@@ -92,10 +98,12 @@ export class RSSController {
 			this.feed = await this.fetch()
 		}
 
-		let rssTitle = title.replace(
-			'The Adventures of the Straw Hats',
-			'If You Could Go Anywhere... The Adventures of the Straw Hats',
-		)
+		let rssTitle = title
+			.replace(
+				'The Adventures of the Straw Hats',
+				'If You Could Go Anywhere... The Adventures of the Straw Hats',
+			)
+			.replace('Skypiea 25 Extended', 'Skypiea 25 Alternate (G-8)')
 
 		if (title === 'Skypiea 20') {
 			Logger.debug(`Manual override for Skzpiea 20 (not in RSS feed)`)
