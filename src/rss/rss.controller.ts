@@ -63,6 +63,7 @@ export class RSSController {
 			return feed
 		} catch (e) {
 			Logger.error(`Error while fetching RSS feed...`)
+			Logger.error(e)
 			throw e
 		}
 	}
