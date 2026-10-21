@@ -37,17 +37,21 @@ export class MetadataController {
 	preProcessedOnigashima: PreProcessedAlternateCut[]
 	preProcessedShaved: PreProcessedAlternateCut[]
 
+	private regenerated: boolean = false
+
 	async init(force?: boolean): Promise<void> {
 		if (
-			existsSync(METADATA_OUTPUT) &&
-			!environment.FORCE_REGENERATION &&
-			!force
+			!existsSync(METADATA_OUTPUT) ||
+			(environment.FORCE_REGENERATION && !this.regenerated) ||
+			force
 		) {
+			if (environment.FORCE_REGENERATION) this.regenerated = true
 			try {
 				Logger.debug(`Checking metadata from cache`)
 				this.metadata = JSON.parse(readFileSync(METADATA_OUTPUT).toString())
 
 				const lastRSSUpdate: Date = await Context.rss.getLastUdate()
+
 				const lastScraperUpdate: Date = await Context.scraper.getLastUdate()
 				const lastUpdate: Date = new Date(this.metadata.lastUpdate)
 				if (lastRSSUpdate > lastUpdate || lastScraperUpdate > lastUpdate) {
