@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-26T22:23:55.444Z",
+  "lastUpdate": "2026-10-26T22:40:04.126Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -1594,9 +1594,9 @@
       "fillerEpisodes": "51",
       "paceEpisodesCount": 3,
       "animeMinutes": 126,
-      "paceMinutes": 89,
-      "savedMinutes": 36,
-      "savedPercentage": 0.2884920634920634,
+      "paceMinutes": 62,
+      "savedMinutes": 63,
+      "savedPercentage": 0.5025132275132275,
       "resolution": "480p",
       "episodes": [
         {
@@ -1606,13 +1606,13 @@
           "description": "Touting a fresh bounty issued by Marine HQ, Luffy and co. make landfall at Loguetown, the place where Gold Roger was both born and executed. Being the last stop before the Grand Line, the crew stocks up on supplies and sightsees.",
           "mangaChapters": "96-97",
           "animeEpisodes": "45,48-49",
-          "released": "2020-09-22T00:00:00.000Z",
+          "released": "2026-10-26T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "4200CE0D",
+              "CRC32": "ED297337",
               "hash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
               "magnetURI": "magnet:?xt=urn:btih:fc5f605b1fc12f8a14b6176690151ea53bcb7e19&dn=%5BOne+Pace%5D%5B96-100%5D+Loguetown+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-              "duration": 1652,
+              "duration": 1728,
               "variant": "standard",
               "partOfBundle": true
             }
@@ -1623,15 +1623,15 @@
           "episode": 2,
           "title": "Parallels",
           "description": "Usopp manages to anger the brat daughter of bounty hunter Daddy the Father and finds his own life at stake. When Daddy discovers that Usopp is the son of Red Hair Pirate Yasopp, the only man to beat him, he offers him a risky way out.",
-          "mangaChapters": "97",
+          "mangaChapters": "98-99",
           "animeEpisodes": "48, 50",
-          "released": "2020-09-22T00:00:00.000Z",
+          "released": "2026-10-26T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "8E970FD4",
+              "CRC32": "1EFBB55B",
               "hash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
               "magnetURI": "magnet:?xt=urn:btih:fc5f605b1fc12f8a14b6176690151ea53bcb7e19&dn=%5BOne+Pace%5D%5B96-100%5D+Loguetown+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-              "duration": 1884,
+              "duration": 1199,
               "variant": "standard",
               "partOfBundle": true
             }
@@ -1642,15 +1642,15 @@
           "episode": 3,
           "title": "The Legend Has Begun",
           "description": "Luffy arrives at the execution platform, only to be caught in Buggy and Alvida's trap. Sanji and Zoro rush to stop Buggy from poetically—and flashily—executing Luffy where Roger died.",
-          "mangaChapters": "98-100",
+          "mangaChapters": "100",
           "animeEpisodes": "52-53",
-          "released": "2020-09-22T00:00:00.000Z",
+          "released": "2026-10-26T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "23E3E489",
+              "CRC32": "BE8D8724",
               "hash": "fc5f605b1fc12f8a14b6176690151ea53bcb7e19",
               "magnetURI": "magnet:?xt=urn:btih:fc5f605b1fc12f8a14b6176690151ea53bcb7e19&dn=%5BOne+Pace%5D%5B96-100%5D+Loguetown+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-              "duration": 2173,
+              "duration": 1164,
               "variant": "standard",
               "partOfBundle": true
             }
