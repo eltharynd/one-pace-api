@@ -104,6 +104,8 @@ export class RSSController {
 				'If You Could Go Anywhere... The Adventures of the Straw Hats',
 			)
 			.replace('Skypiea 25 Extended', 'Skypiea 25 Alternate (G-8)')
+			.replace('Whisky Peak 01', 'Whiskey Peak 01')
+			.replace('Whisky Peak 02', 'Whiskey Peak 02')
 
 		if (title === 'Skypiea 20') {
 			Logger.debug(`Manual override for Skzpiea 20 (not in RSS feed)`)
@@ -142,7 +144,7 @@ export class RSSController {
 					}
 				return true
 			})
-			item = activeItems.find(i => i.title === rssTitle)
+			item = activeItems.find(i => i.title.includes(rssTitle))
 		}
 
 		if (item && item['torrent:magnetURI']) {
@@ -152,22 +154,26 @@ export class RSSController {
 				hash: item['torrent:infoHash'],
 			}
 		} else {
-			Logger.debug(
-				`Searching magnetURI for '${rssTitle.replace(/\ [0-9]+$/, '')}'...`,
-			)
+			rssTitle = rssTitle
+				.replace(/Loguetown [0-9]* Extended/i, 'Loguetown - Extended Cut')
+				.replace(/\ [0-9]+$/, '')
+
+			Logger.debug(`Searching magnetURI for '${rssTitle}'...`)
 			item = activeItems.find(
-				i => i.title === rssTitle.replace(/\ [0-9]+$/, ''),
+				i => i.title.includes(rssTitle) && !/\.[\d\w]{3}/.test(i.title),
 			)
 			if (item && item['torrent:magnetURI']) {
-				Logger.debug(
-					`Found magnetURI for '${rssTitle.replace(/\ [0-9]+$/, '')}'...`,
-				)
+				Logger.debug(`Found magnetURI for '${rssTitle}'...`)
 				return {
 					magnetURI: item['torrent:magnetURI'],
 					hash: item['torrent:infoHash'],
 					partOfBundle: true,
 				}
-			} else throw new Error('MagnetURI not found...')
+			} else {
+				//@ts-ignore
+				return {}
+				//throw new Error('MagnetURI not found...')
+			}
 		}
 	}
 

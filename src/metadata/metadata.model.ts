@@ -245,7 +245,13 @@ export type RecursivePartial<T> = {
 export type PreprocessedMagnet = {
 	magnetURI: string
 	name: string
-	files: { name: string; path: string; crc32?: string }[]
+
+	files: {
+		name: string
+		correctedName?: string
+		path: string
+		crc32?: string
+	}[]
 }
 
 export type PreProcessedAlternate = {

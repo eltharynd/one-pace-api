@@ -27,7 +27,6 @@ export class SearchController {
 
 		const { crc32 } = sanitizedParams
 
-		console.log(crc32)
 		let _found = metadata.arcs.find(a => {
 			const _found = a.episodes.find(
 				e =>

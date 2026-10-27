@@ -299,8 +299,8 @@ export class MetadataController {
 					}
 
 					let match = String(row[1]).match(/^\w+[\w\ ]+\ ([0-9]{1,3})/i)
-					let episodeNumber =
-						match?.length > 0 ? Number.parseInt(match[1]) : index
+					//let episodeNumber = match?.length > 0 ? Number.parseInt(match[1]) : index
+					let episodeNumber = index
 
 					const CRC32 =
 						String(row[6]) == '702231E9' ? '704F68EA' : String(row[6])
@@ -554,43 +554,50 @@ export class MetadataController {
 		const rssFeed = Context.rss.getItems()
 
 		for (let item of rssFeed) {
-			const match = item.title.match(/^([a-z][a-z\-\.\'\s]+[a-z])(\s\d+)*/i)
+			const match = item.title.match(
+				/^(\[[\w\s]+\](\[[\d\w]+[\-,\w\d\s]*\])* )*([a-z][a-z\-\.\'\s]+[a-z])(\s\d+)*/i,
+			)
 
 			const infoHash = item['torrent:infoHash']
 			const magnetURI = item['torrent:magnetURI']
+			if (!magnetURI || !infoHash) continue
 
 			let arcTitle, episodeNumber
+
 			let outdated: boolean = !!item.categories.find(c => c._ === 'outdated')
 
-			if (match[1] == 'One Piece Fan Letter') {
+			const matchTitle = match[3]
+			const matchNumber = match[4]
+
+			if (matchTitle == 'One Piece Fan Letter') {
 				arcTitle = 'Specials'
 				episodeNumber = 1
-				if (!match[2]) {
+				if (!matchNumber) {
 					outdated = true
 				}
-			} else if (match[1] == 'Warship Island') {
+			} else if (matchTitle == 'Warship Island') {
 				arcTitle = 'Specials'
 				episodeNumber = 10
 			} else if (
-				match[1] ==
+				matchTitle ==
 				'If You Could Go Anywhere... The Adventures of the Straw Hats'
 			) {
 				arcTitle =
 					'If You Could Go Anywhere... The Adventures of the Straw Hats'
 				episodeNumber = 1
-			} else if (match[1] == 'The Trials of Koby-Meppo') {
+			} else if (matchTitle == 'The Trials of Koby-Meppo') {
 				arcTitle = 'The Trials of Koby-Meppo'
 				episodeNumber = 1
 			} else if (
-				match[1] == 'Specials' &&
-				match[2] &&
-				Number.parseInt(match[2]) == 2
+				matchTitle == 'Specials' &&
+				matchNumber &&
+				Number.parseInt(matchNumber) == 2
 			) {
 				arcTitle = 'Specials'
 				episodeNumber = 4
-			} else if (match[1] == 'Specials' && match[2]) {
+			} else if (matchTitle == 'Specials' && matchNumber) {
 				arcTitle = 'Specials'
-				switch (Number.parseInt(match[2])) {
+				switch (Number.parseInt(matchNumber)) {
 					case 2:
 						episodeNumber = 4
 						break
@@ -610,18 +617,17 @@ export class MetadataController {
 						episodeNumber = 5
 						break
 					default:
-						console.error('WHAT')
 						episodeNumber = -1
 				}
-			} else if (match[1] == 'Gaimon') {
+			} else if (matchTitle == 'Gaimon') {
 				arcTitle = 'Gaimon'
 				episodeNumber = 1
 			} else {
-				arcTitle = match[1]
+				arcTitle = matchTitle
 					.replace('Wano Act', 'Wano')
 					.replace('Whiskey', 'Whisky')
 					.replace('Arabasta', 'Alabasta')
-				episodeNumber = match[2] ? Number.parseInt(match[2]) : null
+				episodeNumber = matchNumber ? Number.parseInt(matchNumber) : null
 			}
 
 			const variant: 'standard' | 'extended' | 'alternate' = <
@@ -634,230 +640,125 @@ export class MetadataController {
 
 			const torrent = this.getPreProcessedMagnet(magnetURI)
 
-			const partOfBundle = torrent?.files?.length > 1 ? true : false
+			const partOfBundle =
+				torrent?.files?.length > 1 || !/\.m[\w\d]{2}$/.test(item.title)
+					? true
+					: false
 
-			if (!partOfBundle) {
-				const targetArc = buffer.arcs.find(a => a.title == arcTitle)
-				if (!targetArc) {
-					Logger.warn(`Could not match '${arcTitle}'`)
-					continue
-				}
-
-				const targetEpisode = targetArc.episodes.find(e => {
-					return e.episode == episodeNumber
-				})
-				if (!targetEpisode) {
-					Logger.warn(`Could not match '${arcTitle}' episode ${episodeNumber}`)
-					continue
-				}
-
-				const _file: RecursivePartial<FileMetadata> = {}
-
-				if (torrent) {
-					const crc32Match = torrent.name.match(/\[([A-Z0-9]{8})\]/)
-					if (!crc32Match) {
-						if (torrent.files.length == 1 && torrent.files[0].crc32) {
-							_file.CRC32 = torrent.files[0].crc32
-						} else {
-							Logger.warn(`Couldn't find CRC32 in torrent '${torrent.name}'`)
-						}
-					} else {
-						_file.CRC32 = crc32Match[1]
-					}
-				} else if (item['torrent:fileName']) {
-					const crc32Match = item['torrent:fileName'].match(/\[([A-Z0-9]{8})\]/)
-					if (crc32Match?.[1]) {
-						_file.CRC32 = crc32Match[1]
-					} else {
-						Logger.warn(
-							`'${arcTitle}' episode ${episodeNumber}, CRC32 could not be find in either episode guide nor RSS`,
-						)
-					}
-				} else {
-					Logger.debug('No torrent, unknown')
-				}
-
-				_file.hash = infoHash
-				_file.magnetURI = magnetURI
-				_file.variant = variant
-				if (partOfBundle) _file.partOfBundle = partOfBundle
-
-				if (
-					_file.CRC32 == '0C2DBF75' ||
-					_file.CRC32 == '0EB7F7E9' ||
-					_file.CRC32 == '15D77CB3' ||
-					_file.CRC32 == '56E89B6A' ||
-					_file.CRC32 == '12026418'
-				)
-					outdated = true
-				if (outdated) _file.outdated = outdated
-
-				if (!targetEpisode.files) targetEpisode.files = {}
-
-				if (outdated) {
-					if (!targetEpisode.files.archived) targetEpisode.files.archived = []
-
-					let exist = targetEpisode.files.archived.find(
-						e => e.CRC32 == _file.CRC32,
-					)
-					if (exist) {
-						for (let key of Object.keys(_file)) exist[key] = _file[key]
-					} else targetEpisode.files.archived.push(_file)
-				} else if (targetEpisode.files?.[variant]) {
-					if (
-						targetEpisode.files?.[variant].CRC32 == _file.CRC32 ||
-						targetEpisode.files?.[variant].hash == _file.hash ||
-						targetEpisode.files?.[variant].magnetURI == _file.magnetURI
-					) {
-						Logger.debug(
-							`Merging RSS file with existing one for '${targetArc.title}' episode ${targetEpisode.episode}`,
-						)
-						targetEpisode.files[variant] = {
-							...targetEpisode.files?.[variant],
-							..._file,
-						}
-					} else {
-						if (!targetEpisode.files.archived) targetEpisode.files.archived = []
-						targetEpisode.files.archived.push({
-							...targetEpisode.files?.[variant],
-							outdated: true,
-						})
-						targetEpisode.files[variant] = _file
-					}
-				} else {
-					targetEpisode.files[variant] = _file
-				}
+			const targetArc = buffer.arcs.find(a => a.title == arcTitle)
+			if (!targetArc) {
+				Logger.debug(`Could not match '${arcTitle}'`)
 				continue
 			}
 
-			for (const [i, file] of torrent.files.entries()) {
-				const regex = new RegExp(`^.*(${arcTitle})(\\s\\d+)*`, 'i')
-				const _match = file.name
-					.replace('Whiskey', 'Whisky')
-					.replace('Arabasta', 'Alabasta')
-					.match(regex)
-
-				let _arcTitle
-				let _episodeNumber
-
-				if (!_match || !_match[1] || !_match[2]) {
-					_arcTitle = arcTitle
-					_episodeNumber = i + 1
-				} else {
-					_arcTitle = _match[1]
-						.replace('Wano Act', 'Wano')
-						.replace('Whiskey', 'Whisky')
-						.replace('Arabasta', 'Alabasta')
-					_episodeNumber = _match[2] ? Number.parseInt(_match[2]) : null
-				}
-
-				if (arcTitle != _arcTitle) {
-					Logger.warn(
-						`Item Title does not match File name: '${arcTitle}' != '${_arcTitle}'`,
-					)
-				}
-
-				const targetArc = buffer.arcs.find(a => a.title == _arcTitle)
-				if (!targetArc) {
-					Logger.warn(`Could not match '${_arcTitle}'`)
-					continue
-				}
-
-				const targetEpisode = targetArc.episodes.find(e => {
-					return e.episode == _episodeNumber
-				})
-				if (!targetEpisode) {
-					Logger.warn(
-						`Could not match '${_arcTitle}' episode ${_episodeNumber}`,
-					)
-					continue
-				}
-
-				if (outdated) {
-					if (!targetEpisode.files) targetEpisode.files = {}
+			const pushOrReplace = (
+				targetEpisode: RecursivePartial<EpisodeMetadata>,
+				_file: RecursivePartial<FileMetadata>,
+			) => {
+				if (_file.outdated) {
 					if (!targetEpisode.files.archived) targetEpisode.files.archived = []
+					let exist = targetEpisode.files.archived.find(
+						f =>
+							f.magnetURI == _file.magnetURI ||
+							f.hash == _file.hash ||
+							f.CRC32 == _file.CRC32,
+					)
 
-					const _file: RecursivePartial<FileMetadata> = {}
-
-					//Punk Hazard 13 correction
-					file.name = file.name.replace('316829437', '964FB36B')
-
-					const crc32Match = file.name.match(/\[([A-Z0-9]{8})\]/)
-					if (!crc32Match) {
-						if (file.crc32) {
-							_file.CRC32 = file.crc32
-						} else {
-							Logger.error(`Couldn't find CRC32 in file '${file.name}'`)
-							continue
+					if (exist) {
+						for (let key of Object.keys(_file)) {
+							exist[key] = _file[key]
 						}
+					} else {
+						targetEpisode.files.archived.push(_file)
 					}
-					_file.CRC32 = crc32Match[1]
-					//Punk Hazard 13 correction
-					if (crc32Match[1] == '964FB36B') _file.CRC32_inFileName = '316829437'
-					_file.hash = infoHash
-					_file.magnetURI = magnetURI
-					_file.variant = variant
-					if (torrent.files.length > 1) _file.partOfBundle = true
-					if (outdated) _file.outdated = true
-
-					targetEpisode.files.archived.push(_file)
 				} else {
-					if (
-						targetEpisode.files &&
-						targetEpisode.files[variant] &&
-						targetEpisode.files[variant].magnetURI
-							.replace(/.*btih\:/i, '')
-							.replace(/\&.*/, '') != infoHash
-					) {
+					if (!targetEpisode.files) targetEpisode.files = {}
+					if (targetEpisode.files[_file.variant]) {
 						if (
-							!targetEpisode.files[variant].partOfBundle &&
-							torrent.files.length > 1
+							_file.magnetURI == targetEpisode.files[_file.variant].magnetURI ||
+							_file.CRC32 == targetEpisode.files[_file.variant].CRC32
 						) {
-							Logger.debug(
-								`Bundle '${_arcTitle}' episode ${_episodeNumber} is not outdated, but a newer single file exists...`,
-							)
-							const _file: RecursivePartial<FileMetadata> = {}
-							const crc32Match = file.name.match(/\[([A-Z0-9]{8})\]/)
-							_file.CRC32 = crc32Match[1]
-							_file.hash = infoHash
-							_file.magnetURI = magnetURI
-							_file.variant = variant
-							if (torrent.files.length > 1) _file.partOfBundle = true
-							if (outdated) _file.outdated = true
-
+							targetEpisode.files[_file.variant] = {
+								...targetEpisode.files[_file.variant],
+								..._file,
+							}
+						} else {
 							if (!targetEpisode.files.archived)
 								targetEpisode.files.archived = []
-							targetEpisode.files.archived.push(_file)
-						} else
-							Logger.error(
-								`Tryng to overwrite '${_arcTitle}' episode ${_episodeNumber}`,
-							)
+							targetEpisode.files.archived.push({ ..._file, outdated: true })
+						}
 					} else {
-						if (!targetEpisode.files) targetEpisode.files = {}
-						if (!targetEpisode.files[variant]) targetEpisode.files[variant] = {}
-
-						//Punk Hazard 13 correction
-						file.name = file.name.replace('316829437', '964FB36B')
-
-						const crc32Match = file.name.match(/\[([A-Z0-9]{8})\]/)
-						if (!crc32Match) {
-							if (file.crc32) {
-								targetEpisode.files[variant].CRC32 = file.crc32
-							} else {
-								Logger.error(`Couldn't find CRC32 in file '${file.name}'`)
-								continue
-							}
-						} else targetEpisode.files[variant].CRC32
-
-						//Punk Hazard 13 correction
-						if (crc32Match[1] == '964FB36B')
-							targetEpisode.files[variant].CRC32_inFileName = '316829437'
-						targetEpisode.files[variant].hash = infoHash
-						targetEpisode.files[variant].magnetURI = magnetURI
-						targetEpisode.files[variant].variant = variant
-						if (torrent.files.length > 1)
-							targetEpisode.files[variant].partOfBundle = true
+						targetEpisode.files[_file.variant] = _file
 					}
+				}
+			}
+
+			if (!torrent) {
+				let episodes = []
+				if (partOfBundle) episodes = targetArc.episodes
+				else
+					episodes.push(
+						targetArc.episodes.find(e => e.episode == episodeNumber),
+					)
+
+				for (let targetEpisode of episodes) {
+					const _file: RecursivePartial<FileMetadata> = {
+						partOfBundle: true,
+						variant: variant,
+						magnetURI: magnetURI,
+						hash: infoHash,
+					}
+
+					if (outdated) _file.outdated = true
+
+					if (item['torrent:fileName']) {
+						const crc32Match =
+							item['torrent:fileName'].match(/\[([A-Z0-9]{8})\]/)
+						if (crc32Match?.[1]) {
+							_file.CRC32 = crc32Match[1]
+						} else {
+							Logger.debug(
+								`'${arcTitle}' episode ${episodeNumber}, CRC32 could not be find in either episode guide nor RSS`,
+							)
+						}
+					}
+					pushOrReplace(targetEpisode, _file)
+				}
+			} else {
+				for (let file of torrent.files) {
+					let fileName = file.correctedName || file.name
+					const match = fileName.match(
+						/^(\[[\w\s]+\](\[[\d\w]+[\-\.,\w\d\s]*\])* )*([a-z][a-z\-\.\'\s]+[a-z])(\s\d+)*/i,
+					)
+					episodeNumber = match[4] ? Number.parseInt(match[4]) : null
+
+					const targetEpisode = targetArc.episodes.find(e => {
+						return e.episode == episodeNumber
+					})
+					if (!targetEpisode) {
+						Logger.debug(
+							`Could not match '${arcTitle}' episode ${episodeNumber}`,
+						)
+						continue
+					}
+
+					const crc32Match = fileName.match(/\[([A-Z0-9]{8})\]/)
+					if (!crc32Match[1]) {
+						Logger.error(
+							`Couldn't find CRC32 in pre-processed torrent '${fileName}'`,
+						)
+						continue
+					}
+					const _file: RecursivePartial<FileMetadata> = {
+						CRC32: crc32Match[1],
+						hash: infoHash,
+						magnetURI: magnetURI,
+						variant: variant,
+					}
+					if (partOfBundle) _file.partOfBundle = partOfBundle
+					if (outdated) _file.outdated = outdated
+
+					pushOrReplace(targetEpisode, _file)
 				}
 			}
 		}
