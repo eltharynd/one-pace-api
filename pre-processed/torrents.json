@@ -4732,7 +4732,33 @@
     "infoHash": "43093df501144a675d8f6a177ab1fdaf5e3c9328",
     "magnetURI": "magnet:?xt=urn:btih:43093df501144a675d8f6a177ab1fdaf5e3c9328&dn=%5BOne+Pace%5D%5B115-129%5D+Little+Garden+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2020-11-20T04:17:12.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][115-117] Little Garden 01 [480p][C622761D].mkv",
+        "path": "[One Pace][115-117] Little Garden 01 [480p][C622761D].mkv",
+        "crc32": "C622761D"
+      },
+      {
+        "name": "[One Pace][117-118] Little Garden 02 [480p][DD135B35].mkv",
+        "path": "[One Pace][117-118] Little Garden 02 [480p][DD135B35].mkv",
+        "crc32": "DD135B35"
+      },
+      {
+        "name": "[One Pace][119-122] Little Garden 03 [480p][B5D2AC50].mkv",
+        "path": "[One Pace][119-122] Little Garden 03 [480p][B5D2AC50].mkv",
+        "crc32": "B5D2AC50"
+      },
+      {
+        "name": "[One Pace][123-126] Little Garden 04 [480p][A6D860C5].mkv",
+        "path": "[One Pace][123-126] Little Garden 04 [480p][A6D860C5].mkv",
+        "crc32": "A6D860C5"
+      },
+      {
+        "name": "[One Pace][127-129] Little Garden 05 [480p][08B90884].mkv",
+        "path": "[One Pace][127-129] Little Garden 05 [480p][08B90884].mkv",
+        "crc32": "08B90884"
+      }
+    ]
   },
   {
     "title": "[One Pace][549-580] Marineford [720p]",
