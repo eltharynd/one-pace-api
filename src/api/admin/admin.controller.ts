@@ -75,7 +75,7 @@ export class AdminController {
 		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
 
 		res.once('finish', () => {
-			//this.commitChanges().catch(e => Logger.error(e))
+			this.commitChanges().catch(e => Logger.error(e))
 		})
 
 		return res.status(200).send('OK')
