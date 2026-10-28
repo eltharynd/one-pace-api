@@ -2850,7 +2850,13 @@
     "infoHash": "32d0972a4b2a6bdfee33da8667e2bd4f6931cece",
     "magnetURI": "magnet:?xt=urn:btih:32d0972a4b2a6bdfee33da8667e2bd4f6931cece&dn=%5BOne+Pace%5D%5B167-168%5D+Arabasta+06+%5B1080p%5D%5B9FC7EE52%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-07-06T03:56:21.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][167-168] Arabasta 06 [1080p][9FC7EE52].mkv",
+        "path": "[One Pace][167-168] Arabasta 06 [1080p][9FC7EE52].mkv",
+        "crc32": "9FC7EE52"
+      }
+    ]
   },
   {
     "title": "[One Pace][340-342] Water Seven 08 [1080p][6E2DB1B9].mkv",
