@@ -32,9 +32,9 @@ export class AdminController {
 
 	@Post(`/update/processed-torrents`)
 	@UseBefore(AdminGuard)
-	updateProcessedTorrents(@Body() body: any) {
+	async updateProcessedTorrents(@Body() body: any) {
 		writeFileSync(PRE_PROCESSED_TORRENTS, JSON.stringify(body, null, 2))
-
+		await this.commitChanges()
 		return new OkResponse()
 	}
 
