@@ -900,13 +900,7 @@
     "infoHash": "9479f6fa2a8bb2c43c558db57161649377d6e7bd",
     "magnetURI": "magnet:?xt=urn:btih:9479f6fa2a8bb2c43c558db57161649377d6e7bd&dn=%5BOne+Pace%5D%5B8-11%5D+Orange+Town+01+%5B1080p%5D%5BC23AC8D3%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-04-12T02:37:16.000Z",
-    "files": [
-      {
-        "name": "[One Pace][8-11] Orange Town 01 [1080p][C23AC8D3].mkv",
-        "path": "[One Pace][8-11] Orange Town 01 [1080p][C23AC8D3].mkv",
-        "crc32": "C23AC8D3"
-      }
-    ]
+    "files": []
   },
   {
     "title": "[One Pace][38-39] Syrup Village 06 [1080p][F9DE972C].mkv",
@@ -1830,7 +1824,13 @@
     "infoHash": "c345a0dc89a9d20b9cbdad787b0bd80c34f52809",
     "magnetURI": "magnet:?xt=urn:btih:c345a0dc89a9d20b9cbdad787b0bd80c34f52809&dn=%5BOne+Pace%5D%5B83-119%5D+The+Trials+of+Koby-Meppo+%5B1080p%5D%5B4B56844F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2023-06-04T16:08:08.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][83-119] The Trials of Koby-Meppo [1080p][4B56844F].mkv",
+        "path": "[One Pace][83-119] The Trials of Koby-Meppo [1080p][4B56844F].mkv",
+        "crc32": "4B56844F"
+      }
+    ]
   },
   {
     "title": "[One Pace][56-59] Baratie 06 [1080p][757AF173].mkv",
@@ -1844,7 +1844,13 @@
     "infoHash": "36bdc945b08bdb0870720970850dae0ff6a3f353",
     "magnetURI": "magnet:?xt=urn:btih:36bdc945b08bdb0870720970850dae0ff6a3f353&dn=%5BOne+Pace%5D%5B196-198%5D+Arabasta+15+%5B1080p%5D%5B3520B23F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-05-22T16:26:26.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][196-198] Arabasta 15 [1080p][3520B23F].mkv",
+        "path": "[One Pace][196-198] Arabasta 15 [1080p][3520B23F].mkv",
+        "crc32": "3520B23F"
+      }
+    ]
   },
   {
     "title": "[One Pace][53-55] Baratie 05 [1080p][6858E16A].mkv",
