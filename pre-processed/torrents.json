@@ -2339,7 +2339,13 @@
     "infoHash": "1ef273f42db2c163f28c1a740498281a571e3604",
     "magnetURI": "magnet:?xt=urn:btih:1ef273f42db2c163f28c1a740498281a571e3604&dn=%5BOne+Pace%5D%5B187-189%5D+Arabasta+12+%5B1080p%5D%5BFF26917C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969",
     "release": "2022-10-07T01:32:54.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][187-189] Arabasta 12 [1080p][FF26917C].mkv",
+        "path": "[One Pace][187-189] Arabasta 12 [1080p][FF26917C].mkv",
+        "crc32": "FF26917C"
+      }
+    ]
   },
   {
     "title": "[One Pace][129-132] Drum Island 01 [1080p][FD2B4F32].mkv",
