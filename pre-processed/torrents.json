@@ -2450,7 +2450,13 @@
     "infoHash": "b15d098996eff6129be674891ae4cb14645c780f",
     "magnetURI": "magnet:?xt=urn:btih:b15d098996eff6129be674891ae4cb14645c780f&dn=%5BOne+Pace%5D%5B585-586%5D+Post-War+03+%5B1080p%5D%5B9DEAD0F3%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-07-25T00:32:10.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][585-586] Post-War 03 [1080p][9DEAD0F3].mkv",
+        "path": "[One Pace][585-586] Post-War 03 [1080p][9DEAD0F3].mkv",
+        "crc32": "9DEAD0F3"
+      }
+    ]
   },
   {
     "title": "[One Pace][930-931] Wano 16 [1080p][9FA61F60].mkv",
