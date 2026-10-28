@@ -59,7 +59,13 @@
     "infoHash": "9505df86859612212ba95ee2d4a4f52422deef7b",
     "magnetURI": "magnet:?xt=urn:btih:9505df86859612212ba95ee2d4a4f52422deef7b&dn=%5BOne+Pace%5D%5B435%5D+Post-Enies+Lobby+03+%5B1080p%5D%5BC9E0CD24%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-10-04T19:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][435] Post-Enies Lobby 03 [1080p][C9E0CD24].mkv",
+        "path": "[One Pace][435] Post-Enies Lobby 03 [1080p][C9E0CD24].mkv",
+        "crc32": "C9E0CD24"
+      }
+    ]
   },
   {
     "title": "[One Pace][1095-1096] Egghead 22 [1080p][958F4943].mkv",
@@ -237,7 +243,13 @@
     "infoHash": "80872a919a43b5d044caa3fd80933707344e4fab",
     "magnetURI": "magnet:?xt=urn:btih:80872a919a43b5d044caa3fd80933707344e4fab&dn=%5BOne+Pace%5D+One+Piece+Fan+Letter+%5B1080p%5D%5B59510B34%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-06-28T17:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] One Piece Fan Letter [1080p][59510B34].mkv",
+        "path": "[One Pace] One Piece Fan Letter [1080p][59510B34].mkv",
+        "crc32": "59510B34"
+      }
+    ]
   },
   {
     "title": "[One Pace][1009-1010] Wano 60 [1080p][27E7EE1C].mkv",
@@ -402,7 +414,13 @@
     "infoHash": "6a156dd98015e9424aad5a942b097446c47e75cf",
     "magnetURI": "magnet:?xt=urn:btih:6a156dd98015e9424aad5a942b097446c47e75cf&dn=%5BOne+Pace%5D%5B101-102%5D+Reverse+Mountain+01+%5B1080p%5D%5BEBF6DE81%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-03-14T04:31:54.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][101-102] Reverse Mountain 01 [1080p][EBF6DE81].mkv",
+        "path": "[One Pace][101-102] Reverse Mountain 01 [1080p][EBF6DE81].mkv",
+        "crc32": "EBF6DE81"
+      }
+    ]
   },
   {
     "title": "[One Pace][388-390] Enies Lobby 07 [1080p][3CA69C29].mkv",
@@ -663,7 +681,13 @@
     "infoHash": "9c5533d4044c55b1639d32782c0e68ac98453c87",
     "magnetURI": "magnet:?xt=urn:btih:9c5533d4044c55b1639d32782c0e68ac98453c87&dn=%5BOne+Pace%5D%5B79-81%5D+Arlong+Park+05+Extended+%5B1080p%5D%5B587689A9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-11-16T23:28:26.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][79-81] Arlong Park 05 Extended [1080p][587689A9].mkv",
+        "path": "[One Pace][79-81] Arlong Park 05 Extended [1080p][587689A9].mkv",
+        "crc32": "587689A9"
+      }
+    ]
   },
   {
     "title": "[One Pace][1091-1092] Egghead 20 [1080p][B974EFD7].mkv",
@@ -769,7 +793,13 @@
     "infoHash": "5c75cb08152979cf745ddc3b0ef240eca6551d91",
     "magnetURI": "magnet:?xt=urn:btih:5c75cb08152979cf745ddc3b0ef240eca6551d91&dn=%5BOne+Pace%5D%5B1087-1088%5D+Egghead+18+%5B1080p%5D%5B24DEE374%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-10-05T22:33:34.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1087-1088] Egghead 18 [1080p][24DEE374].mkv",
+        "path": "[One Pace][1087-1088] Egghead 18 [1080p][24DEE374].mkv",
+        "crc32": "24DEE374"
+      }
+    ]
   },
   {
     "title": "[One Pace][67-68] Baratie 08 [1080p][A6F61DEE].mkv",
@@ -1474,7 +1504,13 @@
     "infoHash": "dcec5a7b2f15cc18e8870a7fb216cdd698bf5592",
     "magnetURI": "magnet:?xt=urn:btih:dcec5a7b2f15cc18e8870a7fb216cdd698bf5592&dn=%5BOne+Pace%5D%5B38-39%5D+Syrup+Village+06+%5B1080p%5D%5BF9DE972C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-04-12T02:37:16.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][38-39] Syrup Village 06 [1080p][F9DE972C].mkv",
+        "path": "[One Pace][38-39] Syrup Village 06 [1080p][F9DE972C].mkv",
+        "crc32": "F9DE972C"
+      }
+    ]
   },
   {
     "title": "[One Pace][1087-1088] Egghead 18 [1080p][8A1836B5].mkv",
@@ -1767,7 +1803,13 @@
     "infoHash": "86eec1e4d07215a87e09ae1114b2fdfac7c7c115",
     "magnetURI": "magnet:?xt=urn:btih:86eec1e4d07215a87e09ae1114b2fdfac7c7c115&dn=%5BOne+Pace%5D%5B1060-1061%5D+Egghead+03+%5B1080p%5D%5B5B546203%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-01-11T02:46:15.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1060-1061] Egghead 03 [1080p][5B546203].mkv",
+        "path": "[One Pace][1060-1061] Egghead 03 [1080p][5B546203].mkv",
+        "crc32": "5B546203"
+      }
+    ]
   },
   {
     "title": "[One Pace][1062-1063] Egghead 04 [1080p][ACBE88D6].mkv",
@@ -2429,7 +2471,13 @@
     "infoHash": "c7e226bf4c40fb20dc2cce2bf5e32f8b5cde5dbd",
     "magnetURI": "magnet:?xt=urn:btih:c7e226bf4c40fb20dc2cce2bf5e32f8b5cde5dbd&dn=%5BOne+Pace%5D%5B967%5D+Wano+38+%5B1080p%5D%5B298A4284%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2024-01-26T18:13:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][967] Wano 38 [1080p][298A4284].mkv",
+        "path": "[One Pace][967] Wano 38 [1080p][298A4284].mkv",
+        "crc32": "298A4284"
+      }
+    ]
   },
   {
     "title": "[One Pace][1059-1060] Egghead 02 [1080p][01B6EE9A].mkv",
@@ -3571,7 +3619,23 @@
     "infoHash": "c5860b5066c7ed8bfe51abde23f76ef3f78a6ec7",
     "magnetURI": "magnet:?xt=urn:btih:c5860b5066c7ed8bfe51abde23f76ef3f78a6ec7&dn=%5BOne+Pace%5D%5B903-908%5D+Reverie+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2021-01-04T01:07:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][903-904] Reverie 01 [1080p][A4325AC2].mkv",
+        "path": "[One Pace][903-904] Reverie 01 [1080p][A4325AC2].mkv",
+        "crc32": "A4325AC2"
+      },
+      {
+        "name": "[One Pace][905-906] Reverie 02 [1080p][759D49BC].mkv",
+        "path": "[One Pace][905-906] Reverie 02 [1080p][759D49BC].mkv",
+        "crc32": "759D49BC"
+      },
+      {
+        "name": "[One Pace][907-908] Reverie 03 [1080p][F1430B21].mkv",
+        "path": "[One Pace][907-908] Reverie 03 [1080p][F1430B21].mkv",
+        "crc32": "F1430B21"
+      }
+    ]
   },
   {
     "title": "[One Pace][903-908] Reverie [1080p]",
@@ -4121,7 +4185,13 @@
     "infoHash": "764222f18a8a43868058a0069310bae6556bcbfc",
     "magnetURI": "magnet:?xt=urn:btih:764222f18a8a43868058a0069310bae6556bcbfc&dn=%5BOne+Pace%5D%5B416-418%5D+Enies+Lobby+19+%5B1080p%5D%5BC4106519%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-05-23T02:09:47.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][416-418] Enies Lobby 19 [1080p][C4106519].mkv",
+        "path": "[One Pace][416-418] Enies Lobby 19 [1080p][C4106519].mkv",
+        "crc32": "C4106519"
+      }
+    ]
   },
   {
     "title": "[One Pace][414-415] Enies Lobby 18 [1080p][64207B1A].mkv",
@@ -4162,7 +4232,13 @@
     "infoHash": "7bb74e6d6cb948274a02e389732418ad5d2aa39a",
     "magnetURI": "magnet:?xt=urn:btih:7bb74e6d6cb948274a02e389732418ad5d2aa39a&dn=%5BOne+Pace%5D%5B925-926%5D+Wano+13+%5B1080p%5D%5BDCF7AD65%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-05-06T04:21:07.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][925-926] Wano 13 [1080p][DCF7AD65].mkv",
+        "path": "[One Pace][925-926] Wano 13 [1080p][DCF7AD65].mkv",
+        "crc32": "DCF7AD65"
+      }
+    ]
   },
   {
     "title": "[One Pace][409-411] Enies Lobby 16 [1080p][158476AB].mkv",
@@ -5590,7 +5666,33 @@
     "infoHash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
     "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
     "release": "2013-07-22T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][431-432] Post-Enies Lobby 01 [720p][216595EE].mkv",
+        "path": "[One Pace][431-432] Post-Enies Lobby 01 [720p][216595EE].mkv",
+        "crc32": "216595EE"
+      },
+      {
+        "name": "[One Pace][433-435] Post-Enies Lobby 02 [720p][344EA844].mkv",
+        "path": "[One Pace][433-435] Post-Enies Lobby 02 [720p][344EA844].mkv",
+        "crc32": "344EA844"
+      },
+      {
+        "name": "[One Pace][436-437] Post-Enies Lobby 03 [720p][2C843A0F].mkv",
+        "path": "[One Pace][436-437] Post-Enies Lobby 03 [720p][2C843A0F].mkv",
+        "crc32": "2C843A0F"
+      },
+      {
+        "name": "[One Pace][438-439] Post-Enies Lobby 04 [720p][659EF70C].mkv",
+        "path": "[One Pace][438-439] Post-Enies Lobby 04 [720p][659EF70C].mkv",
+        "crc32": "659EF70C"
+      },
+      {
+        "name": "[One Pace][440-441] Post-Enies Lobby 05 [720p][CEF78887].mkv",
+        "path": "[One Pace][440-441] Post-Enies Lobby 05 [720p][CEF78887].mkv",
+        "crc32": "CEF78887"
+      }
+    ]
   },
   {
     "title": "[One Pace] New World 01-24 [1280x720 x264 AAC]",
