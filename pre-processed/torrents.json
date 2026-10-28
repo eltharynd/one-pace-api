@@ -1170,7 +1170,13 @@
     "infoHash": "aac0cb0e0a9d3fb1695e53887134887fb2f15a9e",
     "magnetURI": "magnet:?xt=urn:btih:aac0cb0e0a9d3fb1695e53887134887fb2f15a9e&dn=%5BOne+Pace%5D%5B1066%5D+Egghead+06+%5B1080p%5D%5B69F1BBD5%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-02-08T01:40:13.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1066] Egghead 06 [1080p][69F1BBD5].mkv",
+        "path": "[One Pace][1066] Egghead 06 [1080p][69F1BBD5].mkv",
+        "crc32": "69F1BBD5"
+      }
+    ]
   },
   {
     "title": "[One Pace][79-81] Arlong Park 05 [1080p][1CC0DA84].mkv",
@@ -1518,7 +1524,13 @@
     "infoHash": "f16a5459f018ba802342c64e424ff005cdb47115",
     "magnetURI": "magnet:?xt=urn:btih:f16a5459f018ba802342c64e424ff005cdb47115&dn=%5BOne+Pace%5D%5B202-205%5D+Arabasta+17+%5B1080p%5D%5BB5A40AD2%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2024-06-15T03:40:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][202-205] Arabasta 17 [1080p][B5A40AD2].mkv",
+        "path": "[One Pace][202-205] Arabasta 17 [1080p][B5A40AD2].mkv",
+        "crc32": "B5A40AD2"
+      }
+    ]
   },
   {
     "title": "[One Pace][270-273] Skypiea 14 [1080p][704F68EA].mkv",
@@ -2056,7 +2068,13 @@
     "infoHash": "e8cca1f69b748d85fd6a5f3eba2701ef6220cfb8",
     "magnetURI": "magnet:?xt=urn:btih:e8cca1f69b748d85fd6a5f3eba2701ef6220cfb8&dn=%5BOne+Pace%5D%5B954-955%5D+Wano+30+%5B1080p%5D%5B43A0D1DF%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-04-06T06:15:59.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][954-955] Wano 30 [1080p][43A0D1DF].mkv",
+        "path": "[One Pace][954-955] Wano 30 [1080p][43A0D1DF].mkv",
+        "crc32": "43A0D1DF"
+      }
+    ]
   },
   {
     "title": "[One Pace] Tournament of Power.mp4",
@@ -2159,7 +2177,13 @@
     "infoHash": "6c31b3c4ffb98f61dc9dee31e7162755f467b748",
     "magnetURI": "magnet:?xt=urn:btih:6c31b3c4ffb98f61dc9dee31e7162755f467b748&dn=%5BOne+Pace%5D%5B132-135%5D+Drum+Island+02+%5B1080p%5D%5B8FDCC832%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2022-09-26T13:37:01.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][132-135] Drum Island 02 [1080p][8FDCC832].mkv",
+        "path": "[One Pace][132-135] Drum Island 02 [1080p][8FDCC832].mkv",
+        "crc32": "8FDCC832"
+      }
+    ]
   },
   {
     "title": "[One Pace][136-139] Drum Island 03 [1080p][2971EF62].mkv",
@@ -2271,14 +2295,66 @@
     "infoHash": "d42d71270da00dd578e34fb28517a5fffe4d2cfb",
     "magnetURI": "magnet:?xt=urn:btih:d42d71270da00dd578e34fb28517a5fffe4d2cfb&dn=%5BOne+Pace%5D%5B1-7%5D+Romance+Dawn+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2021-12-27T03:21:10.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1] Romance Dawn 01 [1080p][D767799C].mkv",
+        "path": "[One Pace][1] Romance Dawn 01 [1080p][D767799C].mkv",
+        "crc32": "D767799C"
+      },
+      {
+        "name": "[One Pace][1] Romance Dawn 01 [1080p][FB72C13F].mkv",
+        "path": "[One Pace][1] Romance Dawn 01 [1080p][FB72C13F].mkv",
+        "crc32": "FB72C13F"
+      },
+      {
+        "name": "[One Pace][2] Romance Dawn 02 [1080p][04A43CEF].mkv",
+        "path": "[One Pace][2] Romance Dawn 02 [1080p][04A43CEF].mkv",
+        "crc32": "04A43CEF"
+      },
+      {
+        "name": "[One Pace][2] Romance Dawn 02 [1080p][667784D2].mkv",
+        "path": "[One Pace][2] Romance Dawn 02 [1080p][667784D2].mkv",
+        "crc32": "667784D2"
+      },
+      {
+        "name": "[One Pace][3-5] Romance Dawn 03 [1080p][8F0ACC44].mkv",
+        "path": "[One Pace][3-5] Romance Dawn 03 [1080p][8F0ACC44].mkv",
+        "crc32": "8F0ACC44"
+      },
+      {
+        "name": "[One Pace][3-5] Romance Dawn 03 [1080p][C7CA5080].mkv",
+        "path": "[One Pace][3-5] Romance Dawn 03 [1080p][C7CA5080].mkv",
+        "crc32": "C7CA5080"
+      },
+      {
+        "name": "[One Pace][3-5] Romance Dawn 03 [1080p][F5E73C4E].mkv",
+        "path": "[One Pace][3-5] Romance Dawn 03 [1080p][F5E73C4E].mkv",
+        "crc32": "F5E73C4E"
+      },
+      {
+        "name": "[One Pace][5-7] Romance Dawn 04 [1080p][09DD81D3].mkv",
+        "path": "[One Pace][5-7] Romance Dawn 04 [1080p][09DD81D3].mkv",
+        "crc32": "09DD81D3"
+      },
+      {
+        "name": "[One Pace][5-7] Romance Dawn 04 [1080p][9A48E3EB].mkv",
+        "path": "[One Pace][5-7] Romance Dawn 04 [1080p][9A48E3EB].mkv",
+        "crc32": "9A48E3EB"
+      }
+    ]
   },
   {
     "title": "[One Pace][45-47] Baratie 02 [1080p][FCF3D074].mkv",
     "infoHash": "f4389ed080b50f54ecfd1b0305ccac7ecc8345bc",
     "magnetURI": "magnet:?xt=urn:btih:f4389ed080b50f54ecfd1b0305ccac7ecc8345bc&dn=%5BOne+Pace%5D%5B45-47%5D+Baratie+02+%5B1080p%5D%5BFCF3D074%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-12-20T06:06:03.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][45-47] Baratie 02 [1080p][FCF3D074].mkv",
+        "path": "[One Pace][45-47] Baratie 02 [1080p][FCF3D074].mkv",
+        "crc32": "FCF3D074"
+      }
+    ]
   },
   {
     "title": "[One Pace][346-348] Water Seven 10 [1080p][BAFD9522].mkv",
@@ -2860,7 +2936,13 @@
     "infoHash": "7a490e03ce2488bd81cea75679e8590b40db004c",
     "magnetURI": "magnet:?xt=urn:btih:7a490e03ce2488bd81cea75679e8590b40db004c&dn=%5BOne+Pace%5D%5B407-408%5D+Enies+Lobby+15+%5B1080p%5D%5B160B1E51%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-04-22T20:09:29.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][407-408] Enies Lobby 15 [1080p][160B1E51].mkv",
+        "path": "[One Pace][407-408] Enies Lobby 15 [1080p][160B1E51].mkv",
+        "crc32": "160B1E51"
+      }
+    ]
   },
   {
     "title": "[One Pace][74-76] Arlong Park 03 [480p][20E382C9].mkv",
@@ -3399,7 +3481,58 @@
     "infoHash": "5c027631a28242814a6cf1fe24f455b70bca14bc",
     "magnetURI": "magnet:?xt=urn:btih:5c027631a28242814a6cf1fe24f455b70bca14bc&dn=%5BOne+Pace%5D%5B801-822%5D+Zou+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2018-04-30T14:31:02.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][801-803] Zou 01 [720p][E70913D9].mkv",
+        "path": "[One Pace][801-803] Zou 01 [720p][E70913D9].mkv",
+        "crc32": "E70913D9"
+      },
+      {
+        "name": "[One Pace][804-805] Zou 02 [720p][32150FF4].mkv",
+        "path": "[One Pace][804-805] Zou 02 [720p][32150FF4].mkv",
+        "crc32": "32150FF4"
+      },
+      {
+        "name": "[One Pace][806-807] Zou 03 [720p][E4B077F8].mkv",
+        "path": "[One Pace][806-807] Zou 03 [720p][E4B077F8].mkv",
+        "crc32": "E4B077F8"
+      },
+      {
+        "name": "[One Pace][808-809] Zou 04 [720p][A4F76B13].mkv",
+        "path": "[One Pace][808-809] Zou 04 [720p][A4F76B13].mkv",
+        "crc32": "A4F76B13"
+      },
+      {
+        "name": "[One Pace][810-811] Zou 05 [720p][7149D13F].mkv",
+        "path": "[One Pace][810-811] Zou 05 [720p][7149D13F].mkv",
+        "crc32": "7149D13F"
+      },
+      {
+        "name": "[One Pace][812-813] Zou 06 [720p][7F73DB45].mkv",
+        "path": "[One Pace][812-813] Zou 06 [720p][7F73DB45].mkv",
+        "crc32": "7F73DB45"
+      },
+      {
+        "name": "[One Pace][814-815] Zou 07 [720p][55837445].mkv",
+        "path": "[One Pace][814-815] Zou 07 [720p][55837445].mkv",
+        "crc32": "55837445"
+      },
+      {
+        "name": "[One Pace][816-817] Zou 08 [720p][5B2AAFBF].mkv",
+        "path": "[One Pace][816-817] Zou 08 [720p][5B2AAFBF].mkv",
+        "crc32": "5B2AAFBF"
+      },
+      {
+        "name": "[One Pace][818-819] Zou 09 [720p][0880B38F].mkv",
+        "path": "[One Pace][818-819] Zou 09 [720p][0880B38F].mkv",
+        "crc32": "0880B38F"
+      },
+      {
+        "name": "[One Pace][820-822] Zou 10 [720p][4A52B138].mkv",
+        "path": "[One Pace][820-822] Zou 10 [720p][4A52B138].mkv",
+        "crc32": "4A52B138"
+      }
+    ]
   },
   {
     "title": "[One Pace][525-548] Impel Down [720p]",
@@ -3840,7 +3973,118 @@
     "infoHash": "bcdff039cd7c01f2ffb78799b4082d91de25b2fb",
     "magnetURI": "magnet:?xt=urn:btih:bcdff039cd7c01f2ffb78799b4082d91de25b2fb&dn=%5BOne+Pace%5D%5B654-699%5D+Punk+Hazard+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2014-08-08T22:58:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][654-655] Punk Hazard 01 [720p][90015E67].mkv",
+        "path": "[One Pace][654-655] Punk Hazard 01 [720p][90015E67].mkv",
+        "crc32": "90015E67"
+      },
+      {
+        "name": "[One Pace][656-658] Punk Hazard 02 [720p][5A3CE523].mkv",
+        "path": "[One Pace][656-658] Punk Hazard 02 [720p][5A3CE523].mkv",
+        "crc32": "5A3CE523"
+      },
+      {
+        "name": "[One Pace][659-660] Punk Hazard 03 [720p][FE661F6E].mkv",
+        "path": "[One Pace][659-660] Punk Hazard 03 [720p][FE661F6E].mkv",
+        "crc32": "FE661F6E"
+      },
+      {
+        "name": "[One Pace][661-662] Punk Hazard 04 [720p][666061E3].mkv",
+        "path": "[One Pace][661-662] Punk Hazard 04 [720p][666061E3].mkv",
+        "crc32": "666061E3"
+      },
+      {
+        "name": "[One Pace][663-664] Punk Hazard 05 [720p][ACF1C889].mkv",
+        "path": "[One Pace][663-664] Punk Hazard 05 [720p][ACF1C889].mkv",
+        "crc32": "ACF1C889"
+      },
+      {
+        "name": "[One Pace][665-666] Punk Hazard 06 [720p][CC88315A].mkv",
+        "path": "[One Pace][665-666] Punk Hazard 06 [720p][CC88315A].mkv",
+        "crc32": "CC88315A"
+      },
+      {
+        "name": "[One Pace][667-668] Punk Hazard 07 [720p][F0B1F815].mkv",
+        "path": "[One Pace][667-668] Punk Hazard 07 [720p][F0B1F815].mkv",
+        "crc32": "F0B1F815"
+      },
+      {
+        "name": "[One Pace][669-670] Punk Hazard 08 [720p][658D36CE].mkv",
+        "path": "[One Pace][669-670] Punk Hazard 08 [720p][658D36CE].mkv",
+        "crc32": "658D36CE"
+      },
+      {
+        "name": "[One Pace][671-672] Punk Hazard 09 [720p][AD550761].mkv",
+        "path": "[One Pace][671-672] Punk Hazard 09 [720p][AD550761].mkv",
+        "crc32": "AD550761"
+      },
+      {
+        "name": "[One Pace][673-674] Punk Hazard 10 [720p][72E3E794].mkv",
+        "path": "[One Pace][673-674] Punk Hazard 10 [720p][72E3E794].mkv",
+        "crc32": "72E3E794"
+      },
+      {
+        "name": "[One Pace][675-676] Punk Hazard 11 [720p][398915C6].mkv",
+        "path": "[One Pace][675-676] Punk Hazard 11 [720p][398915C6].mkv",
+        "crc32": "398915C6"
+      },
+      {
+        "name": "[One Pace][677-678] Punk Hazard 12 [720p][CD83F1E9].mkv",
+        "path": "[One Pace][677-678] Punk Hazard 12 [720p][CD83F1E9].mkv",
+        "crc32": "CD83F1E9"
+      },
+      {
+        "name": "[One Pace][679-680] Punk Hazard 13 [720p][316829437].mkv",
+        "path": "[One Pace][679-680] Punk Hazard 13 [720p][316829437].mkv",
+        "crc32": "964FB36B"
+      },
+      {
+        "name": "[One Pace][681-682] Punk Hazard 14 [720p][75CC1F6E].mkv",
+        "path": "[One Pace][681-682] Punk Hazard 14 [720p][75CC1F6E].mkv",
+        "crc32": "75CC1F6E"
+      },
+      {
+        "name": "[One Pace][683-684] Punk Hazard 15 [720p][9CE5B9DD].mkv",
+        "path": "[One Pace][683-684] Punk Hazard 15 [720p][9CE5B9DD].mkv",
+        "crc32": "9CE5B9DD"
+      },
+      {
+        "name": "[One Pace][685-686] Punk Hazard 16 [720p][4CD92CFC].mkv",
+        "path": "[One Pace][685-686] Punk Hazard 16 [720p][4CD92CFC].mkv",
+        "crc32": "4CD92CFC"
+      },
+      {
+        "name": "[One Pace][687-688] Punk Hazard 17 [720p][0A2624D5].mkv",
+        "path": "[One Pace][687-688] Punk Hazard 17 [720p][0A2624D5].mkv",
+        "crc32": "0A2624D5"
+      },
+      {
+        "name": "[One Pace][689-690] Punk Hazard 18 [720p][D56597BC].mkv",
+        "path": "[One Pace][689-690] Punk Hazard 18 [720p][D56597BC].mkv",
+        "crc32": "D56597BC"
+      },
+      {
+        "name": "[One Pace][691-692] Punk Hazard 19 [720p][54AC1705].mkv",
+        "path": "[One Pace][691-692] Punk Hazard 19 [720p][54AC1705].mkv",
+        "crc32": "54AC1705"
+      },
+      {
+        "name": "[One Pace][693-695] Punk Hazard 20 [720p][5012E091].mkv",
+        "path": "[One Pace][693-695] Punk Hazard 20 [720p][5012E091].mkv",
+        "crc32": "5012E091"
+      },
+      {
+        "name": "[One Pace][696-697] Punk Hazard 21 [720p][0CBF5258].mkv",
+        "path": "[One Pace][696-697] Punk Hazard 21 [720p][0CBF5258].mkv",
+        "crc32": "0CBF5258"
+      },
+      {
+        "name": "[One Pace][698-699] Punk Hazard 22 [720p][021A8886].mkv",
+        "path": "[One Pace][698-699] Punk Hazard 22 [720p][021A8886].mkv",
+        "crc32": "021A8886"
+      }
+    ]
   },
   {
     "title": "[One Pace] Specials",
