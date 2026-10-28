@@ -2406,7 +2406,13 @@
     "infoHash": "36bdc945b08bdb0870720970850dae0ff6a3f353",
     "magnetURI": "magnet:?xt=urn:btih:36bdc945b08bdb0870720970850dae0ff6a3f353&dn=%5BOne+Pace%5D%5B196-198%5D+Arabasta+15+%5B1080p%5D%5B3520B23F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-05-22T16:26:26.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][196-198] Arabasta 15 [1080p][3520B23F].mkv",
+        "path": "[One Pace][196-198] Arabasta 15 [1080p][3520B23F].mkv",
+        "crc32": "3520B23F"
+      }
+    ]
   },
   {
     "title": "[One Pace][53-55] Baratie 05 [1080p][6858E16A].mkv",
