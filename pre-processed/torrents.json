@@ -3633,7 +3633,128 @@
     "infoHash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
     "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
     "release": "2017-02-04T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][603-604] Fishman Island 01 [720p][FBA08093].mkv",
+        "path": "[One Pace][603-604] Fishman Island 01 [720p][FBA08093].mkv",
+        "crc32": "FBA08093"
+      },
+      {
+        "name": "[One Pace][605-606] Fishman Island 02 [720p][BD7169C3].mkv",
+        "path": "[One Pace][605-606] Fishman Island 02 [720p][BD7169C3].mkv",
+        "crc32": "BD7169C3"
+      },
+      {
+        "name": "[One Pace][607-608] Fishman Island 03 [720p][5636E014].mkv",
+        "path": "[One Pace][607-608] Fishman Island 03 [720p][5636E014].mkv",
+        "crc32": "5636E014"
+      },
+      {
+        "name": "[One Pace][609-610] Fishman Island 04 [720p][9E0A91E9].mkv",
+        "path": "[One Pace][609-610] Fishman Island 04 [720p][9E0A91E9].mkv",
+        "crc32": "9E0A91E9"
+      },
+      {
+        "name": "[One Pace][611-612] Fishman Island 05 [720p][DA5B5D04].mkv",
+        "path": "[One Pace][611-612] Fishman Island 05 [720p][DA5B5D04].mkv",
+        "crc32": "DA5B5D04"
+      },
+      {
+        "name": "[One Pace][613-614] Fishman Island 06 [720p][64FB3990].mkv",
+        "path": "[One Pace][613-614] Fishman Island 06 [720p][64FB3990].mkv",
+        "crc32": "64FB3990"
+      },
+      {
+        "name": "[One Pace][614-615] Fishman Island 07 [720p][29A10280].mkv",
+        "path": "[One Pace][614-615] Fishman Island 07 [720p][29A10280].mkv",
+        "crc32": "29A10280"
+      },
+      {
+        "name": "[One Pace][616-618] Fishman Island 08 [720p][DBA50B89].mkv",
+        "path": "[One Pace][616-618] Fishman Island 08 [720p][DBA50B89].mkv",
+        "crc32": "DBA50B89"
+      },
+      {
+        "name": "[One Pace][619-620] Fishman Island 09 [720p][FCF7F7E4].mkv",
+        "path": "[One Pace][619-620] Fishman Island 09 [720p][FCF7F7E4].mkv",
+        "crc32": "FCF7F7E4"
+      },
+      {
+        "name": "[One Pace][621-622] Fishman Island 10 [720p][F4BB17EB].mkv",
+        "path": "[One Pace][621-622] Fishman Island 10 [720p][F4BB17EB].mkv",
+        "crc32": "F4BB17EB"
+      },
+      {
+        "name": "[One Pace][623-624] Fishman Island 11 [720p][7926F9B5].mkv",
+        "path": "[One Pace][623-624] Fishman Island 11 [720p][7926F9B5].mkv",
+        "crc32": "7926F9B5"
+      },
+      {
+        "name": "[One Pace][625-626] Fishman Island 12 [720p][F134C10A].mkv",
+        "path": "[One Pace][625-626] Fishman Island 12 [720p][F134C10A].mkv",
+        "crc32": "F134C10A"
+      },
+      {
+        "name": "[One Pace][627-629] Fishman Island 13 [720p][04C7B716].mkv",
+        "path": "[One Pace][627-629] Fishman Island 13 [720p][04C7B716].mkv",
+        "crc32": "04C7B716"
+      },
+      {
+        "name": "[One Pace][630-631] Fishman Island 14 [720p][35A189E2].mkv",
+        "path": "[One Pace][630-631] Fishman Island 14 [720p][35A189E2].mkv",
+        "crc32": "35A189E2"
+      },
+      {
+        "name": "[One Pace][632-633] Fishman Island 15 [720p][8014A332].mkv",
+        "path": "[One Pace][632-633] Fishman Island 15 [720p][8014A332].mkv",
+        "crc32": "8014A332"
+      },
+      {
+        "name": "[One Pace][634-635] Fishman Island 16 [720p][DF3A7006].mkv",
+        "path": "[One Pace][634-635] Fishman Island 16 [720p][DF3A7006].mkv",
+        "crc32": "DF3A7006"
+      },
+      {
+        "name": "[One Pace][636-637] Fishman Island 17 [720p][EB0BC95C].mkv",
+        "path": "[One Pace][636-637] Fishman Island 17 [720p][EB0BC95C].mkv",
+        "crc32": "EB0BC95C"
+      },
+      {
+        "name": "[One Pace][638-639] Fishman Island 18 [720p][B6BD1A60].mkv",
+        "path": "[One Pace][638-639] Fishman Island 18 [720p][B6BD1A60].mkv",
+        "crc32": "B6BD1A60"
+      },
+      {
+        "name": "[One Pace][640-641] Fishman Island 19 [720p][C19D5680].mkv",
+        "path": "[One Pace][640-641] Fishman Island 19 [720p][C19D5680].mkv",
+        "crc32": "C19D5680"
+      },
+      {
+        "name": "[One Pace][642-645] Fishman Island 20 [720p][94E2099D].mkv",
+        "path": "[One Pace][642-645] Fishman Island 20 [720p][94E2099D].mkv",
+        "crc32": "94E2099D"
+      },
+      {
+        "name": "[One Pace][643-646] Fishman Island 21 [720p][85AD9C81].mkv",
+        "path": "[One Pace][643-646] Fishman Island 21 [720p][85AD9C81].mkv",
+        "crc32": "85AD9C81"
+      },
+      {
+        "name": "[One Pace][647-649] Fishman Island 22 [720p][7DBBFA18].mkv",
+        "path": "[One Pace][647-649] Fishman Island 22 [720p][7DBBFA18].mkv",
+        "crc32": "7DBBFA18"
+      },
+      {
+        "name": "[One Pace][650-651] Fishman Island 23 [720p][65BD682D].mkv",
+        "path": "[One Pace][650-651] Fishman Island 23 [720p][65BD682D].mkv",
+        "crc32": "65BD682D"
+      },
+      {
+        "name": "[One Pace][652-653] Fishman Island 24 [720p][99A61805].mkv",
+        "path": "[One Pace][652-653] Fishman Island 24 [720p][99A61805].mkv",
+        "crc32": "99A61805"
+      }
+    ]
   },
   {
     "title": "[One Pace][237-303] Skypiea 1-5 [480p]",
