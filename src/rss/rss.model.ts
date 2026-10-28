@@ -1,16 +1,11 @@
-export interface Item {
-	'torrent:fileName'?: string
-	'torrent:magnetURI'?: string
-	'torrent:infoHash'?: string
-	categories?: Array<{
-		_: string
-		$?: { domain: string }
-	}>
-	guid: string
+export interface Structured {
 	title: string
-	link: string
-}
-
-export interface Feed {
-	items: Item[]
+	infoHash: string
+	magnetURI: string
+	release: string
+	files: {
+		name: string
+		path: string
+		crc32: string
+	}[]
 }
