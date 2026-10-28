@@ -81,11 +81,12 @@ export class AdminController {
 
 		cache.sort((a, b) => b.release.localeCompare(a.release))
 
-		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
-
 		res.once('finish', async () => {
-			Context.express.io.serverSideEmit('pre_processed_update', cache)
+			await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
+			Context.rss.feed = cache
 			await Context.metadata.init()
+
+			Context.express.io.serverSideEmit('pre_processed_update', cache)
 			this.queueCommit()
 		})
 
