@@ -2314,7 +2314,13 @@
     "infoHash": "5b9eb12d70a9290c0684cf72282dba53c8f56e35",
     "magnetURI": "magnet:?xt=urn:btih:5b9eb12d70a9290c0684cf72282dba53c8f56e35&dn=%5BOne+Pace%5D%5B183-186%5D+Arabasta+11+%5B1080p%5D%5BC51CB284%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2022-08-25T06:56:34.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][183-186] Arabasta 11 [1080p][C51CB284].mkv",
+        "path": "[One Pace][183-186] Arabasta 11 [1080p][C51CB284].mkv",
+        "crc32": "C51CB284"
+      }
+    ]
   },
   {
     "title": "[One Pace][47-49] Baratie 03 [1080p][0EB7F7E9].mkv",
