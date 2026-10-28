@@ -2177,7 +2177,13 @@
     "infoHash": "6a26cb6bb9d3f8259fd54a610acbe7b8fc1039bc",
     "magnetURI": "magnet:?xt=urn:btih:6a26cb6bb9d3f8259fd54a610acbe7b8fc1039bc&dn=%5BOne+Pace%5D%5B946-947%5D+Wano+25+%5B1080p%5D%5BC3825063%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-09-10T01:40:14.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][946-947] Wano 25 [1080p][C3825063].mkv",
+        "path": "[One Pace][946-947] Wano 25 [1080p][C3825063].mkv",
+        "crc32": "C3825063"
+      }
+    ]
   },
   {
     "title": "[One Pace][171-174] Arabasta 08 [1080p][726FD61C].mkv",
