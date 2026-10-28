@@ -1194,7 +1194,13 @@
     "infoHash": "a4d4e2c0820fe29870c2def26c01793820aba633",
     "magnetURI": "magnet:?xt=urn:btih:a4d4e2c0820fe29870c2def26c01793820aba633&dn=%5BOne+Pace%5D%5B1080-1081%5D+Egghead+14+%5B1080p%5D%5BEF447336%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2024-11-02T04:03:59.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1080-1081] Egghead 14 [1080p][EF447336].mkv",
+        "path": "[One Pace][1080-1081] Egghead 14 [1080p][EF447336].mkv",
+        "crc32": "EF447336"
+      }
+    ]
   },
   {
     "title": "[One Pace][1080-1081] Egghead 14 Extended [1080p][C0B845B2].mkv",
@@ -1663,7 +1669,13 @@
     "infoHash": "914c0da7db2f30c80988adea7e67af78e1502587",
     "magnetURI": "magnet:?xt=urn:btih:914c0da7db2f30c80988adea7e67af78e1502587&dn=%5BOne+Pace%5D%5B247-249%5D+Skypiea+06+%5B1080p%5D%5BBF59EB14%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2023-10-14T04:09:01.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][247-249] Skypiea 06 [1080p][BF59EB14].mkv",
+        "path": "[One Pace][247-249] Skypiea 06 [1080p][BF59EB14].mkv",
+        "crc32": "BF59EB14"
+      }
+    ]
   },
   {
     "title": "[One Pace][35-75] The Adventures of Buggy's Crew [1080p][E75794DB].mkv",
@@ -2167,7 +2179,13 @@
     "infoHash": "ebe71894a4c941359a7c8083218e421e5bf67914",
     "magnetURI": "magnet:?xt=urn:btih:ebe71894a4c941359a7c8083218e421e5bf67914&dn=%5BOne+Pace%5D%5B340-342%5D+Water+Seven+08+%5B1080p%5D%5B6E2DB1B9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-06-22T02:09:24.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][340-342] Water Seven 08 [1080p][6E2DB1B9].mkv",
+        "path": "[One Pace][340-342] Water Seven 08 [1080p][6E2DB1B9].mkv",
+        "crc32": "6E2DB1B9"
+      }
+    ]
   },
   {
     "title": "[One Pace][338-339] Water Seven 07 [1080p][4D75A2CA].mkv",
@@ -3350,13 +3368,7 @@
     "infoHash": "91c2900b69470850a055b0bb0ff11e00e7ed6bfe",
     "magnetURI": "magnet:?xt=urn:btih:91c2900b69470850a055b0bb0ff11e00e7ed6bfe&dn=%5BOne+Pace%5D%5B236-262%5D+Specials+06+%5B720p%5D%5B05BE81E6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2017-02-26T12:00:00.000Z",
-    "files": [
-      {
-        "name": "[One Pace][236-262] Specials 06 [720p][05BE81E6].mkv",
-        "path": "[One Pace][236-262] Specials 06 [720p][05BE81E6].mkv",
-        "crc32": "05BE81E6"
-      }
-    ]
+    "files": []
   },
   {
     "title": "Impel Down 06",
