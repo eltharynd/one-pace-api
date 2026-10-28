@@ -2467,7 +2467,13 @@
     "infoHash": "bef6efff0f7c81422ca057a2e575363eb0b350f3",
     "magnetURI": "magnet:?xt=urn:btih:bef6efff0f7c81422ca057a2e575363eb0b350f3&dn=%5BOne+Pace%5D%5B425-427%5D+Enies+Lobby+23+%5B1080p%5D%5B25AFC3E5%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-08-10T19:17:52.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][425-427] Enies Lobby 23 [1080p][25AFC3E5].mkv",
+        "path": "[One Pace][425-427] Enies Lobby 23 [1080p][25AFC3E5].mkv",
+        "crc32": "25AFC3E5"
+      }
+    ]
   },
   {
     "title": "[One Pace][932-933] Wano 17 [1080p][D2E02F36].mkv",
