@@ -1,8 +1,16 @@
+import { Response } from 'express'
 import { Logger } from 'ez-ts-logger'
 import { copyFileSync, mkdirSync, writeFileSync } from 'node:fs'
 import { stat } from 'node:fs/promises'
 import path from 'node:path'
-import { Body, Controller, Get, Post, UseBefore } from 'routing-controllers'
+import {
+	Body,
+	Controller,
+	Get,
+	Post,
+	Res,
+	UseBefore,
+} from 'routing-controllers'
 import { simpleGit } from 'simple-git'
 import environment from '../../environment.js'
 import { Context } from '../../util/context.js'
@@ -32,12 +40,14 @@ export class AdminController {
 
 	@Post(`/update/processed-torrents`)
 	@UseBefore(AdminGuard)
-	async updateProcessedTorrents(@Body() body: any) {
-		writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(body, null, 2))
-		setTimeout(() => {
-			this.commitChanges()
-		}, 1000)
-		return new OkResponse()
+	async updateProcessedTorrents(@Body() body: any, @Res() res: Response) {
+		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(body, null, 2))
+
+		res.once('finish', () => {
+			this.commitChanges().catch(e => Logger.error(e))
+		})
+
+		return res.status(200).send('OK')
 	}
 
 	private async commitChanges() {
