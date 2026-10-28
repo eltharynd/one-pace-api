@@ -34,7 +34,9 @@ export class AdminController {
 	@UseBefore(AdminGuard)
 	async updateProcessedTorrents(@Body() body: any) {
 		writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(body, null, 2))
-		await this.commitChanges()
+		setTimeout(() => {
+			this.commitChanges()
+		}, 1000)
 		return new OkResponse()
 	}
 
