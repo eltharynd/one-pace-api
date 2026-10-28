@@ -2912,7 +2912,13 @@
     "infoHash": "ada27ed07c9bdb8339f563ea3a972e810db9c241",
     "magnetURI": "magnet:?xt=urn:btih:ada27ed07c9bdb8339f563ea3a972e810db9c241&dn=%5BOne+Pace%5D%5B932-933%5D+Wano+17+%5B1080p%5D%5BD2E02F36%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-07-31T22:25:01.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][932-933] Wano 17 [1080p][D2E02F36].mkv",
+        "path": "[One Pace][932-933] Wano 17 [1080p][D2E02F36].mkv",
+        "crc32": "D2E02F36"
+      }
+    ]
   },
   {
     "title": "[One Pace][589-590] Post-War 05 [1080p][FA5B3DCD].mkv",
