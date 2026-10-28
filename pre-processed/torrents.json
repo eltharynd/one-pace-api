@@ -2021,7 +2021,13 @@
     "infoHash": "d8e0cdb4a611e3fc0869c5689f84cd7414a4e3ca",
     "magnetURI": "magnet:?xt=urn:btih:d8e0cdb4a611e3fc0869c5689f84cd7414a4e3ca&dn=%5BOne+Pace%5D%5B218-220%5D+Jaya+01+%5B1080p%5D%5B2BBCD106%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-01-29T00:56:23.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][218-220] Jaya 01 [1080p][2BBCD106].mkv",
+        "path": "[One Pace][218-220] Jaya 01 [1080p][2BBCD106].mkv",
+        "crc32": "2BBCD106"
+      }
+    ]
   },
   {
     "title": "[One Pace][22,42] Gaimon 01 [1080p][9AA8B637].mkv",
