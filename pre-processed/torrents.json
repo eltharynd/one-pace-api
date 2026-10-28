@@ -66,7 +66,13 @@
     "infoHash": "6d6dc2ce4bf05c8e8291a4aa33dcb5387bb71019",
     "magnetURI": "magnet:?xt=urn:btih:6d6dc2ce4bf05c8e8291a4aa33dcb5387bb71019&dn=%5BOne+Pace%5D%5B1012-1013%5D+Wano+62+Extended+%5B1080p%5D%5B3EC45BF1%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-09-20T19:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1012-1013] Wano 62 Extended [1080p][3EC45BF1].mkv",
+        "path": "[One Pace][1012-1013] Wano 62 Extended [1080p][3EC45BF1].mkv",
+        "crc32": "3EC45BF1"
+      }
+    ]
   },
   {
     "title": "[One Pace][153-155] Drum Island 08 [1080p][F8FCF23F].mkv",
@@ -2739,7 +2745,13 @@
     "infoHash": "1437585a00f1f39b47973ddd69ac6a1f41cc4139",
     "magnetURI": "magnet:?xt=urn:btih:1437585a00f1f39b47973ddd69ac6a1f41cc4139&dn=%5BOne+Pace%5D%5B160%2C+162-164%5D+Arabasta+04+%5B480p%5D%5B34F48D1A%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-02-22T01:02:52.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][160, 162-164] Arabasta 04 [480p][34F48D1A].mkv",
+        "path": "[One Pace][160, 162-164] Arabasta 04 [480p][34F48D1A].mkv",
+        "crc32": "34F48D1A"
+      }
+    ]
   },
   {
     "title": "[One Pace][326-329] Water Seven 03 [1080p][01874097].mkv",
