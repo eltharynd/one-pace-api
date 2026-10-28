@@ -1943,7 +1943,13 @@
     "infoHash": "1ad1d02f115868eacb6852eef0a8e6ca59a3c524",
     "magnetURI": "magnet:?xt=urn:btih:1ad1d02f115868eacb6852eef0a8e6ca59a3c524&dn=%5BOne+Pace%5D%5B255-257%5D+Skypiea+09+%5B1080p%5D%5BCF0B1E5A%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-11-17T16:18:05.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][255-257] Skypiea 09 [1080p][CF0B1E5A].mkv",
+        "path": "[One Pace][255-257] Skypiea 09 [1080p][CF0B1E5A].mkv",
+        "crc32": "CF0B1E5A"
+      }
+    ]
   },
   {
     "title": "[One Pace][962-963] Wano 35 [1080p][98B5E26D].mkv",
