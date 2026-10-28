@@ -5,8 +5,8 @@ import { stat } from 'node:fs/promises'
 import path from 'node:path'
 import {
 	Body,
-	Controller,
 	Get,
+	JsonController,
 	Post,
 	Res,
 	UseBefore,
@@ -25,7 +25,7 @@ const REPO_DIR = './tmp/git-repo'
 const REPO_PRE_PROCESSED_PATH = `${REPO_DIR}${PRE_PROCESSED_ROOT.replace('./', '/')}/torrents.json`
 const BRANCH = 'main'
 
-@Controller(`/admin`)
+@JsonController(`/admin`)
 export class AdminController {
 	@Get(`/update/force`)
 	@UseBefore(AdminGuard)
