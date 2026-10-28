@@ -1960,7 +1960,13 @@
     "infoHash": "6f145e0cf8063ea47b1fe875c2fad96368ea32cb",
     "magnetURI": "magnet:?xt=urn:btih:6f145e0cf8063ea47b1fe875c2fad96368ea32cb&dn=%5BOne+Pace%5D%5B157-159%5D+Arabasta+02+%5B1080p%5D%5BE4BA97D6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-06-04T16:08:08.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][157-159] Arabasta 02 [1080p][E4BA97D6].mkv",
+        "path": "[One Pace][157-159] Arabasta 02 [1080p][E4BA97D6].mkv",
+        "crc32": "E4BA97D6"
+      }
+    ]
   },
   {
     "title": "[One Pace][83-119] The Trials of Koby-Meppo [1080p][4B56844F].mkv",
