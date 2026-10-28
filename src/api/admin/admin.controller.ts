@@ -1,6 +1,12 @@
 import { Response } from 'express'
 import { Logger } from 'ez-ts-logger'
-import { copyFileSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import {
+	copyFileSync,
+	existsSync,
+	mkdirSync,
+	readFileSync,
+	writeFileSync,
+} from 'node:fs'
 import { stat } from 'node:fs/promises'
 import path from 'node:path'
 import {
@@ -45,26 +51,31 @@ export class AdminController {
 		@Res() res: Response,
 	) {
 		let cache = body
-		console.log(cache)
 		try {
-			cache = JSON.parse(await readFileSync(PRE_PROCESSED_OUTPUT).toString())
-			for (let b of body) {
-				let found = cache.find(c => c.infoHash == b.infoHash)
-				if (found) {
-					for (let key of Object.keys(b)) found[key] = b[key]
+			if (await existsSync(PRE_PROCESSED_OUTPUT)) {
+				let tmp = JSON.parse(
+					await readFileSync(PRE_PROCESSED_OUTPUT).toString(),
+				)
+				if (tmp.find) {
+					cache = tmp
+					for (let b of body) {
+						let found = cache.find(c => c.infoHash == b.infoHash)
+						if (found) {
+							for (let key of Object.keys(b)) found[key] = b[key]
+						}
+					}
 				}
 			}
 		} catch (e) {
 			Logger.error(e)
 		}
 
-		console.log(cache)
 		cache.sort((a, b) => b.release.localeCompare(a.release))
 
 		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
 
 		res.once('finish', () => {
-			this.commitChanges().catch(e => Logger.error(e))
+			//this.commitChanges().catch(e => Logger.error(e))
 		})
 
 		return res.status(200).send('OK')
