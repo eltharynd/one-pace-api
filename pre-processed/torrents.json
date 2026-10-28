@@ -2022,7 +2022,13 @@
     "infoHash": "02819eb325abf0147963479bd7320590d6c641de",
     "magnetURI": "magnet:?xt=urn:btih:02819eb325abf0147963479bd7320590d6c641de&dn=%5BOne+Pace%5D%5B22%2C42%5D+Gaimon+01+%5B1080p%5D%5B9AA8B637%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2022-12-25T18:12:04.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][22,42] Gaimon 01 [1080p][9AA8B637].mkv",
+        "path": "[One Pace][22,42] Gaimon 01 [1080p][9AA8B637].mkv",
+        "crc32": "9AA8B637"
+      }
+    ]
   },
   {
     "title": "[One Pace][953-954] Wano 29 [1080p][5C7E0604].mkv",
