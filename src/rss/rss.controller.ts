@@ -1,5 +1,6 @@
 import { Logger } from 'ez-ts-logger'
-import { existsSync, readFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { Context } from '../util/context.js'
 import { Structured } from './rss.model.js'
 
 const CACHE_ROOT = './cache'
@@ -27,6 +28,12 @@ export class RSSController {
 				}
 			}
 		}
+	}
+
+	public async updateHandler(data: Structured[]) {
+		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(data, null, 2))
+		this.feed = data
+		await Context.metadata.init()
 	}
 
 	public async getLastUdate(): Promise<Date> {

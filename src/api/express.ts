@@ -220,6 +220,11 @@ export class Express {
 					}
 				})
 
+				this.io.on('pre_processed_update', async data => {
+					Logger.info(`Received pre_processed update`)
+					await Context.rss.updateHandler(data)
+				})
+
 				setInterval(() => this.tryBecomeLeader(), LEADER_TTL_MS / 2)
 				this.tryBecomeLeader()
 			})

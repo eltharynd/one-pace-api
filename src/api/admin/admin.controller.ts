@@ -83,7 +83,9 @@ export class AdminController {
 
 		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
 
-		res.once('finish', () => {
+		res.once('finish', async () => {
+			Context.express.io.serverSideEmit('pre_processed_update', cache)
+			await Context.metadata.init()
 			this.queueCommit()
 		})
 
