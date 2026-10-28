@@ -422,7 +422,43 @@
     "infoHash": "f6c32b46bb55924888aed6815bfa0edb7287a45e",
     "magnetURI": "magnet:?xt=urn:btih:f6c32b46bb55924888aed6815bfa0edb7287a45e&dn=%5BOne+Pace%5D%5B23-41%5D+Syrup+Village+%5B1080p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-12-06T23:13:18.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][23-25] Syrup Village 01 [1080p][9BC8F913].mkv",
+        "path": "[One Pace][23-25] Syrup Village 01 [1080p][9BC8F913].mkv",
+        "crc32": "9BC8F913"
+      },
+      {
+        "name": "[One Pace][26-27] Syrup Village 02 [1080p][25913BDA].mkv",
+        "path": "[One Pace][26-27] Syrup Village 02 [1080p][25913BDA].mkv",
+        "crc32": "25913BDA"
+      },
+      {
+        "name": "[One Pace][28-30] Syrup Village 03 [1080p][F66FB414].mkv",
+        "path": "[One Pace][28-30] Syrup Village 03 [1080p][F66FB414].mkv",
+        "crc32": "F66FB414"
+      },
+      {
+        "name": "[One Pace][31-34] Syrup Village 04 [1080p][A5E4EBC0].mkv",
+        "path": "[One Pace][31-34] Syrup Village 04 [1080p][A5E4EBC0].mkv",
+        "crc32": "A5E4EBC0"
+      },
+      {
+        "name": "[One Pace][35-37] Syrup Village 05 [1080p][707146C8].mkv",
+        "path": "[One Pace][35-37] Syrup Village 05 [1080p][707146C8].mkv",
+        "crc32": "707146C8"
+      },
+      {
+        "name": "[One Pace][38-39] Syrup Village 06 [1080p][014834ED].mkv",
+        "path": "[One Pace][38-39] Syrup Village 06 [1080p][014834ED].mkv",
+        "crc32": "014834ED"
+      },
+      {
+        "name": "[One Pace][40-41] Syrup Village 07 [1080p][1B7544F3].mkv",
+        "path": "[One Pace][40-41] Syrup Village 07 [1080p][1B7544F3].mkv",
+        "crc32": "1B7544F3"
+      }
+    ]
   },
   {
     "title": "[One Pace][379-380] Enies Lobby 03 [1080p][861EE2FF].mkv",
