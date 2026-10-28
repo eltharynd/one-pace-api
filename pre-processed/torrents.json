@@ -2063,7 +2063,13 @@
     "infoHash": "e915f2fdd84e6b482417b25021a1c9a184b8658b",
     "magnetURI": "magnet:?xt=urn:btih:e915f2fdd84e6b482417b25021a1c9a184b8658b&dn=%5BOne+Pace%5D%5B237-238%5D+Skypiea+01+%5B1080p%5D%5BCA5552FC%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-06-12T23:42:51.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][237-238] Skypiea 01 [1080p][CA5552FC].mkv",
+        "path": "[One Pace][237-238] Skypiea 01 [1080p][CA5552FC].mkv",
+        "crc32": "CA5552FC"
+      }
+    ]
   },
   {
     "title": "[One Pace][239-240] Skypiea 02 [1080p][EB6E8FF5].mkv",
