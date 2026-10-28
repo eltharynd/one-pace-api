@@ -855,7 +855,13 @@
     "infoHash": "e1775d91e437c828110f9f4444144486d3f061df",
     "magnetURI": "magnet:?xt=urn:btih:e1775d91e437c828110f9f4444144486d3f061df&dn=%5BOne+Pace%5D%5B984-985%5D+Wano+47+%5B1080p%5D%5BD78E29CD%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-05-10T03:44:21.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][984-985] Wano 47 [1080p][D78E29CD].mkv",
+        "path": "[One Pace][984-985] Wano 47 [1080p][D78E29CD].mkv",
+        "crc32": "D78E29CD"
+      }
+    ]
   },
   {
     "title": "[One Pace][1075-1076] Egghead 11 [1080p][448628C9].mkv",
@@ -1015,7 +1021,13 @@
     "infoHash": "4bf8bd21656e89bd9a2e9f5a81f3d6b140cd9785",
     "magnetURI": "magnet:?xt=urn:btih:4bf8bd21656e89bd9a2e9f5a81f3d6b140cd9785&dn=%5BOne+Pace%5D%5B3-5%5D+Romance+Dawn+03+%5B1080p%5D%5BB2EC7009%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-03-15T00:50:23.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][3-5] Romance Dawn 03 [1080p][B2EC7009].mkv",
+        "path": "[One Pace][3-5] Romance Dawn 03 [1080p][B2EC7009].mkv",
+        "crc32": "B2EC7009"
+      }
+    ]
   },
   {
     "title": "[One Pace][1084-1085] Egghead 16 [1080p][78ED23DF].mkv",
@@ -1029,7 +1041,13 @@
     "infoHash": "4a60ad632a7b0e83751ca6b5202208e38f864bea",
     "magnetURI": "magnet:?xt=urn:btih:4a60ad632a7b0e83751ca6b5202208e38f864bea&dn=%5BOne+Pace%5D%5B1082-1083%5D+Egghead+15+%5B1080p%5D%5BB9537A27%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-03-08T07:17:21.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1082-1083] Egghead 15 [1080p][B9537A27].mkv",
+        "path": "[One Pace][1082-1083] Egghead 15 [1080p][B9537A27].mkv",
+        "crc32": "B9537A27"
+      }
+    ]
   },
   {
     "title": "[One Pace][1069-1070] Egghead 08 [1080p][4C1997F3].mkv",
@@ -1776,7 +1794,13 @@
     "infoHash": "435e4b1fe0aef5fec8cacc27f92b52ae7868ad7d",
     "magnetURI": "magnet:?xt=urn:btih:435e4b1fe0aef5fec8cacc27f92b52ae7868ad7d&dn=%5BOne+Pace%5D%5B35-75%5D+The+Adventures+of+Buggy's+Crew+%5B1080p%5D%5BE75794DB%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-10-06T20:01:40.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][35-75] The Adventures of Buggy's Crew [1080p][E75794DB].mkv",
+        "path": "[One Pace][35-75] The Adventures of Buggy's Crew [1080p][E75794DB].mkv",
+        "crc32": "E75794DB"
+      }
+    ]
   },
   {
     "title": "[One Pace][235-236] Jaya 08 [1080p][FA2E5ADD].mkv",
@@ -2004,7 +2028,13 @@
     "infoHash": "bc6a301a348a78348aa65b4ec28320e450f2768a",
     "magnetURI": "magnet:?xt=urn:btih:bc6a301a348a78348aa65b4ec28320e450f2768a&dn=%5BOne+Pace%5D+Tournament+of+Power.mp4&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2023-03-31T04:25:02.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] Tournament of Power.mp4",
+        "path": "[One Pace] Tournament of Power.mp4",
+        "crc32": "0C8694E3"
+      }
+    ]
   },
   {
     "title": "[One Pace][141-145] Drum Island 05 [1080p][E7044DBE].mkv",
@@ -2325,7 +2355,13 @@
     "infoHash": "9375a1c30eeb49ff96ec96dac5df252d74556f36",
     "magnetURI": "magnet:?xt=urn:btih:9375a1c30eeb49ff96ec96dac5df252d74556f36&dn=%5BOne+Pace%5D%5B342-345%5D+Water+Seven+09+%5B1080p%5D%5BF96F0A4A%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-07-25T17:30:17.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][342-345] Water Seven 09 [1080p][F96F0A4A].mkv",
+        "path": "[One Pace][342-345] Water Seven 09 [1080p][F96F0A4A].mkv",
+        "crc32": "F96F0A4A"
+      }
+    ]
   },
   {
     "title": "[One Pace][169-170] Arabasta 07 [1080p][CFA091A0].mkv",
@@ -3357,7 +3393,58 @@
     "infoHash": "2e1a040b1de930368ae027be070e6e8bc134b709",
     "magnetURI": "magnet:?xt=urn:btih:2e1a040b1de930368ae027be070e6e8bc134b709&dn=%5BOne+Pace%5D%5B525-548%5D+Impel+Down+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2018-04-23T12:54:51.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][525-526] Impel Down 01 [720p][479D510C].mkv",
+        "path": "[One Pace][525-526] Impel Down 01 [720p][479D510C].mkv",
+        "crc32": "479D510C"
+      },
+      {
+        "name": "[One Pace][527-528] Impel Down 02 [720p][7306EDA1].mkv",
+        "path": "[One Pace][527-528] Impel Down 02 [720p][7306EDA1].mkv",
+        "crc32": "7306EDA1"
+      },
+      {
+        "name": "[One Pace][529-531] Impel Down 03 [720p][FB406E73].mkv",
+        "path": "[One Pace][529-531] Impel Down 03 [720p][FB406E73].mkv",
+        "crc32": "FB406E73"
+      },
+      {
+        "name": "[One Pace][532-533] Impel Down 04 [720p][5DD0859D].mkv",
+        "path": "[One Pace][532-533] Impel Down 04 [720p][5DD0859D].mkv",
+        "crc32": "5DD0859D"
+      },
+      {
+        "name": "[One Pace][534-536] Impel Down 05 [720p][B46EDD50].mkv",
+        "path": "[One Pace][534-536] Impel Down 05 [720p][B46EDD50].mkv",
+        "crc32": "B46EDD50"
+      },
+      {
+        "name": "[One Pace][537-538] Impel Down 06 [720p][5D5D24DF].mkv",
+        "path": "[One Pace][537-538] Impel Down 06 [720p][5D5D24DF].mkv",
+        "crc32": "5D5D24DF"
+      },
+      {
+        "name": "[One Pace][539-540] Impel Down 07 [720p][379DD054].mkv",
+        "path": "[One Pace][539-540] Impel Down 07 [720p][379DD054].mkv",
+        "crc32": "379DD054"
+      },
+      {
+        "name": "[One Pace][541-543] Impel Down 08 [720p][683EDC5C].mkv",
+        "path": "[One Pace][541-543] Impel Down 08 [720p][683EDC5C].mkv",
+        "crc32": "683EDC5C"
+      },
+      {
+        "name": "[One Pace][544-546] Impel Down 09 [720p][F0C33425].mkv",
+        "path": "[One Pace][544-546] Impel Down 09 [720p][F0C33425].mkv",
+        "crc32": "F0C33425"
+      },
+      {
+        "name": "[One Pace][547-548] Impel Down 10 [720p][540A9642].mkv",
+        "path": "[One Pace][547-548] Impel Down 10 [720p][540A9642].mkv",
+        "crc32": "540A9642"
+      }
+    ]
   },
   {
     "title": "[One Pace][549-550] Marineford 01 [720p][980F3B2B].mkv",
@@ -3504,7 +3591,248 @@
     "infoHash": "a031cac6baf81b804c4d034dfaef0e5e4a671145",
     "magnetURI": "magnet:?xt=urn:btih:a031cac6baf81b804c4d034dfaef0e5e4a671145&dn=%5BOne+Pace%5D%5B700-800%5D+Dressrosa+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2017-09-11T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] Chapter 700-701 [720p][2A35B710].mkv",
+        "path": "[One Pace] Chapter 700-701 [720p][2A35B710].mkv",
+        "crc32": "2A35B710"
+      },
+      {
+        "name": "[One Pace] Chapter 702-703 [720p][E058DEF9].mkv",
+        "path": "[One Pace] Chapter 702-703 [720p][E058DEF9].mkv",
+        "crc32": "E058DEF9"
+      },
+      {
+        "name": "[One Pace] Chapter 704-705 [720p][90034ECC].mkv",
+        "path": "[One Pace] Chapter 704-705 [720p][90034ECC].mkv",
+        "crc32": "90034ECC"
+      },
+      {
+        "name": "[One Pace] Chapter 706-707 [720p][E98FA912].mkv",
+        "path": "[One Pace] Chapter 706-707 [720p][E98FA912].mkv",
+        "crc32": "E98FA912"
+      },
+      {
+        "name": "[One Pace] Chapter 708-709 [720p][A95DE47B].mkv",
+        "path": "[One Pace] Chapter 708-709 [720p][A95DE47B].mkv",
+        "crc32": "A95DE47B"
+      },
+      {
+        "name": "[One Pace] Chapter 710-711 [720p][F7CB97CD].mkv",
+        "path": "[One Pace] Chapter 710-711 [720p][F7CB97CD].mkv",
+        "crc32": "F7CB97CD"
+      },
+      {
+        "name": "[One Pace] Chapter 712-713 [720p][EACE397D].mkv",
+        "path": "[One Pace] Chapter 712-713 [720p][EACE397D].mkv",
+        "crc32": "EACE397D"
+      },
+      {
+        "name": "[One Pace] Chapter 714-715 [720p][777DE97C].mkv",
+        "path": "[One Pace] Chapter 714-715 [720p][777DE97C].mkv",
+        "crc32": "777DE97C"
+      },
+      {
+        "name": "[One Pace] Chapter 716-717 [720p][C2C37921].mkv",
+        "path": "[One Pace] Chapter 716-717 [720p][C2C37921].mkv",
+        "crc32": "C2C37921"
+      },
+      {
+        "name": "[One Pace] Chapter 718-719 [720p][50143351].mkv",
+        "path": "[One Pace] Chapter 718-719 [720p][50143351].mkv",
+        "crc32": "50143351"
+      },
+      {
+        "name": "[One Pace] Chapter 720-721 [720p][D8E8370A].mkv",
+        "path": "[One Pace] Chapter 720-721 [720p][D8E8370A].mkv",
+        "crc32": "D8E8370A"
+      },
+      {
+        "name": "[One Pace] Chapter 722-723 [720p][F20B5423].mkv",
+        "path": "[One Pace] Chapter 722-723 [720p][F20B5423].mkv",
+        "crc32": "F20B5423"
+      },
+      {
+        "name": "[One Pace] Chapter 724-725 [720p][C29E5C35].mkv",
+        "path": "[One Pace] Chapter 724-725 [720p][C29E5C35].mkv",
+        "crc32": "C29E5C35"
+      },
+      {
+        "name": "[One Pace] Chapter 726-727 [720p][E3C90B8B].mkv",
+        "path": "[One Pace] Chapter 726-727 [720p][E3C90B8B].mkv",
+        "crc32": "E3C90B8B"
+      },
+      {
+        "name": "[One Pace] Chapter 728-729 [720p][6A3CE0EA].mkv",
+        "path": "[One Pace] Chapter 728-729 [720p][6A3CE0EA].mkv",
+        "crc32": "6A3CE0EA"
+      },
+      {
+        "name": "[One Pace] Chapter 730-731 [720p][7073A62F].mkv",
+        "path": "[One Pace] Chapter 730-731 [720p][7073A62F].mkv",
+        "crc32": "7073A62F"
+      },
+      {
+        "name": "[One Pace] Chapter 732-733 [720p][174F92DD].mkv",
+        "path": "[One Pace] Chapter 732-733 [720p][174F92DD].mkv",
+        "crc32": "174F92DD"
+      },
+      {
+        "name": "[One Pace] Chapter 734-735 [720p][C9362978].mkv",
+        "path": "[One Pace] Chapter 734-735 [720p][C9362978].mkv",
+        "crc32": "C9362978"
+      },
+      {
+        "name": "[One Pace] Chapter 736-737 [720p][77081AEE].mkv",
+        "path": "[One Pace] Chapter 736-737 [720p][77081AEE].mkv",
+        "crc32": "77081AEE"
+      },
+      {
+        "name": "[One Pace] Chapter 738-739 [720p][BE72EB0E].mkv",
+        "path": "[One Pace] Chapter 738-739 [720p][BE72EB0E].mkv",
+        "crc32": "BE72EB0E"
+      },
+      {
+        "name": "[One Pace] Chapter 740-741 [720p][C21EC74A].mkv",
+        "path": "[One Pace] Chapter 740-741 [720p][C21EC74A].mkv",
+        "crc32": "C21EC74A"
+      },
+      {
+        "name": "[One Pace] Chapter 742-743 [720p][5FC46535].mkv",
+        "path": "[One Pace] Chapter 742-743 [720p][5FC46535].mkv",
+        "crc32": "5FC46535"
+      },
+      {
+        "name": "[One Pace] Chapter 744-745 [720p][5A38EC3B].mkv",
+        "path": "[One Pace] Chapter 744-745 [720p][5A38EC3B].mkv",
+        "crc32": "5A38EC3B"
+      },
+      {
+        "name": "[One Pace] Chapter 746-747 [720p][11DA7BCB].mkv",
+        "path": "[One Pace] Chapter 746-747 [720p][11DA7BCB].mkv",
+        "crc32": "11DA7BCB"
+      },
+      {
+        "name": "[One Pace] Chapter 748-749 [720p][1CADC5DC].mkv",
+        "path": "[One Pace] Chapter 748-749 [720p][1CADC5DC].mkv",
+        "crc32": "1CADC5DC"
+      },
+      {
+        "name": "[One Pace] Chapter 750-751 [720p][71CA89FC].mkv",
+        "path": "[One Pace] Chapter 750-751 [720p][71CA89FC].mkv",
+        "crc32": "71CA89FC"
+      },
+      {
+        "name": "[One Pace] Chapter 752-753 [720p][DC6C3C54].mkv",
+        "path": "[One Pace] Chapter 752-753 [720p][DC6C3C54].mkv",
+        "crc32": "DC6C3C54"
+      },
+      {
+        "name": "[One Pace] Chapter 754-755 [720p][04186119].mkv",
+        "path": "[One Pace] Chapter 754-755 [720p][04186119].mkv",
+        "crc32": "04186119"
+      },
+      {
+        "name": "[One Pace] Chapter 756-757 [720p][ACC7852E].mkv",
+        "path": "[One Pace] Chapter 756-757 [720p][ACC7852E].mkv",
+        "crc32": "ACC7852E"
+      },
+      {
+        "name": "[One Pace] Chapter 758-759 [720p][4F16C5DC].mkv",
+        "path": "[One Pace] Chapter 758-759 [720p][4F16C5DC].mkv",
+        "crc32": "4F16C5DC"
+      },
+      {
+        "name": "[One Pace] Chapter 760-761 [720p][9C3360D6].mkv",
+        "path": "[One Pace] Chapter 760-761 [720p][9C3360D6].mkv",
+        "crc32": "9C3360D6"
+      },
+      {
+        "name": "[One Pace] Chapter 762-763 [720p][E98F852E].mkv",
+        "path": "[One Pace] Chapter 762-763 [720p][E98F852E].mkv",
+        "crc32": "E98F852E"
+      },
+      {
+        "name": "[One Pace] Chapter 764-765 [720p][53AEB13C].mkv",
+        "path": "[One Pace] Chapter 764-765 [720p][53AEB13C].mkv",
+        "crc32": "53AEB13C"
+      },
+      {
+        "name": "[One Pace] Chapter 766-767 [720p][0CA47011].mkv",
+        "path": "[One Pace] Chapter 766-767 [720p][0CA47011].mkv",
+        "crc32": "0CA47011"
+      },
+      {
+        "name": "[One Pace] Chapter 768-769 [720p][1B5DC33C].mkv",
+        "path": "[One Pace] Chapter 768-769 [720p][1B5DC33C].mkv",
+        "crc32": "1B5DC33C"
+      },
+      {
+        "name": "[One Pace] Chapter 770-771 [720p][F218F0E4].mkv",
+        "path": "[One Pace] Chapter 770-771 [720p][F218F0E4].mkv",
+        "crc32": "F218F0E4"
+      },
+      {
+        "name": "[One Pace] Chapter 772-773 [720p][777A9A6A].mkv",
+        "path": "[One Pace] Chapter 772-773 [720p][777A9A6A].mkv",
+        "crc32": "777A9A6A"
+      },
+      {
+        "name": "[One Pace] Chapter 774-775 [720p][0429451F].mkv",
+        "path": "[One Pace] Chapter 774-775 [720p][0429451F].mkv",
+        "crc32": "0429451F"
+      },
+      {
+        "name": "[One Pace] Chapter 776-778 [720p][7391ECD4].mkv",
+        "path": "[One Pace] Chapter 776-778 [720p][7391ECD4].mkv",
+        "crc32": "7391ECD4"
+      },
+      {
+        "name": "[One Pace] Chapter 779-781 [720p][ECD80B22].mkv",
+        "path": "[One Pace] Chapter 779-781 [720p][ECD80B22].mkv",
+        "crc32": "ECD80B22"
+      },
+      {
+        "name": "[One Pace] Chapter 782-783 [720p][3E9F11F9].mkv",
+        "path": "[One Pace] Chapter 782-783 [720p][3E9F11F9].mkv",
+        "crc32": "3E9F11F9"
+      },
+      {
+        "name": "[One Pace] Chapter 784-785 [720p][55292D1C].mkv",
+        "path": "[One Pace] Chapter 784-785 [720p][55292D1C].mkv",
+        "crc32": "55292D1C"
+      },
+      {
+        "name": "[One Pace] Chapter 786-787 [720p][CAA32C42].mkv",
+        "path": "[One Pace] Chapter 786-787 [720p][CAA32C42].mkv",
+        "crc32": "CAA32C42"
+      },
+      {
+        "name": "[One Pace] Chapter 788-790 [720p][4DDF4C07].mkv",
+        "path": "[One Pace] Chapter 788-790 [720p][4DDF4C07].mkv",
+        "crc32": "4DDF4C07"
+      },
+      {
+        "name": "[One Pace] Chapter 791-793 [720p][15344804].mkv",
+        "path": "[One Pace] Chapter 791-793 [720p][15344804].mkv",
+        "crc32": "15344804"
+      },
+      {
+        "name": "[One Pace] Chapter 794-795 [720p][81C4666C].mkv",
+        "path": "[One Pace] Chapter 794-795 [720p][81C4666C].mkv",
+        "crc32": "81C4666C"
+      },
+      {
+        "name": "[One Pace] Chapter 796-797 [720p][01C40FA1].mkv",
+        "path": "[One Pace] Chapter 796-797 [720p][01C40FA1].mkv",
+        "crc32": "01C40FA1"
+      },
+      {
+        "name": "[One Pace] Chapter 798-800 [720p][5F035A13].mkv",
+        "path": "[One Pace] Chapter 798-800 [720p][5F035A13].mkv",
+        "crc32": "5F035A13"
+      }
+    ]
   },
   {
     "title": "[One Pace][106-114] Whiskey Peak [480p]",
