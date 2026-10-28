@@ -11,10 +11,10 @@ import { AdminGuard } from '../middlewares/auth.middleware.js'
 
 const FORCE_UPDATES_DELAY = 300_000
 const PRE_PROCESSED_ROOT = './pre-processed'
-const PRE_PROCESSED_TORRENTS = `${PRE_PROCESSED_ROOT}/torrents.json`
+const PRE_PROCESSED_OUTPUT = `${PRE_PROCESSED_ROOT}/torrents.json`
 
 const REPO_DIR = './tmp/git-repo'
-const REPO_PRE_PROCESSED_PATH = `${REPO_DIR}${PRE_PROCESSED_TORRENTS.replace('./', '/')}`
+const REPO_PRE_PROCESSED_PATH = `${REPO_DIR}${PRE_PROCESSED_ROOT.replace('./', '/')}/torrents.json`
 const BRANCH = 'main'
 
 @Controller(`/admin`)
@@ -33,7 +33,7 @@ export class AdminController {
 	@Post(`/update/processed-torrents`)
 	@UseBefore(AdminGuard)
 	async updateProcessedTorrents(@Body() body: any) {
-		writeFileSync(PRE_PROCESSED_TORRENTS, JSON.stringify(body, null, 2))
+		writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(body, null, 2))
 		await this.commitChanges()
 		return new OkResponse()
 	}
@@ -72,10 +72,10 @@ export class AdminController {
 			await git.pull('origin', BRANCH)
 
 			mkdirSync(path.dirname(REPO_PRE_PROCESSED_PATH), { recursive: true })
-			copyFileSync(PRE_PROCESSED_TORRENTS, REPO_PRE_PROCESSED_PATH)
+			copyFileSync(PRE_PROCESSED_OUTPUT, REPO_PRE_PROCESSED_PATH)
 
-			Logger.debug(`git add -f ${REPO_PRE_PROCESSED_PATH}`)
-			await git.add(['-f', REPO_PRE_PROCESSED_PATH])
+			Logger.debug(`git add -f ${PRE_PROCESSED_OUTPUT}`)
+			await git.add(['-f', PRE_PROCESSED_OUTPUT])
 
 			Logger.debug(`git status --ignored`)
 			const status = await git.status(['--ignored'])
@@ -87,7 +87,7 @@ export class AdminController {
 			Logger.debug(`Committing`)
 			await git.commit(
 				`Chore: Torrents pre-processing updates`,
-				REPO_PRE_PROCESSED_PATH,
+				PRE_PROCESSED_OUTPUT,
 			)
 			Logger.debug(`Pushing`)
 			await git.push('origin', BRANCH)
