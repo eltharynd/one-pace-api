@@ -2951,7 +2951,13 @@
     "infoHash": "b2a2edbbb0a4d476f93b479d2d6215ee46387e00",
     "magnetURI": "magnet:?xt=urn:btih:b2a2edbbb0a4d476f93b479d2d6215ee46387e00&dn=%5BOne+Pace%5D%5B421-422%5D+Enies+Lobby+21+%5B1080p%5D%5B13D874FD%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-06-06T00:40:38.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][421-422] Enies Lobby 21 [1080p][13D874FD].mkv",
+        "path": "[One Pace][421-422] Enies Lobby 21 [1080p][13D874FD].mkv",
+        "crc32": "13D874FD"
+      }
+    ]
   },
   {
     "title": "[One Pace][88-90] Arlong Park 08 [480p][69313728].mkv",
