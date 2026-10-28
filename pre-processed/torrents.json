@@ -2531,7 +2531,13 @@
     "infoHash": "555b93c2e368c9f652ff4fff987d5fbc3c3bad6b",
     "magnetURI": "magnet:?xt=urn:btih:555b93c2e368c9f652ff4fff987d5fbc3c3bad6b&dn=%5BOne+Pace%5D%5B941-942%5D+Wano+22+%5B1080p%5D%5B9F63AF78%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-04-28T20:21:20.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][941-942] Wano 22 [1080p][9F63AF78].mkv",
+        "path": "[One Pace][941-942] Wano 22 [1080p][9F63AF78].mkv",
+        "crc32": "9F63AF78"
+      }
+    ]
   },
   {
     "title": "[One Pace][330-332] Water Seven 04 [1080p][D5D6D5BA].mkv",
