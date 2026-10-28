@@ -1,5 +1,5 @@
 import { Logger } from 'ez-ts-logger'
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { copyFileSync, mkdirSync, writeFileSync } from 'node:fs'
 import { stat } from 'node:fs/promises'
 import path from 'node:path'
 import { Body, Controller, Get, Post, UseBefore } from 'routing-controllers'
@@ -72,7 +72,7 @@ export class AdminController {
 			await git.pull('origin', BRANCH)
 
 			mkdirSync(path.dirname(REPO_PRE_PROCESSED_PATH), { recursive: true })
-			//copyFileSync(REP, REPO_PRE_PROCESSED_PATH)
+			copyFileSync(PRE_PROCESSED_TORRENTS, REPO_PRE_PROCESSED_PATH)
 
 			Logger.debug(`git add -f ${REPO_PRE_PROCESSED_PATH}`)
 			await git.add(['-f', REPO_PRE_PROCESSED_PATH])
