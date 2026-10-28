@@ -40,7 +40,10 @@ export class AdminController {
 
 	@Post(`/update/processed-torrents`)
 	@UseBefore(AdminGuard)
-	async updateProcessedTorrents(@Body() body: any, @Res() res: Response) {
+	async updateProcessedTorrents(
+		@Body({ options: { limit: '5mb' } }) body: any,
+		@Res() res: Response,
+	) {
 		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(body, null, 2))
 
 		res.once('finish', () => {
