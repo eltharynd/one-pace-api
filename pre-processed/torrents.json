@@ -4047,7 +4047,38 @@
     "infoHash": "4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5",
     "magnetURI": "magnet:?xt=urn:btih:4f2b72009c25ec6c534a852ddfc3fd85ed10fdf5&dn=%5BOne+Pace%5D%5B304-321%5D+Long+Ring+Long+Land+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
     "release": "2017-01-13T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][304-306] Long Ring Long Land 01 [720p][B692FD08].mkv",
+        "path": "[One Pace][304-306] Long Ring Long Land 01 [720p][B692FD08].mkv",
+        "crc32": "B692FD08"
+      },
+      {
+        "name": "[One Pace][307-309] Long Ring Long Land 02 [720p][57F75027].mkv",
+        "path": "[One Pace][307-309] Long Ring Long Land 02 [720p][57F75027].mkv",
+        "crc32": "57F75027"
+      },
+      {
+        "name": "[One Pace][310-312] Long Ring Long Land 03 [720p][24351CC0].mkv",
+        "path": "[One Pace][310-312] Long Ring Long Land 03 [720p][24351CC0].mkv",
+        "crc32": "24351CC0"
+      },
+      {
+        "name": "[One Pace][313-316] Long Ring Long Land 04 [720p][72C0B595].mkv",
+        "path": "[One Pace][313-316] Long Ring Long Land 04 [720p][72C0B595].mkv",
+        "crc32": "72C0B595"
+      },
+      {
+        "name": "[One Pace][317-318] Long Ring Long Land 05 [720p][BCF2E97B].mkv",
+        "path": "[One Pace][317-318] Long Ring Long Land 05 [720p][BCF2E97B].mkv",
+        "crc32": "BCF2E97B"
+      },
+      {
+        "name": "[One Pace][318-321] Long Ring Long Land 06 [720p][A65C20C2].mkv",
+        "path": "[One Pace][318-321] Long Ring Long Land 06 [720p][A65C20C2].mkv",
+        "crc32": "A65C20C2"
+      }
+    ]
   },
   {
     "title": "Impel Down 03",
