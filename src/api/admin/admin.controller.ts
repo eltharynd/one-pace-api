@@ -31,6 +31,15 @@ const REPO_DIR = './tmp/git-repo'
 const REPO_PRE_PROCESSED_PATH = `${REPO_DIR}${PRE_PROCESSED_ROOT.replace('./', '/')}/torrents.json`
 const BRANCH = 'main'
 
+const COMMIT_INTERVAL = 15_000
+
+const commitQueue = {
+	pending: false,
+	running: false,
+	lastRun: 0,
+	timer: undefined as NodeJS.Timeout | undefined,
+}
+
 @JsonController(`/admin`)
 export class AdminController {
 	@Get(`/update/force`)
@@ -75,10 +84,40 @@ export class AdminController {
 		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
 
 		res.once('finish', () => {
-			this.commitChanges().catch(e => Logger.error(e))
+			this.queueCommit()
 		})
 
 		return res.status(200).send('OK')
+	}
+
+	private queueCommit() {
+		commitQueue.pending = true
+		this.scheduleCommit()
+	}
+
+	private scheduleCommit() {
+		if (commitQueue.timer || commitQueue.running || !commitQueue.pending) return
+
+		const delay = Math.max(
+			0,
+			commitQueue.lastRun + COMMIT_INTERVAL - Date.now(),
+		)
+
+		commitQueue.timer = setTimeout(async () => {
+			commitQueue.timer = undefined
+			commitQueue.pending = false
+			commitQueue.running = true
+
+			try {
+				await this.commitChanges()
+			} catch (e) {
+				Logger.error(e)
+			} finally {
+				commitQueue.running = false
+				commitQueue.lastRun = Date.now()
+				this.scheduleCommit()
+			}
+		}, delay)
 	}
 
 	private async commitChanges() {
