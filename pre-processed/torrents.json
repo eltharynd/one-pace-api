@@ -2407,7 +2407,13 @@
     "infoHash": "3db5d95badd012ad1916dc624adfe747aec1b379",
     "magnetURI": "magnet:?xt=urn:btih:3db5d95badd012ad1916dc624adfe747aec1b379&dn=%5BOne+Pace%5D%5B346-348%5D+Water+Seven+10+%5B1080p%5D%5BBAFD9522%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-12-05T06:39:31.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][346-348] Water Seven 10 [1080p][BAFD9522].mkv",
+        "path": "[One Pace][346-348] Water Seven 10 [1080p][BAFD9522].mkv",
+        "crc32": "BAFD9522"
+      }
+    ]
   },
   {
     "title": "[One Pace][175-178] Arabasta 09 [1080p][A905C964].mkv",
