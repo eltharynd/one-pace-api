@@ -2007,7 +2007,13 @@
     "infoHash": "5ecc22012328be9e0cc0cc33f4290291effd6a84",
     "magnetURI": "magnet:?xt=urn:btih:5ecc22012328be9e0cc0cc33f4290291effd6a84&dn=%5BOne+Pace%5D%5B155-157%5D+Arabasta+01+%5B1080p%5D%5BBB1D093C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-05-14T23:30:32.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][155-157] Arabasta 01 [1080p][BB1D093C].mkv",
+        "path": "[One Pace][155-157] Arabasta 01 [1080p][BB1D093C].mkv",
+        "crc32": "BB1D093C"
+      }
+    ]
   },
   {
     "title": "[One Pace][145-148] Drum Island 06 [1080p][A5145C90].mkv",
