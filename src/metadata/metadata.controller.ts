@@ -41,9 +41,9 @@ export class MetadataController {
 
 	async init(force?: boolean): Promise<void> {
 		if (
-			!existsSync(METADATA_OUTPUT) ||
-			(environment.FORCE_REGENERATION && !this.regenerated) ||
-			force
+			existsSync(METADATA_OUTPUT) &&
+			(!environment.FORCE_REGENERATION || this.regenerated) &&
+			!force
 		) {
 			if (environment.FORCE_REGENERATION) this.regenerated = true
 			try {
