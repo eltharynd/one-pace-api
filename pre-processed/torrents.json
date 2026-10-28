@@ -337,7 +337,13 @@
     "infoHash": "497e30c031c0e59fc1db5e8d6e33b1e4ba877f7d",
     "magnetURI": "magnet:?xt=urn:btih:497e30c031c0e59fc1db5e8d6e33b1e4ba877f7d&dn=%5BOne+Pace%5D%5B94-95%5D+Arlong+Park+10+Extended+%5B1080p%5D%5B4B882BCA%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-02-16T13:52:18.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][94-95] Arlong Park 10 Extended [1080p][4B882BCA].mkv",
+        "path": "[One Pace][94-95] Arlong Park 10 Extended [1080p][4B882BCA].mkv",
+        "crc32": "4B882BCA"
+      }
+    ]
   },
   {
     "title": "[One Pace][91-94] Arlong Park 09 [1080p][0510B910].mkv",
