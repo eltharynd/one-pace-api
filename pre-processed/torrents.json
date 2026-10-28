@@ -2163,7 +2163,13 @@
     "infoHash": "d7b48a58f44b5a5f6c0f9709976629fa5efe17a8",
     "magnetURI": "magnet:?xt=urn:btih:d7b48a58f44b5a5f6c0f9709976629fa5efe17a8&dn=%5BOne+Pace%5D%5B139-140%5D+Drum+Island+04+%5B1080p%5D%5B902076E8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2022-09-26T13:37:01.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][139-140] Drum Island 04 [1080p][902076E8].mkv",
+        "path": "[One Pace][139-140] Drum Island 04 [1080p][902076E8].mkv",
+        "crc32": "902076E8"
+      }
+    ]
   },
   {
     "title": "[One Pace][183-186] Arabasta 11 [1080p][C51CB284].mkv",
