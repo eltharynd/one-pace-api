@@ -45,6 +45,7 @@ export class AdminController {
 		@Res() res: Response,
 	) {
 		let cache = body
+		console.log(cache)
 		try {
 			cache = JSON.parse(await readFileSync(PRE_PROCESSED_OUTPUT).toString())
 			for (let b of body) {
@@ -56,6 +57,9 @@ export class AdminController {
 		} catch (e) {
 			Logger.error(e)
 		}
+
+		console.log(cache)
+		cache.sort((a, b) => b.release.localeCompare(a.release))
 
 		await writeFileSync(PRE_PROCESSED_OUTPUT, JSON.stringify(cache, null, 2))
 
