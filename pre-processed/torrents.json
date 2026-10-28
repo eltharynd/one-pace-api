@@ -1914,18 +1914,7 @@
     "infoHash": "93e937753ccf59b30e05c8a35cecbe56e1ceada3",
     "magnetURI": "magnet:?xt=urn:btih:93e937753ccf59b30e05c8a35cecbe56e1ceada3&dn=%5BOne+Pace%5D%5B968-969%5D+Wano+39+%5B1080p%5D%5B56CFB8B0%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2024-04-05T00:27:32.000Z",
-    "files": [
-      {
-        "name": "[One Pace][968-969] Wano 39 [1080p][56CFB8B0].mkv",
-        "path": "[One Pace][968-969] Wano 39 [1080p][56CFB8B0].mkv",
-        "crc32": "56CFB8B0"
-      },
-      {
-        "name": "[One Pace][968-969] Wano 39 [1080p][56CFB8B0].mkv",
-        "path": "[One Pace][968-969] Wano 39 [1080p][56CFB8B0].mkv",
-        "crc32": "56CFB8B0"
-      }
-    ]
+    "files": []
   },
   {
     "title": "[One Pace][199-201] Arabasta 16 [1080p][2F71D53E].mkv",
@@ -2688,6 +2677,11 @@
     "magnetURI": "magnet:?xt=urn:btih:0a9639f371dbd1270c79b058309aeba62d91ebc6&dn=%5BOne+Pace%5D%5B948-949%5D+Wano+26+%5B1080p%5D%5BF3E829E8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2022-01-18T18:34:44.000Z",
     "files": [
+      {
+        "name": "[One Pace][948-949] Wano 26 [1080p][F3E829E8].mkv",
+        "path": "[One Pace][948-949] Wano 26 [1080p][F3E829E8].mkv",
+        "crc32": "F3E829E8"
+      },
       {
         "name": "[One Pace][948-949] Wano 26 [1080p][F3E829E8].mkv",
         "path": "[One Pace][948-949] Wano 26 [1080p][F3E829E8].mkv",
