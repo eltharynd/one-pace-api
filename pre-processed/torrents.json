@@ -39,7 +39,13 @@
     "infoHash": "2be2c88d0fe32ecee3bec1197081ce4391592fcc",
     "magnetURI": "magnet:?xt=urn:btih:2be2c88d0fe32ecee3bec1197081ce4391592fcc&dn=%5BOne+Pace%5D%5B1095-1096%5D+Egghead+22+%5B1080p%5D%5B958F4943%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-09-28T14:30:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1095-1096] Egghead 22 [1080p][958F4943].mkv",
+        "path": "[One Pace][1095-1096] Egghead 22 [1080p][958F4943].mkv",
+        "crc32": "958F4943"
+      }
+    ]
   },
   {
     "title": "[One Pace][153-155] Drum Island 08 [1080p][FA5C67B1].mkv",
@@ -433,7 +439,13 @@
     "infoHash": "14e21e5e2fd27144364c8087534c820353a7df68",
     "magnetURI": "magnet:?xt=urn:btih:14e21e5e2fd27144364c8087534c820353a7df68&dn=%5BOne+Pace%5D%5B1091-1092%5D+Egghead+20+%5B1080p%5D%5BB974EFD7%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-11-10T02:41:11.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1091-1092] Egghead 20 [1080p][B974EFD7].mkv",
+        "path": "[One Pace][1091-1092] Egghead 20 [1080p][B974EFD7].mkv",
+        "crc32": "B974EFD7"
+      }
+    ]
   },
   {
     "title": "[One Pace][79-81] Arlong Park 05 [1080p][5D1CA4A2].mkv",
@@ -849,7 +861,13 @@
     "infoHash": "2431a9388b948530e189be2d450c8afb9f1d4028",
     "magnetURI": "magnet:?xt=urn:btih:2431a9388b948530e189be2d450c8afb9f1d4028&dn=%5BOne+Pace%5D%5B988-989%5D+Wano+49+Extended+%5B1080p%5D%5B58469AB0%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-05-24T01:41:28.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][988-989] Wano 49 Extended [1080p][58469AB0].mkv",
+        "path": "[One Pace][988-989] Wano 49 Extended [1080p][58469AB0].mkv",
+        "crc32": "58469AB0"
+      }
+    ]
   },
   {
     "title": "[One Pace][909-911] Wano 02 [1080p][8538EDC4].mkv",
@@ -1323,7 +1341,13 @@
     "infoHash": "1a4a34e36f79f59d7d72dd8f112407eea5f40063",
     "magnetURI": "magnet:?xt=urn:btih:1a4a34e36f79f59d7d72dd8f112407eea5f40063&dn=%5BOne+Pace%5D%5B980-981%5D+Wano+45+%5B1080p%5D%5BDFB30A71%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2024-11-08T22:38:47.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][980-981] Wano 45 [1080p][DFB30A71].mkv",
+        "path": "[One Pace][980-981] Wano 45 [1080p][DFB30A71].mkv",
+        "crc32": "DFB30A71"
+      }
+    ]
   },
   {
     "title": "[One Pace][1080-1081] Egghead 14 [1080p][EF447336].mkv",
@@ -1982,7 +2006,13 @@
     "infoHash": "8d0650670a3b6de5de5b9411057e984d86247d9a",
     "magnetURI": "magnet:?xt=urn:btih:8d0650670a3b6de5de5b9411057e984d86247d9a&dn=%5BOne+Pace%5D%5B956%5D+Wano+31+%5B1080p%5D%5BF6C7EB83%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2023-06-26T23:16:43.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][956] Wano 31 [1080p][F6C7EB83].mkv",
+        "path": "[One Pace][956] Wano 31 [1080p][F6C7EB83].mkv",
+        "crc32": "F6C7EB83"
+      }
+    ]
   },
   {
     "title": "[One Pace][149-152] Drum Island 07 [1080p][B1D913B9].mkv",
@@ -2079,7 +2109,13 @@
     "infoHash": "b6d264228c2fb62b413d9f73a9d546495fc35069",
     "magnetURI": "magnet:?xt=urn:btih:b6d264228c2fb62b413d9f73a9d546495fc35069&dn=%5BOne+Pace%5D%5B145-148%5D+Drum+Island+06+%5B1080p%5D%5BA5145C90%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-05-07T21:31:46.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][145-148] Drum Island 06 [1080p][A5145C90].mkv",
+        "path": "[One Pace][145-148] Drum Island 06 [1080p][A5145C90].mkv",
+        "crc32": "A5145C90"
+      }
+    ]
   },
   {
     "title": "[One Pace][50-52] Baratie 04 [1080p][15D77CB3].mkv",
@@ -2141,7 +2177,13 @@
     "infoHash": "b83d8260265b01910c0068b2b488d81b674917ea",
     "magnetURI": "magnet:?xt=urn:btih:b83d8260265b01910c0068b2b488d81b674917ea&dn=%5BOne+Pace%5D%5B42%2C22%5D+Gaimon+01+%5B1080p%5D%5B0C2DBF75%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
     "release": "2023-01-29T01:08:56.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][42,22] Gaimon 01 [1080p][0C2DBF75].mkv",
+        "path": "[One Pace][42,22] Gaimon 01 [1080p][0C2DBF75].mkv",
+        "crc32": "0C2DBF75"
+      }
+    ]
   },
   {
     "title": "[One Pace][218-220] Jaya 01 [1080p][2BBCD106].mkv",
@@ -2482,7 +2524,13 @@
     "infoHash": "1f6197f6cf42220277a4edef259b74bd93ee5c4d",
     "magnetURI": "magnet:?xt=urn:btih:1f6197f6cf42220277a4edef259b74bd93ee5c4d&dn=%5BOne+Pace%5D%5B164-166%5D+Arabasta+05+%5B1080p%5D%5BE9E8604E%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-05-10T02:17:42.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][164-166] Arabasta 05 [1080p][E9E8604E].mkv",
+        "path": "[One Pace][164-166] Arabasta 05 [1080p][E9E8604E].mkv",
+        "crc32": "E9E8604E"
+      }
+    ]
   },
   {
     "title": "[One Pace][334-337] Water Seven 06 [1080p][D17BD2C5].mkv",
@@ -2551,7 +2599,13 @@
     "infoHash": "ded583101250a3298927d7d018c4e8c7143b3f7d",
     "magnetURI": "magnet:?xt=urn:btih:ded583101250a3298927d7d018c4e8c7143b3f7d&dn=%5BOne+Pace%5D%5B157-159%5D+Arabasta+02+%5B480p%5D%5B1D1B4E0E%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2021-01-11T22:52:19.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][157-159] Arabasta 02 [480p][1D1B4E0E].mkv",
+        "path": "[One Pace][157-159] Arabasta 02 [480p][1D1B4E0E].mkv",
+        "crc32": "1D1B4E0E"
+      }
+    ]
   },
   {
     "title": "[One Pace][938-939] Wano 20 [1080p][93376225].mkv",
@@ -2620,7 +2674,13 @@
     "infoHash": "17cea791fe57b94d57713cc5ffbfb6346c3512e1",
     "magnetURI": "magnet:?xt=urn:btih:17cea791fe57b94d57713cc5ffbfb6346c3512e1&dn=%5BOne+Pace%5D%5B324-326%5D+Water+Seven+02+%5B1080p%5D%5B763C1FA8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-11-25T22:57:52.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][324-326] Water Seven 02 [1080p][763C1FA8].mkv",
+        "path": "[One Pace][324-326] Water Seven 02 [1080p][763C1FA8].mkv",
+        "crc32": "763C1FA8"
+      }
+    ]
   },
   {
     "title": "[One Pace][115-129] Little Garden [480p]",
@@ -2743,7 +2803,13 @@
     "infoHash": "535cb2a580f3051871405411a4484d45db62ee54",
     "magnetURI": "magnet:?xt=urn:btih:535cb2a580f3051871405411a4484d45db62ee54&dn=%5BOne+Pace%5D%5B583-584%5D+Post-War+02+%5B1080p%5D%5B1A183CBE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-07-25T00:32:10.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][583-584] Post-War 02 [1080p][1A183CBE].mkv",
+        "path": "[One Pace][583-584] Post-War 02 [1080p][1A183CBE].mkv",
+        "crc32": "1A183CBE"
+      }
+    ]
   },
   {
     "title": "[One Pace][585-586] Post-War 03 [1080p][9DEAD0F3].mkv",
@@ -2993,7 +3059,13 @@
     "infoHash": "f9fd0d2e8447d92505d9a3d9c9e60d47105d9720",
     "magnetURI": "magnet:?xt=urn:btih:f9fd0d2e8447d92505d9a3d9c9e60d47105d9720&dn=%5BOne+Pace%5D%5B403-404%5D+Enies+Lobby+13+%5B720p%5D%5BFE0F64E2%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-04-03T23:24:28.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][403-404] Enies Lobby 13 [720p][FE0F64E2].mkv",
+        "path": "[One Pace][403-404] Enies Lobby 13 [720p][FE0F64E2].mkv",
+        "crc32": "FE0F64E2"
+      }
+    ]
   },
   {
     "title": "[One Pace][924] Wano 12 [1080p][4E97A31D].mkv",
@@ -3055,7 +3127,13 @@
     "infoHash": "9a825f40a0a36882a51e221fff3e5b54d342f7f4",
     "magnetURI": "magnet:?xt=urn:btih:9a825f40a0a36882a51e221fff3e5b54d342f7f4&dn=%5BOne+Pace%5D%5BRomance+Dawn+v2%5D+Romance+Dawn+v2+%5B1080p%5D%5B5E77445F%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-11-25T07:27:29.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][Romance Dawn v2] Romance Dawn v2 [1080p][5E77445F].mkv",
+        "path": "[One Pace][Romance Dawn v2] Romance Dawn v2 [1080p][5E77445F].mkv",
+        "crc32": "5E77445F"
+      }
+    ]
   },
   {
     "title": "[One Pace][916-917] Wano 07 [1080p][407B42D5].mkv",
@@ -4282,7 +4360,118 @@
     "infoHash": "cca27737d4340787c7b25d50df0f42ab2d9ab939",
     "magnetURI": "magnet:?xt=urn:btih:cca27737d4340787c7b25d50df0f42ab2d9ab939&dn=%5BOne+Pace%5D%5B442-489%5D+Thriller+Bark+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2014-10-12T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][442-443] Thriller Bark 01 [720p][30D0916C].mkv",
+        "path": "[One Pace][442-443] Thriller Bark 01 [720p][30D0916C].mkv",
+        "crc32": "30D0916C"
+      },
+      {
+        "name": "[One Pace][444-445] Thriller Bark 02 [720p][EA100F0C].mkv",
+        "path": "[One Pace][444-445] Thriller Bark 02 [720p][EA100F0C].mkv",
+        "crc32": "EA100F0C"
+      },
+      {
+        "name": "[One Pace][446-448] Thriller Bark 03 [720p][C2AAAAF7].mkv",
+        "path": "[One Pace][446-448] Thriller Bark 03 [720p][C2AAAAF7].mkv",
+        "crc32": "C2AAAAF7"
+      },
+      {
+        "name": "[One Pace][449-450] Thriller Bark 04 [720p][EB4DA5F4].mkv",
+        "path": "[One Pace][449-450] Thriller Bark 04 [720p][EB4DA5F4].mkv",
+        "crc32": "EB4DA5F4"
+      },
+      {
+        "name": "[One Pace][451-452] Thriller Bark 05 [720p][5B4DF29D].mkv",
+        "path": "[One Pace][451-452] Thriller Bark 05 [720p][5B4DF29D].mkv",
+        "crc32": "5B4DF29D"
+      },
+      {
+        "name": "[One Pace][453-454] Thriller Bark 06 [720p][60E33665].mkv",
+        "path": "[One Pace][453-454] Thriller Bark 06 [720p][60E33665].mkv",
+        "crc32": "60E33665"
+      },
+      {
+        "name": "[One Pace][455-456] Thriller Bark 07 [720p][1E847368].mkv",
+        "path": "[One Pace][455-456] Thriller Bark 07 [720p][1E847368].mkv",
+        "crc32": "1E847368"
+      },
+      {
+        "name": "[One Pace][457-458] Thriller Bark 08 [720p][694AD702].mkv",
+        "path": "[One Pace][457-458] Thriller Bark 08 [720p][694AD702].mkv",
+        "crc32": "694AD702"
+      },
+      {
+        "name": "[One Pace][459-460] Thriller Bark 09 [720p][19D3B6A3].mkv",
+        "path": "[One Pace][459-460] Thriller Bark 09 [720p][19D3B6A3].mkv",
+        "crc32": "19D3B6A3"
+      },
+      {
+        "name": "[One Pace][461-462] Thriller Bark 10 [720p][38BBF05C].mkv",
+        "path": "[One Pace][461-462] Thriller Bark 10 [720p][38BBF05C].mkv",
+        "crc32": "38BBF05C"
+      },
+      {
+        "name": "[One Pace][463-464] Thriller Bark 11 [720p][D538CFD7].mkv",
+        "path": "[One Pace][463-464] Thriller Bark 11 [720p][D538CFD7].mkv",
+        "crc32": "D538CFD7"
+      },
+      {
+        "name": "[One Pace][465-466] Thriller Bark 12 [720p][8B836836].mkv",
+        "path": "[One Pace][465-466] Thriller Bark 12 [720p][8B836836].mkv",
+        "crc32": "8B836836"
+      },
+      {
+        "name": "[One Pace][467-468] Thriller Bark 13 [720p][3AEE90B8].mkv",
+        "path": "[One Pace][467-468] Thriller Bark 13 [720p][3AEE90B8].mkv",
+        "crc32": "3AEE90B8"
+      },
+      {
+        "name": "[One Pace][469-470] Thriller Bark 14 [720p][7CAE5640].mkv",
+        "path": "[One Pace][469-470] Thriller Bark 14 [720p][7CAE5640].mkv",
+        "crc32": "7CAE5640"
+      },
+      {
+        "name": "[One Pace][471-472] Thriller Bark 15 [720p][A9784E2B].mkv",
+        "path": "[One Pace][471-472] Thriller Bark 15 [720p][A9784E2B].mkv",
+        "crc32": "A9784E2B"
+      },
+      {
+        "name": "[One Pace][473-474] Thriller Bark 16 [720p][EF1D7B5F].mkv",
+        "path": "[One Pace][473-474] Thriller Bark 16 [720p][EF1D7B5F].mkv",
+        "crc32": "EF1D7B5F"
+      },
+      {
+        "name": "[One Pace][475-476] Thriller Bark 17 [720p][6AAC9B33].mkv",
+        "path": "[One Pace][475-476] Thriller Bark 17 [720p][6AAC9B33].mkv",
+        "crc32": "6AAC9B33"
+      },
+      {
+        "name": "[One Pace][477-479] Thriller Bark 18 [720p][2295F0A1].mkv",
+        "path": "[One Pace][477-479] Thriller Bark 18 [720p][2295F0A1].mkv",
+        "crc32": "2295F0A1"
+      },
+      {
+        "name": "[One Pace][480-482] Thriller Bark 19 [720p][099FB95D].mkv",
+        "path": "[One Pace][480-482] Thriller Bark 19 [720p][099FB95D].mkv",
+        "crc32": "099FB95D"
+      },
+      {
+        "name": "[One Pace][483-484] Thriller Bark 20 [720p][AD2D4BCD].mkv",
+        "path": "[One Pace][483-484] Thriller Bark 20 [720p][AD2D4BCD].mkv",
+        "crc32": "AD2D4BCD"
+      },
+      {
+        "name": "[One Pace][485-487] Thriller Bark 21 [720p][22E58F96].mkv",
+        "path": "[One Pace][485-487] Thriller Bark 21 [720p][22E58F96].mkv",
+        "crc32": "22E58F96"
+      },
+      {
+        "name": "[One Pace][488-489] Thriller Bark 22 [720p][F23079ED].mkv",
+        "path": "[One Pace][488-489] Thriller Bark 22 [720p][F23079ED].mkv",
+        "crc32": "F23079ED"
+      }
+    ]
   },
   {
     "title": "[One Pace] Straw Hat Theatre [720p][415455AE].mkv",
