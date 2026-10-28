@@ -2452,7 +2452,13 @@
     "infoHash": "1e8b4afc42cce0c51f7b72973de5b90f18246459",
     "magnetURI": "magnet:?xt=urn:btih:1e8b4afc42cce0c51f7b72973de5b90f18246459&dn=%5BOne+Pace%5D%5B928-930%5D+Wano+15+%5B1080p%5D%5BAE6ABE84%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2020-07-12T04:56:11.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][928-930] Wano 15 [1080p][AE6ABE84].mkv",
+        "path": "[One Pace][928-930] Wano 15 [1080p][AE6ABE84].mkv",
+        "crc32": "AE6ABE84"
+      }
+    ]
   },
   {
     "title": "[One Pace][69-95] Arlong Park [480p][Dual-Audio]",
