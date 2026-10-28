@@ -395,7 +395,13 @@
     "infoHash": "b2dfce7dd756a38619722ffab199a99a209954a7",
     "magnetURI": "magnet:?xt=urn:btih:b2dfce7dd756a38619722ffab199a99a209954a7&dn=%5BOne+Pace%5D%5B391-393%5D+Enies+Lobby+08+%5B1080p%5D%5B79695827%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2026-03-14T04:33:39.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][391-393] Enies Lobby 08 [1080p][79695827].mkv",
+        "path": "[One Pace][391-393] Enies Lobby 08 [1080p][79695827].mkv",
+        "crc32": "79695827"
+      }
+    ]
   },
   {
     "title": "[One Pace][101-102] Reverse Mountain 01 [1080p][EBF6DE81].mkv",
@@ -1048,7 +1054,13 @@
     "infoHash": "5bd6bfde970b7bb7dc88ac13a8c46fc42fcbeee6",
     "magnetURI": "magnet:?xt=urn:btih:5bd6bfde970b7bb7dc88ac13a8c46fc42fcbeee6&dn=%5BOne+Pace%5D%5B38-39%5D+Syrup+Village+06+%5B1080p%5D%5BD08B41AE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-07-19T01:17:57.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][38-39] Syrup Village 06 [1080p][D08B41AE].mkv",
+        "path": "[One Pace][38-39] Syrup Village 06 [1080p][D08B41AE].mkv",
+        "crc32": "D08B41AE"
+      }
+    ]
   },
   {
     "title": "[One Pace][996-997] Wano 53 [1080p][C99E7631].mkv",
@@ -1817,7 +1829,13 @@
     "infoHash": "2bd887b544a4061a9b3974597268d7e8434d6212",
     "magnetURI": "magnet:?xt=urn:btih:2bd887b544a4061a9b3974597268d7e8434d6212&dn=%5BOne+Pace%5D%5B1064-1065%5D+Egghead+05+%5B1080p%5D%5BC6E79353%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2025-01-11T02:46:15.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1064-1065] Egghead 05 [1080p][C6E79353].mkv",
+        "path": "[One Pace][1064-1065] Egghead 05 [1080p][C6E79353].mkv",
+        "crc32": "C6E79353"
+      }
+    ]
   },
   {
     "title": "[One Pace][74-76] Arlong Park 03 [1080p][C060DA73].mkv",
@@ -2102,7 +2120,13 @@
     "infoHash": "3743a9e6228181c83209835712a40c764e6660d5",
     "magnetURI": "magnet:?xt=urn:btih:3743a9e6228181c83209835712a40c764e6660d5&dn=%5BOne+Pace%5D%5B1079%5D+Egghead+13+Extended+%5B1080p%5D%5B88019227%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=https%3A%2F%2Ftracker1.520.jp%3A443%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Fbt.endpot.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=https%3A%2F%2Ftr.burnabyhighstar.com%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce",
     "release": "2024-09-07T02:28:14.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1079] Egghead 13 Extended [1080p][88019227].mkv",
+        "path": "[One Pace][1079] Egghead 13 Extended [1080p][88019227].mkv",
+        "crc32": "88019227"
+      }
+    ]
   },
   {
     "title": "[One Pace][975-976] Wano 42 [1080p][3FC81ABD].mkv",
@@ -3844,7 +3868,203 @@
     "infoHash": "8eae38e998ff4e537f0974ab4249f89479fb644d",
     "magnetURI": "magnet:?xt=urn:btih:8eae38e998ff4e537f0974ab4249f89479fb644d&dn=%5BOne+Pace%5D%5B823-902%5D+Whole+Cake+Island+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2020-12-11T04:20:22.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][823-824] Whole Cake Island 01 [720p][3F24A1D8].mkv",
+        "path": "[One Pace][823-824] Whole Cake Island 01 [720p][3F24A1D8].mkv",
+        "crc32": "3F24A1D8"
+      },
+      {
+        "name": "[One Pace][825-826] Whole Cake Island 02 [720p][6FFCB482].mkv",
+        "path": "[One Pace][825-826] Whole Cake Island 02 [720p][6FFCB482].mkv",
+        "crc32": "6FFCB482"
+      },
+      {
+        "name": "[One Pace][827-828] Whole Cake Island 03 [720p][3F6633B5].mkv",
+        "path": "[One Pace][827-828] Whole Cake Island 03 [720p][3F6633B5].mkv",
+        "crc32": "3F6633B5"
+      },
+      {
+        "name": "[One Pace][829-830] Whole Cake Island 04 [720p][02C6FC2B].mkv",
+        "path": "[One Pace][829-830] Whole Cake Island 04 [720p][02C6FC2B].mkv",
+        "crc32": "02C6FC2B"
+      },
+      {
+        "name": "[One Pace][831-832] Whole Cake Island 05 [720p][4CF30353].mkv",
+        "path": "[One Pace][831-832] Whole Cake Island 05 [720p][4CF30353].mkv",
+        "crc32": "4CF30353"
+      },
+      {
+        "name": "[One Pace][833-834] Whole Cake Island 06 [720p][410C8F0C].mkv",
+        "path": "[One Pace][833-834] Whole Cake Island 06 [720p][410C8F0C].mkv",
+        "crc32": "410C8F0C"
+      },
+      {
+        "name": "[One Pace][835-836] Whole Cake Island 07 [720p][FC2376A1].mkv",
+        "path": "[One Pace][835-836] Whole Cake Island 07 [720p][FC2376A1].mkv",
+        "crc32": "FC2376A1"
+      },
+      {
+        "name": "[One Pace][837-838] Whole Cake Island 08 [720p][31018FCB].mkv",
+        "path": "[One Pace][837-838] Whole Cake Island 08 [720p][31018FCB].mkv",
+        "crc32": "31018FCB"
+      },
+      {
+        "name": "[One Pace][839-840] Whole Cake Island 09 [720p][94E3481F].mkv",
+        "path": "[One Pace][839-840] Whole Cake Island 09 [720p][94E3481F].mkv",
+        "crc32": "94E3481F"
+      },
+      {
+        "name": "[One Pace][841-842] Whole Cake Island 10 [720p][E123D314].mkv",
+        "path": "[One Pace][841-842] Whole Cake Island 10 [720p][E123D314].mkv",
+        "crc32": "E123D314"
+      },
+      {
+        "name": "[One Pace][843-844] Whole Cake Island 11 [720p][8B5E1006].mkv",
+        "path": "[One Pace][843-844] Whole Cake Island 11 [720p][8B5E1006].mkv",
+        "crc32": "8B5E1006"
+      },
+      {
+        "name": "[One Pace][845-846] Whole Cake Island 12 [720p][36D0F622].mkv",
+        "path": "[One Pace][845-846] Whole Cake Island 12 [720p][36D0F622].mkv",
+        "crc32": "36D0F622"
+      },
+      {
+        "name": "[One Pace][847-848] Whole Cake Island 13 [720p][D9EEB564].mkv",
+        "path": "[One Pace][847-848] Whole Cake Island 13 [720p][D9EEB564].mkv",
+        "crc32": "D9EEB564"
+      },
+      {
+        "name": "[One Pace][849-850] Whole Cake Island 14 [720p][CCCBEFC0].mkv",
+        "path": "[One Pace][849-850] Whole Cake Island 14 [720p][CCCBEFC0].mkv",
+        "crc32": "CCCBEFC0"
+      },
+      {
+        "name": "[One Pace][851-852] Whole Cake Island 15 [720p][0E2022E4].mkv",
+        "path": "[One Pace][851-852] Whole Cake Island 15 [720p][0E2022E4].mkv",
+        "crc32": "0E2022E4"
+      },
+      {
+        "name": "[One Pace][853-854] Whole Cake Island 16 [720p][A8E42FE1].mkv",
+        "path": "[One Pace][853-854] Whole Cake Island 16 [720p][A8E42FE1].mkv",
+        "crc32": "A8E42FE1"
+      },
+      {
+        "name": "[One Pace][855-856] Whole Cake Island 17 [720p][0CF96D5A].mkv",
+        "path": "[One Pace][855-856] Whole Cake Island 17 [720p][0CF96D5A].mkv",
+        "crc32": "0CF96D5A"
+      },
+      {
+        "name": "[One Pace][857-858] Whole Cake Island 18 [720p][3F5E7FD3].mkv",
+        "path": "[One Pace][857-858] Whole Cake Island 18 [720p][3F5E7FD3].mkv",
+        "crc32": "3F5E7FD3"
+      },
+      {
+        "name": "[One Pace][859-860] Whole Cake Island 19 [720p][0F125E00].mkv",
+        "path": "[One Pace][859-860] Whole Cake Island 19 [720p][0F125E00].mkv",
+        "crc32": "0F125E00"
+      },
+      {
+        "name": "[One Pace][861-862] Whole Cake Island 20 [720p][4F38961B].mkv",
+        "path": "[One Pace][861-862] Whole Cake Island 20 [720p][4F38961B].mkv",
+        "crc32": "4F38961B"
+      },
+      {
+        "name": "[One Pace][863-864] Whole Cake Island 21 [720p][5FDB702D].mkv",
+        "path": "[One Pace][863-864] Whole Cake Island 21 [720p][5FDB702D].mkv",
+        "crc32": "5FDB702D"
+      },
+      {
+        "name": "[One Pace][865-866] Whole Cake Island 22 [720p][39D94718].mkv",
+        "path": "[One Pace][865-866] Whole Cake Island 22 [720p][39D94718].mkv",
+        "crc32": "39D94718"
+      },
+      {
+        "name": "[One Pace][867-868] Whole Cake Island 23 [720p][437F9E8D].mkv",
+        "path": "[One Pace][867-868] Whole Cake Island 23 [720p][437F9E8D].mkv",
+        "crc32": "437F9E8D"
+      },
+      {
+        "name": "[One Pace][869-870] Whole Cake Island 24 [720p][6E422CFB].mkv",
+        "path": "[One Pace][869-870] Whole Cake Island 24 [720p][6E422CFB].mkv",
+        "crc32": "6E422CFB"
+      },
+      {
+        "name": "[One Pace][870-872] Whole Cake Island 25 [720p][32CC4AB9].mkv",
+        "path": "[One Pace][870-872] Whole Cake Island 25 [720p][32CC4AB9].mkv",
+        "crc32": "32CC4AB9"
+      },
+      {
+        "name": "[One Pace][873-874] Whole Cake Island 26 [720p][71827EF0].mkv",
+        "path": "[One Pace][873-874] Whole Cake Island 26 [720p][71827EF0].mkv",
+        "crc32": "71827EF0"
+      },
+      {
+        "name": "[One Pace][875-876] Whole Cake Island 27 [720p][2CDA8E9D].mkv",
+        "path": "[One Pace][875-876] Whole Cake Island 27 [720p][2CDA8E9D].mkv",
+        "crc32": "2CDA8E9D"
+      },
+      {
+        "name": "[One Pace][877-878] Whole Cake Island 28 [720p][22B16322].mkv",
+        "path": "[One Pace][877-878] Whole Cake Island 28 [720p][22B16322].mkv",
+        "crc32": "22B16322"
+      },
+      {
+        "name": "[One Pace][879-880] Whole Cake Island 29 [720p][270A4ABD].mkv",
+        "path": "[One Pace][879-880] Whole Cake Island 29 [720p][270A4ABD].mkv",
+        "crc32": "270A4ABD"
+      },
+      {
+        "name": "[One Pace][881-883] Whole Cake Island 30 [720p][ABB0AC56].mkv",
+        "path": "[One Pace][881-883] Whole Cake Island 30 [720p][ABB0AC56].mkv",
+        "crc32": "ABB0AC56"
+      },
+      {
+        "name": "[One Pace][883-884] Whole Cake Island 31 [720p][529AE554].mkv",
+        "path": "[One Pace][883-884] Whole Cake Island 31 [720p][529AE554].mkv",
+        "crc32": "529AE554"
+      },
+      {
+        "name": "[One Pace][885-886] Whole Cake Island 32 [720p][8313ECE3].mkv",
+        "path": "[One Pace][885-886] Whole Cake Island 32 [720p][8313ECE3].mkv",
+        "crc32": "8313ECE3"
+      },
+      {
+        "name": "[One Pace][887-888] Whole Cake Island 33 [720p][6FBBD350].mkv",
+        "path": "[One Pace][887-888] Whole Cake Island 33 [720p][6FBBD350].mkv",
+        "crc32": "6FBBD350"
+      },
+      {
+        "name": "[One Pace][889-891] Whole Cake Island 34 [720p][A3939979].mkv",
+        "path": "[One Pace][889-891] Whole Cake Island 34 [720p][A3939979].mkv",
+        "crc32": "A3939979"
+      },
+      {
+        "name": "[One Pace][891-893] Whole Cake Island 35 [720p][1753F7D1].mkv",
+        "path": "[One Pace][891-893] Whole Cake Island 35 [720p][1753F7D1].mkv",
+        "crc32": "1753F7D1"
+      },
+      {
+        "name": "[One Pace][892-895] Whole Cake Island 36 [720p][3AF37912].mkv",
+        "path": "[One Pace][892-895] Whole Cake Island 36 [720p][3AF37912].mkv",
+        "crc32": "3AF37912"
+      },
+      {
+        "name": "[One Pace][896-897] Whole Cake Island 37 [720p][3C58DD41].mkv",
+        "path": "[One Pace][896-897] Whole Cake Island 37 [720p][3C58DD41].mkv",
+        "crc32": "3C58DD41"
+      },
+      {
+        "name": "[One Pace][898-900] Whole Cake Island 38 [720p][E9317CBD].mkv",
+        "path": "[One Pace][898-900] Whole Cake Island 38 [720p][E9317CBD].mkv",
+        "crc32": "E9317CBD"
+      },
+      {
+        "name": "[One Pace][901-902] Whole Cake Island 39 [720p][172F5F20].mkv",
+        "path": "[One Pace][901-902] Whole Cake Island 39 [720p][172F5F20].mkv",
+        "crc32": "172F5F20"
+      }
+    ]
   },
   {
     "title": "[One Pace][936-938] Wano 19 [1080p][6C9E8055].mkv",
