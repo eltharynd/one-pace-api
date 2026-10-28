@@ -40,7 +40,7 @@ export class RSSController {
 					//@ts-ignore
 					const lastRemoteUpdate = new Date(remote.lastBuildDate)
 
-					if (false && lastRemoteUpdate > lastLocalUpdate) {
+					if (lastRemoteUpdate > lastLocalUpdate) {
 						Logger.info(`New RSS updates, updating Local`)
 						this.feed = await this.fetch()
 					} else {
