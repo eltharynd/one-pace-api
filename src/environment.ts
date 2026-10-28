@@ -17,7 +17,7 @@ export default {
 	API_BASE: process.env.API_BASE || '/api/v1/',
 	PORT: Number.parseInt(process.env.PORT || '3000'),
 
-	FORCE_REGENERATION: /false/i.test(process.env.FORCE_REGENERATION),
+	FORCE_REGENERATION: /true/i.test(process.env.FORCE_REGENERATION || 'false'),
 
 	ADMIN_API_KEY: process.env.ADMIN_API_KEY || '',
 
