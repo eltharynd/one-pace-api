@@ -2046,7 +2046,13 @@
     "infoHash": "ca0b3f280f40b9818a3c1624d800d4f2491ff87f",
     "magnetURI": "magnet:?xt=urn:btih:ca0b3f280f40b9818a3c1624d800d4f2491ff87f&dn=%5BOne+Pace%5D%5B63-67%5D+Baratie+08+%5B1080p%5D%5BF850EAFD%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2023-07-21T22:34:21.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][63-67] Baratie 08 [1080p][F850EAFD].mkv",
+        "path": "[One Pace][63-67] Baratie 08 [1080p][F850EAFD].mkv",
+        "crc32": "F850EAFD"
+      }
+    ]
   },
   {
     "title": "[One Pace][957] Wano 32 [1080p][29B91F56].mkv",
