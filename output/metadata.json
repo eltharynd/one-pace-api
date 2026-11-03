@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-28T19:21:02.692Z",
+  "lastUpdate": "2026-11-03T21:56:29.967Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -1485,9 +1485,9 @@
       "fillerEpisodes": "99, 102",
       "paceEpisodesCount": 21,
       "animeMinutes": 840,
-      "paceMinutes": 554,
-      "savedMinutes": 286,
-      "savedPercentage": 0.3404761904761904,
+      "paceMinutes": 556,
+      "savedMinutes": 283,
+      "savedPercentage": 0.3371230158730159,
       "resolution": "1080p",
       "episodes": [
         {
@@ -1496,16 +1496,13 @@
           "title": "Sir Crocodile, the Pirate",
           "description": "In Alabasta, the hero Crocodile appears and puts a decisive end to a pillaging band of pirates. Meanwhile, Mr. 2 Bon Kurei pays a visit to the newly arrived Straw Hats. When he puts his abilities on display, Vivi notices something shocking.",
           "mangaChapters": "155-157",
-          "animeEpisodes": "92",
-          "released": "2023-05-14T00:00:00.000Z",
+          "animeEpisodes": "92, 94",
+          "released": "2026-11-03T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "BB1D093C",
-              "hash": "5ecc22012328be9e0cc0cc33f4290291effd6a84",
-              "magnetURI": "magnet:?xt=urn:btih:5ecc22012328be9e0cc0cc33f4290291effd6a84&dn=%5BOne+Pace%5D%5B155-157%5D+Arabasta+01+%5B1080p%5D%5BBB1D093C%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-              "duration": 1228,
-              "variant": "standard",
-              "partOfBundle": false
+              "CRC32": "7EDFBC7A",
+              "duration": 1475,
+              "variant": "standard"
             }
           }
         },
@@ -1516,15 +1513,12 @@
           "description": "The Merry makes landfall at Alabasta’s port town, and while the rest of the Straw Hats wisely don disguises, Luffy runs afoul of an old foe. However, a chance reunion with a flame-wielding member of Luffy’s family might just be the saving grace he needs!",
           "mangaChapters": "157-159",
           "animeEpisodes": "93-95",
-          "released": "2023-09-16T00:00:00.000Z",
+          "released": "2026-11-03T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "E4BA97D6",
-              "hash": "6f145e0cf8063ea47b1fe875c2fad96368ea32cb",
-              "magnetURI": "magnet:?xt=urn:btih:6f145e0cf8063ea47b1fe875c2fad96368ea32cb&dn=%5BOne+Pace%5D%5B157-159%5D+Arabasta+02+%5B1080p%5D%5BE4BA97D6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
-              "duration": 1704,
-              "variant": "standard",
-              "partOfBundle": false
+              "CRC32": "A4AF9BF1",
+              "duration": 1626,
+              "variant": "standard"
             }
           }
         },
