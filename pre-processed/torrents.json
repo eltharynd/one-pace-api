@@ -4900,7 +4900,58 @@
     "infoHash": "4c688038db6ae51893f505fbb0c12eafacde8f4b",
     "magnetURI": "magnet:?xt=urn:btih:4c688038db6ae51893f505fbb0c12eafacde8f4b&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969",
     "release": "2020-09-13T01:51:23.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][69-71] Arlong Park 01 [480p][D8004901].mkv",
+        "path": "[One Pace][69-71] Arlong Park 01 [480p][D8004901].mkv",
+        "crc32": "D8004901"
+      },
+      {
+        "name": "[One Pace][71-73] Arlong Park 02 [480p][97677F37].mkv",
+        "path": "[One Pace][71-73] Arlong Park 02 [480p][97677F37].mkv",
+        "crc32": "97677F37"
+      },
+      {
+        "name": "[One Pace][74-76] Arlong Park 03 [480p][1C80414F].mkv",
+        "path": "[One Pace][74-76] Arlong Park 03 [480p][1C80414F].mkv",
+        "crc32": "1C80414F"
+      },
+      {
+        "name": "[One Pace][77-78] Arlong Park 04 [480p][6E63ADEE].mkv",
+        "path": "[One Pace][77-78] Arlong Park 04 [480p][6E63ADEE].mkv",
+        "crc32": "6E63ADEE"
+      },
+      {
+        "name": "[One Pace][79-81] Arlong Park 05 [480p][038E3A4B].mkv",
+        "path": "[One Pace][79-81] Arlong Park 05 [480p][038E3A4B].mkv",
+        "crc32": "038E3A4B"
+      },
+      {
+        "name": "[One Pace][82-84] Arlong Park 06 [480p][06F25D1B].mkv",
+        "path": "[One Pace][82-84] Arlong Park 06 [480p][06F25D1B].mkv",
+        "crc32": "06F25D1B"
+      },
+      {
+        "name": "[One Pace][85-87] Arlong Park 07 [480p][9599889C].mkv",
+        "path": "[One Pace][85-87] Arlong Park 07 [480p][9599889C].mkv",
+        "crc32": "9599889C"
+      },
+      {
+        "name": "[One Pace][88-90] Arlong Park 08 [480p][83E6D2A7].mkv",
+        "path": "[One Pace][88-90] Arlong Park 08 [480p][83E6D2A7].mkv",
+        "crc32": "83E6D2A7"
+      },
+      {
+        "name": "[One Pace][91-94] Arlong Park 09 [480p][A57211D1].mkv",
+        "path": "[One Pace][91-94] Arlong Park 09 [480p][A57211D1].mkv",
+        "crc32": "A57211D1"
+      },
+      {
+        "name": "[One Pace][94-95] Arlong Park 10 [480p][5AF7A9B1].mkv",
+        "path": "[One Pace][94-95] Arlong Park 10 [480p][5AF7A9B1].mkv",
+        "crc32": "5AF7A9B1"
+      }
+    ]
   },
   {
     "title": "Loguetown",
@@ -5144,7 +5195,13 @@
     "infoHash": "df773b8d2d943b8a323787fdde522ee631b96d79",
     "magnetURI": "magnet:?xt=urn:btih:df773b8d2d943b8a323787fdde522ee631b96d79&dn=%5BOne+Pace%5D%5B88-90%5D+Arlong+Park+08+%5B480p%5D%5B69313728%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-06-05T21:19:45.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][88-90] Arlong Park 08 [480p][69313728].mkv",
+        "path": "[One Pace][88-90] Arlong Park 08 [480p][69313728].mkv",
+        "crc32": "69313728"
+      }
+    ]
   },
   {
     "title": "[One Pace][419-420] Enies Lobby 20 [1080p][5AC534CA].mkv",
