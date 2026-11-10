@@ -5240,7 +5240,13 @@
     "infoHash": "0a02b1f9fd66105ab8e4ec22d7cdd01040a65738",
     "magnetURI": "magnet:?xt=urn:btih:0a02b1f9fd66105ab8e4ec22d7cdd01040a65738&dn=%5BOne+Pace%5D%5B583-584%5D+Post-War+02+%5B1080p%5D%5B3B71AC99%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-05-25T16:16:10.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][583-584] Post-War 02 [1080p][3B71AC99].mkv",
+        "path": "[One Pace][583-584] Post-War 02 [1080p][3B71AC99].mkv",
+        "crc32": "3B71AC99"
+      }
+    ]
   },
   {
     "title": "[One Pace][581-582] Post-War 01 [1080p][5DC550F9].mkv",
@@ -5313,7 +5319,13 @@
     "infoHash": "0afc36f578dae7f40e2c77ed47738b94413f1bec",
     "magnetURI": "magnet:?xt=urn:btih:0afc36f578dae7f40e2c77ed47738b94413f1bec&dn=%5BOne+Pace%5D%5B79-81%5D+Arlong+Park+05+%5B480p%5D%5B1FEED0EE%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-05-07T21:16:36.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][79-81] Arlong Park 05 [480p][1FEED0EE].mkv",
+        "path": "[One Pace][79-81] Arlong Park 05 [480p][1FEED0EE].mkv",
+        "crc32": "1FEED0EE"
+      }
+    ]
   },
   {
     "title": "[One Pace][925-926] Wano 13 [1080p][DCF7AD65].mkv",
@@ -5392,7 +5404,13 @@
     "infoHash": "be8415c7b295e2f2745c1e6f315c4c28e97aaeb4",
     "magnetURI": "magnet:?xt=urn:btih:be8415c7b295e2f2745c1e6f315c4c28e97aaeb4&dn=%5BOne+Pace%5D%5B71-73%5D+Arlong+Park+02+%5B480p%5D%5B0672410E%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-04-13T11:56:23.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][71-73] Arlong Park 02 [480p][0672410E].mkv",
+        "path": "[One Pace][71-73] Arlong Park 02 [480p][0672410E].mkv",
+        "crc32": "0672410E"
+      }
+    ]
   },
   {
     "title": "[One Pace][903-908] Reverie [720p]",
@@ -5514,7 +5532,13 @@
     "infoHash": "27d90b411fc58f30162fc4bdd2589711bef264ca",
     "magnetURI": "magnet:?xt=urn:btih:27d90b411fc58f30162fc4bdd2589711bef264ca&dn=%5BOne+Pace%5D%5B922-923%5D+Wano+11+%5B1080p%5D%5B10FA8741%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-03-31T23:40:30.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][922-923] Wano 11 [1080p][10FA8741].mkv",
+        "path": "[One Pace][922-923] Wano 11 [1080p][10FA8741].mkv",
+        "crc32": "10FA8741"
+      }
+    ]
   },
   {
     "title": "[One Pace][921-922] Wano 10 [1080p][919A1140].mkv",
@@ -5644,7 +5668,13 @@
     "infoHash": "24b093304e357aad9f3c7b958c199a3ce9fd8bff",
     "magnetURI": "magnet:?xt=urn:btih:24b093304e357aad9f3c7b958c199a3ce9fd8bff&dn=%5BOne+Pace%5D%5B397-398%5D+Enies+Lobby+10+%5B720p%5D%5B6C908F32%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-07-25T23:23:49.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][397-398] Enies Lobby 10 [720p][6C908F32].mkv",
+        "path": "[One Pace][397-398] Enies Lobby 10 [720p][6C908F32].mkv",
+        "crc32": "6C908F32"
+      }
+    ]
   },
   {
     "title": "[One Pace][903-908] Reverie [720p]",
@@ -5672,7 +5702,13 @@
     "infoHash": "bc2fa17f4130b673cfee7cde79e9bd6b2af59004",
     "magnetURI": "magnet:?xt=urn:btih:bc2fa17f4130b673cfee7cde79e9bd6b2af59004&dn=%5BOne+Pace%5D%5B394-396%5D+Enies+Lobby+09+%5B720p%5D%5B952F5BEB%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-06-27T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][394-396] Enies Lobby 09 [720p][952F5BEB].mkv",
+        "path": "[One Pace][394-396] Enies Lobby 09 [720p][952F5BEB].mkv",
+        "crc32": "952F5BEB"
+      }
+    ]
   },
   {
     "title": "Marineford 17",
@@ -5699,14 +5735,26 @@
     "infoHash": "1fe8afe6de98a34ea89ce434db2a437fe50724fe",
     "magnetURI": "magnet:?xt=urn:btih:1fe8afe6de98a34ea89ce434db2a437fe50724fe&dn=%5BOne+Pace%5D%5B391-393%5D+Enies+Lobby+08+%5B720p%5D%5BDECF4267%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-05-29T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][391-393] Enies Lobby 08 [720p][DECF4267].mkv",
+        "path": "[One Pace][391-393] Enies Lobby 08 [720p][DECF4267].mkv",
+        "crc32": "DECF4267"
+      }
+    ]
   },
   {
     "title": "[One Pace][388-390] Enies Lobby 07 [720p][3BBE532B].mkv",
     "infoHash": "c5f7298ed41089e6be7f670637aaee98bb869faa",
     "magnetURI": "magnet:?xt=urn:btih:c5f7298ed41089e6be7f670637aaee98bb869faa&dn=%5BOne+Pace%5D%5B388-390%5D+Enies+Lobby+07+%5B720p%5D%5B3BBE532B%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-05-13T01:04:14.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][388-390] Enies Lobby 07 [720p][3BBE532B].mkv",
+        "path": "[One Pace][388-390] Enies Lobby 07 [720p][3BBE532B].mkv",
+        "crc32": "3BBE532B"
+      }
+    ]
   },
   {
     "title": "[One Pace][8-21] Orange Town [480p]",
@@ -5720,7 +5768,13 @@
     "infoHash": "eef5f64e3d053a6abe98dcabe934c67d5d2e3a73",
     "magnetURI": "magnet:?xt=urn:btih:eef5f64e3d053a6abe98dcabe934c67d5d2e3a73&dn=%5BOne+Pace%5D%5B385-387%5D+Enies+Lobby+06+%5B720p%5D%5B0E201E28%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-05-02T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][385-387] Enies Lobby 06 [720p][0E201E28].mkv",
+        "path": "[One Pace][385-387] Enies Lobby 06 [720p][0E201E28].mkv",
+        "crc32": "0E201E28"
+      }
+    ]
   },
   {
     "title": "[One Pace][903-904] Reverie 01 [720p][728FD8D8].mkv",
@@ -5768,7 +5822,13 @@
     "infoHash": "abb1df690997f215a5866d7987223a26059ad4f9",
     "magnetURI": "magnet:?xt=urn:btih:abb1df690997f215a5866d7987223a26059ad4f9&dn=%5BOne+Pace%5D%5B383-384%5D+Enies+Lobby+05+%5B720p%5D%5B56E89B6A%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-03-14T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][383-384] Enies Lobby 05 [720p][56E89B6A].mkv",
+        "path": "[One Pace][383-384] Enies Lobby 05 [720p][56E89B6A].mkv",
+        "crc32": "56E89B6A"
+      }
+    ]
   },
   {
     "title": "[One Pace][896-897] Whole Cake Island 37 [720p][CF4FCE05].mkv",
@@ -5942,7 +6002,13 @@
     "infoHash": "04b1bd98e7799e5eb99fbabe78e06b0c31c0cd1f",
     "magnetURI": "magnet:?xt=urn:btih:04b1bd98e7799e5eb99fbabe78e06b0c31c0cd1f&dn=%5BOne+Pace%5D%5B841-842%5D+Whole+Cake+Island+10+%5B720p%5D%5B347060ED%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2018-07-16T06:36:10.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][841-842] Whole Cake Island 10 [720p][347060ED].mkv",
+        "path": "[One Pace][841-842] Whole Cake Island 10 [720p][347060ED].mkv",
+        "crc32": "347060ED"
+      }
+    ]
   },
   {
     "title": "[One Pace][559-560] Marineford 06 [720p][C117F1ED].mkv",
@@ -6575,14 +6641,26 @@
     "infoHash": "c8c8cdddb7d1a9e0dca2d87f469aef4b4c3c2f0e",
     "magnetURI": "magnet:?xt=urn:btih:c8c8cdddb7d1a9e0dca2d87f469aef4b4c3c2f0e&dn=%5BOne+Pace%5D%5B28-30%5D+Syrup+Village+03+%5B480p%5D%5BBB8FBDB3%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
     "release": "2017-06-22T16:13:30.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][28-30] Syrup Village 03 [480p][BB8FBDB3].mkv",
+        "path": "[One Pace][28-30] Syrup Village 03 [480p][BB8FBDB3].mkv",
+        "crc32": "BB8FBDB3"
+      }
+    ]
   },
   {
     "title": "[One Pace][823-824] Whole Cake Island 01 [720p][51873DC4].mkv",
     "infoHash": "e52639097843201a457bba3f72e6e55af94274aa",
     "magnetURI": "magnet:?xt=urn:btih:e52639097843201a457bba3f72e6e55af94274aa&dn=%5BOne+Pace%5D%5B823-824%5D+Whole+Cake+Island+01+%5B720p%5D%5B51873DC4%5D.mkv&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
     "release": "2017-05-04T02:19:22.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][823-824] Whole Cake Island 01 [720p][51873DC4].mkv",
+        "path": "[One Pace][823-824] Whole Cake Island 01 [720p][51873DC4].mkv",
+        "crc32": "51873DC4"
+      }
+    ]
   },
   {
     "title": "[One Pace][236-262] Specials 06 [720p][05BE81E6].mkv",
@@ -7025,7 +7103,13 @@
     "infoHash": "f5d5229f2ba960b829df92d7723f9143d0dd7dab",
     "magnetURI": "magnet:?xt=urn:btih:f5d5229f2ba960b829df92d7723f9143d0dd7dab&dn=%5BOne+Pace%5D+Paced+One+Piece+-+Alvida+%5B480p%5D%5B0CB32BF6%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
     "release": "2014-11-28T11:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] Paced One Piece - Alvida [480p][0CB32BF6].mkv",
+        "path": "[One Pace] Paced One Piece - Alvida [480p][0CB32BF6].mkv",
+        "crc32": "0CB32BF6"
+      }
+    ]
   },
   {
     "title": "[One Pace] Paced One Piece - Romance Dawn [720p][9FE150E1].mkv",
