@@ -3140,7 +3140,13 @@
     "infoHash": "82aa3f16b072095cbbe423795d0a19471b7e9486",
     "magnetURI": "magnet:?xt=urn:btih:82aa3f16b072095cbbe423795d0a19471b7e9486",
     "release": "2023-10-27T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][252-254] Skypiea 08 [1080p][A1DFB514].mkv",
+        "path": "[One Pace][252-254] Skypiea 08 [1080p][A1DFB514].mkv",
+        "crc32": "A1DFB514"
+      }
+    ]
   },
   {
     "title": "[One Pace][250-251] Skypiea 07 [1080p][3C665F73].mkv",
