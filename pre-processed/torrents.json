@@ -5346,7 +5346,13 @@
     "infoHash": "bed5b82a2a6c1c5088429f0e69f5624ce25fb0a7",
     "magnetURI": "magnet:?xt=urn:btih:bed5b82a2a6c1c5088429f0e69f5624ce25fb0a7&dn=%5BOne+Pace%5D%5B77-78%5D+Arlong+Park+04+%5B480p%5D%5BB3C93CFD%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-04-27T20:02:53.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][77-78] Arlong Park 04 [480p][B3C93CFD].mkv",
+        "path": "[One Pace][77-78] Arlong Park 04 [480p][B3C93CFD].mkv",
+        "crc32": "B3C93CFD"
+      }
+    ]
   },
   {
     "title": "[One Pace][407-408] Enies Lobby 15 [1080p][160B1E51].mkv",
@@ -5468,7 +5474,13 @@
     "infoHash": "3e7271dc4761ed878807b59df167ec1dfb6e360e",
     "magnetURI": "magnet:?xt=urn:btih:3e7271dc4761ed878807b59df167ec1dfb6e360e&dn=%5BOne+Pace%5D%5B69-71%5D+Arlong+Park+01+%5B480p%5D%5B5FC4CFF7%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-04-08T09:36:26.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][69-71] Arlong Park 01 [480p][5FC4CFF7].mkv",
+        "path": "[One Pace][69-71] Arlong Park 01 [480p][5FC4CFF7].mkv",
+        "crc32": "5FC4CFF7"
+      }
+    ]
   },
   {
     "title": "[One Pace][909-924] Wano Act 1",
@@ -5793,7 +5805,13 @@
     "infoHash": "a99c9e4ea0fa627f135d3bc19da96338f4bb540e",
     "magnetURI": "magnet:?xt=urn:btih:a99c9e4ea0fa627f135d3bc19da96338f4bb540e&dn=%5BOne+Pace%5D%5B381-382%5D+Enies+Lobby+04+%5B720p%5D%5B194603B0%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2019-01-25T10:20:48.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][381-382] Enies Lobby 04 [720p][194603B0].mkv",
+        "path": "[One Pace][381-382] Enies Lobby 04 [720p][194603B0].mkv",
+        "crc32": "194603B0"
+      }
+    ]
   },
   {
     "title": "[One Pace][870-872] Whole Cake Island 25 [720p][D9C8EECA].mkv",
@@ -6161,7 +6179,13 @@
     "infoHash": "7b08155dcdd550571adbc5c5e1ce9974d8fd85c3",
     "magnetURI": "magnet:?xt=urn:btih:7b08155dcdd550571adbc5c5e1ce9974d8fd85c3&dn=%5BOne+Pace%5D+Chapter+833-834+%5B720p%5D%5B7FC1F643%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
     "release": "2018-02-14T20:43:30.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] Chapter 833-834 [720p][7FC1F643].mkv",
+        "path": "[One Pace] Chapter 833-834 [720p][7FC1F643].mkv",
+        "crc32": "7FC1F643"
+      }
+    ]
   },
   {
     "title": "[One Pace][023-041] Syrup Village [480p]",
@@ -6996,7 +7020,13 @@
     "infoHash": "10f11fdf5289716d7814eaed23375803897f90f5",
     "magnetURI": "magnet:?xt=urn:btih:10f11fdf5289716d7814eaed23375803897f90f5&dn=%5BOne+Pace%5D+Paced+One+Piece+-+Romance+Dawn+%5B720p%5D%5B9FE150E1%5D.mkv&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
     "release": "2014-10-22T01:10:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] Paced One Piece - Romance Dawn [720p][9FE150E1].mkv",
+        "path": "[One Pace] Paced One Piece - Romance Dawn [720p][9FE150E1].mkv",
+        "crc32": "9FE150E1"
+      }
+    ]
   },
   {
     "title": "[One Pace][442-489] Thriller Bark [720p]",
