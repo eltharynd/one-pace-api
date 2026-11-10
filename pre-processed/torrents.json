@@ -5414,7 +5414,13 @@
     "infoHash": "3a5130adf0b42bdc94887ba282bd15f1ef68d5b9",
     "magnetURI": "magnet:?xt=urn:btih:3a5130adf0b42bdc94887ba282bd15f1ef68d5b9&dn=%5BOne+Pace%5D%5B74-76%5D+Arlong+Park+03+%5B480p%5D%5B20E382C9%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-04-20T10:48:47.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][74-76] Arlong Park 03 [480p][20E382C9].mkv",
+        "path": "[One Pace][74-76] Arlong Park 03 [480p][20E382C9].mkv",
+        "crc32": "20E382C9"
+      }
+    ]
   },
   {
     "title": "[One Pace][405-406] Enies Lobby 14 [1080p][A9C9701B].mkv",
