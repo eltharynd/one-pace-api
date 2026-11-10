@@ -6984,7 +6984,28 @@
     "infoHash": "bd581661e820488ffe5d459e76a9aba5f2b916e5",
     "magnetURI": "magnet:?xt=urn:btih:bd581661e820488ffe5d459e76a9aba5f2b916e5&dn=%5BOne+Pace%5D%5B1-7%5D+Romance+Dawn+%5B480p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce",
     "release": "2016-12-29T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][1] Romance Dawn 01 [720p][9FE150E1].mkv",
+        "path": "[One Pace][1] Romance Dawn 01 [720p][9FE150E1].mkv",
+        "crc32": "9FE150E1"
+      },
+      {
+        "name": "[One Pace][2] Romance Dawn 02 [480p][0CB32BF6].mkv",
+        "path": "[One Pace][2] Romance Dawn 02 [480p][0CB32BF6].mkv",
+        "crc32": "0CB32BF6"
+      },
+      {
+        "name": "[One Pace][3-5] Romance Dawn 03 [480p][2C30BB7A].mkv",
+        "path": "[One Pace][3-5] Romance Dawn 03 [480p][2C30BB7A].mkv",
+        "crc32": "2C30BB7A"
+      },
+      {
+        "name": "[One Pace][6-7] Romance Dawn 04 [480p][6E92672D].mkv",
+        "path": "[One Pace][6-7] Romance Dawn 04 [480p][6E92672D].mkv",
+        "crc32": "6E92672D"
+      }
+    ]
   },
   {
     "title": "[One Pace][814-815] Zou 07 [720p][C113A160].mkv",
