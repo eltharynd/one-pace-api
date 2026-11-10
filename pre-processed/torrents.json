@@ -5797,7 +5797,23 @@
     "infoHash": "aa29e996caef8d061224ba2dc7405d54fccc8315",
     "magnetURI": "magnet:?xt=urn:btih:aa29e996caef8d061224ba2dc7405d54fccc8315&dn=%5BOne+Pace%5D%5B8-21%5D+Orange+Town+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-05-04T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][11-16] Orange Town 02 [480p][3D7957D8].mkv",
+        "path": "[One Pace][11-16] Orange Town 02 [480p][3D7957D8].mkv",
+        "crc32": "3D7957D8"
+      },
+      {
+        "name": "[One Pace][17-21] Orange Town 03 [480p][800263CF].mkv",
+        "path": "[One Pace][17-21] Orange Town 03 [480p][800263CF].mkv",
+        "crc32": "800263CF"
+      },
+      {
+        "name": "[One Pace][8-11] Orange Town 01 [480p][A2F5F372].mkv",
+        "path": "[One Pace][8-11] Orange Town 01 [480p][A2F5F372].mkv",
+        "crc32": "A2F5F372"
+      }
+    ]
   },
   {
     "title": "[One Pace][385-387] Enies Lobby 06 [720p][0E201E28].mkv",
