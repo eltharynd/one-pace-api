@@ -5717,7 +5717,38 @@
     "infoHash": "3be1edc9af28db8c27bdc4dd3bd93c8b3672fdbb",
     "magnetURI": "magnet:?xt=urn:btih:3be1edc9af28db8c27bdc4dd3bd93c8b3672fdbb&dn=%5BOne+Pace%5D%5B903-908%5D+Reverie+%5B720p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-07-07T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][903-904] Reverie 01 [720p][2F6733AF].mkv",
+        "path": "[One Pace][903-904] Reverie 01 [720p][2F6733AF].mkv",
+        "crc32": "590B891A"
+      },
+      {
+        "name": "[One Pace][903-904] Reverie 01 [720p][728FD8D8].mkv",
+        "path": "[One Pace][903-904] Reverie 01 [720p][728FD8D8].mkv",
+        "crc32": "728FD8D8"
+      },
+      {
+        "name": "[One Pace][905-906] Reverie 02 [720p[9FD8A815].mkv",
+        "path": "[One Pace][905-906] Reverie 02 [720p[9FD8A815].mkv",
+        "crc32": "3DFA8ABF"
+      },
+      {
+        "name": "[One Pace][905-906] Reverie 02 [720p][202E6B32].mkv",
+        "path": "[One Pace][905-906] Reverie 02 [720p][202E6B32].mkv",
+        "crc32": "202E6B32"
+      },
+      {
+        "name": "[One Pace][907-908] Reverie 03 [720p][1CC76B05].mkv",
+        "path": "[One Pace][907-908] Reverie 03 [720p][1CC76B05].mkv",
+        "crc32": "BBC077BA"
+      },
+      {
+        "name": "[One Pace][907-908] Reverie 03 [720p][A760D82E].mkv",
+        "path": "[One Pace][907-908] Reverie 03 [720p][A760D82E].mkv",
+        "crc32": "A760D82E"
+      }
+    ]
   },
   {
     "title": "[One Pace][909-910] Wano 01 [1080p][B155795F].mkv",
