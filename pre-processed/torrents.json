@@ -6334,7 +6334,18 @@
     "infoHash": "1256a6742698eb00d1b9b94b268bbb34f0dc9f56",
     "magnetURI": "magnet:?xt=urn:btih:1256a6742698eb00d1b9b94b268bbb34f0dc9f56&dn=%5BOne+Pace%5D%5B101-105%5D+Reverse+Mountain+%5B480p%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2017-12-01T12:00:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][101-103] Reverse Mountain 01 [480p][43A88918].mkv",
+        "path": "[One Pace][101-103] Reverse Mountain 01 [480p][43A88918].mkv",
+        "crc32": "43A88918"
+      },
+      {
+        "name": "[One Pace][104-105] Reverse Mountain 02 [480p][775B819E].mkv",
+        "path": "[One Pace][104-105] Reverse Mountain 02 [480p][775B819E].mkv",
+        "crc32": "775B819E"
+      }
+    ]
   },
   {
     "title": "[One Pace] Chapter 827-828 [720p][B8A08E6D].mkv",
@@ -7132,7 +7143,18 @@
     "infoHash": "f0be9c55c8fe1e7990cee1a7db60f2b23e970755",
     "magnetURI": "magnet:?xt=urn:btih:f0be9c55c8fe1e7990cee1a7db60f2b23e970755&dn=%5BOne+Pace%5D+Paced+One+Piece+-+Captain+Morgan&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
     "release": "2015-01-03T13:12:00.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace] Paced One Piece - Captain Morgan Episode 01 [640x480 x265 AAC][2C30BB7A].mkv",
+        "path": "[One Pace] Paced One Piece - Captain Morgan Episode 01 [640x480 x265 AAC][2C30BB7A].mkv",
+        "crc32": "2C30BB7A"
+      },
+      {
+        "name": "[One Pace] Paced One Piece - Captain Morgan Episode 02 [640x480 x265 AAC][6E92672D].mkv",
+        "path": "[One Pace] Paced One Piece - Captain Morgan Episode 02 [640x480 x265 AAC][6E92672D].mkv",
+        "crc32": "6E92672D"
+      }
+    ]
   },
   {
     "title": "[One Pace] Paced One Piece - Alvida [480p][0CB32BF6].mkv",
