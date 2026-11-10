@@ -5686,7 +5686,13 @@
     "infoHash": "4ecaadfd5c0b3f17634e629e4fcc887386fff6fc",
     "magnetURI": "magnet:?xt=urn:btih:4ecaadfd5c0b3f17634e629e4fcc887386fff6fc&dn=%5BOne+Pace%5D%5B905-906%5D+Reverie+02+%5B720p%5D%5B202E6B32%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-06-15T05:54:36.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][905-906] Reverie 02 [720p][202E6B32].mkv",
+        "path": "[One Pace][905-906] Reverie 02 [720p][202E6B32].mkv",
+        "crc32": "202E6B32"
+      }
+    ]
   },
   {
     "title": "[One Pace][391-393] Enies Lobby 08 [720p][DECF4267].mkv",
@@ -5721,7 +5727,13 @@
     "infoHash": "2d2bd558e4744b494b1280bc1b05c43d8d0ce7a9",
     "magnetURI": "magnet:?xt=urn:btih:2d2bd558e4744b494b1280bc1b05c43d8d0ce7a9&dn=%5BOne+Pace%5D%5B903-904%5D+Reverie+01+%5B720p%5D%5B728FD8D8%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2019-04-29T19:32:26.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][903-904] Reverie 01 [720p][728FD8D8].mkv",
+        "path": "[One Pace][903-904] Reverie 01 [720p][728FD8D8].mkv",
+        "crc32": "728FD8D8"
+      }
+    ]
   },
   {
     "title": "Marineford 16",
