@@ -5174,7 +5174,13 @@
     "infoHash": "572eb945a48bb6e2c75620f50578d29eb520d80f",
     "magnetURI": "magnet:?xt=urn:btih:572eb945a48bb6e2c75620f50578d29eb520d80f&dn=%5BOne+Pace%5D%5B91-94%5D+Arlong+Park+09+%5B480p%5D%5BEB1B1AA6%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-06-19T02:49:45.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][91-94] Arlong Park 09 [480p][EB1B1AA6].mkv",
+        "path": "[One Pace][91-94] Arlong Park 09 [480p][EB1B1AA6].mkv",
+        "crc32": "EB1B1AA6"
+      }
+    ]
   },
   {
     "title": "[One Pace][423-424] Enies Lobby 22 [1080p][C0B33E05].mkv",
