@@ -5239,7 +5239,13 @@
     "infoHash": "fe56ef10556aea4fe63ccc54344cfcce771cde03",
     "magnetURI": "magnet:?xt=urn:btih:fe56ef10556aea4fe63ccc54344cfcce771cde03&dn=%5BOne+Pace%5D%5B85-87%5D+Arlong+Park+07+%5B480p%5D%5BAE7B08F2%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969&tr=http%3A%2F%2Fanidex.moe%3A6969%2Fannounce",
     "release": "2020-05-27T01:25:48.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][85-87] Arlong Park 07 [480p][AE7B08F2].mkv",
+        "path": "[One Pace][85-87] Arlong Park 07 [480p][AE7B08F2].mkv",
+        "crc32": "AE7B08F2"
+      }
+    ]
   },
   {
     "title": "[One Pace][583-584] Post-War 02 [1080p][3B71AC99].mkv",
