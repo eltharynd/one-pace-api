@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-11T02:41:29.391Z",
+  "lastUpdate": "2026-11-11T03:11:29.510Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -3619,9 +3619,9 @@
       "fillerEpisodes": "317 - 318",
       "paceEpisodesCount": 6,
       "animeMinutes": 236,
-      "paceMinutes": 127,
-      "savedMinutes": 108,
-      "savedPercentage": 0.45961945031712476,
+      "paceMinutes": 135,
+      "savedMinutes": 100,
+      "savedPercentage": 0.426215644820296,
       "resolution": "720p,1080p",
       "episodes": [
         {
@@ -3688,15 +3688,12 @@
           "description": "The Straw Hats have barely had time to marvel at their new bounties when a new surprise awaits them: the unveiling of their magnificent new ship. The next step is bringing a shipwright into their ranks, and there is only one man for the job.",
           "mangaChapters": "436-437",
           "animeEpisodes": "321-322",
-          "released": "2013-06-26T00:00:00.000Z",
+          "released": "2026-11-09T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "2C843A0F",
-              "hash": "59497fc3d9a6dbcdbaced48eaa9f5ba2047614df",
-              "magnetURI": "magnet:?xt=urn:btih:59497fc3d9a6dbcdbaced48eaa9f5ba2047614df&dn=%5BOne+Pace%5D%5B431-441%5D+Post-Enies+Lobby+%5B720p%5D&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
-              "duration": 1414,
-              "variant": "standard",
-              "partOfBundle": true
+              "CRC32": "C57AE4F8",
+              "duration": 1888,
+              "variant": "standard"
             }
           }
         },
