@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-14T08:56:30.210Z",
+  "lastUpdate": "2026-11-16T04:56:29.530Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -5370,9 +5370,9 @@
       "fillerEpisodes": "542",
       "paceEpisodesCount": 24,
       "animeMinutes": 1096,
-      "paceMinutes": 719,
-      "savedMinutes": 376,
-      "savedPercentage": 0.34366925064599485,
+      "paceMinutes": 723,
+      "savedMinutes": 373,
+      "savedPercentage": 0.34046207630338954,
       "resolution": "720p,1080p",
       "episodes": [
         {
@@ -5420,15 +5420,12 @@
           "description": "After a near miss with a creepy undersea ship and Fishman Island in sight, Luffy’s crew is halted by a group of fishmen riding atop sea kings. But time is of the essence, so the Straw Hats attempt a desperate maneuver.",
           "mangaChapters": "607-608",
           "animeEpisodes": "526-527",
-          "released": "2013-03-31T00:00:00.000Z",
+          "released": "2026-11-15T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "5636E014",
-              "hash": "fd204b5dc346f5458f7f04cf1ad98679aaf9586e",
-              "magnetURI": "magnet:?xt=urn:btih:fd204b5dc346f5458f7f04cf1ad98679aaf9586e&dn=%5BOne+Pace%5D%5B603-653%5D+Fishman+Island+%5B720p%5D&tr=udp%3A%2F%2Ftracker.publicbt.com%3A80&tr=http%3A%2F%2Fopen.nyaatorrents.info%3A6544%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fexplodie.org%3A6969",
-              "duration": 1445,
-              "variant": "standard",
-              "partOfBundle": true
+              "CRC32": "C3961CBC",
+              "duration": 1656,
+              "variant": "standard"
             }
           }
         },
