@@ -5978,7 +5978,13 @@
     "infoHash": "44747ce3b3a105abc6acfd14787cf1fc10cae7f7",
     "magnetURI": "magnet:?xt=urn:btih:44747ce3b3a105abc6acfd14787cf1fc10cae7f7&dn=%5BOne+Pace%5D%5B901-902%5D+Whole+Cake+Island+39+%5B720p%5D%5BADF1B361%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2019-04-05T00:31:03.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][901-902] Whole Cake Island 39 [720p][ADF1B361].mkv",
+        "path": "[One Pace][901-902] Whole Cake Island 39 [720p][ADF1B361].mkv",
+        "crc32": "ADF1B361"
+      }
+    ]
   },
   {
     "title": "Marineford 15",
