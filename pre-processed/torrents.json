@@ -5703,7 +5703,13 @@
     "infoHash": "3a1a9d9bca76804fb0822cf8d4748c92efd5499f",
     "magnetURI": "magnet:?xt=urn:btih:3a1a9d9bca76804fb0822cf8d4748c92efd5499f",
     "release": "2020-02-28T23:50:07.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][549-550] Marineford 01 [720p][C9143FCD].mkv",
+        "path": "[One Pace][549-550] Marineford 01 [720p][C9143FCD].mkv",
+        "crc32": "C9143FCD"
+      }
+    ]
   },
   {
     "title": "[One Pace][Romance Dawn v2] Romance Dawn v2 [1080p][5E77445F].mkv",
