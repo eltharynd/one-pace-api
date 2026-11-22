@@ -5127,7 +5127,58 @@
     "infoHash": "134d5ce9d3c8429b516e5e81cb11bda8fe9a290c",
     "magnetURI": "magnet:?xt=urn:btih:134d5ce9d3c8429b516e5e81cb11bda8fe9a290c&dn=%5BOne+Pace%5D%5B69-95%5D+Arlong+Park+%5B480p%5D%5BDual-Audio%5D&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2020-07-01T02:50:54.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][69-71] Arlong Park 01 [480p][Dual-Audio][DF73CB65].mkv",
+        "path": "[One Pace][69-71] Arlong Park 01 [480p][Dual-Audio][DF73CB65].mkv",
+        "crc32": "DF73CB65"
+      },
+      {
+        "name": "[One Pace][71-73] Arlong Park 02 [480p][Dual-Audio][007BAF63].mkv",
+        "path": "[One Pace][71-73] Arlong Park 02 [480p][Dual-Audio][007BAF63].mkv",
+        "crc32": "007BAF63"
+      },
+      {
+        "name": "[One Pace][74-76] Arlong Park 03 [480p][Dual-Audio][BE3B0D75].mkv",
+        "path": "[One Pace][74-76] Arlong Park 03 [480p][Dual-Audio][BE3B0D75].mkv",
+        "crc32": "BE3B0D75"
+      },
+      {
+        "name": "[One Pace][77-78] Arlong Park 04 [480p][Dual-Audio][F6E8F92B].mkv",
+        "path": "[One Pace][77-78] Arlong Park 04 [480p][Dual-Audio][F6E8F92B].mkv",
+        "crc32": "F6E8F92B"
+      },
+      {
+        "name": "[One Pace][79-81] Arlong Park 05 [480p][Dual-Audio][B84344C3].mkv",
+        "path": "[One Pace][79-81] Arlong Park 05 [480p][Dual-Audio][B84344C3].mkv",
+        "crc32": "B84344C3"
+      },
+      {
+        "name": "[One Pace][82-84] Arlong Park 06 [480p][Dual-Audio][1695DF96].mkv",
+        "path": "[One Pace][82-84] Arlong Park 06 [480p][Dual-Audio][1695DF96].mkv",
+        "crc32": "1695DF96"
+      },
+      {
+        "name": "[One Pace][85-87] Arlong Park 07 [480p][Dual-Audio][325B16F6].mkv",
+        "path": "[One Pace][85-87] Arlong Park 07 [480p][Dual-Audio][325B16F6].mkv",
+        "crc32": "325B16F6"
+      },
+      {
+        "name": "[One Pace][88-90] Arlong Park 08 [480p][Dual-Audio][078E94E5].mkv",
+        "path": "[One Pace][88-90] Arlong Park 08 [480p][Dual-Audio][078E94E5].mkv",
+        "crc32": "078E94E5"
+      },
+      {
+        "name": "[One Pace][91-94] Arlong Park 09 [480p][Dual-Audio][60387B07].mkv",
+        "path": "[One Pace][91-94] Arlong Park 09 [480p][Dual-Audio][60387B07].mkv",
+        "crc32": "60387B07"
+      },
+      {
+        "name": "[One Pace][94-95] Arlong Park 10 [480p][Dual-Audio][2A0FAD46].mkv",
+        "path": "[One Pace][94-95] Arlong Park 10 [480p][Dual-Audio][2A0FAD46].mkv",
+        "crc32": "2A0FAD46"
+      }
+    ]
   },
   {
     "title": "[One Pace][926-927] Wano 14 [1080p][BF92DCAF].mkv",
