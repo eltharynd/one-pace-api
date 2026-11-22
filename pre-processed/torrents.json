@@ -5945,7 +5945,13 @@
     "infoHash": "21153836bf9921cb4a0dfc2587a8f2e64898c325",
     "magnetURI": "magnet:?xt=urn:btih:21153836bf9921cb4a0dfc2587a8f2e64898c325&dn=%5BOne+Pace%5D%5B873-874%5D+Whole+Cake+Island+26+%5B720p%5D%5B3715392E%5D.mkv&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Ftracker.open-internet.nl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=https%3A%2F%2F1.track.ga%3A443%2Fannounce",
     "release": "2019-02-05T08:24:23.000Z",
-    "files": []
+    "files": [
+      {
+        "name": "[One Pace][873-874] Whole Cake Island 26 [720p][3715392E].mkv",
+        "path": "[One Pace][873-874] Whole Cake Island 26 [720p][3715392E].mkv",
+        "crc32": "3715392E"
+      }
+    ]
   },
   {
     "title": "[One Pace][823-824] Whole Cake Island 01v2 [720p][2CA0B607].mkv",
