@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-16T18:11:29.788Z",
+  "lastUpdate": "2026-11-23T22:11:29.930Z",
   "title": "One Pace",
   "description": "As a child, Monkey D. Luffy dreamed of becoming King of the Pirates. But his life changed when he accidentally gained the power to stretch like rubber... at the cost of never being able to swim again! Years later, Luffy sets off in search of the \"One Piece\", said to be the greatest treasure in the world...\n\n~\n\nOne Pace is a fan project that recuts the *One Piece* anime in an endeavor to bring it more in line with the pacing of the original manga by Eiichiro Oda. The team accomplishes this by removing filler scenes not present in the source material, fixing animation errors and correcting subtitles.",
   "genre": [
@@ -8260,11 +8260,11 @@
       "animeEpisodes": "890 - 1085",
       "animeEpisodesCount": 144,
       "fillerEpisodes": "895-896, 1029 - 1030, 1084",
-      "paceEpisodesCount": 62,
+      "paceEpisodesCount": 63,
       "animeMinutes": 3168,
-      "paceMinutes": 1769,
-      "savedMinutes": 1398,
-      "savedPercentage": 0.4413457491582493,
+      "paceMinutes": 1801,
+      "savedMinutes": 1366,
+      "savedPercentage": 0.43146043771043796,
       "resolution": "1080p",
       "episodes": [
         {
@@ -9480,18 +9480,15 @@
         {
           "arc": 35,
           "episode": 63,
-          "title": "[ONI] A Lifelong Ham Actor",
-          "description": "Onigashima Paced Placeholder",
-          "released": "2023-08-28T00:00:00.000Z",
+          "title": "The Ham",
           "mangaChapters": "1014-1015",
+          "animeEpisodes": "1034-1036",
+          "released": "2026-11-23T00:00:00.000Z",
           "files": {
             "standard": {
-              "CRC32": "D5D374A2",
-              "hash": "4d04775faae4513ad07eb10774e1335c64a6d810",
-              "magnetURI": "magnet:?xt=urn:btih:4d04775faae4513ad07eb10774e1335c64a6d810&dn=Onigashima%20Paced%20-%20Full%20Batch&tr=http%3A%2F%2Fnyaa.tracker.wf%3A7777%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce",
-              "duration": 2109,
-              "variant": "standard",
-              "partOfBundle": true
+              "CRC32": "45539BC1",
+              "duration": 1970,
+              "variant": "standard"
             }
           }
         },
