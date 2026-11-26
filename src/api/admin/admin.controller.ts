@@ -71,7 +71,7 @@ export class AdminController {
 						let found = cache.find(c => c.infoHash == b.infoHash)
 						if (found) {
 							for (let key of Object.keys(b)) found[key] = b[key]
-						}
+						} else cache.push(b)
 					}
 				}
 			}
